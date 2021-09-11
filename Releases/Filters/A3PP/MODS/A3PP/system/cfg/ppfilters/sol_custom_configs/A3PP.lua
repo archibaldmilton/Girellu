@@ -68,7 +68,7 @@ nerd__clouds_adjust_Lit = 0.9
 --pp_contrast_night = 1.0
 pp_brightness_max = 1.89
 pp_brightness_min = 0.75
-pp_saturation_max = 0.95
+pp_saturation_max = 0.85
 pp_saturation_min = 0.8
 nerd__ambient_adjust_level_max = 1.86
 nerd__ambient_adjust_level_min = 1.8
@@ -227,9 +227,9 @@ function update_sol_custom_config()
 	--gfx__reflections_brightness = 0.6 + day_compensate(1) 
 
 	--ac.setPpContrast(night_compensate(pp_contrast_night))
-	ac.setPpTonemapGamma(0.3 + day_compensate(0.85))
+	--ac.setPpTonemapGamma(0.2 + day_compensate(1.1))
 	ac.setPpBrightness(math.lerp(pp_brightness_min, pp_brightness_max, 0.14 *( night_compensate( 8 * weather__get_badness() - 0.2 * ac.getCloudsShadow()) + from_twilight_compensate(6))))
-	ac.setPpColorTemperatureK(math.max(6700, 6900*__IntD(0.95, 1, 0.2)*night_compensate(-0.01*weather__get_overcast()+0.01*ac.getCloudsShadow()+0.99)))--*__IntD(1.1,1,0.4))
+	--ac.setPpColorTemperatureK(math.max(6700, 6700*__IntD(0.95, 1, 0.2)*night_compensate(-0.01*weather__get_overcast()+0.01*ac.getCloudsShadow()+0.99)))--*__IntD(1.1,1,0.4))
 	SOL__set_config("nerd__ambient_adjust", "Saturation", math.lerp(nerd__ambient_adjust_saturation_max, nerd__ambient_adjust_saturation_min, 0.5*(weather__get_badness() + 0.5* ac.getCloudsShadow() + __IntD(0.8,0.1,0.9))))
 
 	--nerd__clouds_adjust.Lit = math.lerp(0.75, 0.65, -0.0125*duskdawn_compensate(0)) + __IntD(0.1, 0, 0.1)
