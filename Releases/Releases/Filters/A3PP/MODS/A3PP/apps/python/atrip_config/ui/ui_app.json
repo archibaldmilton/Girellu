@@ -1,0 +1,15 @@
+{
+  "name": "A3PP Config",
+  "version": "0.1",
+  "author": "demonized",
+  "description": "A3PP_SolAE.lua parser and editor",
+  "tags": [
+    "shaders extension",
+    "ui",
+    "time",
+    "date",
+    "debug"
+  ],
+  "country": "mother russia",
+  "url": ""
+}

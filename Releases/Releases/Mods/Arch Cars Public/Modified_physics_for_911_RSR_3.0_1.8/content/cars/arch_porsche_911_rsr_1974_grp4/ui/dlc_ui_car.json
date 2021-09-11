@@ -1,0 +1,67 @@
+{
+	"url":"http://store.steampowered.com/app/526060",
+	"name": "Porsche 911 Carrera RSR 3.0",
+	"brand": "Porsche", 
+	"description": "
+	When choosing the most exciting 911 of all time, the Porsche 911 Carrera RSR would come out on top. Based on the 911 Carrera RS homologation model, the RSR was built in 1972 as a Group 4 race car, whose performance far exceeded that of its predecessors. 
+	<br><br>
+	The front and rear wings were five centimetres wider, and the oil cooler was located under the car's front-end which visually highlighted the power of the 55 911 Carrera RSRs produced. 
+	<br><br>
+	The rear of the vehicle had a six-cylinder engine with increased displacement, whose performance was increased to 330 hp at 8,000 rpm, thanks to dual ignition and larger valves and cylinders. 
+	<br><br>
+	The Porsche works team competed in the 1973 Manufacturers' World Prototype Championship with the 911 Carrera RSR. In the last Targa Florio World Championship race ever held, the works cars achieved an historic overall victory (Müller/van Lennep), which marked the end of the great road race era. More GT victories followed at the 6h of Vallelunga and the 1000 kilometres of Dijon and Spa. 
+	<br><br>
+	Customer teams also entered motorsport events with the 911 Carrera RSR, winning the 24h of Daytona in 1973, as well as the European and German Rally Championships, among others. For Porsche, this heralded the start of a new era of customer racing. 
+	",
+	"tags": ["#Vintage Touring", "rwd", "manual", "race", "vintage", "germany"],  
+	"class": "race",
+	"specs":
+	{
+		"bhp": "330bhp",
+		"torque": "--Nm",
+		"weight": "850kg",
+		"topspeed": "280km/h",
+		"acceleration": "--s 0-100",
+		"pwratio": "2.57kg/hp"
+	},
+	"torqueCurve": [
+		["500","100"],
+		["1000","139"],
+		["1500","198"],
+		["2000","244"],
+		["2500","255"],
+		["3000","264"],
+		["3500","277"],
+		["4000","291"],
+		["4500","297"],
+		["5000","301"],
+		["5500","309"],
+		["6000","311"],
+		["6500","315"],
+		["7000","310"],
+		["7500","305"],
+		["8000","294"],
+		["8500","268"],
+		["9000","219"]
+	],
+	"powerCurve": [
+		["500","7"],
+		["1000","20"],
+		["1500","42"],
+		["2000","69"],
+		["2500","90"],
+		["3000","111"],
+		["3500","136"],
+		["4000","163"],
+		["4500","188"],
+		["5000","211"],
+		["5500","239"],
+		["6000","262"],
+		["6500","288"],
+		["7000","305"],
+		["7500","321"],
+		["8000","330"],
+		["8500","320"],
+		["9000","277"]
+	]
+}
