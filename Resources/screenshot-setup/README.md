@@ -1,5 +1,5 @@
 # Start-up Guide for Screenshotting
-This document will set up Assetto Corsa for making screenshots.
+This document will set up Assetto Corsa to make screenshots.
 
 ## Additional Installation (CM, CSP, Sol, filters)
 
@@ -68,6 +68,25 @@ Original | Modified
 Video presets change Assetto Corsa video settings. CSP presets change Custom Shaders Patch settings. It is highly recommended having two CSP and Video presets for high performance and high graphics.
 
 >For optimal filter performance: Consult the filter's author for video and CSP presets.
+
+___
+## In-Game Workflow
+Prerequisite information for making screenshots:
+* Do not use Assetto Corsa's `PHOTO MODE`; Only use CSP Photo app.
+* Screenshots must be produced **in-game** with `REPLAY MODE`.
+	- Motion shots are not possible without Replay mode.
+	- CSP graphical features do not work in Showroom
+
+There are two free roam cameras which are activated by pressing F5 and F7 key. F5 camera directly links the camera to the car, while F7 camera is unlinked from the car. Both cameras have different movement and controls. It is recommended to use F7 camera rather than F5 camera.
+
+Camera Controls | F5 Camera | F7 Camera 
+:---:|:---:|:---:
+Movement | WASD | Arrow keys 
+Roll | F/G or B/V | None. Use CSP Photo app
+Up/Down | C/Z | Page Up/Page Down
+FOV | Numpad +/- | Scroll wheel Up/Down
+Speed | Shift/Tab | Ctrl/Shift
+Camera Focus<br>(focus on mouse cursor) | Ctrl & Left Mouse Button or End key | Ctrl & Left Mouse Button or End key
 
 <!-- ## Links -->
 [1]: https://github.com/gro-ove/actools/releases "GitHub Repository"
