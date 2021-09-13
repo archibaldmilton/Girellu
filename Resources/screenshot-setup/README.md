@@ -1,26 +1,30 @@
 # Start-up Guide for Screenshotting
-This document will set up Assetto Corsa to make screenshots.
+Set up Assetto Corsa to make screenshots.
 
-## Additional Installation (CM, CSP, Sol, filters)
-
-### Installing Content Manager (CM)
-Download [Content Manager][1] through the GitHub source (This is where CM is developed and updated). Click on the *Latest release* and download the ZIP file. The ZIP file should be unzipped at a location where it has read and write permission, such as the download folder.
+### Install Content Manager (CM)
+Download [Content Manager][1] through the GitHub source (This is where CM is developed and updated.) Click on the *Latest release* and download the ZIP file. The ZIP file should be unzipped at a location where it has read and write permission, such as the download folder.
 
 <!-- github screenshot -->
-### Installing Custom Shaders Patch (CSP)
-Download Custom Shaders Patch through Content Manager. CM initially downloads the *recommended* version, which is typically outdated. Click the most recent version to update CSP. Disregard flags next to the version numbers, as they are inaccurate for describing CSP version stability. 
+### Install Custom Shaders Patch (CSP)
+| ![](src/csp.png) |
+|:---:|
+| 1. Download Custom Shaders Patch through Content Manager. |
+
+| ![](src/csp2.png) |
+|:---:|
+| 2. Click the most recent version to update CSP.
+CM initially downloads the *recommended* CSP version, which is typically outdated. Disregard the flags next to the version numbers, as they are inaccurate for describing CSP version stability. |
 
 >Ask in the [CSP Discord server][2] whether a CSP version is suitable for making screenshots.
 
-<!-- csp screenshot -->
-### Installing Sol WeatherFX
+### Install Sol WeatherFX
 
 Download [Sol][3] through RaceDepartment. Sol supports drag and drop installation with Content Manager. Use Sol *Install Guide* PDF to set up Sol.
 
 >For Sol troubleshooting, seek assistance in the [Sol Discord server][4]. The Sol Discord server does have experimental versions, which are not released on RaceDepartment. Using an experimental Sol version will not negatively impact filter functionality.
 
-### Installing Filters
-Most filters have support for drag and drop installation with Content Manager. For manual installation, go to Assetto Corsa's Steam file directory (not the document directory), and drag the following files into their respective location:
+### Install Filters
+Most filters have support for drag and drop installation with Content Manager. For manual installation, go to Assetto Corsa's Steam file directory (not the document directory,) and drag the following files into their respective location:
 
 For the filter `.INI` files 
 
@@ -30,7 +34,7 @@ For the `.LUA` files that may come with a filter package
 
 	\assettocorsa\system\cfg\ppfilters\sol_custom_configs
 
-Video Settings shared as `.cmpreset` belong in
+Video Settings shared as `.CMPRESET` belong in
 
 	%localappdata%\AcTools Content Manager\Presets\Video Settings
 
@@ -47,10 +51,10 @@ ___
 
 | ![](src/config.png "\SteamLibrary\steamapps\common\assettocorsa\system\cfg\assetto_corsa.ini") |
 |:---:|
-| Tick "Allow free camera", untick "Orbit mode for F5 Camera", and select PNG in "Screenshots format" |
+| Tick "Allow free camera," untick "Orbit mode for F5 Camera," and select PNG in "Screenshots format." |
 
 "assettocorsa.ini" must be prepared to keep the game working consistently. 
-1. Navigate to `\assettocorsa\system\cfg` (The game file directory not the document directory).
+1. Navigate to `\assettocorsa\system\cfg` (The game file directory not the document directory.)
 2. Open "assettocorsa.ini"
 3. Change the following parameters:
 
@@ -74,8 +78,8 @@ ___
 Prerequisite information for making screenshots:
 * Do not use Assetto Corsa's `PHOTO MODE`; Only use CSP Photo app.
 * Screenshots must be produced **in-game** with `REPLAY MODE`.
-	- Motion shots are not possible without Replay mode.
-	- CSP graphical features do not work in Showroom
+	- Motion shots are not possible without Replay mode
+	- CSP graphical features do not work in AC Showroom
 
 There are two free roam cameras which are activated by pressing F5 and F7 key. F5 camera directly links the camera to the car, while F7 camera is unlinked from the car. Both cameras have different movement and controls. It is recommended to use F7 camera rather than F5 camera.
 
