@@ -1,4 +1,4 @@
-# Start-up Guide for Screenshotting
+# Screenshot Start-up Guide
 Set up Assetto Corsa to make screenshots.
 
 ### Install Content Manager (CM)
@@ -12,10 +12,8 @@ Download [Content Manager][1] through the GitHub source (This is where CM is dev
 
 | ![](src/csp2.png) |
 |:---:|
-| 2. Click the most recent version to update CSP.
-CM initially downloads the *recommended* CSP version, which is typically outdated. Disregard the flags next to the version numbers, as they are inaccurate for describing CSP version stability. |
-
->Ask in the [CSP Discord server][2] whether a CSP version is suitable for making screenshots.
+| 2. Click the most recent version to update CSP. |
+> CM initially downloads the *recommended* CSP version, which is typically outdated. Disregard the flags next to the version numbers, as they are inaccurate for describing CSP version stability. Ask in the [CSP Discord server][2] whether a CSP version is suitable for making screenshots.
 
 ### Install Sol WeatherFX
 
