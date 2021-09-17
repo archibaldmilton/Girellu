@@ -1,4 +1,4 @@
-# Screenshot Start-up Guide
+# Screenshot Guide
 | Set up Assetto Corsa to make screenshots. |
 |:---:|
 | ![](src/porsche.png) |
@@ -28,7 +28,7 @@ Download [Sol][3] through RaceDepartment. Sol supports drag and drop installatio
 
 >For Sol troubleshooting, seek assistance in the [Sol Discord server][4]. The Sol Discord server does have experimental versions, which are not released on RaceDepartment. Using an experimental Sol version will not negatively impact filter functionality.
 
-### Install Filters 
+### Install Filters & Files
 Most filters have support for drag and drop installation with Content Manager. For manual installation, go to Assetto Corsa's Steam file directory (not the document directory,) and drag the following files into their respective location:
 
 For filter `.INI` files 
@@ -74,7 +74,7 @@ Original | Modified
 
 ### Game Settings (Video & CSP preset)
 
-Video presets change Assetto Corsa video settings and CSP presets change Custom Shaders Patch settings. It is recommended to have separate CSP and Video presets for high FPS and high graphics. For optimal filter performance, consult the filter's author for video and CSP presets.
+Video presets change Assetto Corsa video settings and CSP presets change Custom Shaders Patch settings. It is recommended to have separate CSP and Video presets for high FPS and high graphics. For optimal filter performance, consult the filter's author for video and CSP presets. Refer to [Install Filters & Files](#install-filters-&-files) for preset installation.
 
 ___
 ## In-Game Workflow
