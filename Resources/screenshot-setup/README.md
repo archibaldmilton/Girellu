@@ -74,7 +74,7 @@ Original | Modified
 
 ### Game Settings (Video & CSP preset)
 
-Video presets change Assetto Corsa video settings and CSP presets change Custom Shaders Patch settings. It is recommended to have separate CSP and Video presets for high FPS and high graphics. For optimal filter performance, consult the filter's author for video and CSP presets. Refer to [Install Filters & Files](#install-filters-&-files) for preset installation.
+Video presets change Assetto Corsa video settings and CSP presets change Custom Shaders Patch settings. It is recommended to have separate CSP and Video presets for high FPS and high graphics. For optimal filter performance, consult the filter's author for video and CSP presets. Refer to [Install Filters & Files](#install-filters--files) for preset installation.
 
 ___
 ## In-Game Workflow
