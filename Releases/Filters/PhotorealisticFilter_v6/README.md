@@ -6,15 +6,19 @@ This post processing filter tries to give a realistic driving experience. It has
 ![](src/3.jpg)
 ![](src/4.jpg)
 
-**Inside the folder, you will have:**
-* Photorealistic_Filter:
+**Photorealistic_Filter:**
+
 Lower contrast and less strong and beautiful DOF and bloom.
-* Photorealistic_Filter_PHOTO:
+
+**Photorealistic_Filter_PHOTO:**
+
 More contrast, it's darker and uses better and more beautiful DOF and bloom.
 
 **CSP Presets:**
-* Screenshotting: https://acstuff.ru/s/KX7IFo
-* Driving: https://acstuff.ru/s/j7tNVt
+
+Screenshotting: https://acstuff.ru/s/KX7IFo
+
+Driving: https://acstuff.ru/s/j7tNVt
 
 ___
 **Frequently Asked Questions:**

@@ -6,7 +6,7 @@ Attempt to replicate what the eye sees rather than a camera. No chromatic aberra
 ![](src/Screenshot_bmw_z4_ks_barcelona_12-7-121-18-22-6.jpg)
 
 ## Filter Notes
-These filters aim to get the best onboard view for driving rather than create photo-real external screenshots, saves approximately 15 FPS over other default filters.
+This filter aims to get the best onboard view for driving rather than create photo-real external screenshots, saves approximately 15 FPS over other default filters.
 
 **Natural_Mod:**
 * Based on the default filter with the main tweaks
