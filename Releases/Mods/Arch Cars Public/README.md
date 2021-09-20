@@ -1,9 +1,16 @@
 # LICENSE
 As of August 20, 2021
-* Allowed to use for your own mod cars, if you modify it please do not credit Arch.
-* Allowed to be archived or backed up for yourself.
-* Commercial use strictly forbidden without express consent.
-* Reuploads on sites like RaceDepartment and AssettoLand strictly forbidden without express consent.
-* Support not promised. If there is a technical issue it is user error.
-* No guarantee for good experience unless using appropriate professional simulation peripherals with correct configuration. 
-	- ie: your G29 @ 30FPS can not keep up with the rotation speed of these cars.
+
+## You are allowed to:
+* Use Arch modified physics on personal work
+* Archive or back up Arch modified physics for personal use
+
+## You are **not** allowed to, without express consent:
+* Credit Arch if Arch modified physics data is changed
+* Commercially use Arch modified physics
+* Reupload Arch modified physics on other websites, i.e. RaceDepartment or AssettoLand
+
+## Additional Notes
+* Support is not promised. If there is a technical issue, it is user error.
+* No guarantee for satisfactory user experience unless using appropriate professional simulation peripherals with correct configuration. 
+	- For example: your G29 @ 30FPS can not keep up with the rotation speed of these cars.
