@@ -295,6 +295,7 @@ These are paid mods made by either individuals or groups of people that you shou
 ### Cars - V  
 <sub><sup>[Back To Index](#cars)</sub></sup>
 
+	Verdes Garage
 	VDC (Virtual Drift Championship)
 	Velo's Workshop
 	Vrstnr Modding
@@ -315,6 +316,7 @@ These are paid mods made by either individuals or groups of people that you shou
 <sub><sup>[Back To Index](#cars)</sub></sup>
 
 	ZF Garage
+	Zinski
 	Zip-Tie Gang
 	ZS
 	
@@ -323,6 +325,7 @@ These are paid mods made by either individuals or groups of people that you shou
 <sub><sup>[Back To Index](#cars)</sub></sup>
 
 	Adriano Cotta Ramusino
+	Alice Umberto G.
 	Alexandre Dantas (hotstyle_mods)
 	Bazza von Dutch
 	Buja Gili

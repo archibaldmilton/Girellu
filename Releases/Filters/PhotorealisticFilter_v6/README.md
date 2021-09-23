@@ -23,11 +23,11 @@ Driving: https://acstuff.ru/s/j7tNVt
 ___
 **Frequently Asked Questions:**
 
-*The sky looks dark and the lighting is broken!*
+*"The sky looks dark and the lighting is broken!"*
 
 Make sure you are using a updated version of Sol WeatherFX. If you can't fix it, feel free to report it on the discussion page or send me a direct message.
 
-*It has too much contrast/saturation/brightness!*
+*"It has too much contrast/saturation/brightness!"*
 
 If the filter doesn't fit your taste/monitor calibration you can follow a simple step to customize it:
 In Sol Config app go to page 3 (page number may vary depending on Sol version.)
