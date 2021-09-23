@@ -6,19 +6,15 @@
 ### Install Content Manager (CM)
 | ![](../../src/screenshot-guide/cm.png) |
 |:---:|
-| Go to the Content Manager [GitHub releases][1] and look for a release with the *Latest release* tag and download its ZIP file. |
-
+| 1. Go to the Content Manager [GitHub releases][1] and look for a release with the *Latest release* tag and download its ZIP file. |
 | ![](../../src/screenshot-guide/cm2.png) |
-|:---:|
-| Unzip the ZIP file in the download folder. |
+| 2. Unzip the ZIP file in the download folder. |
 
 ### Install Custom Shaders Patch (CSP)
 | ![](../../src/screenshot-guide/csp.png) |
 |:---:|
 | 1. Download Custom Shaders Patch through Content Manager. |
-
 | ![](../../src/screenshot-guide/csp2.png) |
-|:---:|
 | 2. Click the most recent version to update CSP. |
 > CM initially downloads the *recommended* CSP version, which is typically outdated. Disregard the flags next to the version numbers, as they are inaccurate for describing CSP version stability. Ask in the [CSP Discord server][2] whether a CSP version is suitable for making screenshots.
 
@@ -26,7 +22,7 @@
 
 Download [Sol][3] through RaceDepartment. Sol supports drag and drop installation with Content Manager. Use Sol "Install Guide" PDF to set up Sol.
 
->For Sol troubleshooting, seek assistance in the [Sol Discord server][4]. The Sol Discord server does have experimental versions, which are not released on RaceDepartment. Using an experimental Sol version will not negatively impact filter functionality.
+> For Sol troubleshooting, seek assistance in the [Sol Discord server][4]. The Sol Discord server does have experimental versions, which are not released on RaceDepartment. Using an experimental Sol version will not negatively impact filter functionality.
 
 ### Install Filters & Files
 Most filters have support for drag and drop installation with Content Manager. For manual installation, go to Assetto Corsa's Steam file directory (not the document directory,) and drag the following files into their respective location:
@@ -95,7 +91,7 @@ FOV | Numpad +/- | Scroll wheel Up/Down
 Speed | Shift/Tab | Ctrl/Shift
 Camera Focus<br>(focus on mouse cursor) | Ctrl & Left Mouse Button or End key | Ctrl & Left Mouse Button or End key
 
-<!-- ## Links -->
+
 [1]: https://github.com/gro-ove/actools/releases "CM GitHub"
 [2]: https://discord.gg/SWryb5V "CSP Discord Invite"
 [3]: https://www.racedepartment.com/downloads/sol.24914/ "Sol Download"
