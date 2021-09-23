@@ -30,8 +30,8 @@ Make sure you are using a updated version of Sol WeatherFX. If you can't fix it,
 *It has too much contrast/saturation/brightness!*
 
 If the filter doesn't fit your taste/monitor calibration you can follow a simple step to customize it:
-In Sol Config app go to page 3 (page number may vary depending on Sol version)
+In Sol Config app go to page 3 (page number may vary depending on Sol version.)
 
 | ![](src/1618044648271.png) |
 |:---:|
-| You can tweak these 3 values under "PP FILTER" |
+| You can tweak these 3 values under "PP FILTER." |
