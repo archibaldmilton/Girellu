@@ -1,23 +1,23 @@
 # Screenshot Guide
 | Set up Assetto Corsa to make screenshots. |
 |:---:|
-| ![](src/porsche.png) |
+| ![](../../src/screenshot-guide/porsche.png) |
+
 ### Install Content Manager (CM)
-| ![](src/cm.png) |
+| ![](../../src/screenshot-guide/cm.png) |
 |:---:|
 | Go to the Content Manager [GitHub releases][1] and look for a release with the *Latest release* tag and download its ZIP file. |
 
-| ![](src/cm2.png) |
+| ![](../../src/screenshot-guide/cm2.png) |
 |:---:|
 | Unzip the ZIP file in the download folder. |
 
-<!-- github screenshot -->
 ### Install Custom Shaders Patch (CSP)
-| ![](src/csp.png) |
+| ![](../../src/screenshot-guide/csp.png) |
 |:---:|
 | 1. Download Custom Shaders Patch through Content Manager. |
 
-| ![](src/csp2.png) |
+| ![](../../src/screenshot-guide/csp2.png) |
 |:---:|
 | 2. Click the most recent version to update CSP. |
 > CM initially downloads the *recommended* CSP version, which is typically outdated. Disregard the flags next to the version numbers, as they are inaccurate for describing CSP version stability. Ask in the [CSP Discord server][2] whether a CSP version is suitable for making screenshots.
@@ -54,7 +54,7 @@ WeatherFX Scripts shared as `.ZIP` packages containing folders and `.LUA` belong
 ___
 ## File Setup
 
-| ![](src/config.png "\SteamLibrary\steamapps\common\assettocorsa\system\cfg\assetto_corsa.ini") |
+| ![](../../src/screenshot-guide/config.png "\SteamLibrary\steamapps\common\assettocorsa\system\cfg\assetto_corsa.ini") |
 |:---:|
 | Tick "Allow free camera," untick "Orbit mode for F5 Camera," and select PNG in "Screenshots format." |
 
@@ -68,7 +68,7 @@ Original | Modified
 [SCREENSHOT]<br>FORMAT=JPG | [SCREENSHOT]<br>FORMAT=PNG
 [CAMERA]<br>ALLOW FREE CAMERA=0 | [CAMERA]<br>ALLOW FREE CAMERA=1
 
-| ![](src/read-only.png) |
+| ![](../../src/screenshot-guide/read-only.png) |
 |:---:|
 | Right click on "assettocorsa.ini" then click on *Properties*. Check the *Read-only* box and click *Apply*. This will ensure the file retains its modified parameters. |
 

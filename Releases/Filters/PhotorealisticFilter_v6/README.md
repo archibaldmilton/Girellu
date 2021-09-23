@@ -1,10 +1,10 @@
 # Photorealistic Filter
 This post processing filter tries to give a realistic driving experience. It has natural colors and simple visuals; here, you won't find a filter with extreme colorgrading.
 
-![](src/1.jpg)
-![](src/2.jpg)
-![](src/3.jpg)
-![](src/4.jpg)
+![](../../../src/javire/1.jpg)
+![](../../../src/javire/2.jpg)
+![](../../../src/javire/3.jpg)
+![](../../../src/javire/4.jpg)
 
 **Photorealistic_Filter:**
 
@@ -32,6 +32,6 @@ Make sure you are using a updated version of Sol WeatherFX. If you can't fix it,
 If the filter doesn't fit your taste/monitor calibration you can follow a simple step to customize it:
 In Sol Config app go to page 3 (page number may vary depending on Sol version.)
 
-| ![](src/1618044648271.png) |
+| ![](../../../src/javire/1618044648271.png) |
 |:---:|
 | You can tweak these 3 values under "PP FILTER." |
