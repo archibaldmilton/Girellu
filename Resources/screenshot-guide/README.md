@@ -91,7 +91,6 @@ FOV | Numpad +/- | Scroll wheel Up/Down
 Speed | Shift/Tab | Ctrl/Shift
 Camera Focus<br>(focus on mouse cursor) | Ctrl & Left Mouse Button or End key | Ctrl & Left Mouse Button or End key
 
-
 [1]: https://github.com/gro-ove/actools/releases "CM GitHub"
 [2]: https://discord.gg/SWryb5V "CSP Discord Invite"
 [3]: https://www.racedepartment.com/downloads/sol.24914/ "Sol Download"
