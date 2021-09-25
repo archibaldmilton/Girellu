@@ -10,4 +10,4 @@ Practical yet gorgeous filter for both screenshots and driving.
 # Filter Notes
 This filter was originally created by comfy but requested to be deleted as it was no longer being maintained. Comfy filter has now been revived by Javire by adapting its old code to the current Sol WeatherFX version, while retaining its original artistic direction.
 
-Ask [Javire](@JavireTwo) for questions and concerns about Comfy filter.
+Ask [@JavireTwo](https://github.com/JavireTwo) for questions and concerns about Comfy filter.
