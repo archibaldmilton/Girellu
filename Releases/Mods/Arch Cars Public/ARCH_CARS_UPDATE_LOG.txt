@@ -1,3 +1,17 @@
+25.09.21
+
+- Updated all cars
+- Removed graining (Bad compatibility with Cphys heat) from affected tires
+
+08.09.21
+
+- Updated 911 RSR 3.0
+- Updated 935/78
+- Updated AE86
+- Updated R34
+- Updated FD3S
+- Updated JZA80
+
 20.08.21
 
 - Added Porsche 935/78
