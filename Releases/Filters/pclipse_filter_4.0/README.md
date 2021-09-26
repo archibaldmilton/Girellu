@@ -1,4 +1,4 @@
-# Pclipse Color Graded Filters
+# Pclipse Color Graded Filter Pack
 
 Artistically color graded filters for screenshotting and driving.
 
