@@ -14,12 +14,12 @@ Put the rest of the description here.
 
 Name the presets/settings a specific purpose if they have one. Then use CM to create a sharing link. For example:
 
-> Screenshotting: acstuff.ru/s/######
->
-> Driving: acstuff.ru/s/######
+Screenshotting: acstuff.ru/s/######
+
+Driving: acstuff.ru/s/######
 
 ___
-**Frequently Asked Questions:**
+**Frequently Asked Questions (optional):**
 
 "*Question 1?*"
 
@@ -33,4 +33,6 @@ Answer 2. Refer to Presets section of [Content Notes](#content-notes "Look at ho
 
 Notes for content.
 
-**Have a look at other releases to see how they're organized/formatted.**
+> Have a look in other releases to see how they're organized/formatted.
+>
+> Use any text editor with Markdown language support. I recommend using [Ghostwriter](https://github.com/wereturtle/ghostwriter "GitHub Repository") by wereturtle.
