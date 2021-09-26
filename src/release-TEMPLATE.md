@@ -27,7 +27,7 @@ Answer 1. If you have concerns, message me on Discord @myusername#abcd.
 
 "*Question 2!*"
 
-Answer 2. Refer to Presets section of [Content Notes](##content-notes "Look at how GitHub links headings in URL bar")
+Answer 2. Refer to Presets section of [Content Notes](#content-notes "Look at how GitHub links headings in URL bar")
 
 *Content notice*
 
