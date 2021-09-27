@@ -3,7 +3,7 @@ One sentence description.
 
 ![](example_screenshot.png)
 
-Put any image files in `\Named_Hub\src\YOURNAME\..`
+Make a folder with your content's name in `\Named_Hub\src\..` and put your images in there. It would look like the following: `\Named_Hub\src\contentname\..`
 
 ![](example_screenshot.png)
 
@@ -33,6 +33,6 @@ Answer 2. Refer to Presets section of [Content Notes](#content-notes "Look at ho
 
 Notes for content.
 
-> Have a look in other releases to see how they're organized/formatted.
+> Have a look in [Releases](https://github.com/archibaldmilton/Named_Hub/tree/master/Releases) to see how content is organized/formatted.
 >
-> Use any text editor with Markdown language support. I recommend using [Ghostwriter](https://github.com/wereturtle/ghostwriter "GitHub Repository") by wereturtle.
+> Use any text editor with **Markdown** language support. I recommend using wereturtle's [Ghostwriter](https://github.com/wereturtle/ghostwriter "GitHub Repository") markdown editor.
