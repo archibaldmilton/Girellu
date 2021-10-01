@@ -1,3 +1,9 @@
+29.09.21
+
+- Updated all cars
+- Implemented different method for determining optimal pressures
+- Added camber vs tire springrate .luts
+
 25.09.21
 
 - Updated all cars

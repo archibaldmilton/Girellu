@@ -1,5 +1,5 @@
 # Natural Mod Filter
-Attempt to replicate what the eye sees rather than a camera. No chromatic aberration, lens flares, or erratic autoexposure.
+Attempt to replicate what the eye sees rather than a camera with no chromatic aberration, lens flares, or erratic autoexposure.
 
 ![](../../../src/cjk/Screenshot_ks_ferrari_488_gtb_ks_brands_hatch_12-7-121-18-26-14.jpg)
 ![](../../../src/cjk/Screenshot_ks_ferrari_488_gt3_spa_12-7-121-18-18-45.jpg)

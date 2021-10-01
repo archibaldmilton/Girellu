@@ -1,5 +1,5 @@
 # LICENSE
-As of 25 September 2021,
+As of 29 September 2021,
 
 **You are allowed to:**
 * Use Arch modified physics on personal work
