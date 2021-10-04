@@ -9,7 +9,7 @@ The original photography filter.
 
 | Autumn |
 |:---:|
-| A common Instagram filter with magenta and orange tints to replicate the "light leaked" look. |
+| A common Instagram filter with magenta and orange tints to replicate a "light leaked" look. |
 | ![](../../../src/exy/autumn.png) |
 
 | Drama |
@@ -19,12 +19,12 @@ The original photography filter.
 
 | Fuji 2393 |
 |:---:|
-| A retro filter meant to emulate '60s to '80s periods; perfect for photographing vintage muscle cars. |
+| A retro filter meant to emulate '60s to '80s periods, perfect for photographing vintage muscle cars. |
 | ![](../../../src/exy/2393.png) |
 
 | Fuji 3510 |
 |:---:|
-| A slightly newer look than Fuji 2393. This time for the '90s period, for that Japanese night life mood. |
+| A slightly newer look than Fuji 2393 with a '90s period look for that Japanese night life mood. |
 | ![](../../../src/exy/3510.png) |
 
 | Kodak |
@@ -34,7 +34,7 @@ The original photography filter.
 
 | Teal Orange |
 |:---:|
-| The most color graded filter with considerable changes to image color; it may turn your Ferrari into a McLaren. |
+| The heaviest color graded filter with considerable changes to image color. It may turn your Ferrari into a McLaren. |
 | ![](../../../src/exy/teal.png) |
 
 ___

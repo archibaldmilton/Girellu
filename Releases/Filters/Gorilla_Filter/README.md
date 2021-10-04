@@ -5,7 +5,7 @@ Absolute neutralism.
 ![](../../../src/gorilla/Screenshot_rss_formula_americas_2020_lilski_watkins_glen_22-8-121-21-17-20-1.png)
 
 ## Filter Notes
-This is a ongoing project that achieves to make the most neutral filter for both driving and photography. Each filter update experiments new approaches at creating soft shadows, good contrast and realistic looking colors in AC. A unique feature about Gorilla filter is that is it built on minimalism. Unlike other filters, Gorilla filter uses "Sol Config" functions for graphics. Its other functions are completely static while relying solely good tone mapping. A important consideration is that the filter's brightness may vary across different maps due to the way AC handles lighting.
+This is an ongoing project that achieves to make the most neutral filter for both driving and photography. Each filter update experiments new approaches at creating soft shadows, good contrast and realistic looking colors in AC. A unique feature about Gorilla filter is that is it built on minimalism. Unlike other filters, Gorilla filter only uses essential Sol config functions for graphics and its other functions are completely static, while relying on good tone mapping. An important consideration is that the filter's brightness may vary across different maps due to the way AC handles lighting.
 
 **Settings:**
 

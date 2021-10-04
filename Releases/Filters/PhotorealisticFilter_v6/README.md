@@ -1,5 +1,5 @@
 # Photorealistic Filter
-This post processing filter tries to give a realistic driving experience. It has natural colors and simple visuals; here, you won't find a filter with extreme colorgrading.
+This post processing filter tries to give a realistic driving experience with natural colors and simple visuals; here, you won't find a filter with extreme colorgrading.
 
 ![](../../../src/javire/1.jpg)
 ![](../../../src/javire/2.jpg)

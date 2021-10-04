@@ -6,7 +6,7 @@ Rekindling Kelnor's legacy.
 ![](../../../src/kelnor/Screenshot_bny_lamborghini_huracan_gt3_evo_monza_12-8-121-21-30-42.png)
 
 ## Filter Notes
-This filter was originally made by Kelnor; however, Kelnor has disappeared from the internet for some unknown reason. Kelnor's abandoned K34 filter is now revived by Phillip. The revived filter is meant to improve on Kelnor's well renowned glare, while maintaining practicality for driving. Due to the bloomy nature of K34, there is to be expected slight overexposure on bright surfaces.
+This filter was originally made by Kelnor. However, Kelnor has disappeared from the internet for some unknown reason, leaving his filter abandoned. The filter now has been revived by Phillip with a new direction on improving Kelnor's well renowned glare, while maintaining practicality for driving. Due to the bloomy nature of K34, there is to be expected overexposure on bright surfaces.
 
 **Settings:**
 
