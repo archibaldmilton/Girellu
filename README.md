@@ -1,5 +1,5 @@
 # Girellu Repository
-Make Assetto Corsa suck less.
+Personally curated content for Assetto Corsa.
 
 ## How to Download
 1. Login into or create a [GitHub account](https://github.com/join).
@@ -22,7 +22,7 @@ Make Assetto Corsa suck less.
 * Quicker to host
 
 ## Related communities
-Custom Shaders Patch | Sol WeatherFX
-|:---:|:---:|
+Custom Shaders Patch | Sol WeatherFX | Girellu (Troubleshooting help)
+|:---:|:---:|:---:|
+https://discord.gg/SWryb5V | https://discord.gg/7YVrS4ydaA | https://discord.gg/jgG738MtCe
 https://www.patreon.com/x4fab | https://www.patreon.com/peterboese
-https://discord.gg/SWryb5V | https://discord.gg/7YVrS4ydaA
