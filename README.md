@@ -1,5 +1,28 @@
-## How to Download Files
-1. Create or login into a GitHub account
-2. Install Refined GitHub extension from https://github.com/sindresorhus/refined-github#install
-3. Download file folders by clicking the drop down menu on the right:
-![](src/intro/download.png)
+# Girellu Repository
+Make Assetto Corsa suck less.
+
+## How to Download
+1. Login into or create a [GitHub account](https://github.com/join).
+2. Install [Refined GitHub](https://github.com/sindresorhus/refined-github#install "GitHub Repository") browser extension.
+3. Download folders by clicking the three dot menu on the right:
+![](./src/repository/download.png)
+
+## FAQ
+**What do these folders mean?**
+
+"Releases" is where downloadable content reside.
+
+"Resources" is where general AC information can be read.
+
+"src" is the repository's media/documentation folder.
+
+**Why host on GitHub?**
+* Avoids community feuds (Discord servers, RaceDepartment, etc)
+* Easier to host
+* Quicker to host
+
+## Related communities
+Custom Shaders Patch | Sol WeatherFX
+|:---:|:---:|
+https://www.patreon.com/x4fab | https://www.patreon.com/peterboese
+https://discord.gg/SWryb5V | https://discord.gg/7YVrS4ydaA
