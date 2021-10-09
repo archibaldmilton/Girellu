@@ -1,5 +1,8 @@
 # Girellu Repository
-Personally curated content for Assetto Corsa.
+
+| Personally curated content for Assetto Corsa. |
+|:---:|
+| ![](src/repository/collage2.png) |
 
 ## How to Download
 1. Login into or create a [GitHub account](https://github.com/join).
@@ -17,7 +20,7 @@ Personally curated content for Assetto Corsa.
 "src" is the repository's media/documentation folder.
 
 "*Why host on GitHub?*"
-* Avoid community feuds (Discord servers, RaceDepartment, etc)
+* Avoid community feuds (Discord servers, RaceDepartment, etc.)
 * Easier to host
 * Quicker to host
 
@@ -25,4 +28,4 @@ Personally curated content for Assetto Corsa.
 Custom Shaders Patch | Sol WeatherFX | Girellu (Troubleshooting help)
 |:---:|:---:|:---:|
 https://discord.gg/SWryb5V | https://discord.gg/7YVrS4ydaA | https://discord.gg/jgG738MtCe
-https://www.patreon.com/x4fab | https://www.patreon.com/peterboese | x
+https://www.patreon.com/x4fab | https://www.patreon.com/peterboese | -
