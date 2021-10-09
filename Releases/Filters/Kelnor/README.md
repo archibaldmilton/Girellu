@@ -12,4 +12,4 @@ This filter was originally made by Kelnor. However, Kelnor has disappeared from 
 
 This filter recommends using Sol WFX's 2D clouds rendering method which is found on Page 7 in the Sol config under "Clouds Render Method" (set the slider to 0.)
 
-Ask Philip#8036 for questions and concerns about K34 filter.
+Contact Philip#8036 on Discord for questions and concerns about K34 filter.

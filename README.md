@@ -4,11 +4,11 @@ Personally curated content for Assetto Corsa.
 ## How to Download
 1. Login into or create a [GitHub account](https://github.com/join).
 2. Install [Refined GitHub](https://github.com/sindresorhus/refined-github#install "GitHub Repository") browser extension.
-3. Download folders by clicking the three dot menu on the right:
+3. Select a mod folder then click the three dot menu on the right:
 ![](./src/repository/download.png)
 
 ## FAQ
-**What do these folders mean?**
+"*What do these folders mean?*"
 
 "Releases" is where downloadable content reside.
 
@@ -16,7 +16,7 @@ Personally curated content for Assetto Corsa.
 
 "src" is the repository's media/documentation folder.
 
-**Why host on GitHub?**
+"*Why host on GitHub?*"
 * Avoid community feuds (Discord servers, RaceDepartment, etc)
 * Easier to host
 * Quicker to host
