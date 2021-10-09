@@ -6,7 +6,7 @@ As of 29 September 2021,
 * Archive or back up Arch modified physics for personal use
 
 **You are NOT allowed to, without express consent:**
-* Credit Arch if Arch modified physics data is changed
+* Credit Arch if Arch modified physics is changed
 * Commercially use Arch modified physics
 * Reupload Arch modified physics on other websites, i.e. RaceDepartment or AssettoLand
 

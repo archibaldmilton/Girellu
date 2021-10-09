@@ -35,4 +35,4 @@ Notes for content.
 
 > Have a look in [Releases](https://github.com/archibaldmilton/Named_Hub/tree/master/Releases) to see how content is organized/formatted.
 >
-> Use any text editor with **Markdown** language support. I recommend using wereturtle's [Ghostwriter](https://github.com/wereturtle/ghostwriter "GitHub Repository") markdown editor.
+> Use any text editor with **Markdown** language support. I recommend using wereturtle's [*ghostwriter*](https://github.com/wereturtle/ghostwriter "GitHub Repository") markdown editor.
