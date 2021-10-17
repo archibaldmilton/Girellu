@@ -2,6 +2,7 @@
 Absolute neutralism.
 
 ![](../../../src/gorilla/Screenshot_ifso_supra_a90_ks_nordschleife_9-9-121-20-29-1.png)
+![](../../../src/gorilla/Screenshot_ddm_porsche_993_carrera_rs_ks_highlands_12-9-121-16-41-28.png.png)
 ![](../../../src/gorilla/Screenshot_ks_porsche_962c_longtail_ks_highlands_22-8-121-20-43-9.png)
 ![](../../../src/gorilla/Screenshot_rss_formula_americas_2020_lilski_watkins_glen_22-8-121-21-17-20-1.png)
 

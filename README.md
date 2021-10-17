@@ -25,7 +25,7 @@
 * Quicker to host
 
 ## Related communities
-Custom Shaders Patch | Sol WeatherFX | Girellu (Troubleshooting help)
+Custom Shaders Patch | Sol WeatherFX | Girellu (Troubleshooting and help)
 |:---:|:---:|:---:|
 https://discord.gg/SWryb5V | https://discord.gg/7YVrS4ydaA | https://discord.gg/jgG738MtCe
 https://www.patreon.com/x4fab | https://www.patreon.com/peterboese | -
