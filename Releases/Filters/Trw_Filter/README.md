@@ -7,6 +7,11 @@ ___
 ![image](https://user-images.githubusercontent.com/43389722/136736959-06a06c3f-7a0d-46e4-87be-32565b35a445.png)
 ![image](https://user-images.githubusercontent.com/43389722/136736976-8d5134ee-7f3f-4463-8824-7ef103c306b7.png)
 
+
+Beware: FPS killers 
+
+CSP Settings: https://acstuff.ru/s/psB9qY  
+Video settings: https://acstuff.ru/s/8sqVU6  
 ___
 **Frequently Asked Questions:**
 
@@ -17,7 +22,7 @@ Will you? No.
 Will you? No.  
 
 **Will there be a "..." version?**  
-Learn how to do it yourself.  
+Learn how to do it just like I did and do it yourself.  
 
 **Why are you such a dick?!**  
 Because I am tired of entitlement. I made it, I use it, I like it, I shared it with you for free and that is as far as our relationship goes.  
