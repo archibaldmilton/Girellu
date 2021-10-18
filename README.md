@@ -12,19 +12,16 @@
 
 ## FAQ
 "*What do these folders mean?*"
-
-"Releases" is where downloadable content reside.
-
-"Resources" is where general AC information can be read.
-
-"src" is the repository's media/documentation folder.
+* "Releases" is where downloadable content reside.
+* "Resources" is where general AC information can be read.
+* "src" is the repository's media/documentation folder.
 
 "*Why host on GitHub?*"
 * Avoid community feuds (Discord servers, RaceDepartment, etc.)
 * Easier to host
 * Quicker to host
 
-## Related communities
+## Related Communities
 Custom Shaders Patch | Sol WeatherFX | Girellu (Troubleshooting and help)
 |:---:|:---:|:---:|
 https://discord.gg/SWryb5V | https://discord.gg/7YVrS4ydaA | https://discord.gg/jgG738MtCe

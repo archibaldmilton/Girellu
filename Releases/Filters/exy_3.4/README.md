@@ -47,7 +47,7 @@ This filter pack contains 3 photography filters to emulate how promo shoots appe
 
 The neutral filters can be run for racing to provide a more finished post-processing look for AC, more akin to visually polished games like *Project Cars* or *Drive Club*. On the other hand, the photo filters may contain color gradings too heavy for regular use unless desired. Each filter is developed with its own look and feel, and is meant to do away with the common videogame-looking color blues and saturation appearances of default AC filters.
 
-**CSP Presets:**
+**CSP Presets (from Rusty):**
 
 Screenshotting: https://acstuff.ru/s/JY5jSZ
 
