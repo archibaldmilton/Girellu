@@ -328,6 +328,7 @@ These are paid mods made by either individuals or groups of people that you shou
 	Alice Umberto G.
 	Alexandre Dantas (hotstyle_mods)
 	Bazza von Dutch
+	Breanuts
 	Buja Gili
 	Cessna2807
 	Dan Gaina
@@ -338,6 +339,7 @@ These are paid mods made by either individuals or groups of people that you shou
 	EarthWormJim90
 	Ewan Huzami
 	Esprit3905
+	Greg Oganesanov
 	JakubP
 	Jaqory
 	Juise
@@ -346,12 +348,14 @@ These are paid mods made by either individuals or groups of people that you shou
 	Kami
 	Kamil Cader
 	KENNETH
+	Miguel Silva
 	Mike Rudland
 	Mike Goulioumis
 	Mike173
 	Nizar Razzouk
 	pclipse
 	PedroBLR
+	Reiner Henrich
 	Sebastien Dommerdich
 	Satiku
 	Shaun Clarke
