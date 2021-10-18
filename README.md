@@ -7,8 +7,15 @@
 ## How to Download
 1. Login into or create a [GitHub account](https://github.com/join).
 2. Install [Refined GitHub](https://github.com/sindresorhus/refined-github#install "GitHub Repository") browser extension.
-3. Select a mod folder then click the three dot menu on the right:
-![](./src/repository/download.png)
+
+| All of the content can be downloaded by doing so: |
+|:---:|
+| ![](src/repository/downloadall.png) |
+
+| Mods can be individually downloaded by clicking the mod itself: |
+|:---:|
+| ![](./src/repository/download.png) |
+| There is no need to fork the repository as it is for contribution to the repository. However, if downloading the entire repository is necessary, then click the green "Code" button in the repository's homepage and click "Download ZIP." |
 
 ## FAQ
 "*What do these folders mean?*"
@@ -18,8 +25,8 @@
 
 "*Why host on GitHub?*"
 * Avoid community feuds (Discord servers, RaceDepartment, etc.)
-* Easier to host
-* Quicker to host
+* Easier to host.
+* Quicker to host.
 
 ## Related Communities
 Custom Shaders Patch | Sol WeatherFX | Girellu (Troubleshooting and help)
