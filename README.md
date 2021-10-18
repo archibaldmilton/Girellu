@@ -15,7 +15,6 @@
 | Mods can be individually downloaded by clicking the mod itself: |
 |:---:|
 | ![](./src/repository/download.png) |
-| There is no need to fork the repository as it is for contribution to the repository. However, if downloading the entire repository is necessary, then click the green "Code" button in the repository's homepage and click "Download ZIP." |
 
 ## FAQ
 "*What do these folders mean?*"
