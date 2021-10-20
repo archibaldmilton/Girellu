@@ -6,7 +6,6 @@
 
 ## How to Download
 1. Login into or create a [GitHub account](https://github.com/login).
-2. Install [GitHub Desktop](https://desktop.github.com/)
 2. Install [Refined GitHub](https://github.com/sindresorhus/refined-github#install "GitHub Repository") browser extension.
 
 | Mods can be individually downloaded by clicking the mod itself: |
