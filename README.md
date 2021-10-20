@@ -17,7 +17,6 @@
 "*What do these folders mean?*"
 * "Releases" is where downloadable content reside.
 * "Resources" is where general AC information can be read.
-* "src" is the repository's media/documentation folder.
 
 "*Why host on GitHub?*"
 * Avoid community feuds (Discord servers, RaceDepartment, etc.)
