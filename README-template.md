@@ -3,8 +3,6 @@ One sentence description.
 
 ![](example_screenshot.png)
 
-Make a folder with your content's name in `\Named_Hub\src\..` and put your images in there. It would look like the following: `\Named_Hub\src\contentname\..`
-
 ![](example_screenshot.png)
 
 ## Content Notes
@@ -31,7 +29,7 @@ Answer 2. Refer to Presets section of [Content Notes](#content-notes "Look at ho
 
 *Content notice*
 
-Notes for content.
+Example content notice:
 
 > Have a look in [Releases](https://github.com/archibaldmilton/Named_Hub/tree/master/Releases) to see how content is organized/formatted.
 >

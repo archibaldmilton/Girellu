@@ -3,26 +3,26 @@ Yet another photography filter.
 
 | BRUH |
 |:---:|
-| ![](../../../src/clutch/Screenshot_ks_porsche_919_hybrid_2016_spa_4-9-121-19-46-55.png "BRUH for base wfx") |
+| ![Screenshot_ks_porsche_919_hybrid_2016_spa_4-9-121-19-46-55](https://user-images.githubusercontent.com/90503800/138021319-66a4e078-ac44-4f75-9958-95148565e5b8.png "BRUH for base WFX") |
 
 | BRUHg |
 |:---:|
-| ![](../../../src/clutch/Screenshot_ks_porsche_919_hybrid_2016_spa_4-9-121-19-43-12.png "BRUHg for base wfx (uses gamma fix)") |
+| ![Screenshot_ks_porsche_919_hybrid_2016_spa_4-9-121-19-43-12](https://user-images.githubusercontent.com/90503800/138021317-38969197-f35a-4463-9602-8f56b8ea7abd.png "BRUHg for base WFX (uses gamma fix)") |
 
 | BRUHgp |
 |:---:|
-| ![](../../../src/clutch/Screenshot_ks_abarth_595ss_union_island_4-9-121-19-10-35.png "BRUHgp - Experimental filter based on BRUHg for Pure wfx") |
+| ![Screenshot_ks_abarth_595ss_union_island_4-9-121-19-10-35](https://user-images.githubusercontent.com/90503800/138021314-050ad974-f466-4708-9f72-acee804e3414.png "BRUHgp based on BRUHg for Pure WFX") |
 
 ## Filter Notes
 The name BRUH came from how bad the filter had originally looked.
 
 **BRUH**
 
-Use with BaseWFX
+Use with Base WFX
 
 **BRUHg**
 
-Use with BaseWFX and includes experimental CSP gamma fix
+Use with Base WFX and includes experimental CSP gamma fix
 
 **BRUHgp**
 

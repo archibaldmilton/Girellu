@@ -2,19 +2,16 @@
 
 | Personally curated content for Assetto Corsa. |
 |:---:|
-| ![](src/repository/collage2.png) |
+| ![collage](https://user-images.githubusercontent.com/90503800/138016607-573ee225-5e9d-45e9-99cd-e915353ff5da.png) |
 
 ## How to Download
-1. Login into or create a [GitHub account](https://github.com/join).
+1. Login into or create a [GitHub account](https://github.com/login).
+2. Install [GitHub Desktop](https://desktop.github.com/)
 2. Install [Refined GitHub](https://github.com/sindresorhus/refined-github#install "GitHub Repository") browser extension.
-
-| All of the content can be downloaded by doing so: |
-|:---:|
-| ![](src/repository/downloadall.png) |
 
 | Mods can be individually downloaded by clicking the mod itself: |
 |:---:|
-| ![](./src/repository/download.png) |
+| ![download](https://user-images.githubusercontent.com/90503800/138023634-fdf9545b-e314-4933-b5d9-34fc4590fa99.png) |
 
 ## FAQ
 "*What do these folders mean?*"

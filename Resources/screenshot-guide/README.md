@@ -1,20 +1,20 @@
 # Screenshot Guide
 | Set up Assetto Corsa to make screenshots. |
 |:---:|
-| ![](../../src/screenshot-guide/porsche.png) |
+| ![porsche](https://user-images.githubusercontent.com/90503800/138022446-23e431ab-c7c2-4dc3-94c3-bd96998246a7.png) |
 
 ### Install Content Manager (CM)
-| ![](../../src/screenshot-guide/cm.png) |
+| ![cm](https://user-images.githubusercontent.com/90503800/138022440-c76402df-9511-4533-9a10-4ed08e7bfe72.png) |
 |:---:|
 | 1. Go to the Content Manager [GitHub releases][1] and look for a release with the *Latest release* tag and download its ZIP file. |
-| ![](../../src/screenshot-guide/cm2.png) |
+| ![cm2](https://user-images.githubusercontent.com/90503800/138022441-a1aa03dc-0dc4-47fa-b68c-34f0d3dda11b.png) |
 | 2. Unzip the ZIP file in the download folder. |
 
 ### Install Custom Shaders Patch (CSP)
-| ![](../../src/screenshot-guide/csp.png) |
+| ![csp](https://user-images.githubusercontent.com/90503800/138022444-a0af16be-f587-4f74-ac6d-ed82681aa44c.png) |
 |:---:|
 | 1. Download Custom Shaders Patch through Content Manager. |
-| ![](../../src/screenshot-guide/csp2.png) |
+| ![csp2](https://user-images.githubusercontent.com/90503800/138022445-149426c8-daa8-4b6d-a30d-889931d2b36c.png) |
 | 2. Click the most recent version to update CSP. |
 > CM initially downloads the *recommended* CSP version, which is typically outdated. Disregard the flags next to the version numbers, as they are inaccurate for describing CSP version stability. Ask in the [CSP Discord server][2] whether a CSP version is suitable for making screenshots.
 
@@ -50,7 +50,7 @@ WeatherFX Scripts shared as `.ZIP` packages containing folders and `.LUA` belong
 ___
 ## File Setup
 
-| ![](../../src/screenshot-guide/config.png "\SteamLibrary\steamapps\common\assettocorsa\system\cfg\assetto_corsa.ini") |
+| ![config](https://user-images.githubusercontent.com/90503800/138022442-13e58b1f-8c96-4db3-af06-2653ef20f48f.png "\SteamLibrary\steamapps\common\assettocorsa\system\cfg\assetto_corsa.ini") |
 |:---:|
 | Tick "Allow free camera," untick "Orbit mode for F5 Camera," and select PNG in "Screenshots format." |
 
@@ -64,7 +64,7 @@ Original | Modified
 [SCREENSHOT]<br>FORMAT=JPG | [SCREENSHOT]<br>FORMAT=PNG
 [CAMERA]<br>ALLOW FREE CAMERA=0 | [CAMERA]<br>ALLOW FREE CAMERA=1
 
-| ![](../../src/screenshot-guide/read-only.png) |
+| ![read-only](https://user-images.githubusercontent.com/90503800/138022448-281ba059-1729-4cd1-93af-d789f8287a98.png) |
 |:---:|
 | Right click on "assettocorsa.ini" then click on *Properties*. Check the *Read-only* box and click *Apply*. This will ensure the file retains its modified parameters. |
 
