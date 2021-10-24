@@ -6,21 +6,24 @@
 
 ## How to Download
 1. Login into or create a [GitHub account](https://github.com/login).
-2. Install [Refined GitHub](https://github.com/sindresorhus/refined-github#install "GitHub Repository") browser extension.
+2. Install [GitHub Desktop](https://desktop.github.com/) and login with  GitHub acount
 
-| Mods can be individually downloaded by clicking the mod itself: |
+| 3. Clone Girellu repository by doing the following: |
 |:---:|
-| ![download](https://user-images.githubusercontent.com/90503800/138023634-fdf9545b-e314-4933-b5d9-34fc4590fa99.png) |
+| ![Clone repository](https://user-images.githubusercontent.com/90503800/138541908-35d4f89e-1bbe-4f2d-a99a-af3f6a083716.png) |
+| **Update the repository by clicking here:** |
+| ![Update](https://user-images.githubusercontent.com/90503800/138611389-dfbdcadc-48e2-4d20-8e1b-2b72b511f338.png) |
+Note: There is no need to "Fork" the repository, cloning the repository is enough.
 
+___
 ## FAQ
 "*What do these folders mean?*"
 * "Releases" is where downloadable content reside.
 * "Resources" is where general AC information can be read.
 
 "*Why host on GitHub?*"
-* Avoid community feuds (Discord servers, RaceDepartment, etc.)
-* Easier to host.
-* Quicker to host.
+* To avoid community feuds (Discord servers, RaceDepartment, etc.)
+* It is quicker and easier to host.
 
 ## Related Communities
 Custom Shaders Patch | Sol WeatherFX | Girellu (Troubleshooting and help)
