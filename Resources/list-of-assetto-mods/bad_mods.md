@@ -7,10 +7,10 @@
 
 [Track Authors](#track-authors)
 
-[Post-Process Filters](#post-process-filters)
+[Post-Processing Filters](#post-processing-filters)
 <br>
 
-You're more than welcome to read up on why you may find yourself or your group on this list [here](https://github.com/RustyChest/list-of-assetto-mods/blob/master/README.md)
+You're more than welcome to read up on why you may find yourself or your group on this list [here](/list-of-assetto-mods/README.md)
 
 ## Paid Mods
 These are paid mods made by either individuals or groups of people that you should avoid giving your money to, as they aren't of the best quality possible, especially not for the amount(s) they charge. Not all mods on here are pay once and go, creators with Patreons will be listed here as well.
@@ -397,14 +397,14 @@ These are paid mods made by either individuals or groups of people that you shou
 	r3b3ld3
 	RMI_Wood
 
-## Post-Process Filters
+## Post-Processing Filters
 <sub><sup>[Back To Index](#cars)</sub></sup>
 
-<p>Post-Process Filters bad enough that they may cause visual glitches with CSP / Sol features.</p>
+<p>Post-Processing Filters bad enough that they may cause visual glitches with CSP / Sol features.</p>
 
 	AC+2020
 	BlackCelica's Filter
 	fanatiC's filters
 	Horizon Shades
 	Inmersive Filter
-	Zay Filters 		
+	Zay Filters

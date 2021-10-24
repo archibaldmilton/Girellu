@@ -9,7 +9,7 @@
 
 <p>This list will be grouped by racing discipline satisfied so that new people don't get overwhelmed with information they can't CTRL+F across.</p>
 
-Want to know more about what makes a mod good or bad? Read more about the topic [here](https://github.com/RustyChest/list-of-assetto-mods/blob/master/README.md)
+Want to know more about what makes a mod good or bad? Read more about the topic [here](/list-of-assetto-mods/README.md)
 
 ## Paid Mods
 <p>The following are reputable paid modding groups which produce "decent" to excellent content depending on the age of said content. As an example, most of URD's 2016 mods are obviously not on par with their current works in terms of quality. These mods being paid doesn't always mean they're better.</p>
@@ -28,8 +28,8 @@ Want to know more about what makes a mod good or bad? Read more about the topic 
 
 ## Cars
 
-**Filtered by Discipline: [Fictional](#fictional) | [GT](#gt-series) | [LMP](#lmp) | [Vintage Racecars](#vintage-race-cars)
- | [Road Cars](#road) | [Tuned - Drift](#drift-or-street-tune)**
+**Filtered by Discipline: [GT](#gt-series) | [LMP](#lmp) | [Vintage Racecars](#vintage-race-cars)
+ | [Road Cars](#road) | [Street/Drift Tune](#street-or-drift-tune) | [Fictional](#fictional)**
 ### GT Series
 
 [Barrikad Krew](https://discord.gg/twFH8fD) ![](https://www.google.com/s2/favicons?domain=www.discord.com)
@@ -58,7 +58,7 @@ Want to know more about what makes a mod good or bad? Read more about the topic 
 
 [aphidgod](https://www.racedepartment.com/members/aphidgod.218231/#resources) ![](https://www.google.com/s2/favicons?domain=www.racedepartment.com)
 
-### Drift or Street Tune
+### Street or Drift Tune
 
 [SimSquad](https://discord.gg/cxqqwsz) ![](https://www.google.com/s2/favicons?domain=www.discord.com)
 
