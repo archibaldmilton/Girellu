@@ -1,3 +1,9 @@
+24.10.2021 Version 3.5
+
+- Corrected (?) front LBJ, UBJ and steering rack placement
+- Changed EBD .lut
+- Corrected faulty ctrl_ebb.ini
+
 22.10.2021 Version 3.4
 
 - Corrected (?) standard front caster to align with height spec

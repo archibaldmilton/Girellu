@@ -1,3 +1,7 @@
+24.10.2021 Version 2.3
+
+- Changed EBD .lut
+
 22.10.2021 Version 2.2
 
 - Global updates

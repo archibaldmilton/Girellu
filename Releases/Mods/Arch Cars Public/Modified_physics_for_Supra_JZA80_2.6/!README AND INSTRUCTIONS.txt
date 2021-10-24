@@ -1,3 +1,8 @@
+24.10.2021 Version 2.6
+
+- Changed EBD .lut
+- Corrected faulty ctrl_ebb.ini
+
 22.10.2021 Version 2.5
 
 - Changed EBD .lut
