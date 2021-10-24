@@ -161,12 +161,12 @@ These are paid mods made by either individuals or groups of people that you shou
 <sub><sup>[Back To Index](#cars)</sub></sup>
 
 	IFX
+	ifsonata
 	Inertia Missile Car Pack
 	Initial D Car Pack
 	IRT Drift Engineering
 	IXA
-	ifsonata
-
+	
 ### Cars - J  
 <sub><sup>[Back To Index](#cars)</sub></sup>
 	
