@@ -9,7 +9,7 @@
 
 <p>This list will be grouped by racing discipline satisfied so that new people don't get overwhelmed with information they can't CTRL+F across.</p>
 
-Want to know more about what makes a mod good or bad? Read more about the topic [here](/list-of-assetto-mods/README.md)
+Want to know more about what makes a mod good or bad? Read more about the topic [here](/Resources/list-of-assetto-mods/README.md)
 
 ## Paid Mods
 <p>The following are reputable paid modding groups which produce "decent" to excellent content depending on the age of said content. As an example, most of URD's 2016 mods are obviously not on par with their current works in terms of quality. These mods being paid doesn't always mean they're better.</p>
