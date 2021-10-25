@@ -10,7 +10,11 @@
 [Post-Processing Filters](#post-processing-filters)
 <br>
 
+<<<<<<< Updated upstream
 You're more than welcome to read up on why you may find yourself or your group on this list [here](/list-of-assetto-mods/README.md)
+=======
+You're more than welcome to read up on why you may find yourself or your group on this list [here](Resources/list-of-assetto-mods/README.md)
+>>>>>>> Stashed changes
 
 ## Paid Mods
 These are paid mods made by either individuals or groups of people that you should avoid giving your money to, as they aren't of the best quality possible, especially not for the amount(s) they charge. Not all mods on here are pay once and go, creators with Patreons will be listed here as well.
