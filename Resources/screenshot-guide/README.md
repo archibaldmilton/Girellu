@@ -20,7 +20,8 @@
 
 ### Install Sol WeatherFX
 
-Download [Sol][3] through RaceDepartment. Sol supports drag and drop installation with Content Manager. Use Sol "Install Guide" PDF to set up Sol.
+1. Download [Sol][3] through RaceDepartment. Sol supports drag and drop installation with Content Manager. Use Sol "Install Guide" PDF to set up Sol.
+2. Go to Sol Discord server and download the "AC Texture Color Corrections" pack in `#ac-color-corrections`.
 
 > For Sol troubleshooting, seek assistance in the [Sol Discord server][4]. The Sol Discord server does have experimental versions, which are not released on RaceDepartment. Using an experimental Sol version will not negatively impact filter functionality.
 
