@@ -24,6 +24,7 @@ These are paid mods made by either individuals or groups of people that you shou
 	EX Mods
 	Garage Wayout
 	Geroda74
+	Ian CW
 	Jaskier (js_ , jx_)
 	Lucas Macedo (MacedoSTI)
 	RTM
