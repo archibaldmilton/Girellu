@@ -26,12 +26,14 @@ These are paid mods made by either individuals or groups of people that you shou
 	Geroda74
 	Ian CW
 	Jaskier (js_ , jx_)
+	Kyusai Workshop
 	Lucas Macedo (MacedoSTI)
 	RTM
 	SimDream
 	The Bend
 	Tommy78
 	Tyrone
+	Vegetable Tsai
     	
 ## Cars
 **[#](#cars--#) [A](#cars---a) [B](#cars---b) [C](#cars---c) [D](#cars---d) [E](#cars---e) [F](#cars---f) [G](#cars---g) [H](#cars---h) [I](#cars---i) [J](#cars---j) [K](#cars---k) [L](#cars---l) [M](#cars---m) [N](#cars---n) [O](#cars---o) [P](#cars---p) [Q](#cars---q) [R](#cars---r) [S](#cars---s) [T](#cars---t) [U](#cars---u) [V](#cars---v) [W](#cars---w) [X](#cars---x) [Y](#cars---y) [Z](#cars---z)**
