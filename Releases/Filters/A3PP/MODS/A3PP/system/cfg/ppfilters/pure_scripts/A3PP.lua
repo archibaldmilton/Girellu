@@ -1,12 +1,10 @@
 local gamma_fix = 0.0
 local bGammaFix = false
-if ac.setColorTexturesGamma ~= nil then bGammaFix = true end
+--if ac.setColorTexturesGamma ~= nil then bGammaFix = true end
 
 -- create a simple brightness filter to use it, to countermeasure YEBIS AE
 local _l_brightness_filter = ac.ColorCorrectionHsb { hue=0, saturation=1.0, brightness=1.0, keepLuminance=true }
 ac.weatherColorCorrections[#ac.weatherColorCorrections + 1] = _l_brightness_filter
-
-
 
 local _l_AE_reaction_LUT = {
     {  0.00,  0.01, 1.00  },
@@ -26,16 +24,19 @@ local _l_AE_reactionCPP = LUT:new(_l_AE_reaction_LUT)
 -- This is called once while AC starts
 function init_pure_script()
 
+    ac.setPpTonemapFunction(2)
+
     ac.setPpTonemapGamma(1.0)
-    ac.setPpSaturation(0.75)
+    ac.setPpSaturation(0.90)
 end
 
 
-local low_light_adaption_time  = 2.0
-local high_light_adaption_time = 0.1
+local low_light_adaption_time  = 0.3
+local high_light_adaption_time = 0.3
 
 local exp
 local curve
+local gamma
 local cloud_shadow
 local tmp
 local tmp_ae
@@ -49,31 +50,29 @@ local last_ae = 0.5
 -- This is called every frame
 function update_pure_script(dt)
 
+    --ac.setPpTonemapFunction(2)
+
     exp = ac.getPpTonemapExposure()
-    ac.debug("A3PP: Exposure", string.format('%.3f', exp))
+    ac.debug("A3PP: exposure", string.format('%.3f', exp))
 
     -- use this "curve" variable as a better gamma function
-    curve = 1.0
+    curve = 0.00
+    gamma = 1.10
 
     -- check for cloud shadows and adapt the curve for being in the shadow
-    cloud_shadow = (1-ac.getCloudsShadow()) * sun_compensate(0)
-    curve = curve * 1 + 0.25 * cloud_shadow
+    cloud_shadow = math.max(Pure_get_Overcast() , (1-ac.getCloudsShadow())) * sun_compensate(0)
+    --curve = curve * (1 + 0.75 * cloud_shadow)
 
-    -- set tonemapping adaption / use this instead of gamma, to gain brightness
     PURE__set_PP_Tonemapping_Curve(curve)
 
-    ac.setColorTexturesGamma(1.15)
-    
+    --ac.setPpTonemapFunction(2)
+
     -- COLOR BALANCE
 
-    ac.setPpWhiteBalanceK(6600)
+    ac.setPpWhiteBalanceK(6500)
     ac.setPpColorTemperatureK(6700) --6500 = perfect white with sun over 45°
 
-    local speculars = Pure_get_LightSource_color() * 3
-        speculars:adjustSaturation(speculars:getSaturation() * 0.5)
-        ac.setSpecularColor(speculars)
 
-    speculars = speculars * (1 - Pure_get_Fog()) * (1 - Pure_get_Overcast())
 
     -- EXPOSURE
     -- The exposure is set by Pure automatically, according to the sunangle.
@@ -89,11 +88,11 @@ function update_pure_script(dt)
 
     --ac.setAutoExposureTarget(0.15)
 
-    ac.setAutoExposureLimits( 0.046  --[[ minimum ]]
+    ac.setAutoExposureLimits( 0.1  --[[ minimum ]]
                             , 
                             0.5 --[[ maximum ]]) -- always use the full raise of exposure (its needed for very dark places like tunnels)
 
-    curr_ae = math.max(0.045, ac.getAutoExposure()*0.5)
+    curr_ae = math.max(0.05, ac.getAutoExposure())
     tmp = curr_ae - last_ae
 
     -- Here we calculate a ratio, to not react that much in bright light (daylight).
@@ -111,7 +110,8 @@ function update_pure_script(dt)
     end
     last_ae = math.max(0.05, last_ae)
 
-    new_brightness = last_ae / curr_ae
+    new_brightness = (last_ae / curr_ae)
+                    * (1 + 0.1*cloud_shadow)
 
     -- use the brightness filter to countermeasure the YEBIS AE
     _l_brightness_filter.brightness = new_brightness
@@ -133,13 +133,13 @@ function update_pure_script(dt)
                         --* (1 - 0.5*gamma_fix)
                     )
 
-    
+    ac.setPpTonemapGamma(gamma)
     
 
     -- boost VAO depending on exposure amount / most boost in nighttimes
     -- This will simulate the loss of ambient light and therefore the less visibility of dark places
     Pure_set_VAO_exponent_additive(curr_ae * 0.5)
-
+--[[
     str = " "
     bright_display = (math.max(0, math.min(2.1, new_brightness)) - 1) * 10
     for i=-10,10 do
@@ -165,19 +165,22 @@ function update_pure_script(dt)
             end
         end
     end
-    ac.debug("A3PP: Iris > Brain", str)
+    ac.debug("CustPP: Iris > Brain", str)
+]]
+    if bGammaFix then
+        ac.setColorTexturesGamma(1.0 + gamma_fix)
+        ac.setPpTonemapGamma(1.0 + 0.75*gamma_fix)
+        ac.setPpSaturation(1.0+0.125*gamma_fix)
+    end
 
-    --if bGammaFix then
-        --ac.setColorTexturesGamma(1.2 + 0.5*gamma_fix)
-        --ac.setPpTonemapGamma(1.0 + 0.75*gamma_fix)
-        --ac.setPpSaturation(1.0+0.125*gamma_fix)
-    --end
+    ac.setGodraysCustomColor(Pure_get_LightSource_color() * 0.125)
 
     --  some PP effects controlled by the world
     fog = Pure_get_Fog()
     fog = fog * fog
-    ac.setGlareBloomLuminanceGamma(1.75 + 0.20 * fog)
-    ac.setGlareThreshold(math.max(0, 3.5 - 3.0 * fog))
+    --ac.setGlareBloomLuminanceGamma(1.75 + 0.20 * fog)
+    --ac.setGlareThreshold(math.max(0, 3.5 - 3.0 * fog))
+    ac.setGodraysLength(1 + 8*fog)
 end
 
     -- Pure get/set functions
@@ -195,6 +198,11 @@ end
         Pure_get_AE_target()
         Pure_set_AE_target(v)
 
+
+        -- Lighting
+        
+        Pure_get_LightSource_color() 
+        Pure_get_AmbientLight_color()
     ]]
 
 
@@ -377,11 +385,4 @@ end
 		2. Method (using math.lerp):
 		ac.setPpBrightness( math.lerp( 1.24, 1.14, day_compensate(0) ) )
     ]]
-    
-
-
-
-
-   
-
     
