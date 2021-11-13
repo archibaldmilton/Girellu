@@ -58,10 +58,15 @@ function update_pure_script(dt)
 
 	-- locals
 		local amb	=	__PURE__world__ambient_light:getLuminance() / (20)
-		local AEmin	=	math.min(2,math.max(0.3,0))
+		local AEmin	=	math.min(2,math.max(0.01,0))
 		local AEmax	=	math.min(2,math.max(0.5+(0.05/amb)*from_twilight_compensate(4),AEmin))
-		local AEt	=	math.min(AEmax,math.max(0.45/amb,AEmin))
+		local AEt	=	(0.225/amb)
 
+			-- debug
+				-- ac.debug("amb",amb)
+				-- ac.debug("AEmin",AEmin)
+				-- ac.debug("AEmax",AEmax)
+				-- ac.debug("AEt",AEt)
 
 	-- Custom Pure stuff
 		-- reflections
@@ -70,43 +75,47 @@ function update_pure_script(dt)
 
 	-- Post-Processing Filter
 		-- color gamma fix
-			ac.setColorTexturesGamma(ac.getPpTonemapGamma()-(0.1/amb*sun_compensate(0)))
+			local gammaFix = 1.82/from_twilight_compensate(1.82)
+			ac.setColorTexturesGamma(gammaFix)
+
+			-- debug
+				ac.debug("Tonemapping: Color Gamma", gammaFix)
 
 		-- color
 			ac.setPpHue(1.4)
 			ac.setPpSaturation(1)
 			ac.setPpColorTemperatureK(0)
-			ac.setPpBrightness(1)
+			ac.setPpBrightness(6.5*day_compensate(1/6.5))
 			ac.setPpSepia(0.08)
 			ac.setPpWhiteBalanceK(0)
-			ac.setPpColorGradingIntensity(1)
+			ac.setPpColorGradingIntensity(1*day_compensate(0))
 
 		-- auto exposure
 			ac.setAutoExposureActive(true)
-			ac.setCarExposureActive(true)
+			-- ac.setCarExposureActive(true)
 
-			ac.setAutoExposureLimits(AEmin,AEmax)
-			ac.setAutoExposureTarget(AEt)
+			-- ac.setAutoExposureLimits(AEmin,AEmax)
+			-- ac.setAutoExposureTarget(AEt)
 
-			ac.setAutoExposureMeasuringArea(vec2(0,0), vec2(1,1))
+			-- ac.setAutoExposureMeasuringArea(vec2(0,0), vec2(1,1))
 
 		-- tonemapping
-			ac.setPpTonemapUseHdrSpace(false)
-			ac.setPpTonemapFunction(2)
-			ac.setPpTonemapExposure(0.43)
-			ac.setPpTonemapMappingFactor(1)
-			ac.setPpTonemapGamma(1.3)
-			ac.setPpTonemapFilmicContrast(0.3)
+			ac.setPpTonemapUseHdrSpace(true)
+			ac.setPpTonemapFunction(5)
+			ac.setPpTonemapExposure(0.36)
+			ac.setPpTonemapMappingFactor(ac.getPpBrightness()*0.59)
+			ac.setPpTonemapGamma(1)
+			ac.setPpTonemapFilmicContrast(0)
 
 		-- dxgi hdr
 		-- chromatic aberration
 		-- vignetting
 		-- lens distortion
 		-- glare
-			ac.setGlareThreshold(10)
+			ac.setGlareThreshold(5)
 			ac.setGlareBloomFilterThreshold(0.002)
 			ac.setGlareBloomLuminanceGamma(1.82)
-			ac.setGlareStarFilterThreshold(0.0002)
+			ac.setGlareStarFilterThreshold(0.002)
 
 		-- depth of field
 		-- sun rays

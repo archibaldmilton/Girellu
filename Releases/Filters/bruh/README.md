@@ -27,3 +27,12 @@ Use with Base WFX and includes experimental CSP gamma fix
 **BRUHgp**
 
 Made for Pure WFX and includes experimental CSP gamma fix
+
+**Nice Screenshot Settings for Accumulation DOF:**
+
+https://acstuff.ru/s/O2WwCD
+___
+
+| Known issue with BRUHgp: |
+|:---:|
+| ![unknown](https://user-images.githubusercontent.com/90503800/141662274-42dd693b-3235-4af7-8262-815aa2f1da42.PNG) |
