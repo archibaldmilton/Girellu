@@ -2,7 +2,7 @@
 
 | Personally curated content for Assetto Corsa. |
 |:---:|
-| ![collage](https://user-images.githubusercontent.com/90503800/138016607-573ee225-5e9d-45e9-99cd-e915353ff5da.png) |
+| ![collage](https://user-images.githubusercontent.com/90503800/141666780-5d8b549d-25ec-4193-a985-856c1b724bbe.png) |
 
 ## How to Download
 1. Login into or create a [GitHub account](https://github.com/login).
