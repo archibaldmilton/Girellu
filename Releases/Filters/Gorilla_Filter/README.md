@@ -1,6 +1,7 @@
 # Gorilla Filter
 Absolute neutralism.
 
+![Screenshot_bk_audi_r8_lms_2019_sprint_ks_brands_hatch_14-10-121-21-44-3](https://user-images.githubusercontent.com/90503800/141707231-4129491d-2720-44ad-82e7-25008895ac65.png)
 ![Screenshot_ifso_supra_a90_ks_nordschleife_9-9-121-20-29-1](https://user-images.githubusercontent.com/90503800/138020553-7599fa11-cf70-451b-83a1-21c8eece63eb.png)
 ![Screenshot_ddm_porsche_993_carrera_rs_ks_highlands_12-9-121-16-41-28 png](https://user-images.githubusercontent.com/90503800/138020557-ac1b43e4-f3e5-4d9c-9b2e-daac300e9549.png)
 ![Screenshot_ks_porsche_962c_longtail_ks_highlands_22-8-121-20-43-9](https://user-images.githubusercontent.com/90503800/138020567-2fffeb0c-84e6-4b9f-8b6c-5ccab7759735.png)
