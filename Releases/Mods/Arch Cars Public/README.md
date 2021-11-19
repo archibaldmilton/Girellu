@@ -1,4 +1,4 @@
-# LICENSE
+# Arch Modified Physics License
 As of 24 October 2021,
 
 **You are allowed to:**
