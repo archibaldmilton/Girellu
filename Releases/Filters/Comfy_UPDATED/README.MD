@@ -14,4 +14,4 @@ This filter was originally created by comfy but requested to be deleted as it wa
 
 This filter recommends using Sol WFX's 2D clouds rendering method which is found on Page 7 in the Sol config under "Clouds Render Method" (set the slider to 0.)
 
-Ask [@JavireTwo](https://github.com/JavireTwo) for questions and concerns about Comfy filter.
+Ask [@JavireTwo](https://github.com/JavireTwo) or javire#6359 on Discord for questions and concerns about Comfy filter.

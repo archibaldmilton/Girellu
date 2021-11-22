@@ -32,4 +32,4 @@ Disable A3PP in Content - Mods and then re-enable it, then try again. If that do
 
 It's an addon that can modify my filter settings. It's not required to be enabled because the filter is ready as it is.
 
-### Donate: https://paypal.me/MarcoMollace or https://www.patreon.com/marocco2/creators
+### Donate: [![](https://img.shields.io/badge/PayPal-MarcoMollace-169BD7?style=for-the-badge&logo=paypal)](https://paypal.me/MarcoMollace) [![](https://img.shields.io/badge/Patreon-marocco2-f96854?style=for-the-badge&logo=patreon)](https://www.patreon.com/marocco2/creators)

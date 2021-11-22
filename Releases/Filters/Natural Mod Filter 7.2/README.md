@@ -1,15 +1,17 @@
 # Natural Mod Filter
 Attempt to replicate what the eye sees rather than a camera with no chromatic aberration, lens flares, or erratic autoexposure.
 
-![Screenshot_ks_ferrari_488_gtb_ks_brands_hatch_12-7-121-18-26-14](https://user-images.githubusercontent.com/90503800/138020971-6a01fbc2-81c5-491e-8fb6-8c10199f9730.jpg)
-![Screenshot_ks_ferrari_488_gt3_spa_12-7-121-18-18-45](https://user-images.githubusercontent.com/90503800/138020974-37f2b13a-f030-4864-9b7a-74c85bd0eb88.jpg)
-![Screenshot_bmw_z4_ks_barcelona_12-7-121-18-22-6](https://user-images.githubusercontent.com/90503800/138020978-9752b97a-b627-442d-9bae-669e029160e4.jpg)
+![Screenshot_ks_ferrari_488_gt3_spa_16-10-121-17-11-30](https://user-images.githubusercontent.com/90503800/142789354-a4af7a23-9833-4e44-ac40-7a85f20fd60a.jpg)
+![Screenshot_ks_porsche_911_r_ks_nordschleife_18-10-121-17-36-30](https://user-images.githubusercontent.com/90503800/142789355-a04422a0-35dc-4cc7-b064-47022efda4c2.jpg)
+![Screenshot_ferrari_458_ks_nordschleife_16-10-121-17-8-5](https://user-images.githubusercontent.com/90503800/142789356-9fd2cd18-b600-4502-bd5e-e8f0b08bb14d.jpg)
+![Screenshot_ks_ferrari_488_gtb_ks_brands_hatch_16-10-121-17-17-7](https://user-images.githubusercontent.com/90503800/142789357-a76d039a-5447-4a90-8859-cae2a590e835.jpg)
 
 ## Filter Notes
 This filter aims to get the best onboard view for driving rather than create photo-real external screenshots, saves approximately 15 FPS over other default filters.
 
 **Natural_Mod:**
-* Based on the default filter with the main tweaks.
+
+Based on the default filter with the main tweaks:
 * Camera effects like star shapes, chromatic aberration, vignetting etc. disabled.
 * Autoexposure disabled (except when transitioning to night with Sol.)
 * Glare tweaked for balanced interior and exterior effects.
@@ -40,4 +42,4 @@ If you use Content Manager and VR, ensure that "Override default PP filter in Oc
 
 If your display has a poor black level (e.g. like the Oculus Quest 2 LCD), you could slightly increase contrast_day or decrease gamma_base or exposure at the top of the .lua file.
 
-### Donate: https://paypal.me/ears1991
+## Donate: [![](https://img.shields.io/badge/PayPal-eyes1991-169BD7?style=for-the-badge&logo=paypal)](https://paypal.me/ears1991)
