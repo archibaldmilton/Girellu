@@ -47,6 +47,7 @@ local fog
 local curr_ae
 local last_ae = 0.5
 
+
 -- This is called every frame
 function update_pure_script(dt)
 
@@ -172,8 +173,6 @@ function update_pure_script(dt)
         ac.setPpTonemapGamma(1.0 + 0.75*gamma_fix)
         ac.setPpSaturation(1.0+0.125*gamma_fix)
     end
-
-    ac.setGodraysCustomColor(Pure_get_LightSource_color() * 0.125)
 
     --  some PP effects controlled by the world
     fog = Pure_get_Fog()
