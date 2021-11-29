@@ -28,6 +28,7 @@ These are paid mods made by either individuals or groups of people that you shou
 	Jaskier (js_ , jx_)
 	Kyusai Workshop
 	Lucas Macedo (MacedoSTI)
+	Mamiya Motors
 	RTM
 	SimDream
 	The Bend
