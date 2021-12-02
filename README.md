@@ -8,7 +8,7 @@
 ## How to Download
 1. Login into or create a [GitHub account](https://github.com/login).
 2. Install [GitHub Desktop](https://desktop.github.com/) and login with your GitHub acount.
-3. Clone Girellu repository with GitHub Desktop by following [GitHub's tutorial](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop "Cloning a repository from GitHub to GitHub Desktop").
+3. Clone Girellu repository by following [GitHub's tutorial](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop "Cloning a repository from GitHub to GitHub Desktop").
 
 | **Update the repository's content by clicking here:** |
 |:---:|

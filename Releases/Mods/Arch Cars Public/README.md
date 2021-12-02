@@ -1,5 +1,5 @@
 # Arch Modified Physics License
-As of 24 October 2021,
+As of 01 December 2021,
 
 **You are allowed to:**
 * Use Arch modified physics on personal work
@@ -12,6 +12,6 @@ As of 24 October 2021,
 
 ___
 **Additional Notes**
-* Support is not promised. If there is a technical issue, it is user error.
+* Support is not promised; if there is a technical issue, it is user error.
 * No guarantee for satisfactory user experience unless using appropriate professional simulation peripherals with correct configuration. 
-	- For example: your G29 @ 30FPS can not keep up with the rotation speed of these cars.
+	- For example, your G29 @ 30FPS can not keep up with the rotation speed of these cars.
