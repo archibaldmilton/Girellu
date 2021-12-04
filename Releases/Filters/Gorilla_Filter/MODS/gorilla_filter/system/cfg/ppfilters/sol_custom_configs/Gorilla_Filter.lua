@@ -20,7 +20,7 @@ function update_sol_custom_config()
 
 	SOL__set_config("ambient","sun_color_balance",0.15)
 	
-	SOL__set_config("gfx","reflections_saturation",0.65)
+	SOL__set_config("gfx","reflections_saturation",0.75)
 
 	SOL__set_config("nerd__speculars_adjust","Level",0.85)
 	
