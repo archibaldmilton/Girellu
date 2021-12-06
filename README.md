@@ -6,7 +6,9 @@
 | ![GitHub watchers](https://img.shields.io/github/stars/archibaldmilton/girellu?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/archibaldmilton/girellu?style=social) ![GitHub watchers](https://img.shields.io/github/repo-size/archibaldmilton/girellu?style=social) |
 
 ## How to Download
-[Direct link](https://github.com/archibaldmilton/Girellu/archive/refs/heads/master.zip)
+![image](https://user-images.githubusercontent.com/90503800/144797144-5818df68-d5cb-4ae3-bbdc-41debd49c3b1.png)
+
+Or [direct link](https://github.com/archibaldmilton/Girellu/archive/refs/heads/master.zip)
 
 ### Download and Fetch Updates
 1. Login into or create a [GitHub account](https://github.com/login).
