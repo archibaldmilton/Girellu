@@ -30,6 +30,9 @@ Warning for VR Users:
 	If you use Content Manager and VR, ensure that "Override default PP filter in Oculus Rift mode" is ticked.
 	Suggest disabling Crepuscular Rays/Sunrays in the launcher due to this issue: http://www.assettocorsa.net/forum/index.php?threads/oculus-1-7-3-godrays-rendered-from-all-angles-rather-than-just-from-sun.34556/
 
+Contrast tuning:
+	Sol users: If the black level on your display is not great, this filter might look a little too washed out, you can adjust this by increasing "contrast_day" in Natural_Mod.lua (I use 0.985 on Quest 2), or just add 1% to contrast in the Sol Config app.
+
 *Filter Descriptions:*
 Natural_Mod:
 	Based on the default with the main tweaks as follows:

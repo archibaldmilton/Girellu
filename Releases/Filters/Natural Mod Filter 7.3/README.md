@@ -42,4 +42,8 @@ If you use Content Manager and VR, ensure that "Override default PP filter in Oc
 
 If your display has a poor black level (e.g. like the Oculus Quest 2 LCD), you could slightly increase contrast_day or decrease gamma_base or exposure at the top of the .lua file.
 
+*Contrast tuning (for Sol users)*
+
+If your your display's black level is not great, then the filter may look too washed out. Try increasing "contrast_day" in Natural_Mod.lua (I use 0.985 for Oculus Quest 2), or just add 1% to contrast in the Sol Config app.
+
 ## Donate: [![](https://img.shields.io/badge/PayPal-eyes1991-169BD7?style=for-the-badge&logo=paypal)](https://paypal.me/ears1991)

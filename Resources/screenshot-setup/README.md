@@ -1,5 +1,5 @@
 # Screenshot Guide
-| Set up Assetto Corsa to make screenshots. |
+| This is a guide on how to setup Assetto Corsa for making screenshots. |
 |:---:|
 | ![porsche](https://user-images.githubusercontent.com/90503800/138022446-23e431ab-c7c2-4dc3-94c3-bd96998246a7.png) |
 
@@ -25,7 +25,7 @@
 
 > For Sol troubleshooting, seek assistance in the [Sol Discord server][4]. The Sol Discord server does have experimental versions, which are not released on RaceDepartment. Using an experimental Sol version will not negatively impact filter functionality.
 
-### Install Filters & Files
+### Install Filters and Files
 Most filters have support for drag and drop installation with Content Manager. For manual installation, go to Assetto Corsa's Steam file directory (not the document directory,) and drag the following files into their respective location:
 
 For filter `.INI` files 
@@ -69,9 +69,9 @@ Original | Modified
 |:---:|
 | Right click on "assettocorsa.ini" then click on *Properties*. Check the *Read-only* box and click *Apply*. This will ensure the file retains its modified parameters. |
 
-### Game Settings (Video & CSP preset)
+### Game Settings (Video and CSP preset)
 
-Video presets change Assetto Corsa video settings and CSP presets change Custom Shaders Patch settings. It is recommended to have separate CSP and Video presets for high FPS and high graphics. For optimal filter performance, consult the filter's author for video and CSP presets. Refer to [Install Filters & Files](#install-filters--files) for preset installation.
+Video presets change Assetto Corsa video settings and CSP presets change Custom Shaders Patch settings. It is recommended to have separate CSP and Video presets for high FPS and high graphics. For optimal filter performance, consult the filter's author for video and CSP presets. Refer to [Install Filters and Files](#install-filters--files) for preset installation.
 
 ___
 ## In-Game Workflow
@@ -86,11 +86,11 @@ There are two free roam cameras which are activated by pressing F5 and F7 key. F
 Camera Controls | F5 Camera | F7 Camera 
 :---:|:---:|:---:
 Movement | WASD | Arrow keys 
-Roll | F/G or B/V | None. Use CSP Photo app
+Roll | F/G or B/V | None, use CSP Photo app
 Up/Down | C/Z | Page Up/Page Down
 FOV | Numpad +/- | Scroll wheel Up/Down
 Speed | Shift/Tab | Ctrl/Shift
-Camera Focus<br>(focus on mouse cursor) | Ctrl & Left Mouse Button or End key | Ctrl & Left Mouse Button or End key
+Camera Focus<br>(focus on mouse cursor) | Ctrl and Left Mouse Button or End key | Ctrl and Left Mouse Button or End key
 
 [1]: https://github.com/gro-ove/actools/releases "CM GitHub"
 [2]: https://discord.gg/SWryb5V "CSP Discord Invite"
