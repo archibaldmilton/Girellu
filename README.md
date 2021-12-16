@@ -4,7 +4,7 @@
 Personally curated content for Assetto Corsa.
 
 ## How to Download
-[![](https://img.shields.io/badge/download-124%20mb-black?style=for-the-badge&labelColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij48cGF0aCBkPSJNNC45NyAxMS4wM2EuNzUuNzUgMCAxMTEuMDYtMS4wNkwxMSAxNC45NFYyLjc1YS43NS43NSAwIDAxMS41IDB2MTIuMTlsNC45Ny00Ljk3YS43NS43NSAwIDExMS4wNiAxLjA2bC02LjI1IDYuMjVhLjc1Ljc1IDAgMDEtMS4wNiAwbC02LjI1LTYuMjV6bS0uMjIgOS40N2EuNzUuNzUgMCAwMDAgMS41aDE0LjVhLjc1Ljc1IDAgMDAwLTEuNUg0Ljc1eiI+PC9wYXRoPjwvc3ZnPg==)](https://github.com/archibaldmilton/Girellu/archive/refs/heads/master.zip)
+[![](https://img.shields.io/github/repo-size/archibaldmilton/girellu?color=black&labelColor=white&label=Download&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij48cGF0aCBkPSJNNC45NyAxMS4wM2EuNzUuNzUgMCAxMTEuMDYtMS4wNkwxMSAxNC45NFYyLjc1YS43NS43NSAwIDAxMS41IDB2MTIuMTlsNC45Ny00Ljk3YS43NS43NSAwIDExMS4wNiAxLjA2bC02LjI1IDYuMjVhLjc1Ljc1IDAgMDEtMS4wNiAwbC02LjI1LTYuMjV6bS0uMjIgOS40N2EuNzUuNzUgMCAwMDAgMS41aDE0LjVhLjc1Ljc1IDAgMDAwLTEuNUg0Ljc1eiI%2BPC9wYXRoPjwvc3ZnPg%3D%3D&style=for-the-badge)](https://github.com/archibaldmilton/Girellu/archive/refs/heads/master.zip "Download ZIP")
 
 ### How to Download and Fetch Updates
 1. Login into or create a [GitHub account](https://github.com/login).

@@ -1,3 +1,17 @@
+16.12.21
+
+- Updated 190E DTM
+- Updated AE86
+- Updated CTR-1
+- Updated GT86
+- Updated E30
+- Updated E30 DTM
+- Updated Miata NA
+- Updated R34
+- Updated FD3S
+- Updated JZA80
+- Changed thermal and slip parameters for tires
+
 01.12.21
 
 - Updated CTR1

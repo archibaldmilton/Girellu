@@ -36,7 +36,7 @@ The filter is tuned to get a dazzling effect when the sun is high in summer, but
 
 *Warning for VR Users:*
 
-If you use Content Manager and VR, ensure that "Override default PP filter in Oculus Rift mode" is ticked. It is recommended to disable Crepuscular Rays/Sunrays in the launcher due to this [issue](http://www.assettocorsa.net/forum/index.php?threads/oculus-1-7-3-godrays-rendered-from-all-angles-rather-than-just-from-sun.34556/ "assettocorsa.net")
+If you use Content Manager and VR, ensure that "Override default PP filter in Oculus Rift mode" is ticked. It is recommended to disable Crepuscular Rays/Sunrays in the launcher due to this [issue](http://www.assettocorsa.net/forum/index.php?threads/oculus-1-7-3-godrays-rendered-from-all-angles-rather-than-just-from-sun.34556/ "assettocorsa.net").
 
 *"I want to fine tune my display!"*
 
@@ -44,6 +44,6 @@ If your display has a poor black level (e.g. like the Oculus Quest 2 LCD), you c
 
 *Contrast tuning (for Sol users)*
 
-If your your display's black level is not great, then the filter may look too washed out. Try increasing "contrast_day" in Natural_Mod.lua (I use 0.985 for Oculus Quest 2), or just add 1% to contrast in the Sol Config app.
+If your display's black level is not great, then the filter may look too washed out. Try increasing "contrast_day" in Natural_Mod.lua (I use 0.985 for Oculus Quest 2), or just add 1% to contrast in the Sol Config app.
 
 ## Donate: [![](https://img.shields.io/badge/PayPal-eyes1991-169BD7?style=for-the-badge&logo=paypal)](https://paypal.me/ears1991)
