@@ -1,3 +1,10 @@
+20.12.2021 Version 3.9
+
+- Changed ATTESA and A-LSD inputs to use CSP axlespeeds input
+- Changed AWD2 RAMP to be more proper
+- Adjusted ATTESA and A-LSD LatG controllers
+- Adjusted HICAS LatG controller
+
 16.12.2021 Version 3.8
 
 - Changed temperature vs mu curve of tires

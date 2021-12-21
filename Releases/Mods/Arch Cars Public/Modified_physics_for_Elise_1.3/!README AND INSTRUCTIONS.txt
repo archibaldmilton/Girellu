@@ -1,3 +1,15 @@
+20.12.2021 Version 1.3
+
+- Changed temperature vs mu curve of tires
+- Changed temperature vs level curve of tires
+- Changed temperature vs speed curve of tires
+- Changed slipcurve of tires
+- Changed vertical and longitudinal aerodynamics
+- Added side force to lateral aerodynamics
+- Changed lateral aerodynamic side drag
+- Lowered open diff lock from 10% to 5%
+- Misc. updating and standardizing
+
 22.10.2021 Version 1.2
 
 - Global updates
