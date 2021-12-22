@@ -1,3 +1,10 @@
+22.12.2021 Version 4.0
+- New implementation of ATTESA
+- New implementation of A-LSD
+- Special thanks to @abbo90 and @baker7498
+- Defaulted rear aerofoil to 0deg
+- Added lag to gauges via extconfig
+
 20.12.2021 Version 3.9
 
 - Changed ATTESA and A-LSD inputs to use CSP axlespeeds input
