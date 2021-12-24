@@ -1,12 +1,12 @@
 # Screenshot Guide
-| This is a guide on how to setup Assetto Corsa for making screenshots. |
+| This is a guide on how to set up Assetto Corsa for making screenshots. |
 |:---:|
 | ![porsche](https://user-images.githubusercontent.com/90503800/138022446-23e431ab-c7c2-4dc3-94c3-bd96998246a7.png) |
 
 ### Install Content Manager (CM)
 | ![cm](https://user-images.githubusercontent.com/90503800/138022440-c76402df-9511-4533-9a10-4ed08e7bfe72.png) |
 |:---:|
-| 1. Go to the Content Manager [GitHub releases][1] and look for a release with the *Latest release* tag and download its ZIP file. |
+| 1. Go to Content Manager [GitHub releases][1] and look for a release with the *Latest release* tag and download its ZIP file. |
 | ![cm2](https://user-images.githubusercontent.com/90503800/138022441-a1aa03dc-0dc4-47fa-b68c-34f0d3dda11b.png) |
 | 2. Unzip the ZIP file in the download folder. |
 
@@ -16,7 +16,7 @@
 | 1. Download Custom Shaders Patch through Content Manager. |
 | ![csp2](https://user-images.githubusercontent.com/90503800/138022445-149426c8-daa8-4b6d-a30d-889931d2b36c.png) |
 | 2. Click the most recent version to update CSP. |
-> CM initially downloads the *recommended* CSP version, which is typically outdated. Disregard the flags next to the version numbers, as they are inaccurate for describing CSP version stability. Ask in the [CSP Discord server][2] whether a CSP version is suitable for making screenshots.
+> CM initially downloads the *recommended*  CSP version, which is typically outdated. Disregard the flags next to the version numbers, as they are inaccurate for describing CSP version stability. Ask in the [CSP Discord server][2] whether a CSP version is suitable for making screenshots.
 
 ### Install Sol WeatherFX
 
@@ -26,7 +26,7 @@
 > For Sol troubleshooting, seek assistance in the [Sol Discord server][4]. The Sol Discord server does have experimental versions, which are not released on RaceDepartment. Using an experimental Sol version will not negatively impact filter functionality.
 
 ### Install Filters and Files
-Most filters have support for drag and drop installation with Content Manager. For manual installation, go to Assetto Corsa's Steam file directory (not the document directory,) and drag the following files into their respective location:
+Most filters have support for drag and drop installation with Content Manager. For manual installation, go to Assetto Corsa's Steam file directory (not the document directory) and drag the following files into their respective location:
 
 For filter `.INI` files 
 
@@ -56,7 +56,7 @@ ___
 | Tick "Allow free camera," untick "Orbit mode for F5 Camera," and select PNG in "Screenshots format." |
 
 "assettocorsa.ini" must be set read-only to prevent CM from reverting its original settings. To do this, follow the steps below:
-1. Navigate to `\assettocorsa\system\cfg` (The game file directory not the document directory.)
+1. Navigate to `\assettocorsa\system\cfg` (the game file directory not the document directory.)
 2. Open "assettocorsa.ini"
 3. Change the following parameters:
 
@@ -92,7 +92,7 @@ FOV | Numpad +/- | Scroll wheel Up/Down
 Speed | Shift/Tab | Ctrl/Shift
 Camera Focus<br>(focus on mouse cursor) | Ctrl and Left Mouse Button or End key | Ctrl and Left Mouse Button or End key
 
-[1]: https://github.com/gro-ove/actools/releases "CM GitHub"
+[1]: https://github.com/gro-ove/actools/releases "CM Repository"
 [2]: https://discord.gg/SWryb5V "CSP Discord Invite"
 [3]: https://www.racedepartment.com/downloads/sol.24914/ "Sol Download"
 [4]: https://discord.gg/7YVrS4ydaA "Sol Discord Invite"

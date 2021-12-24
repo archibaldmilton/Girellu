@@ -1,3 +1,10 @@
+23.12.2021 Version 4.1
+- New implementation of ATTESA with closer replication of real maps
+- Big thanks to @JPG_18 for solving most of the ATTESA implementation
+- Adjusted ATTESA Tgain from some new data, thanks to @baker7498
+- Modified control inputs of A-LSD
+- Adjusted rebound rate of rear dampers
+
 22.12.2021 Version 4.0
 - New implementation of ATTESA
 - New implementation of A-LSD
