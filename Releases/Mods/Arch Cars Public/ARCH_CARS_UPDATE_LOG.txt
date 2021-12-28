@@ -1,10 +1,20 @@
+28.12.21
+
+- Updated all cars
+- Adjusted temperature vs mu curve of tires
+- Adjusted heating parameters of tires
+- Small tire changes here and there to standardize
+
 23.12.21
+
 - Updated R34
 
 22.12.21
+
 - Updated R34
 
 20.12.21
+
 - Updated Elise
 - Updated R34
 

@@ -1,6 +1,12 @@
-XX.11.2021 Version 0.9
+28.12.2021 Version 0.9
 
-- Reduced inertia
+- Changed temperature curves of tires
+- Adjusted heating parameters of tires
+- Changed slipcurve of tires
+- Reduced moment of inertia
+- Changed longitudinal aerodynamics
+- Added side force to lateral aerodynamics
+- Changed lateral aerodynamic side drag
 
 29.09.2021 Version 0.8
 
