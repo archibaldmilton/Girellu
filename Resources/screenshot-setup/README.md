@@ -56,7 +56,7 @@ ___
 | Tick "Allow free camera," untick "Orbit mode for F5 Camera," and select PNG in "Screenshots format." |
 
 "assettocorsa.ini" must be set read-only to prevent CM from reverting its original settings. To do this, follow the steps below:
-1. Navigate to `\assettocorsa\system\cfg` (the game file directory not the document directory.)
+1. Navigate to `\assettocorsa\system\cfg` (the game file directory, not the document directory.)
 2. Open "assettocorsa.ini"
 3. Change the following parameters:
 

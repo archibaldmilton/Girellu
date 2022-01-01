@@ -1,4 +1,4 @@
-![collage](https://user-images.githubusercontent.com/90503800/141666780-5d8b549d-25ec-4193-a985-856c1b724bbe.png)
+![banner](https://user-images.githubusercontent.com/90503800/141666780-5d8b549d-25ec-4193-a985-856c1b724bbe.png)
 
 # Girellu Repository
 Personally curated content for Assetto Corsa.
@@ -9,12 +9,12 @@ Personally curated content for Assetto Corsa.
 ### How to Download and Fetch Updates
 1. Login into or create a [GitHub account](https://github.com/login).
 2. Install [GitHub Desktop](https://desktop.github.com/) and login with your GitHub acount.
-3. Clone Girellu repository by following [GitHub's tutorial](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop "Cloning a repository from GitHub to GitHub Desktop").
+3. Clone Girellu repository by following [GitHub's tutorial](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop "GitHub Tutorial"). **There is no use to "Fork" the repository, cloning the repository is enough.**
+
 
 | Update repository content by clicking here: |
 |:---:|
 | ![Update](https://user-images.githubusercontent.com/90503800/138611389-dfbdcadc-48e2-4d20-8e1b-2b72b511f338.png) |
-| Note: There is no need to "Fork" the repository, cloning the repository is enough. |
 
 ___
 ## FAQ
@@ -27,7 +27,7 @@ ___
 * It is quicker and easier to host.
 
 ## Related Communities
-Custom Shaders Patch | Sol WeatherFX | Girellu (Troubleshooting and help)
+Custom Shaders Patch | Sol WeatherFX | Girellu (troubleshooting and help)
 |:---:|:---:|:---:|
 https://discord.gg/SWryb5V | https://discord.gg/7YVrS4ydaA | https://discord.gg/jgG738MtCe
 https://www.patreon.com/x4fab | https://www.patreon.com/peterboese | -

@@ -1,3 +1,8 @@
+31.12.21
+
+- Updated all cars
+- Total pass on heating parameters of tires, thanks to @JPG_18 for advice
+
 28.12.21
 
 - Updated all cars
