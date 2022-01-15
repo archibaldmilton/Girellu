@@ -1,5 +1,5 @@
 # Arch Modified Physics License
-As of 31 December 2021,
+As of 15 January 2022,
 
 **You are allowed to:**
 * Use Arch modified physics on personal work
