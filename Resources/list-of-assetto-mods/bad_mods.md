@@ -42,6 +42,7 @@ These are paid mods made by either individuals or groups of people that you shou
 ### Cars - \#  
 <sub><sup>[Back To Index](#cars)</sub></sup>
 
+	101Creative
 	76 Garage
 
 ### Cars - A  
@@ -65,6 +66,7 @@ These are paid mods made by either individuals or groups of people that you shou
 	ADG
 	Akuma
 	ARTKato
+	Aruson
 	ATCC
 	Assetto Corsa Gold
 	Assetto Garage
@@ -135,6 +137,7 @@ These are paid mods made by either individuals or groups of people that you shou
 ### Cars - F  
 <sub><sup>[Back To Index](#cars)</sub></sup>
 
+	Fazani
 	FD Replicas
 	FDAC
 	FDC
@@ -202,6 +205,7 @@ These are paid mods made by either individuals or groups of people that you shou
 ### Cars - M  
 <sub><sup>[Back To Index](#cars)</sub></sup>
 
+	M.A Garage
 	MadZ
 	Midnight Wanderers
 	Mischief
@@ -237,8 +241,10 @@ These are paid mods made by either individuals or groups of people that you shou
 
 	RallyWorld
 	RaceManiacs
+	RemZona modding
 	RCH
 	RBMS
+	Redlex
 	Reign
 	Revenge Garage
 	Rider Corsa
@@ -249,6 +255,7 @@ These are paid mods made by either individuals or groups of people that you shou
 	Rotang Clan
 	RUS180
 	RTCG (Rudolf The Car Guy)
+	RVZ
 	
 ### Cars - S  
 <sub><sup>[Back To Index](#cars)</sub></sup>
@@ -330,6 +337,7 @@ These are paid mods made by either individuals or groups of people that you shou
 <sub><sup>[Back To Index](#cars)</sub></sup>
 
 	Adriano Cotta Ramusino
+	Adriaan
 	Alice Umberto G.
 	Alexandre Dantas (hotstyle_mods)
 	Bazza von Dutch
@@ -344,20 +352,27 @@ These are paid mods made by either individuals or groups of people that you shou
 	EarthWormJim90
 	Ewan Huzami
 	Esprit3905
+	Flores Bruno
 	Greg Oganesanov
 	JakubP
 	Jaqory
+	Javier
 	Juise
 	Lucas Macedo
 	Lu Thua Kien
+	Lynxkenny 
 	Kami
 	Kamil Cader
 	KENNETH
+	KilinRC
+	Markoss Kass
 	Miguel Silva
 	Mike Rudland
 	Mike Goulioumis
 	Mike173
+	MoulagaZzZ
 	Nizar Razzouk
+	Opperslang
 	pclipse
 	PedroBLR
 	Reiner Henrich
