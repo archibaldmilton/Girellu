@@ -9,6 +9,7 @@ function init_sol_custom_config()
 	SOL__set_config("moon", "casts_shadows", false)
 	SOL__set_config("sun", "dazzle_mix", 0.5)
 	SOL__set_config("nerd__csp_lights_adjust", "emissive_day", 1.0)
+	ac.setPpBrightness(0.99)
 end
 
 function update_sol_custom_config(dt)
