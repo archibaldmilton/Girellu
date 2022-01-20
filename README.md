@@ -20,19 +20,18 @@ ___
 ## FAQ
 "*What do these folders mean?*"
 * "Releases" is where downloadable content reside.
-* "Resources" is where general AC information can be read.
+	- Filters is for AC Post-Processing Filters (PPF)
+	- Mods is for non-PPF content of the repository
+
+>"Resources" has been moved to the "[Wiki](https://github.com/archibaldmilton/Girellu/wiki)" section of the repository.
 
 "*Why host on GitHub?*"
 * To avoid community feuds (Discord servers, RaceDepartment, etc.)
 * It is quicker and easier to host.
 
 ## Related Communities
-Custom Shaders Patch | Sol WeatherFX | Girellu (troubleshooting and help)
-|:---:|:---:|:---:|
-https://discord.gg/SWryb5V | https://discord.gg/7YVrS4ydaA | https://discord.gg/jgG738MtCe
-https://www.patreon.com/x4fab | https://www.patreon.com/peterboese | -
+<table align="center"><thead><tr><td align="center"><strong>Custom Shaders Patch</strong></td><td align="center"><strong>Sol WeatherFX</strong></td><td align="center"><strong>Girellu (development and support)</strong></td></tr></thead><tbody><tr><td align="center">https://discord.gg/SWryb5V</td><td align="center">https://discord.gg/7YVrS4ydaA</td><td align="center">https://discord.gg/jgG738MtCe</td></tr><tr><td align="center">https://www.patreon.com/x4fab</td><td align="center">https://www.patreon.com/peterboese</td><td align="center">-</td></tr></tbody></table>
 
 ___
-| Star this repository to show appreciation! :star: |
-|:---:|
-| ![star](https://user-images.githubusercontent.com/90503800/145545659-184c688b-63c1-4722-86fc-d1598612d1b9.png) |
+
+<table align="center"><tbody><tr><td align="center"><strong>Star this repository to show appreciation! &#11088;</td></tr><tr><td align="center"><img src="https://user-images.githubusercontent.com/90503800/145545659-184c688b-63c1-4722-86fc-d1598612d1b9.png"></td></tr></tbody></table>
