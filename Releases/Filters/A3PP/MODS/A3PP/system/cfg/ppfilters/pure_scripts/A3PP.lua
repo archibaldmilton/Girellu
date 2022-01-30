@@ -1,185 +1,86 @@
-local gamma_fix = 0.0
-local bGammaFix = false
---if ac.setColorTexturesGamma ~= nil then bGammaFix = true end
-
--- create a simple brightness filter to use it, to countermeasure YEBIS AE
-local _l_brightness_filter = ac.ColorCorrectionHsb { hue=0, saturation=1.0, brightness=1.0, keepLuminance=true }
-ac.weatherColorCorrections[#ac.weatherColorCorrections + 1] = _l_brightness_filter
-
-local _l_AE_reaction_LUT = {
-    {  0.00,  0.01, 1.00  },
-    {  0.10,  0.05, 1.00  },
-    {  0.15,  0.08, 1.00  },
-    {  0.20,  0.10, 1.00  },
-    {  0.30,  0.15, 1.00  },
-    {  0.40,  0.20, 1.00  },
-    {  0.50,  0.40, 1.00  },
-    {  0.65,  0.80, 1.50  },
-    {  0.80,  0.90, 1.00  },
-    {  1.00,  1.00, 0.00  },
-    }
-local _l_AE_reaction_lut
-local _l_AE_reactionCPP = LUT:new(_l_AE_reaction_LUT)
-
 -- This is called once while AC starts
 function init_pure_script()
 
-    ac.setPpTonemapFunction(2)
+    --ac.setPpTonemapFunction(5)
+    __PURE__set_config("pp.saturation", 1.0, true)
+    __PURE__set_config("light.sky.hue", 2, true)
+    __PURE__set_config("light.sky.level", 1.00, true)
 
-    ac.setPpTonemapGamma(1.0)
-    ac.setPpSaturation(0.90)
+
+    PURE__use_ExpCalc(true)
+
+    -- sets a version and show it in Pure Config (PP)
+    __SCRIPT__setVersion(2)
+    __SCRIPT__ResetSettingsWithNewVersion()
+
+    __SCRIPT__UI_Text("The sensitivity to Light")
+    __SCRIPT__UI_SliderFloat("Photosensitivity", 2, 0.25, 4.0)
+
+    __SCRIPT__UI_Text("Set the time the eye needs, to adapt to low light.")
+    __SCRIPT__UI_SliderFloat("low light adaption time", 2.0, 0.01, 5.0)
+
+    __SCRIPT__UI_Text("Set the time the eye needs, to adapt to bright light.")
+    __SCRIPT__UI_SliderFloat("high light adaption time", 4.0, 0.1, 30.0)
+    
+    __SCRIPT__UI_Separator()
+
+    __SCRIPT__UI_Text("maximum closure of the iris")
+    __SCRIPT__UI_SliderFloat("Iris minimum", 0.034, 0.0, 0.25)
+
+    __SCRIPT__UI_Text("the lowest light the eye can see")
+    __SCRIPT__UI_SliderFloat("Iris maximum", 0.50, 0.0, 3.00)
+
+    __SCRIPT__UI_Separator()
+    
+    __SCRIPT__UI_StateFloat("Final Exposure", 0)
 end
 
-
-local low_light_adaption_time  = 0.3
-local high_light_adaption_time = 0.3
-
-local exp
 local curve
-local gamma
 local cloud_shadow
-local tmp
-local tmp_ae
-local new_brightness
-local str
-local bright_display
+local tmp_hsv = hsv(0,0,0)
+local tmp_rgb = rgb(0,0,0)
 local fog
-local curr_ae
-local last_ae = 0.5
-
 
 -- This is called every frame
 function update_pure_script(dt)
 
-    --ac.setPpTonemapFunction(2)
-
-    exp = ac.getPpTonemapExposure()
-    ac.debug("A3PP: exposure", string.format('%.3f', exp))
-
+    ac.setColorTexturesGamma(__IntD(1.02, 1.10, 0.67))
+    
     -- use this "curve" variable as a better gamma function
-    curve = 0.00
-    gamma = 1.10
+    curve = 0.4
+
+    -- set tonemapping adaption / use this instead of gamma, to gain brightness
+    PURE__set_PP_Tonemapping_Curve(curve)
 
     -- check for cloud shadows and adapt the curve for being in the shadow
     cloud_shadow = math.max(Pure_get_Overcast() , (1-ac.getCloudsShadow())) * sun_compensate(0)
-    --curve = curve * (1 + 0.75 * cloud_shadow)
-
-    PURE__set_PP_Tonemapping_Curve(curve)
-
-    --ac.setPpTonemapFunction(2)
-
-    -- COLOR BALANCE
-
-    ac.setPpWhiteBalanceK(6500)
-    ac.setPpColorTemperatureK(6700) --6500 = perfect white with sun over 45°
-
-
-
-    -- EXPOSURE
-    -- The exposure is set by Pure automatically, according to the sunangle.
-    -- If you like to have your own exposure, just set it.
-    -- AutoExposure must be deactivated to do this!
-
-    -- ac.setPpTonemapExposure(0.092)
-
-
-    -- AUTO EXPOSURE
-    -- The target and limit values are set by Pure automatically.
-    -- If you like to set your own values, use those functions:
-
-    --ac.setAutoExposureTarget(0.15)
-
-    ac.setAutoExposureLimits( 0.1  --[[ minimum ]]
-                            , 
-                            0.5 --[[ maximum ]]) -- always use the full raise of exposure (its needed for very dark places like tunnels)
-
-    curr_ae = math.max(0.05, ac.getAutoExposure())
-    tmp = curr_ae - last_ae
-
-    -- Here we calculate a ratio, to not react that much in bright light (daylight).
-    _l_AE_reaction_lut = _l_AE_reactionCPP:get(math.max(0, math.min(1, curr_ae*2)))
-    tmp_ae = math.lerp(_l_AE_reaction_lut[1], 1, Pure_get_Overcast()*0.25) 
-
-
-
-    if tmp > 0 then
-        -- react to low light
-        last_ae = math.lerp(last_ae, curr_ae, 1/low_light_adaption_time*tmp_ae*math.min(1, dt))
-    else
-        -- react to high light
-        last_ae = math.lerp(last_ae, curr_ae, 1/high_light_adaption_time*math.min(1, dt))
-    end
-    last_ae = math.max(0.05, last_ae)
-
-    new_brightness = (last_ae / curr_ae)
-                    * (1 + 0.1*cloud_shadow)
-
-    -- use the brightness filter to countermeasure the YEBIS AE
-    _l_brightness_filter.brightness = new_brightness
-
-    if bGammaFix then
-        gamma_fix = 0.15 + math.max(0, new_brightness - 1)*4   --* _l_AE_reaction_lut[2] 
-        ac.debug("A3PP: Gamma-fix", string.format('%.3f', gamma_fix))
-    end
-    
-    -- You are also able to get/set Pure's precalculated values
-    Pure_set_AE_target( Pure_get_AE_target()
-                        -- adapt Pure's precalculated AE target value to customized tonemapping
-                        * (1.5 - 0.5*math.pow(curve, 0.5))
-                        -- adapt Pure's preset AE target to this AE control
-                        -- try to achieve a target, to make AE nearly static in nightimes, but it start to dim with realy bright lights
-                        * 0.625
-                        -- boost target for sunset times
-                        * sun_compensate(1.5)
-                        --* (1 - 0.5*gamma_fix)
-                    )
-
-    ac.setPpTonemapGamma(gamma)
+    --__SCRIPT__UI_setValue("Cloud shadow", cloud_shadow)
     
 
-    -- boost VAO depending on exposure amount / most boost in nighttimes
-    -- This will simulate the loss of ambient light and therefore the less visibility of dark places
-    Pure_set_VAO_exponent_additive(curr_ae * 0.5)
---[[
-    str = " "
-    bright_display = (math.max(0, math.min(2.1, new_brightness)) - 1) * 10
-    for i=-10,10 do
-        if i==0 then
-            str = str.."█"
-        else
-            if i<0 then
-                if i<=bright_display and i+1>=bright_display then
-                    str = str.."▄"
-                elseif tmp < i*0.025 then
-                    str = str.."▓"
-                else 
-                    str = str.."░"
-                end
-            else
-                if i<=bright_display and i+1>=bright_display then
-                    str = str.."▄"
-                elseif tmp > i*0.025 then
-                    str = str.."▓"
-                else
-                    str = str.."░"
-                end
-            end
-        end
-    end
-    ac.debug("CustPP: Iris > Brain", str)
-]]
-    if bGammaFix then
-        ac.setColorTexturesGamma(1.0 + gamma_fix)
-        ac.setPpTonemapGamma(1.0 + 0.75*gamma_fix)
-        ac.setPpSaturation(1.0+0.125*gamma_fix)
-    end
+    local sense = __SCRIPT__UI_getValue("Photosensitivity")
+    PURE__ExpCalc_set_Target(1+0.60*(sense-1))
+    PURE__ExpCalc_set_Sensitivity(sense)
+  
+    PURE__ExpCalc_set_Limits(
+        __SCRIPT__UI_getValue("Iris minimum"),
+        __SCRIPT__UI_getValue("Iris maximum")
+    )
+    PURE__ExpCalc_set_AdaptionSpeeds(
+        __SCRIPT__UI_getValue("low light adaption time"),
+        __SCRIPT__UI_getValue("high light adaption time")
+    )
 
-    --  some PP effects controlled by the world
-    fog = Pure_get_Fog()
-    fog = fog * fog
-    --ac.setGlareBloomLuminanceGamma(1.75 + 0.20 * fog)
-    --ac.setGlareThreshold(math.max(0, 3.5 - 3.0 * fog))
-    ac.setGodraysLength(1 + 8*fog)
+    __SCRIPT__UI_setValue("Final Exposure", PURE__ExpCalc_get_final_exposure())
+
+    PURE__ExpCalc_set_Multiplier(
+        (1 + 0.20*cloud_shadow)
+    )
+
+    local exp_curve = math.min(1, math.max(0, math.pow(PURE__ExpCalc_get_final_exposure()*2, 0.34)))
+    ac.setPpColorGradingIntensity(math.min(1, math.max(0, exp_curve-0.1)))
+    ac.setPpTonemapGamma(1.30 + 0.10*math.min(1, math.max(0, exp_curve-0.1)))
+
+   
 end
 
     -- Pure get/set functions
@@ -187,8 +88,8 @@ end
 
         -- CAMERA functions
 
-        Pure__get_camDir() --vec3
-        Pure__get_camPos() --vec3
+        Pure_getVector(VECTORS.CAM_DIR) --vec3
+        Pure_getVector(VECTORS.CAM_POS) --vec3
         Pure__get_camFOV() --float
 
 
@@ -199,9 +100,19 @@ end
 
 
         -- Lighting
-        
-        Pure_get_LightSource_color() 
-        Pure_get_AmbientLight_color()
+        -- use those ids to retrieve Pure's colors
+        COLORS.LIGHTSOURCE
+        COLORS.AMBIENT
+        COLORS.DIRECTIONAL_AMBIENT
+        COLORS.SUN
+        COLORS.MOON
+        COLORS.NLP
+        -- with the function:
+        Pure_getColor(id)
+
+        e.g.:
+        ac.setGodraysCustomColor(Pure_getColor(COLORS.LIGHTSOURCE):scale(0.125))
+}
     ]]
 
 
@@ -384,4 +295,11 @@ end
 		2. Method (using math.lerp):
 		ac.setPpBrightness( math.lerp( 1.24, 1.14, day_compensate(0) ) )
     ]]
+    
+
+
+
+
+   
+
     
