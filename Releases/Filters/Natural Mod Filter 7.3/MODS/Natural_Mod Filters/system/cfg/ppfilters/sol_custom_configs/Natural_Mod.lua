@@ -9,11 +9,11 @@ function init_sol_custom_config()
 	SOL__set_config("moon", "casts_shadows", false)
 	SOL__set_config("sun", "dazzle_mix", 0.5)
 	SOL__set_config("nerd__csp_lights_adjust", "emissive_day", 1.0)
-	ac.setPpBrightness(0.99)
 end
 
 function update_sol_custom_config(dt)
-	ac.setPpTonemapExposure(0.36 + (0.09 *duskdawn_compensate(0)) )
+	ac.setPpSaturation(-0.025 + day_compensate(1.025))
+	ac.setPpTonemapExposure(0.36 + (0.09 *duskdawn_compensate(0)))
 	ac.setPpTonemapGamma(gamma_base - (math.lerp(0, 0.15, weather__get_overcast()) * day_compensate(0)))--base - 0.15 if overcast daytime
 	ac.setPpTonemapFilmicContrast(0.06 + (0.39 * night_compensate(0)))
 	ac.setPpContrast(1 - ((1-contrast_day) * from_twilight_compensate(0)))
