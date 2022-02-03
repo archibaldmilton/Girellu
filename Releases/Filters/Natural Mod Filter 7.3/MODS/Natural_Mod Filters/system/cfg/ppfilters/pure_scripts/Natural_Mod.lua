@@ -7,7 +7,7 @@ function init_pure_script()
 	PURE__use_VAOAdaption(true)
 	ac.setGodraysGlareRatio(0.01)
 	ac.setGodraysAngleAttenuation(12)
-	ac.setGodraysCustomColor(5,5,5,5)
+	ac.setGodraysCustomColor(3,3,3,3)
 	PURE__ExpCalc_set_Target(1.3)
 end
 
