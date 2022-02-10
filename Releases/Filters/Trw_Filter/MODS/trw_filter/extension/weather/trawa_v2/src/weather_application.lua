@@ -165,7 +165,7 @@ function applyLight()
 
   -- Initially, it starts as a sun light
   lightColor:set(sunColor)
-    :adjustSaturation(math.lerp(1, 0, zenithK))
+    :adjustSaturation(math.lerp(0.6, 0, zenithK))
 
   -- If it’s deep night and moon is high enough, change it to moon light
   ac.getSkyAbsorptionTo(moonAbsorption, moonDir)
