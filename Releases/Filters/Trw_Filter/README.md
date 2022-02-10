@@ -1,5 +1,5 @@
 # Trawa Filter & WFX
-Version 5 of the Trawa filter bundled with v2.10 of the weather implementation.
+Version 5 of the Trawa filter bundled with v2.11 of the weather implementation.
 
 ![unknown](https://user-images.githubusercontent.com/43389722/136736798-51c3fcb1-7d5b-4330-a81f-74e0da5c79ad.png)
 
@@ -11,7 +11,7 @@ Version 5 of the Trawa filter bundled with v2.10 of the weather implementation.
 
 Beware: FPS killers
 
-CSP preset: https://acstuff.ru/s/psB9qY
+CSP preset: https://acstuff.ru/s/lFk8Rk
 
 Video preset: https://acstuff.ru/s/8sqVU6
 
