@@ -11,7 +11,7 @@ Version 5 of the Trawa filter bundled with v2.11 of the weather implementation.
 
 Beware: FPS killers
 
-CSP preset: https://acstuff.ru/s/MgjM1r
+CSP preset: https://acstuff.ru/s/Y2JJMR
 
 Video preset: https://acstuff.ru/s/8sqVU6
 
