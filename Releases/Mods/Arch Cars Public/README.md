@@ -1,4 +1,6 @@
 # Arch Modified Physics License
+>Use CSP version 1.73 because of CSP's bug in lateral/combined grip in versions after 1.73
+
 As of 15 January 2022,
 
 **You are allowed to:**
