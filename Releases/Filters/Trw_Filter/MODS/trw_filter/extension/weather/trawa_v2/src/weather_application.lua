@@ -24,6 +24,7 @@ local skySunColor = rgb(1, 1, 1)
 local lightDir = vec3(0, 1, 0)
 local lightColor = rgb(0, 0, 0)
 local sky_bright = 1
+local dayK = math.lerp(1,0,nightK)
 
 	
 -- Sky gradient covering everything, for sky-wide color correction
@@ -104,7 +105,7 @@ function applySky()
   ac.setSkyV2RayleighZenithLength(ac.SkyRegion.All, 15000)
   ac.setSkyV2MieZenithLength(ac.SkyRegion.All, 34000)
   ac.setSkyV2SunIntensityFactor(ac.SkyRegion.Sun, 1350.0)
-  ac.setSkyV2SunIntensityFactor(ac.SkyRegion.Opposite, 1000.0)
+  ac.setSkyV2SunIntensityFactor(ac.SkyRegion.Opposite, 1200.0)
 	ac.setSkyV2SunIntensityFalloffSteepness(ac.SkyRegion.All, 1.25)
 
   -- Boosting deep blue at nights
@@ -128,7 +129,7 @@ function applySky()
   ac.setSkyV2BackgroundLight(ac.SkyRegion.All, 0.0)
   ac.setSkyV2Luminance(ac.SkyRegion.All, math.lerp(0.2, 0, day_nightK))
   ac.setSkyV2Gamma(ac.SkyRegion.All, 2)
-  ac.setSkyV2SunShapeMult(ac.SkyRegion.All, ((horizonK * 10) *ccClear) +5 * ccClearSqr)
+  ac.setSkyV2SunShapeMult(ac.SkyRegion.All, ((horizonK * 2) *ccClear) +1 * ccClearSqr)
   ac.setSkyV2Saturation(ac.SkyRegion.All, 1.15 * ccClear)
 
   ac.setSkyBrightnessMult(0.6 * sky_bright)
@@ -158,14 +159,23 @@ function applyLight()
   local eclipseLightMult = (1 - eclipseK * 0.8) -- up to 80% general occlusion
     * (1 - eclipseFullK * 0.98) -- up to 98% occlusion for real full eclipse
 
+  -- Adjust light dir for case where sun is below horizon, but a bit is still visible
+  belowHorizonCorrection = math.lerpInvSat(lightDir.y, 0.02, 0.0)
+  lightDir.y = math.lerp(lightDir.y, 0.01, belowHorizonCorrection ^ 2)
+
   -- Calculating sun color based on sky absorption (boosted at horizon)
   ac.getSkyAbsorptionTo(sunColor, sunDir)
-  sunColor:pow(1 + horizonK):scale(SunIntensity * eclipseLightMult)
-  sunColor.r = sunColor.r * math.lerp(1, 2, horizonK)
+  sunColor:pow(1 + sunsetK):mul(SunColor):scale(SunIntensity * eclipseLightMult * math.lerp(1, 2, horizonK))
+	
+if sunColor.g < 1 then
+  sunColor.r = math.lerp(sunColor.r, 0, belowHorizonCorrection)
+  else
+  sunColor.r = sunColor.r * math.lerp(1, 1.33, horizonK)
+	end
 
   -- Initially, it starts as a sun light
   lightColor:set(sunColor)
-    :adjustSaturation(math.lerp(0.6, 0, zenithK))
+    :adjustSaturation(math.lerp(1.25, 0.1, zenithK))
 
   -- If it’s deep night and moon is high enough, change it to moon light
   ac.getSkyAbsorptionTo(moonAbsorption, moonDir)
@@ -177,13 +187,13 @@ function applyLight()
   if moonLight > 0 then
     lightDir:set(moonDir)
     lightColor:set(moonAbsorption):mul(MoonColor)
-      :scale(MoonLightMult * ac.getMoonFraction() * moonLight * CurrentConditions.clear)
+      :scale(MoonLightMult * LightPollutionSkyFeaturesMult * ac.getMoonFraction() * moonLight * CurrentConditions.clear)
   else
     lightDir:set(sunDir)
   end
 
   -- Adjust light color
-  local sunLevel = 0.9 -- Multiplier for sun level
+  local sunLevel = 1.1 -- Multiplier for sun level
   lightColor:scale(CurrentConditions.clear * sunLevel)
     :adjustSaturation(CurrentConditions.saturation)
     :mul(CurrentConditions.tint)
@@ -199,7 +209,7 @@ function applyLight()
 
   -- Dim light if light source is very low
   lightColor:scale(math.lerpInvSat(lightDir.y, -0.03, 0) * SunLightIntensity)
-
+  
   -- Dim godrays even more
   godraysColor:set(lightColor):scale(math.lerpInvSat(lightDir.y, 0.01, 0.02))
 
@@ -215,14 +225,11 @@ function applyLight()
     ac.setGodraysCustomDirection(lightDir)
   end
 
-  -- Adjust light dir for case where sun is below horizon, but a bit is still visible
-  belowHorizonCorrection = math.lerpInvSat(lightDir.y, 0.02, 0.0)
-  lightDir.y = math.lerp(lightDir.y, 0.01, belowHorizonCorrection ^ 2)
-
   -- Applying everything
   ac.setLightDirection(lightDir)
   ac.setLightColor(lightColor)
   ac.setSpecularColor(lightColor)
+  
 end
 
 -- Updates ambient lighting based on sky color without taking sun or moon into account
@@ -240,6 +247,7 @@ function applyAmbient()
   -- Actual scene ambient color
   ambientAdjColor:set(ambientBaseColor)
   if not ac.isBouncedLightActive() then
+  
     -- If bounced light from Extra FX is disabled, let’s mix in a bit of sun light
     ambientAdjColor:add(lightColor * (0.05 * math.saturate(lightDir.y * 2)))
   end
@@ -328,7 +336,7 @@ function applySkyFeatures()
 
   ac.setSkyMoonMieMultiplier(0.05 * (1 - CurrentConditions.clear))
   ac.setSkyMoonBaseColor(MoonColor * (0.6 + nightK))
-  ac.setSkyMoonBrightness(math.lerp(50, 10 - CurrentConditions.clear * 9, nightK ^ 0.1))
+  ac.setSkyMoonBrightness(math.lerp(50, 9 - CurrentConditions.clear * 9, nightK ^ 0.1))
   ac.setSkyMoonOpacity(math.lerp(0.1, 1, nightK) * CurrentConditions.clear * LightPollutionSkyFeaturesMult)
   ac.setSkyMoonMieExp(120)
   ac.setSkyMoonDepthSkip(true)
@@ -378,7 +386,7 @@ function applyFakeExposure(dt)
 	ac.setOverallSkyBrightnessMult(SkyBrightness)
 
  -- calculating emissive boost
- local dayK = math.lerp(1,0,nightK)
+
   local EmissiveAdjust = math.max(1, math.log(nightK*10)) -- emissive boost at night
   local OvercastBoost = math.min((1-CurrentConditions.clear), 0.66) * dayK -- boosts emissives in cloudy/overcast weather
   
@@ -393,7 +401,7 @@ function applyFakeExposure(dt)
   ac.setGlowBrightness(0.35) -- how bright are those distant emissive glows
   ac.setWeatherTrackLightsMultiplierThreshold(0.01) -- let make lights switch on early for smoothness
   ac.setEmissiveMultiplier(EmissiveAdjust + OvercastBoost) -- how bright are emissives
-  ac.setBaseAmbientColor(vec3.tmp():set(0.25)) -- base ambient adds a bit of extra ambient lighting not
+  ac.setBaseAmbientColor(vec3.tmp():set(0.33)) -- base ambient adds a bit of extra ambient lighting not
     -- affected by ambient occlusion, so even pitch black tunnels become a tiny bit lit after “eye” adapts.
 	
   ac.setReflectionEmissiveBoost(1 + 2 * nightK) --boost emissive reflections at night
