@@ -12,7 +12,7 @@ BlurShadowsWhenSunIsLow = true -- reduce shadows resolution for when sun is low
 
 SunIntensity = 20 -- how bright sun is in general
 SunMieIntensity = 3 -- brightness of glow around sun on the sky 
-SunLightIntensity = 1.20 -- brightness of sun light cast on the scene
+SunLightIntensity = 1 -- brightness of sun light cast on the scene
 AmbientLightIntensity = 10 -- brightness of ambient light on the scene
 FogBacklitIntensity = 2 -- brightness of fog backlit
 MoonLightMult = 0.750 -- how bright is moon light
