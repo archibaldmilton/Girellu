@@ -1,7 +1,7 @@
 # Arch Modified Physics License
 >Use CSP version 1.73 because of broken lateral or combined grip in versions after 1.73
 
-As of 6 March 2022,
+As of 27 March 2022,
 
 **You are allowed to:**
 * Use Arch modified physics on personal work
