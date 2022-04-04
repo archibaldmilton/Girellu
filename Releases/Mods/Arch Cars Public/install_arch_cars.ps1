@@ -140,7 +140,6 @@ $kunos_car = 'ks_mazda_miata'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
 $arch_car = 'arch_mazda_miata_na8c_1994_s1'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_Miata_NA*"
 $kunos_car = 'ks_mazda_miata'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
@@ -150,7 +149,6 @@ $kunos_car = 'ks_mazda_rx7_spirit_r'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
 $arch_car = 'arch_mazda_fd3s_1999_drift'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_RX7_FD3S*"
 $kunos_car = 'ks_mazda_rx7_tuned'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
@@ -165,22 +163,18 @@ $kunos_car = 'ks_toyota_ae86'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
 $arch_car = 'arch_toyota_ae86_sprinter_trueno_gtv_1983'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_AE86_Trueno*"
 $kunos_car = 'ks_toyota_ae86'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
 $arch_car = 'arch_toyota_ae86_sprinter_trueno_1983_s1'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_AE86_Trueno*"
 $kunos_car = 'ks_toyota_ae86'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
 $arch_car = 'arch_toyota_ae86_sprinter_trueno_1983_s2'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_AE86_Trueno*"
 $kunos_car = 'ks_toyota_ae86_tuned'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
 $arch_car = 'arch_toyota_ae86_sprinter_trueno_1983_drift'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_AE86_Trueno*"
 $kunos_car = 'ks_toyota_ae86_drift'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
@@ -195,7 +189,6 @@ $kunos_car = 'ks_toyota_supra_mkiv'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
 $arch_car = 'arch_toyota_supra_a80_1997_drift'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_Supra_JZA80*"
 $kunos_car = 'ks_toyota_supra_mkiv_drift'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
@@ -210,12 +203,10 @@ $kunos_car = 'bmw_m3_e30'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
 $arch_car = 'arch_bmw_m3_e30_1986_drift'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_M3_E30*"
 $kunos_car = 'bmw_m3_e30_drift'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
 $arch_car = 'arch_bmw_m3_e30_evo3_1990'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_M3_E30*"
 $kunos_car = 'bmw_m3_e30'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
