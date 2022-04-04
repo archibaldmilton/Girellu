@@ -238,4 +238,4 @@ Write-Host '2. Select car to use sounds from'
 Write-Host '3. Click OK'
 Write-Host ''
 
-Write-Host 'After you do that, close this window and enjoy the cars :)'
+Write-Host 'You can now close this window.'
