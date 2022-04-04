@@ -53,36 +53,6 @@ function Find-Ac {
 }
 Find-Ac
 
-Write-Host 'Checking for the Japanese Pack DLC...'
-
-$required_cars = @(
-    'bmw_m3_e30',
-    'bmw_m3_e30_dtm',
-    'ks_mazda_miata',
-    'ks_mazda_rx7_spirit_r',
-    'ks_mazda_rx7_tuned',
-    'ks_nissan_skyline_r34',
-    'ks_toyota_ae86',
-    'ks_toyota_ae86_drift',
-    'ks_toyota_ae86_tuned',
-    'ks_toyota_gt86',
-    'ks_toyota_supra_mkiv',
-    'ks_toyota_supra_mkiv_drift'
-    )
-
-foreach ($car in $required_cars) {
-    Write-Host -NoNewline "$car "
-    $path = -join($ac_root, "\content\cars\", $car);
-    if (Test-Path -Path $path) {
-        Write-Host 'found'
-    } else {
-        Write-Host 'not found!'
-        Write-Host "(was looking in $path)"
-        Write-Host 'Either the path to Assetto Corsa root folder is wrong, or the Japanese Pack DLC is missing. Aborting.'
-        Exit
-    }
-}
-
 
 function Install-Car {
     param(
@@ -98,7 +68,24 @@ function Install-Car {
          [Parameter()]
          [string]$ac_root
     )
-    $arch_physics = "$arch_folder/content/cars/$arch_car"
+    $arch_physics = "$arch_folder\content\cars\$arch_car"
+
+    if (-not(Test-Path -Path "$ac_root\content\cars\$kunos_car\data.acd" -PathType Leaf)) {
+        Write-Host "ERROR: Can't find donor car to use visuals from (was looking for $kunos_car)"
+        Write-Host 'ERROR: Either the path to Assetto Corsa root folder is wrong, or the donor car is missing (probably DLC?)'
+        $answer = read-host -prompt "Do you want to define a custom one? (y/n)"
+        if ($answer -eq "y") {
+            $kunos_car = read-host -prompt "Please enter the donor car's name now."
+            if (-not(Test-Path -Path "$ac_root\content\cars\$kunos_car\data.acd" -PathType Leaf)) {
+                Write-Host 'ERROR: Could not find the specified car, exiting.'
+                Exit
+            }
+        } else {
+            return
+        }
+    }
+
+
     Write-Host ''
     Write-Host "Creating $arch_car, using visuals from $kunos_car"
 
@@ -128,9 +115,9 @@ function Install-Car {
         Rename-Item "$ac_root\content\cars\$arch_car\sfx\$kunos_car.bank" "$arch_car.bank"
     }
 
-    if (Test-Path "$arch_folder/extension/vao-patches-cars") {
+    if (Test-Path "$arch_folder\extension\vao-patches-cars") {
         Write-Host "found vaopatch, installing..."
-        Get-ChildItem "$arch_folder/extension/vao-patches-cars/" -Recurse | Copy-Item -Destination "$ac_root\extension\vao-patches-cars\" -Recurse
+        Get-ChildItem "$arch_folder\extension\vao-patches-cars\" -Recurse | Copy-Item -Destination "$ac_root\extension\vao-patches-cars\" -Recurse
     }
 }
 
