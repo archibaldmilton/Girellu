@@ -1,4 +1,13 @@
+2022-04-05
+
+- Updated 911 RSR 3.0
+- Updated E30
+- Updated E30 DTM
+- Updated FD3S
+- Updated JZA80
+
 2022-03-27
+
 - Updated 190E DTM
 - Updated CTR-1
 - Updated Elise
@@ -9,10 +18,12 @@
 - Updated JZA80
 
 06.03.22
+
 - Updated all cars
 - Improvements to heat-related slip parameters
 
 15.01.22
+
 - Updated all cars
 - Improvements to slip and heat parameters
 - Changed load, camber curves
