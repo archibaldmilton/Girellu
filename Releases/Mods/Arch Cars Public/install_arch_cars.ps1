@@ -1,6 +1,6 @@
 $script:commit = "master" # the commit, or branch to download, master is fine.
 $script:girellu = $pwd
-clear
+Clear-Host
 
 if (Test-Path -Path "ARCH_CARS_UPDATE_LOG.txt"  -PathType Leaf) {
     Write-Host 'We are working from the mod folder, proceeding to install.'
@@ -220,6 +220,11 @@ Install-Car $arch_folder $arch_car $kunos_car $ac_root
 $arch_car = 'arch_lotus_elise_sc_tp_2008'
 $arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_Elise*"
 $kunos_car = 'lotus_elise_sc'
+Install-Car $arch_folder $arch_car $kunos_car $ac_root
+
+$arch_car = 'arch_mazda_miata_nd5rc_2016'
+$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_Miata_ND*"
+$kunos_car = 'ks_mazda_mx5_nd'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
 
