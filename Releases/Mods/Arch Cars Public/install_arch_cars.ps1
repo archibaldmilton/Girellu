@@ -130,6 +130,11 @@ $arch_car = 'arch_mazda_miata_na8c_1994_s1'
 $kunos_car = 'ks_mazda_miata'
 Install-Car $arch_folder $arch_car $kunos_car $ac_root
 
+$arch_car = 'arch_mazda_miata_nd5rc_2016'
+$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_Miata_ND*"
+$kunos_car = 'ks_mazda_mx5_nd'
+Install-Car $arch_folder $arch_car $kunos_car $ac_root
+
 $arch_car = 'arch_mazda_fd3s_2002_spiritr'
 $arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_RX7_FD3S*"
 $kunos_car = 'ks_mazda_rx7_spirit_r'
