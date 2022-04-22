@@ -1,6 +1,6 @@
 $script:commit = "master" # the commit, or branch to download, master is fine.
 $script:girellu = $pwd
-clear
+Clear-Host
 
 if (Test-Path -Path "ARCH_CARS_UPDATE_LOG.txt"  -PathType Leaf) {
     Write-Host 'We are working from the mod folder, proceeding to install.'
