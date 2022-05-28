@@ -121,17 +121,10 @@ $dirs = Get-ChildItem -Path "$script:girellu\Releases\Mods\Arch Cars Public\"
 
 foreach ($dir in $dirs) {
     if (Test-Path -Path "$dir\content\cars\") {
-
-
         $arch_cars = $()
-
         # get all folders inside "$dir\content\cars\" and add them to $arch_cars array
         $arch_cars = Get-ChildItem -Path "$dir\content\cars\"
-
-
         $arch_cars = $arch_cars | Select-Object -Unique
-
-    
 
         foreach ($arch_car in $arch_cars) {
             if ($arch_car -match "_") {
@@ -139,31 +132,27 @@ foreach ($dir in $dirs) {
                     $kunos_car = ""
 
                     $ext_config = Get-Content -Path "$dir\content\cars\$arch_car\extension\ext_config.ini"
-
                     $ext_config | Where-Object { $_ -match "cars/kunos/" } | Select-String -Pattern "cars/kunos/(.*).ini" | ForEach-Object { $kunos_car = @($_.Matches.Value) }
-
+                    
                     # strip .ini and "cars/kunos/" from $kunos_car
                     $kunos_car = $kunos_car.Replace(".ini", "").Replace("cars/kunos/", "")
-
                     if ($kunos_car -eq "") {
                         # read "!README AND INSTRUCTIONS.txt" in $dir
                         $readme = Get-Content -Path "$dir\!README AND INSTRUCTIONS.txt"
-
                         # find line with "copy from folder" inside $readme and strip it
                         $readme | Where-Object { $_ -match "copy from folder" } | Select-String -Pattern "copy from folder(.*)" | ForEach-Object { $kunos_car = @($_.Matches.Value).Replace("copy from folder ", "") }
-
-                        Write-Host "alternative check $kunos_car succesful" -ForegroundColor Green
                     }
 
                     if ($kunos_car -eq "") {
-                        Write-Host "Could not find kunos car for $arch_car" -ForegroundColor Red
+                        Write-Host "Could not find kunos car for $arch_car, this is bad." -BackgroundColor Red
+                        Start-Sleep -s 3
                     } else {
                         $path = -join($ac_root, "\content\cars\", $kunos_car);
-
                         if (Test-Path -Path $path) {
                             Install-Car $dir $arch_car $kunos_car $ac_root
                         } else {
-                            Write-Host "Could not find $kunos_car, you may be missing DLC, this car will be skipped." -BackgroundColor Red
+                            Write-Host "Could not find $kunos_car in your game files, you may be missing DLC, this car will be skipped." -BackgroundColor Red
+                            Start-Sleep -s 5
                         }
                     }
                 }
