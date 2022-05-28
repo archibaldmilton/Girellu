@@ -139,8 +139,20 @@ foreach ($dir in $dirs) {
                     if ($kunos_car -eq "") {
                         # read "!README AND INSTRUCTIONS.txt" in $dir
                         $readme = Get-Content -Path "$dir\!README AND INSTRUCTIONS.txt"
-                        # find line with "copy from folder" inside $readme and strip it
-                        $readme | Where-Object { $_ -match "copy from folder" } | Select-String -Pattern "copy from folder(.*)" | ForEach-Object { $kunos_car = @($_.Matches.Value).Replace("copy from folder ", "") }
+                        $kunos_candidates = $()
+                        # find every occurance of line with "copy from folder" or "Repeat process from folder" inside $readme and insert them into kunos_candidates array
+                        $kunos_candidates = $readme | Where-Object {  $_ -match "copy from folder" -or $_ -match "Repeat process from folder" } 
+
+                        foreach ($car in $kunos_candidates) {
+                            # strip "copy from folder " from $car
+                            $car = $car.Replace("copy from folder ", "").Replace('"', '').Replace('Repeat process from folder ', '').Replace(' for:', '')
+
+                            # check if we can find arch car name nearby (-3 lines and +5 lines)
+                            $a = Select-String $readme -pattern "$car" -Context 3,5
+                            if ($a -match $arch_car) {
+                                $kunos_car = $car
+                            }
+                        }
                     }
 
                     if ($kunos_car -eq "") {
