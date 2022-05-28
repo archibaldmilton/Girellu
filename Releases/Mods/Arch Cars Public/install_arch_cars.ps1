@@ -133,14 +133,18 @@ foreach ($dir in $dirs) {
                     $kunos_car = ""
 
 
-                    $donor_cars = Get-Content -Path "$script:girellu\Releases\Mods\Arch Cars Public\donor_cars.txt"
-                    foreach ($donor_car in $donor_cars) {
-                        # seperate $donor_car by comma into array
-                        $donor_car = $donor_car -split ","
-                        # if $arch_car matches first entry, set $kunos_car to second entry
-                        if ($arch_car -match $donor_car[0]) {
-                            $kunos_car = $donor_car[1]
+                    if (Test-Path -Path "$script:girellu\Releases\Mods\Arch Cars Public\donor_cars.txt" -PathType Leaf) {
+                        $donor_cars = Get-Content -Path "$script:girellu\Releases\Mods\Arch Cars Public\donor_cars.txt"
+                        foreach ($donor_car in $donor_cars) {
+                            # seperate $donor_car by comma into array
+                            $donor_car = $donor_car -split ","
+                            # if $arch_car matches first entry, set $kunos_car to second entry
+                            if ($arch_car -match $donor_car[0]) {
+                                $kunos_car = $donor_car[1]
+                            }
                         }
+                    } else {
+                        Write-Host "ERROR: Could not find donor_cars.txt, using fallback method" -ForegroundColor Red
                     }
                     
                     if ($kunos_car -eq "") { # this should only get triggered if new cars werent added to donor_cars.txt
