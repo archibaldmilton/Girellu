@@ -116,121 +116,60 @@ function Install-Car {
     }
 }
 
-$arch_car = 'arch_mazda_miata_na8c_1994'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_Miata_NA*"
-$kunos_car = 'ks_mazda_miata'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
+# get all folders inside "$script:girellu\Releases\Mods\Arch Cars Public\"
+$dirs = Get-ChildItem -Path "$script:girellu\Releases\Mods\Arch Cars Public\"
 
-$arch_car = 'arch_mazda_miata_na8c_1994_s1'
-$kunos_car = 'ks_mazda_miata'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_mazda_miata_nd1_2016'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_Miata_ND*"
-$kunos_car = 'ks_mazda_mx5_nd'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_mazda_miata_nd1_2016_s1'
-$kunos_car = 'ks_mazda_mx5_nd'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_mazda_fd3s_2002_spiritr'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_RX7_FD3S*"
-$kunos_car = 'ks_mazda_rx7_spirit_r'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_mazda_fd3s_1999_drift'
-$kunos_car = 'ks_mazda_rx7_tuned'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'm7_nissan_r34_gtr_1999_vspec'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_R34 GT-R_V-spec*"
-$kunos_car = 'ks_nissan_skyline_r34'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_toyota_ae86_sprinter_trueno_gtapex_1983'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_AE86_Trueno*"
-$kunos_car = 'ks_toyota_ae86'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_toyota_ae86_sprinter_trueno_gtv_1983'
-$kunos_car = 'ks_toyota_ae86'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_toyota_ae86_sprinter_trueno_1983_s1'
-$kunos_car = 'ks_toyota_ae86'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_toyota_ae86_sprinter_trueno_1983_s2'
-$kunos_car = 'ks_toyota_ae86_tuned'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_toyota_ae86_sprinter_trueno_1983_drift'
-$kunos_car = 'ks_toyota_ae86_drift'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_toyota_gt86_2015_gt'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_GT86*"
-$kunos_car = 'ks_toyota_gt86'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_toyota_supra_a80_1997_rz'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_Supra_JZA80*"
-$kunos_car = 'ks_toyota_supra_mkiv'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_toyota_supra_a80_1997_drift'
-$kunos_car = 'ks_toyota_supra_mkiv_drift'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_bmw_m3_e30_1992_dtm'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_M3_E30_DTM_*"
-$kunos_car = 'bmw_m3_e30_dtm'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_bmw_m3_e30_1986'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_M3_E30*"
-$kunos_car = 'bmw_m3_e30'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_bmw_m3_e30_1986_drift'
-$kunos_car = 'bmw_m3_e30_drift'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_bmw_m3_e30_evo3_1990'
-$kunos_car = 'bmw_m3_e30'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_mercedes_190e_evoii_1992_dtm'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_190E_DTM*"
-$kunos_car = 'ks_mercedes_190_evo2'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_porsche_911_rsr_1974_grp4'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_911_RSR_*"
-$kunos_car = 'ks_porsche_911_carrera_rsr'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_ruf_ctr_1987'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_CTR1_*"
-$kunos_car = 'ruf_yellowbird'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
-
-$arch_car = 'arch_lotus_elise_sc_tp_2008'
-$arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_Elise*"
-$kunos_car = 'lotus_elise_sc'
-Install-Car $arch_folder $arch_car $kunos_car $ac_root
+foreach ($dir in $dirs) {
+    if (Test-Path -Path "$dir\content\cars\") {
 
 
-$path = -join($ac_root, "\content\cars\", "ks_porsche_935_78_moby_dick");
-if (Test-Path -Path $path) {
-    $arch_car = 'arch_porsche_935_78_1978_grp5'
-    $arch_folder = "$script:girellu\Releases\Mods\Arch Cars Public\Modified_physics_for_935_78*"
-    $kunos_car = 'ks_porsche_935_78_moby_dick'
-    Install-Car $arch_folder $arch_car $kunos_car $ac_root
-} else {
-    Write-Host 'Did not find moby dick, skipping install.'
-    Exit
+        $arch_cars = $()
+
+        # get all folders inside "$dir\content\cars\" and add them to $arch_cars array
+        $arch_cars = Get-ChildItem -Path "$dir\content\cars\"
+
+
+        $arch_cars = $arch_cars | Select-Object -Unique
+
+    
+
+        foreach ($arch_car in $arch_cars) {
+            if ($arch_car -match "_") {
+                if ($arch_car -inotmatch " ") {
+                    $kunos_car = ""
+
+                    $ext_config = Get-Content -Path "$dir\content\cars\$arch_car\extension\ext_config.ini"
+
+                    $ext_config | Where-Object { $_ -match "cars/kunos/" } | Select-String -Pattern "cars/kunos/(.*).ini" | ForEach-Object { $kunos_car = @($_.Matches.Value) }
+
+                    # strip .ini and "cars/kunos/" from $kunos_car
+                    $kunos_car = $kunos_car.Replace(".ini", "").Replace("cars/kunos/", "")
+
+                    if ($kunos_car -eq "") {
+                        # read "!README AND INSTRUCTIONS.txt" in $dir
+                        $readme = Get-Content -Path "$dir\!README AND INSTRUCTIONS.txt"
+
+                        # find line with "copy from folder" inside $readme and strip it
+                        $readme | Where-Object { $_ -match "copy from folder" } | Select-String -Pattern "copy from folder(.*)" | ForEach-Object { $kunos_car = @($_.Matches.Value).Replace("copy from folder ", "") }
+
+                        Write-Host "alternative check $kunos_car succesful" -ForegroundColor Green
+                    }
+
+                    if ($kunos_car -eq "") {
+                        Write-Host "Could not find kunos car for $arch_car" -ForegroundColor Red
+                    } else {
+                        $path = -join($ac_root, "\content\cars\", $kunos_car);
+
+                        if (Test-Path -Path $path) {
+                            Install-Car $dir $arch_car $kunos_car $ac_root
+                        } else {
+                            Write-Host "Could not find $kunos_car, you may be missing DLC, this car will be skipped." -BackgroundColor Red
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 Write-Host 'Success!'
