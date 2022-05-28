@@ -147,8 +147,7 @@ foreach ($dir in $dirs) {
                         Write-Host "Could not find kunos car for $arch_car, this is bad." -BackgroundColor Red
                         Start-Sleep -s 3
                     } else {
-                        $path = -join($ac_root, "\content\cars\", $kunos_car);
-                        if (Test-Path -Path $path) {
+                        if (Test-Path -Path "$ac_root\content\cars\$kunos_car\data.acd" -PathType Leaf) {
                             $absoluteDir = "$script:girellu\Releases\Mods\Arch Cars Public\$dir"
                             Install-Car $absoluteDir $arch_car $kunos_car $ac_root
                         } else {
