@@ -32,9 +32,9 @@ function Find-Ac {
 
     if (Test-Path -Path $steam_install_location) {
         Write-Host ''
-        $answer = read-host -prompt "Found Assetto Corsa in $path, is this correct? (y/n)"
+        $answer = read-host -prompt "Found Assetto Corsa in $steam_install_location, is this correct? (y/n)"
         if ($answer -eq "y") {
-            $script:ac_root = $path
+            $script:ac_root = $steam_install_location
         }
     }
     if (-not($ac_root)) {
