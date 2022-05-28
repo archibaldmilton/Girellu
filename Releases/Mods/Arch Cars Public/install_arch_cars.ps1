@@ -25,21 +25,16 @@ if (Test-Path -Path "ARCH_CARS_UPDATE_LOG.txt"  -PathType Leaf) {
 }
 
 
-$common_ac_paths = @(
-    "${Env:ProgramFiles(x86)}\Steam\steamapps\common\assettocorsa",
-    "${Env:ProgramFiles}\Steam\steamapps\common\assettocorsa"
-)
-
 $script:ac_root = 0
 
 function Find-Ac {
-    foreach ($path in $common_ac_paths) {
-        if (Test-Path -Path $path) {
-            Write-Host ''
-            $answer = read-host -prompt "Found Assetto Corsa in $path, is this correct? (y/n)"
-            if ($answer -eq "y") {
-                $script:ac_root = $path
-            }
+    $steam_install_location = (Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 244210" -Name InstallLocation).InstallLocation
+
+    if (Test-Path -Path $steam_install_location) {
+        Write-Host ''
+        $answer = read-host -prompt "Found Assetto Corsa in $path, is this correct? (y/n)"
+        if ($answer -eq "y") {
+            $script:ac_root = $path
         }
     }
     if (-not($ac_root)) {
