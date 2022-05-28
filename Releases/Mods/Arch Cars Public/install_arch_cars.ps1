@@ -131,12 +131,25 @@ foreach ($dir in $dirs) {
                 if ($arch_car -inotmatch " ") {
                     $kunos_car = ""
 
-                    $ext_config = Get-Content -Path "$dir\content\cars\$arch_car\extension\ext_config.ini"
-                    $ext_config | Where-Object { $_ -match "cars/kunos/" } | Select-String -Pattern "cars/kunos/(.*).ini" | ForEach-Object { $kunos_car = @($_.Matches.Value) }
+
+                    $donor_cars = Get-Content -Path "$script:girellu\Releases\Mods\Arch Cars Public\donor_cars.txt"
+                    foreach ($donor_car in $donor_cars) {
+                        # seperate $donor_car by comma into array
+                        $donor_car = $donor_car -split ","
+                        # if $arch_car matches first entry, set $kunos_car to second entry
+                        if ($arch_car -match $donor_car[0]) {
+                            $kunos_car = $donor_car[1]
+                        }
+                    }
                     
-                    # strip .ini and "cars/kunos/" from $kunos_car
-                    $kunos_car = $kunos_car.Replace(".ini", "").Replace("cars/kunos/", "")
-                    if ($kunos_car -eq "") {
+                    if ($kunos_car -eq "") { # this should only get triggered if new cars werent added to donor_cars.txt
+                        $ext_config = Get-Content -Path "$dir\content\cars\$arch_car\extension\ext_config.ini"
+                        $ext_config | Where-Object { $_ -match "cars/kunos/" } | Select-String -Pattern "cars/kunos/(.*).ini" | ForEach-Object { $kunos_car = @($_.Matches.Value) }
+                        
+                        # strip .ini and "cars/kunos/" from $kunos_car
+                        $kunos_car = $kunos_car.Replace(".ini", "").Replace("cars/kunos/", "")
+                    }
+                    if ($kunos_car -eq "") { # ideally, this should never get triggered, because it's horrible code that will likely fail
                         # read "!README AND INSTRUCTIONS.txt" in $dir
                         $readme = Get-Content -Path "$dir\!README AND INSTRUCTIONS.txt"
                         $kunos_candidates = $()
