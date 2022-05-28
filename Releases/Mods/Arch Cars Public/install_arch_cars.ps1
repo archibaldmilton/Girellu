@@ -120,10 +120,11 @@ function Install-Car {
 $dirs = Get-ChildItem -Path "$script:girellu\Releases\Mods\Arch Cars Public\"
 
 foreach ($dir in $dirs) {
-    if (Test-Path -Path "$dir\content\cars\") {
+    $absolutePath = "$script:girellu\Releases\Mods\Arch Cars Public\$dir"
+    if (Test-Path -Path "$absolutePath\content\cars\") {
         $arch_cars = $()
         # get all folders inside "$dir\content\cars\" and add them to $arch_cars array
-        $arch_cars = Get-ChildItem -Path "$dir\content\cars\"
+        $arch_cars = Get-ChildItem -Path "$absolutePath\content\cars\"
         $arch_cars = $arch_cars | Select-Object -Unique
 
         foreach ($arch_car in $arch_cars) {
@@ -143,7 +144,7 @@ foreach ($dir in $dirs) {
                     }
                     
                     if ($kunos_car -eq "") { # this should only get triggered if new cars werent added to donor_cars.txt
-                        $ext_config = Get-Content -Path "$dir\content\cars\$arch_car\extension\ext_config.ini"
+                        $ext_config = Get-Content -Path "$absolutePath\content\cars\$arch_car\extension\ext_config.ini"
                         $ext_config | Where-Object { $_ -match "cars/kunos/" } | Select-String -Pattern "cars/kunos/(.*).ini" | ForEach-Object { $kunos_car = @($_.Matches.Value) }
                         
                         # strip .ini and "cars/kunos/" from $kunos_car
@@ -151,7 +152,7 @@ foreach ($dir in $dirs) {
                     }
                     if ($kunos_car -eq "") { # ideally, this should never get triggered, because it's horrible code that will likely fail
                         # read "!README AND INSTRUCTIONS.txt" in $dir
-                        $readme = Get-Content -Path "$dir\!README AND INSTRUCTIONS.txt"
+                        $readme = Get-Content -Path "$absolutePath\!README AND INSTRUCTIONS.txt"
                         $kunos_candidates = $()
                         # find every occurance of line with "copy from folder" or "Repeat process from folder" inside $readme and insert them into kunos_candidates array
                         $kunos_candidates = $readme | Where-Object {  $_ -match "copy from folder" -or $_ -match "Repeat process from folder" } 
@@ -173,8 +174,7 @@ foreach ($dir in $dirs) {
                         Start-Sleep -s 3
                     } else {
                         if (Test-Path -Path "$ac_root\content\cars\$kunos_car\data.acd" -PathType Leaf) {
-                            $absoluteDir = "$script:girellu\Releases\Mods\Arch Cars Public\$dir"
-                            Install-Car $absoluteDir $arch_car $kunos_car $ac_root
+                            Install-Car $absolutePath $arch_car $kunos_car $ac_root
                         } else {
                             Write-Host "Could not find $kunos_car in your game files, you may be missing DLC, this car will be skipped." -BackgroundColor Red
                             Start-Sleep -s 5
