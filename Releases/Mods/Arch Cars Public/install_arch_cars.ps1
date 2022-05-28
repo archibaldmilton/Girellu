@@ -149,7 +149,8 @@ foreach ($dir in $dirs) {
                     } else {
                         $path = -join($ac_root, "\content\cars\", $kunos_car);
                         if (Test-Path -Path $path) {
-                            Install-Car $dir $arch_car $kunos_car $ac_root
+                            $absoluteDir = "$script:girellu\Releases\Mods\Arch Cars Public\$dir"
+                            Install-Car $absoluteDir $arch_car $kunos_car $ac_root
                         } else {
                             Write-Host "Could not find $kunos_car in your game files, you may be missing DLC, this car will be skipped." -BackgroundColor Red
                             Start-Sleep -s 5
