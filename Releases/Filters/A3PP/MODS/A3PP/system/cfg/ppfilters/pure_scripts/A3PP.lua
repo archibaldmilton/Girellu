@@ -2,19 +2,28 @@
 function init_pure_script()
 
     --ac.setPpTonemapFunction(5)
-    __PURE__set_config("pp.saturation", 1.0, true)
-    __PURE__set_config("light.sky.hue", 2, true)
-    __PURE__set_config("light.sky.level", 1.00, true)
+    --__PURE__set_config("pp.saturation", 1, true)
+    __PURE__set_config("light.sky.hue", 5, false)
+    __PURE__set_config("light.sky.level", 0.8, false)
+    __PURE__set_config("clouds2D.brightness", 0.78, false)
+    --__PURE__set_config("clouds2D.brightness", 0.7, false)
 
 
+    -- activate Pure's Exposure Calculation via Cubemap Brightness Estimation
+    -- Cubemap reflections must NOT be static (Settings->Assetto Corsa->Video->Reflections frequency)
+    -- "Use proper physically-based smapling" MUST be activated (Settings->Custom Shaders Patch->Reflections FX->General Cubemap Reflections)
     PURE__use_ExpCalc(true)
+    -- this will compensate the spectrum with missing sunlight in overcast sceneries
+    PURE__use_SpectrumAdaption(true)
+    -- this adapts the VAO parameters with overcast sceneries
+    PURE__use_VAOAdaption(true)
 
     -- sets a version and show it in Pure Config (PP)
-    __SCRIPT__setVersion(2)
+    __SCRIPT__setVersion(10)
     __SCRIPT__ResetSettingsWithNewVersion()
 
     __SCRIPT__UI_Text("The sensitivity to Light")
-    __SCRIPT__UI_SliderFloat("Photosensitivity", 2, 0.25, 4.0)
+    __SCRIPT__UI_SliderFloat("Photosensitivity", 1.3, 1, 3.0)
 
     __SCRIPT__UI_Text("Set the time the eye needs, to adapt to low light.")
     __SCRIPT__UI_SliderFloat("low light adaption time", 2.0, 0.01, 5.0)
@@ -25,14 +34,28 @@ function init_pure_script()
     __SCRIPT__UI_Separator()
 
     __SCRIPT__UI_Text("maximum closure of the iris")
-    __SCRIPT__UI_SliderFloat("Iris minimum", 0.034, 0.0, 0.25)
+    __SCRIPT__UI_SliderFloat("Iris minimum", 0.13, 0.0, 0.25)
 
     __SCRIPT__UI_Text("the lowest light the eye can see")
     __SCRIPT__UI_SliderFloat("Iris maximum", 0.50, 0.0, 3.00)
 
     __SCRIPT__UI_Separator()
+
+    __SCRIPT__UI_Text("Tonemapping Gamma (set 1.1 if you prefer older look)")
+    __SCRIPT__UI_SliderFloat("Gamma", 1.1, 0.8, 1.8)
+
+    __SCRIPT__UI_Text("Tonemapping Gamma Daylight influence (set 0 if you prefer older look)")
+    __SCRIPT__UI_SliderFloat("Gamma Daylight", 0.0, 0.0, 0.50)
+
+    __SCRIPT__UI_Text("Tonemapping Curve direction")
+    __SCRIPT__UI_SliderFloat("Tonemapping Curve", 0.0, 0.0, 1.0)
+
+    __SCRIPT__UI_Separator()
     
     __SCRIPT__UI_StateFloat("Final Exposure", 0)
+    __SCRIPT__UI_StateFloat("Cloud shadow", 0)
+
+    
 end
 
 local curve
@@ -44,22 +67,19 @@ local fog
 -- This is called every frame
 function update_pure_script(dt)
 
-    ac.setColorTexturesGamma(__IntD(1.02, 1.10, 0.67))
-    
-    -- use this "curve" variable as a better gamma function
-    curve = 0.4
-
-    -- set tonemapping adaption / use this instead of gamma, to gain brightness
-    PURE__set_PP_Tonemapping_Curve(curve)
-
     -- check for cloud shadows and adapt the curve for being in the shadow
     cloud_shadow = math.max(Pure_get_Overcast() , (1-ac.getCloudsShadow())) * sun_compensate(0)
-    --__SCRIPT__UI_setValue("Cloud shadow", cloud_shadow)
+    __SCRIPT__UI_setValue("Cloud shadow", cloud_shadow)
     
+    -- use this "curve" variable as a better gamma function
+    curve = 0.4* (1 + 0.50*cloud_shadow)
+
+    -- set tonemapping adaption / use this instead of gamma, to gain brightness
+    PURE__set_PP_Tonemapping_Curve(__SCRIPT__UI_getValue("Tonemapping Curve"))
 
     local sense = __SCRIPT__UI_getValue("Photosensitivity")
     PURE__ExpCalc_set_Target(1+0.60*(sense-1))
-    PURE__ExpCalc_set_Sensitivity(sense)
+    PURE__ExpCalc_set_Sensitivity(1)
   
     PURE__ExpCalc_set_Limits(
         __SCRIPT__UI_getValue("Iris minimum"),
@@ -72,13 +92,18 @@ function update_pure_script(dt)
 
     __SCRIPT__UI_setValue("Final Exposure", PURE__ExpCalc_get_final_exposure())
 
-    PURE__ExpCalc_set_Multiplier(
-        (1 + 0.20*cloud_shadow)
-    )
 
     local exp_curve = math.min(1, math.max(0, math.pow(PURE__ExpCalc_get_final_exposure()*2, 0.34)))
-    ac.setPpColorGradingIntensity(math.min(1, math.max(0, exp_curve-0.1)))
-    ac.setPpTonemapGamma(1.30 + 0.10*math.min(1, math.max(0, exp_curve-0.1)))
+    --ac.setPpColorGradingIntensity(math.min(1, math.max(0, exp_curve-0.1)))
+    ac.setPpTonemapGamma(__SCRIPT__UI_getValue("Gamma") - __SCRIPT__UI_getValue("Gamma Daylight")* day_compensate(0) + 0.10*math.min(1, math.max(0, exp_curve-0.1)))
+
+    ac.setGodraysGlareRatio(0.0)
+    ac.setGodraysLength( __IntD(8,4,0.6)
+                       -- use the internal godrays modulator to set the godrays length
+                       -- this will adapt them to many situations and switch them off
+                       -- with sunangles below 0°
+                       * PURE__getGodraysModulator()
+                    )
 
    
 end
@@ -295,11 +320,3 @@ end
 		2. Method (using math.lerp):
 		ac.setPpBrightness( math.lerp( 1.24, 1.14, day_compensate(0) ) )
     ]]
-    
-
-
-
-
-   
-
-    
