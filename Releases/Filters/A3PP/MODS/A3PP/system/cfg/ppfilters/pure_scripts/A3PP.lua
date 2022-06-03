@@ -23,7 +23,7 @@ function init_pure_script()
     __SCRIPT__ResetSettingsWithNewVersion()
 
     __SCRIPT__UI_Text("The sensitivity to Light")
-    __SCRIPT__UI_SliderFloat("Photosensitivity", 1.3, 1, 3.0)
+    __SCRIPT__UI_SliderFloat("Photosensitivity", 4, 3, 7.0)
 
     __SCRIPT__UI_Text("Set the time the eye needs, to adapt to low light.")
     __SCRIPT__UI_SliderFloat("low light adaption time", 2.0, 0.01, 5.0)
@@ -42,13 +42,13 @@ function init_pure_script()
     __SCRIPT__UI_Separator()
 
     __SCRIPT__UI_Text("Tonemapping Gamma (set 1.1 if you prefer older look)")
-    __SCRIPT__UI_SliderFloat("Gamma", 1.1, 0.8, 1.8)
+    __SCRIPT__UI_SliderFloat("Gamma", 1.0, 0.8, 1.8)
 
     __SCRIPT__UI_Text("Tonemapping Gamma Daylight influence (set 0 if you prefer older look)")
     __SCRIPT__UI_SliderFloat("Gamma Daylight", 0.0, 0.0, 0.50)
 
     __SCRIPT__UI_Text("Tonemapping Curve direction")
-    __SCRIPT__UI_SliderFloat("Tonemapping Curve", 0.0, 0.0, 1.0)
+    __SCRIPT__UI_SliderFloat("Tonemapping Curve", 0.10, 0.0, 1.0)
 
     __SCRIPT__UI_Separator()
     
@@ -78,7 +78,7 @@ function update_pure_script(dt)
     PURE__set_PP_Tonemapping_Curve(__SCRIPT__UI_getValue("Tonemapping Curve"))
 
     local sense = __SCRIPT__UI_getValue("Photosensitivity")
-    PURE__ExpCalc_set_Target(1+0.60*(sense-1))
+    PURE__ExpCalc_set_Target(1+0.60*(sense-2*cloud_shadow-1))
     PURE__ExpCalc_set_Sensitivity(1)
   
     PURE__ExpCalc_set_Limits(
