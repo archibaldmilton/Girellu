@@ -19,11 +19,14 @@ function init_pure_script()
     PURE__use_VAOAdaption(true)
 
     -- sets a version and show it in Pure Config (PP)
-    __SCRIPT__setVersion(10)
+    __SCRIPT__setVersion(11)
     __SCRIPT__ResetSettingsWithNewVersion()
 
     __SCRIPT__UI_Text("The sensitivity to Light")
     __SCRIPT__UI_SliderFloat("Photosensitivity", 4, 3, 7.0)
+
+    __SCRIPT__UI_Text("Photosensitivity Daylight influence (set 0 if you prefer older look)")
+    __SCRIPT__UI_SliderFloat("Photosensitivity Daylight", 2, 0.0, 3)
 
     __SCRIPT__UI_Text("Set the time the eye needs, to adapt to low light.")
     __SCRIPT__UI_SliderFloat("low light adaption time", 2.0, 0.01, 5.0)
@@ -34,10 +37,10 @@ function init_pure_script()
     __SCRIPT__UI_Separator()
 
     __SCRIPT__UI_Text("maximum closure of the iris")
-    __SCRIPT__UI_SliderFloat("Iris minimum", 0.13, 0.0, 0.25)
+    __SCRIPT__UI_SliderFloat("Iris minimum", 0.1, 0.0, 0.25)
 
     __SCRIPT__UI_Text("the lowest light the eye can see")
-    __SCRIPT__UI_SliderFloat("Iris maximum", 0.50, 0.0, 3.00)
+    __SCRIPT__UI_SliderFloat("Iris maximum", 0.60, 0.0, 3.00)
 
     __SCRIPT__UI_Separator()
 
@@ -78,7 +81,8 @@ function update_pure_script(dt)
     PURE__set_PP_Tonemapping_Curve(__SCRIPT__UI_getValue("Tonemapping Curve"))
 
     local sense = __SCRIPT__UI_getValue("Photosensitivity")
-    PURE__ExpCalc_set_Target(1+0.60*(sense-2*cloud_shadow-1))
+    local daylight = __SCRIPT__UI_getValue("Photosensitivity Daylight")
+    PURE__ExpCalc_set_Target(1+0.60*(sense-daylight*__IntD(0, 1, 2)-1))
     PURE__ExpCalc_set_Sensitivity(1)
   
     PURE__ExpCalc_set_Limits(
