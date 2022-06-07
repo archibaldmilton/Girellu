@@ -40,7 +40,7 @@ function init_pure_script()
     __SCRIPT__UI_SliderFloat("Iris minimum", 0.1, 0.0, 0.25)
 
     __SCRIPT__UI_Text("the lowest light the eye can see")
-    __SCRIPT__UI_SliderFloat("Iris maximum", 0.60, 0.0, 3.00)
+    __SCRIPT__UI_SliderFloat("Iris maximum", 0.80, 0.0, 3.00)
 
     __SCRIPT__UI_Separator()
 
