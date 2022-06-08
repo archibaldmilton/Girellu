@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-field
 function init_sol_custom_config()
 	-- reset customs to default
 	ac.resetGodraysCustomColor()
@@ -17,8 +18,8 @@ sol__debug__custom_config = true
 ppfilter__modify_glare = false
 ppfilter__modify_godrays = false
 ppfilter__modify_spectrum = false
-	ac.setPpWhiteBalanceK(6800)
-	ac.setPpColorTemperatureK(6700)
+	--ac.setPpWhiteBalanceK(6800)
+	--ac.setPpColorTemperatureK(6700)
 	
 	day_headlights=false
 	-- Set this to false if you want headlights disabled at day
@@ -66,8 +67,8 @@ nerd__clouds_adjust_Lit = 0.9
 ----night__brightness_adjust = 1.00 
 --
 --pp_contrast_night = 1.0
-pp_brightness_max = 1.89
-pp_brightness_min = 0.75
+pp_brightness_max = 2.19
+pp_brightness_min = 1.05
 pp_saturation_max = 0.85
 pp_saturation_min = 0.8
 nerd__ambient_adjust_level_max = 1.86
@@ -212,7 +213,7 @@ function update_sol_custom_config()
 	SOL__custom_sky_preset.cloud_level = night_compensate(0.975)
 	--SOL__custom_sky_preset.cloud_saturation = 1
 	--SOL__custom_sky_preset.cloud_saturation_limit = 1
-	
+
 	SOL__set_config("nerd__fog_custom_distant_fog", "distance", 25000) 
 	SOL__set_config("nerd__fog_custom_distant_fog", "blend", 0.85+0.15*from_twilight_compensate(0)) 
 	SOL__set_config("nerd__fog_custom_distant_fog", "density", 1.75) 
@@ -223,12 +224,12 @@ function update_sol_custom_config()
 	SOL__set_config("nerd__fog_custom_distant_fog", "Hue", 230) 
 	SOL__set_config("nerd__fog_custom_distant_fog", "Saturation", 0.50+0.05*from_twilight_compensate(0)) 
 	SOL__set_config("nerd__fog_custom_distant_fog", "Level", 2.5+0.2*from_twilight_compensate(0)) 
-	
+
 	--gfx__reflections_brightness = 0.6 + day_compensate(1) 
 
 	--ac.setPpContrast(night_compensate(pp_contrast_night))
 	--ac.setPpTonemapGamma(0.2 + day_compensate(1.1))
-	ac.setPpBrightness(math.lerp(pp_brightness_min, pp_brightness_max, 0.14 *( night_compensate( 8 * weather__get_badness() - 0.2 * ac.getCloudsShadow()) + from_twilight_compensate(6))))
+	ac.setPpBrightness(math.lerp(pp_brightness_min, pp_brightness_max, 0.14 *( night_compensate( 0.5 * (weather__get_badness()+weather__get_overcast()) - 0.2 * ac.getCloudsShadow()) + from_twilight_compensate(6))))
 	--ac.setPpColorTemperatureK(math.max(6700, 6700*__IntD(0.95, 1, 0.2)*night_compensate(-0.01*weather__get_overcast()+0.01*ac.getCloudsShadow()+0.99)))--*__IntD(1.1,1,0.4))
 	SOL__set_config("nerd__ambient_adjust", "Saturation", math.lerp(nerd__ambient_adjust_saturation_max, nerd__ambient_adjust_saturation_min, 0.5*(weather__get_badness() + 0.5* ac.getCloudsShadow() + __IntD(0.8,0.1,0.9))))
 
@@ -242,7 +243,7 @@ function update_sol_custom_config()
 		end
 	end
 
-	
+
 	--night__moonlight_multiplier = day_compensate(0)
 	--sun__sky_bloom = 0.67* __IntD(0.0,1.0,0.9)
 	--nerd__sun_adjust.ap_MieExp = __IntD(0.0,1.0,0.9)
