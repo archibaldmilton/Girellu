@@ -1,7 +1,7 @@
 # Arch Modified Physics License
->Use **CSP version 1.73**, lateral/combined grip is broken in CSP versions after 1.73.
+>**Attention drifters! Switch to CSP version 1.73** or less, otherwise tires will have an unknown force pushing the car, which makes drifting more difficult.
 
-As of 24 April 2022,
+As of 7 June 2022,
 
 **You are allowed to:**
 * Use Arch modified physics on personal work
