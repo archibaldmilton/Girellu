@@ -11,7 +11,7 @@ function init_pure_script()
 
     -- activate Pure's Exposure Calculation via Cubemap Brightness Estimation
     -- Cubemap reflections must NOT be static (Settings->Assetto Corsa->Video->Reflections frequency)
-    -- "Use proper physically-based smapling" MUST be activated (Settings->Custom Shaders Patch->Reflections FX->General Cubemap Reflections)
+    -- "Use proper physically-based sampling" MUST be activated (Settings->Custom Shaders Patch->Reflections FX->General Cubemap Reflections)
     PURE__use_ExpCalc(true)
     -- this will compensate the spectrum with missing sunlight in overcast sceneries
     PURE__use_SpectrumAdaption(true)
@@ -25,8 +25,8 @@ function init_pure_script()
     __SCRIPT__UI_Text("The sensitivity to Light")
     __SCRIPT__UI_SliderFloat("Photosensitivity", 4, 3, 7.0)
 
-    __SCRIPT__UI_Text("Photosensitivity Daylight influence (set 0 if you prefer older look)")
-    __SCRIPT__UI_SliderFloat("Photosensitivity Daylight", 2, 0.0, 3)
+    __SCRIPT__UI_Text("How much photosensitivity is reduced during the day")
+    __SCRIPT__UI_SliderFloat("Photosensitivity Daylight", 2.5, 0.0, 3)
 
     __SCRIPT__UI_Text("Set the time the eye needs, to adapt to low light.")
     __SCRIPT__UI_SliderFloat("low light adaption time", 2.0, 0.01, 5.0)
@@ -37,17 +37,17 @@ function init_pure_script()
     __SCRIPT__UI_Separator()
 
     __SCRIPT__UI_Text("maximum closure of the iris")
-    __SCRIPT__UI_SliderFloat("Iris minimum", 0.1, 0.0, 0.25)
+    __SCRIPT__UI_SliderFloat("Iris minimum", 0.09, 0.0, 0.25)
 
     __SCRIPT__UI_Text("the lowest light the eye can see")
     __SCRIPT__UI_SliderFloat("Iris maximum", 0.80, 0.0, 3.00)
 
     __SCRIPT__UI_Separator()
 
-    __SCRIPT__UI_Text("Tonemapping Gamma (set 1.1 if you prefer older look)")
+    __SCRIPT__UI_Text("Tonemapping Gamma")
     __SCRIPT__UI_SliderFloat("Gamma", 1.0, 0.8, 1.8)
 
-    __SCRIPT__UI_Text("Tonemapping Gamma Daylight influence (set 0 if you prefer older look)")
+    __SCRIPT__UI_Text("How much Tonemapping Gamma is reduced during the day")
     __SCRIPT__UI_SliderFloat("Gamma Daylight", 0.0, 0.0, 0.50)
 
     __SCRIPT__UI_Text("Tonemapping Curve direction")
@@ -61,11 +61,10 @@ function init_pure_script()
     
 end
 
-local curve
-local cloud_shadow
-local tmp_hsv = hsv(0,0,0)
-local tmp_rgb = rgb(0,0,0)
-local fog
+local cloud_shadow = 1.000
+local sense = 4.0
+local daylight = 2.5
+local exp_curve = 1.0
 
 -- This is called every frame
 function update_pure_script(dt)
@@ -75,13 +74,13 @@ function update_pure_script(dt)
     __SCRIPT__UI_setValue("Cloud shadow", cloud_shadow)
     
     -- use this "curve" variable as a better gamma function
-    curve = 0.4* (1 + 0.50*cloud_shadow)
+    ---curve = 0.4* (1 + 0.50*cloud_shadow)
 
     -- set tonemapping adaption / use this instead of gamma, to gain brightness
     PURE__set_PP_Tonemapping_Curve(__SCRIPT__UI_getValue("Tonemapping Curve"))
 
-    local sense = __SCRIPT__UI_getValue("Photosensitivity")
-    local daylight = __SCRIPT__UI_getValue("Photosensitivity Daylight")
+    sense = __SCRIPT__UI_getValue("Photosensitivity")
+    daylight = __SCRIPT__UI_getValue("Photosensitivity Daylight")
     PURE__ExpCalc_set_Target(1+0.60*(sense-daylight*__IntD(0, 1, 2)-1))
     PURE__ExpCalc_set_Sensitivity(1)
   
@@ -97,7 +96,7 @@ function update_pure_script(dt)
     __SCRIPT__UI_setValue("Final Exposure", PURE__ExpCalc_get_final_exposure())
 
 
-    local exp_curve = math.min(1, math.max(0, math.pow(PURE__ExpCalc_get_final_exposure()*2, 0.34)))
+    exp_curve = math.min(1, math.max(0, math.pow(PURE__ExpCalc_get_final_exposure()*2, 0.34)))
     --ac.setPpColorGradingIntensity(math.min(1, math.max(0, exp_curve-0.1)))
     ac.setPpTonemapGamma(__SCRIPT__UI_getValue("Gamma") - __SCRIPT__UI_getValue("Gamma Daylight")* day_compensate(0) + 0.10*math.min(1, math.max(0, exp_curve-0.1)))
 
