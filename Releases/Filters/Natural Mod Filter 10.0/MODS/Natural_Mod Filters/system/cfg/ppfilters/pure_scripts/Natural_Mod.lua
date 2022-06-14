@@ -10,12 +10,11 @@ function init_pure_script()
 	PURE__ExpCalc_set_Limits(0.01,0.5)
 	ac.setGlareThreshold(4.6)
 	ac.setPpSaturation(1.0)
-	__PURE__add_weather_variable("weatherFix", 0)
-	__PURE__set_weather_variable("weatherFix", "Mist", 0.05)
-	__PURE__set_weather_variable("weatherFix", "Haze", 0.02)
+	--__PURE__add_weather_variable("weatherFix", 0)
+	--__PURE__set_weather_variable("weatherFix", "Haze", 0.02)
 end
 
-local weatherFix
+--local weatherFix
 local overcast
 local pureAE
 local cbe_scaler
@@ -29,7 +28,7 @@ local gamma_max = 1.55
 function update_pure_script(dt)
     overcast  = Pure_get_Overcast() * from_twilight_compensate(0)
 	--night_compensate_alt = sun_compensate(2) - 1
-	weatherFix = __IntD(0, __PURE__get_weather_variable("weatherFix"), 1)
+	--weatherFix = __IntD(0, __PURE__get_weather_variable("weatherFix"), 1)
 	__PURE__set_config("clouds2D.brightness",math.min(1,overcast * 2 + 0.8*sun_compensate(0.9)))
 	__PURE__set_config("csp_lights.bounce", day_compensate(1.25))
 
@@ -42,10 +41,10 @@ function update_pure_script(dt)
 	ac.setPpTonemapFilmicContrast(0.1 + (0.3 * night_compensate(0)))--review. 0.5=none
 	--ac.setPpTonemapFilmicContrast(0.1 + night_compensate_alt * 0.3)--review. 0.5=none
 	ac.setPpColorGradingIntensity(math.max(0.01, 0.5 * sun_compensate(0.75) * from_twilight_compensate(0)))--may adjust
-	exp = 0.1 - weatherFix +  night_compensate(0) * (0.07 + pureAE * 0.8) --+ 0.12 
+	exp = 0.1 +  night_compensate(0) * (0.07 + pureAE * 0.8) --+ 0.12 
 	PURE__ExpCalc_set_BypassExposure(exp)
 
-	ac.setGlareBloomLuminanceGamma(math.lerp(1.7,1.1,exp*2))
+	--ac.setGlareBloomLuminanceGamma(math.lerp(1.7,1.1,exp*2))
 	ac.setGodraysLength(__IntD(4,-2,0.4) * PURE__getGodraysModulator())
 
 	--ac.debug("overcast", string.format('%.3f', overcast))
