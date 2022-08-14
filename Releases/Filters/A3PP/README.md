@@ -1,13 +1,13 @@
 # A3PP Filter
 Beautiful PPfilter for Assetto Corsa.
 
-![Screenshot_urd_gr010_ddm_gts_willow_springs_2021-08-26-20-37-10](https://user-images.githubusercontent.com/90503800/138020036-0d75be97-c691-4dae-8348-1468eaabd553.png)
-![Screenshot_some1_honda_nsx_r_1992_bst_japan2_2021-08-26-20-46-11](https://user-images.githubusercontent.com/90503800/138020039-b4da8b9c-eabf-4061-9b9f-bbf302039ca1.png)
+![Screenshot_mclaren_720_gt3_acc_gt_dragontrail_2022-06-04-14-56-50](https://user-images.githubusercontent.com/90503800/175794840-2274233c-4bea-479f-ac95-9b0be1790fbe.png)
+![Screenshot_ier_p13c_domi_waves_2022-06-02-18-13-35](https://user-images.githubusercontent.com/90503800/175794839-334997df-e52d-4ce8-b0e8-5bf0302bb1c2.png)
 
 ## Filter Notes
 **A3PP:**
 
-Recommended filter for daily driving in Sol 2.1/Trawa WFX or vanilla weather.
+Recommended filter for daily driving in Sol/Trawa WFX or vanilla weather.
 
 **A3PP_Photo:**
 
@@ -15,7 +15,11 @@ Ideal for screenshots at the cost of performance.
 
 **CSP Preset:**
 
-Screenshotting: [https://acstuff.ru/s/ui2_](https://acstuff.ru/s/ui2_)
+Screenshotting: https://acstuff.ru/s/6SP9Gv
+
+**Video Preset:**
+
+Screenshotting: https://acstuff.ru/s/rDudnX
 
 ___
 **Frequently Asked Questions:**
@@ -31,5 +35,8 @@ Disable A3PP in Content - Mods and then re-enable it, then try again. If that do
 *"What is A3PP Config app?"*
 
 It's an addon that can modify my filter settings. It's not required to be enabled because the filter is ready as it is.
+
+## Miscellaneous
+Forza Horizon 5 inspired chase camera using CSP's "chaser camera" extension: [Download](https://github.com/archibaldmilton/Girellu/files/9332608/fh-mode.zip "fh-mode.zip")
 
 ### Donate: [![](https://img.shields.io/badge/PayPal-MarcoMollace-169BD7?style=for-the-badge&logo=paypal)](https://paypal.me/MarcoMollace) [![](https://img.shields.io/badge/Patreon-marocco2-f96854?style=for-the-badge&logo=patreon)](https://www.patreon.com/marocco2/creators)

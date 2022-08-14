@@ -1,5 +1,5 @@
 # Comfy_UPDATED Filter
-Practical yet gorgeous filter for both screenshots and driving.
+Gorgeously practical filter for screenshotting and driving.
 
 ![20210925-180621-macau-bk_audi_r8_lms_2019_sprint](https://user-images.githubusercontent.com/90503800/138020321-158302f6-e85f-4a65-9dba-ab3c1ee50a6e.png)
 ![Screenshot_pschd_mazda_rx7_amemiya_ddm_gt5_rbhangar_4-6-121-18-32-30](https://user-images.githubusercontent.com/90503800/138020327-09dfd6b3-f3b8-4a98-954b-46a58b94ba08.png)
@@ -14,4 +14,4 @@ This filter was originally created by comfy but requested to be deleted as it wa
 
 This filter recommends using Sol WFX's 2D clouds rendering method which is found on Page 7 in the Sol config under "Clouds Render Method" (set the slider to 0.)
 
-Ask [@JavireTwo](https://github.com/JavireTwo) or javire#6359 on Discord for questions and concerns about Comfy filter.
+Message @javire#6359 on Discord for questions and concerns about Comfy filter.

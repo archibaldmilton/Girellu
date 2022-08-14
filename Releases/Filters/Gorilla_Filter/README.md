@@ -24,6 +24,6 @@ Driving: https://acstuff.ru/s/3F1snY
 
 **Sol:**
 
-This filter recommends using Sol WFX's 2D clouds rendering method which is found on Page 7 in the Sol config under "Clouds Render Method" (set the slider to 0.)
+This filter recommends using Sol WFX's 2D clouds rendering method which is found on Page 7 in the Sol config under "Clouds Render Method" (set the slider to 0).
 
-Contact @Philip#8036 on Discord for questions and concerns about Gorilla filter.
+Message @Philip#8036 on Discord for questions and concerns about Gorilla filter.
