@@ -1,11 +1,8 @@
 # Gorilla Filter
 Absolute neutralism.
 
-![Screenshot_bk_audi_r8_lms_2019_sprint_ks_brands_hatch_14-10-121-21-44-3](https://user-images.githubusercontent.com/90503800/141707231-4129491d-2720-44ad-82e7-25008895ac65.png)
-![Screenshot_ifso_supra_a90_ks_nordschleife_9-9-121-20-29-1](https://user-images.githubusercontent.com/90503800/138020553-7599fa11-cf70-451b-83a1-21c8eece63eb.png)
-![Screenshot_ddm_porsche_993_carrera_rs_ks_highlands_12-9-121-16-41-28 png](https://user-images.githubusercontent.com/90503800/138020557-ac1b43e4-f3e5-4d9c-9b2e-daac300e9549.png)
-![Screenshot_ks_porsche_962c_longtail_ks_highlands_22-8-121-20-43-9](https://user-images.githubusercontent.com/90503800/138020567-2fffeb0c-84e6-4b9f-8b6c-5ccab7759735.png)
-![Screenshot_rss_formula_americas_2020_lilski_watkins_glen_22-8-121-21-17-20-1](https://user-images.githubusercontent.com/90503800/138020569-65faef01-0b86-46ff-9942-ffd76abeb2ad.png)
+![Screenshot_urd_darche_egt_2020_domi_girellu_studio_18-7-122-2-19-44-1](https://user-images.githubusercontent.com/90503800/185296452-0ebe2838-1aca-42a6-87e9-1a71a1426ac7.png)
+![Screenshot_urd_darche_egt_2020_monza_18-7-122-1-50-41](https://user-images.githubusercontent.com/90503800/185296455-b2651a1c-43b6-4c66-9dec-417e9c098f72.png)
 
 ## Filter Notes
 This is an ongoing project that achieves to make the most neutral filter for both driving and photography. Each filter update experiments new approaches at creating soft shadows, good contrast and realistic looking colors in AC. A unique feature about Gorilla filter is that is it built on minimalism. Unlike other filters, Gorilla filter only uses essential Sol config functions for graphics and its other functions are completely static, while relying on good tone mapping. An important consideration is that the filter's brightness may vary across different maps due to the way AC handles lighting.

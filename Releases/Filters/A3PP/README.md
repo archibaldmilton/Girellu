@@ -1,7 +1,8 @@
 # A3PP Filter
 Beautiful PPfilter for Assetto Corsa.
 
-![Screenshot_mclaren_720_gt3_acc_gt_dragontrail_2022-06-04-14-56-50](https://user-images.githubusercontent.com/90503800/175794840-2274233c-4bea-479f-ac95-9b0be1790fbe.png)
+[![Screenshot_mclaren_720_gt3_acc_gt_dragontrail_2022-06-04-14-56-50](https://user-images.githubusercontent.com/90503800/175794840-2274233c-4bea-479f-ac95-9b0be1790fbe.png)](https://youtu.be/y40e8GZtE9M "Click for video preview")
+
 ![Screenshot_ier_p13c_domi_waves_2022-06-02-18-13-35](https://user-images.githubusercontent.com/90503800/175794839-334997df-e52d-4ce8-b0e8-5bf0302bb1c2.png)
 
 ## Filter Notes

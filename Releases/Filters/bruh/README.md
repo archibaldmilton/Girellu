@@ -1,71 +1,41 @@
 # BRUH Filter
 Yet another photography filter.
 
-| BRUH |
-|:---:|
-| ![Screenshot_ks_porsche_919_hybrid_2016_spa_4-9-121-19-46-55](https://user-images.githubusercontent.com/90503800/138021319-66a4e078-ac44-4f75-9958-95148565e5b8.png "BRUH for base WFX") |
+![Screenshot_bmw_z4_gt3_ks_laguna_seca_19-3-122-22-42-13](https://user-images.githubusercontent.com/90503800/179373413-450871fe-3a04-4b09-9a0b-7b78dbe330f9.png)
+![Screenshot_bmw_m3_e30_dtm_ks_nordschleife_18-3-122-15-11-55](https://user-images.githubusercontent.com/90503800/179373415-ce96cc5c-094e-4870-a110-fcaed3b9d1ca.png)
+![Screenshot_ks_lamborghini_huracan_performante_ks_laguna_seca_18-3-122-12-20-26](https://user-images.githubusercontent.com/90503800/179373417-92d3c0bc-dd6c-47ae-b9f0-fc7c51557652.jpg)
 
-| BRUHg |
-|:---:|
-| ![Screenshot_ks_porsche_919_hybrid_2016_spa_4-9-121-19-43-12](https://user-images.githubusercontent.com/90503800/138021317-38969197-f35a-4463-9602-8f56b8ea7abd.png "BRUHg for base WFX (uses gamma fix)") |
+Filter download (use with default weather script): https://acstuff.ru/s/JQdwLX
 
-| BRUHgp |
-|:---:|
-| ![Screenshot_ks_abarth_595ss_union_island_4-9-121-19-10-35](https://user-images.githubusercontent.com/90503800/138021314-050ad974-f466-4708-9f72-acee804e3414.png "BRUHgp based on BRUHg for Pure WFX") |
+Nice Screenshot settings: https://acstuff.ru/s/RoLoWK
 
-## Filter Notes
-The name BRUH came from how bad the filter had originally looked.
+## Miscellaneous
+![Screenshot_ks_porsche_911_gt3_cup_2017_ks_nordschleife_7-7-122-16-11-26](https://user-images.githubusercontent.com/90503800/185291133-8b65beff-1833-4ac6-9f99-5ebf47263ced.png)
+![Screenshot_ks_porsche_911_gt3_cup_2017_ks_nordschleife_7-7-122-16-4-37](https://user-images.githubusercontent.com/90503800/185291136-b37019c6-58e8-4f1b-82e4-af18749904e2.png)
 
-**BRUH**
+Configuration to emulate depth of field from [Sigma 24-70 mm F2.8 DG DN Art | 019](https://www.sigma-global.com/en/lenses/a019_24_70_28/ "Reference")
 
-Use with Base WFX
+Nice Screenshot settings (different from filter preset): https://acstuff.ru/s/uPEnuq
 
-**BRUHg**
-
-Use with Base WFX and includes experimental CSP gamma fix
-
-**BRUHgp**
-
-Made for Pure WFX and includes experimental CSP gamma fix
-
-**Nice Screenshot Settings for Accumulation DOF:**
-
-https://acstuff.ru/s/MzTv4r
-
-<details><summary>Notes for this particular preset</summary>
-<li>Don't go below 1500 iterations in overall this is a gold way between quality and time (imo, but depends on your rig too so.. it's on you)</li>
-<li>You can get overall iterations by multiplying each ENABLED acculumation module.</li>
-<li>You can decide what acculumation motion blur, acculumation and set your numbers by your preferences</li>
-<br>
-Filter (.ini) settings for matching preview—edit whatever you want for better performance if you need:
-<br><br>
-<code>
+Settings for ppfilter ini:
+```
 [DOF]
-ADAPTIVE_APERTURE_FACTOR=0<br>
-APERTURE_BACK_LEVELS_NUMBER=10000<br>
-APERTURE_FRONT_LEVELS_NUMBER=10000<br>
-APERTURE_F_NUMBER=11<br>
-APERTURE_PARAMETER=2<br>
-APERTURE_SHAPE=7<br>
-BACKGROUND_MASK_THRESHOLD=0<br>
-BASE_FOV=75.000000<br>
-EDGE_QUALITY=100<br>
-ENABLED=1<br>
-IMAGE_SENSOR_HEIGHT=0.240000<br>
-QUALITY=100<br>
-</code><br>
-But <b>don't touch these</b>:
-<br><br>
-<code>
-ADAPTIVE_APERTURE_FACTOR=0<br>
-APERTURE_PARAMETER=2<br>
-APERTURE_SHAPE=7 (5-7)<br>
-BASE_FOV=75.000000<br>
-IMAGE_SENSOR_HEIGHT=0.240000<br>
-</code>
-</details>
-___
+ADAPTIVE_APERTURE_FACTOR=0
+APERTURE_BACK_LEVELS_NUMBER=10000
+APERTURE_FRONT_LEVELS_NUMBER=10000
+APERTURE_F_NUMBER=2.800000
+APERTURE_PARAMETER=2
+APERTURE_SHAPE=7
+BACKGROUND_MASK_THRESHOLD=0
+BASE_FOV=70.000000
+EDGE_QUALITY=0
+ENABLED=1
+IMAGE_SENSOR_HEIGHT=0.100000
+QUALITY=0
+```
 
-| Known issue with BRUHgp: |
-|:---:|
-| ![](https://user-images.githubusercontent.com/90503800/141662274-42dd693b-3235-4af7-8262-815aa2f1da42.PNG) |
+|-|Operational FOV range|
+|:-:|:-:|
+|Reference|70mm -  24mm|
+|Horizontal FOV|28.8° -73.7°|
+|Diagonal FOV|34.3° -84.1°|
