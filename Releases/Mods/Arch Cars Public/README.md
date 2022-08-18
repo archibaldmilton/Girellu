@@ -15,5 +15,5 @@ As of 25 June 2022,
 ___
 **Additional Notes**
 * Support is not promised; if there is a technical issue, it is user error.
-* No guarantee for satisfactory user experience unless using appropriate professional simulation peripherals with correct configuration. 
+* No guarantee for satisfactory user experience unless using appropriate professional simulation peripherals with [correct configuration](https://github.com/archibaldmilton/Girellu/wiki/AC-Startup-Guide#force-feedback-ffb). 
 	- For example, your G29 @ 30FPS can not keep up with the rotation speed of these cars.
