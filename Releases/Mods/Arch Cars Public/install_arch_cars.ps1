@@ -67,7 +67,7 @@ function Install-Car {
 
     if (-not(Test-Path -Path "$ac_root\content\cars\$kunos_car\data.acd" -PathType Leaf)) {
         Write-Host "ERROR: Can't find donor car to use visuals from (was looking for $kunos_car)"
-        Write-Host 'ERROR: Either the path to Assetto Corsa root folder is wrong, or the donor car is missing (probably DLC?)'
+        Write-Host 'ERROR: Either the path to Assetto Corsa root folder is wrong, or the donor car is missing (DLC or missing mod?)'
         $answer = read-host -prompt "Do you want to define a custom one? (y/n)"
         if ($answer -eq "y") {
             $kunos_car = read-host -prompt "Please enter the donor car's name now."
@@ -99,7 +99,7 @@ function Install-Car {
 
     New-Item -ItemType "directory" -Path "$ac_root\content\cars\$arch_car" -Force
     Get-ChildItem "$ac_root\content\cars\$kunos_car" | Copy-Item -Destination "$ac_root\content\cars\$arch_car" -Recurse -Force
-    Get-ChildItem "$arch_physics" -Recurse | Copy-Item -Destination "$ac_root\content\cars\$arch_car" -Recurse -Force
+    Copy-Item "$arch_physics/*" -Destination "$ac_root\content\cars\$arch_car" -Recurse -Force
     if (-not(Test-Path -Path "$ac_root\content\cars\$kunos_car\sfx\GUIDS.txt"  -PathType Leaf)) {
         (Get-Content "$ac_root\content\sfx\GUIDS.txt") -Replace $kunos_car, $arch_car | Set-Content "$ac_root\content\cars\$arch_car\sfx\GUIDS.txt"
         Rename-Item "$ac_root\content\cars\$arch_car\sfx\$kunos_car.bank" "$arch_car.bank"
@@ -174,7 +174,7 @@ foreach ($dir in $dirs) {
                     }
 
                     if ($kunos_car -eq "") {
-                        Write-Host "Could not find kunos car for $arch_car, this is bad." -BackgroundColor Red
+                        Write-Host "Could not find donor car for $arch_car, you will need to install this car manually." -BackgroundColor Red
                         Start-Sleep -s 3
                     } else {
                         if (Test-Path -Path "$ac_root\content\cars\$kunos_car\data.acd" -PathType Leaf) {
