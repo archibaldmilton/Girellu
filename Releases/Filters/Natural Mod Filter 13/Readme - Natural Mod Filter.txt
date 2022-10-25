@@ -3,6 +3,7 @@ If you want to buy me a beer: http://paypal.me/ears1991
 *Install part 1:*
 	Set saturation to 100% in AC graphics options
 	CSP users: Filter is configured on the assumption that Cars/Tracks configs + VAO are present, they should be automatically downloaded by CM unless you have disabled this.
+	CSP users: Filter tested with latest version of CSP, may get undesired result on older versions
 	Sol/Pure users: : Be sure to follow the Sol/Pure install guides, as sometimes there are important CSP settings such as "Use seasonal adjustments" which drastically alter the look.
 
 *Install part 2:*
@@ -15,15 +16,11 @@ If you want to buy me a beer: http://paypal.me/ears1991
 *Install part 3:*
 	Follow the instructions corresponding to your AC setup:
 	
-CSP + Pure (Pure minimum version: 0.102):
+CSP + Sol/Pure (Sol minimum version: 2.1/Pure minimum version: 0.140):
 	In graphics settings, select filter: Natural_Mod
 	Reset Pure Config app to default if you have made any adjustments (other custom filters may have modified settings here too)
 
-CSP + Sol (Sol minimum version: 2.1):
-	In graphics settings, select filter: Natural_Mod
-	Reset Sol Config app to default if you have made any adjustments (other custom filters may have modified settings here too)
-
-CSP (without Sol):
+CSP (without Sol/Pure):
 	In graphics settings, select filter: Natural_Mod_Base
 
 Vanilla AC:
