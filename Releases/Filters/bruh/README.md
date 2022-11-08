@@ -17,7 +17,7 @@ Configuration to emulate depth of field from [Sigma 24-70 mm F2.8 DG DN Art | 01
 
 Nice Screenshot settings (different from filter preset): https://acstuff.ru/s/uPEnuq
 
-Settings for ppfilter ini:
+Settings for correct accumulation DOF (accudof) preview in ppfilter's .ini:
 ```
 [DOF]
 ADAPTIVE_APERTURE_FACTOR=0
@@ -37,5 +37,5 @@ QUALITY=0
 |-|Operational FOV range|
 |:-:|:-:|
 |Reference|70mm -  24mm|
-|Horizontal FOV|28.8° -73.7°|
-|Diagonal FOV|34.3° -84.1°|
+|Horizontal FOV|28.8° - 73.7°|
+|Diagonal FOV|34.3° - 84.1°|
