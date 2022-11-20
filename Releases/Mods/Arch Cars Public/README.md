@@ -1,5 +1,5 @@
 # Arch Modified Physics License
->**Attention drifters! If you don't have the 1.80 preview, switch to CSP version 1.73**, or lower. Otherwise tires will have an unknown force pushing the car, which makes drifting more difficult.
+>**Attention drifters! Do not use CSP versions 1.78 to 1.73.** Otherwise tires will have an unknown force pushing the car, which makes drifting more difficult.
 
 As of 5 November 2022,
 
