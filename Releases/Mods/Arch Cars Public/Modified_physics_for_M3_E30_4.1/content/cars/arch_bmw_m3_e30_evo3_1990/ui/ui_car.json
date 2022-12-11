@@ -14,10 +14,10 @@
   "specs": {
     "bhp": "235bhp",
     "torque": "204Nm",
-    "weight": "1200kg",
+    "weight": "1215kg",
     "topspeed": "- km/h",
     "acceleration": "- s 0-100",
-    "pwratio": "5.11kg/hp",
+    "pwratio": "5.17kg/hp",
     "range": 89
   },
   "torqueCurve": [
@@ -202,7 +202,7 @@
   ],
   "country": "Germany",
   "author": "KS and Arch",
-  "version": "4.0",
+  "version": "4.1",
   "url": null,
   "year": 1990,
   "parent": "arch_bmw_m3_e30_1986"

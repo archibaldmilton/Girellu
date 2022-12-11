@@ -14,10 +14,10 @@
   "specs": {
     "bhp": "197bhp",
     "torque": "204Nm",
-    "weight": "1165kg",
+    "weight": "1180kg",
     "topspeed": "- km/h",
     "acceleration": "- s 0-100",
-    "pwratio": "5.91kg/hp",
+    "pwratio": "5.99kg/hp",
     "range": 89
   },
   "torqueCurve": [
@@ -182,7 +182,7 @@
   ],
   "country": "Germany",
   "author": "KS and Arch",
-  "version": "4.0",
+  "version": "4.1",
   "url": null,
   "year": 1986
 }

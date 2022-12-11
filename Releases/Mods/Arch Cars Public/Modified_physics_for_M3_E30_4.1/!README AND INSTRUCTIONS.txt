@@ -1,3 +1,14 @@
+2022-12-07_4.1
+
+- Big correction (?) to Normallage definition/design height
+- Changed front suspension geometry
+- Changed rear suspension geometry
+- Changed alignment
+- Changed OEM tire temperature luts
+- Corrected curb weight
+- Corrected broken aero sideforce in Sport Evolution and Drift
+- Misc. changes
+
 2022-11-23_4.0
 
 - Changed tire temperature vs mu .luts
