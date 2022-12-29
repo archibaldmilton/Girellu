@@ -1,3 +1,12 @@
+2022-12-29_2.1
+
+- Removed S1 for dev-time reasons
+- Changed tires
+- Adjusted normal suspension alignment height
+- Adjusted alignment and alignment ranges
+- Improved autoblip parameters (Autoblip driving aid only)
+- Corrected wrong humidity reference for engine
+
 2022-06-07_2.0
 
 - Changed tire slip parameters

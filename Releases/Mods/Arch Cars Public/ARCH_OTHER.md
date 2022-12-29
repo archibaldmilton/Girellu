@@ -1,4 +1,5 @@
 # Standalone Arch Releases
+>**Attention drifters! Do not use CSP versions from 1.78 to 1.73**. Otherwise tires will have an unknown force pushing the car, which makes drifting more difficult.
 
 The mods listed below include cars that are relatively active in physics updates. Click the images to be redirected for downloading.
 
@@ -13,9 +14,9 @@ The mods listed below include cars that are relatively active in physics updates
 ### Porsche 911 Singer
 [![Screenshot_bo_singer_simtraxx_brasov_f2d_modifie_21-10-119-1-29-50](https://user-images.githubusercontent.com/90503800/185699045-a8d981c4-18bd-45f6-abed-374b8dd998b4.png)](https://www.racedepartment.com/downloads/porsche-911-singer.29318/ "RaceDepartment")
 ### Skip Barber Formula 2000 (Regional)
-[![placeholder]()](https://www.racedepartment.com/downloads/skip-barber-for-assetto-corsa.26791/)
+[![placeholder image]()](https://www.racedepartment.com/downloads/skip-barber-for-assetto-corsa.26791/)
 ### Spec Racer Ford SRF
-[![placeholder]()](https://www.racedepartment.com/downloads/ford-spec-racer-for-assetto-corsa.28643/)
+[![placeholder image]()](https://www.racedepartment.com/downloads/ford-spec-racer-for-assetto-corsa.28643/)
 
 ## Physics Adapted from [Arch Modified Physics Pack](https://github.com/archibaldmilton/Girellu/tree/master/Releases/Mods/Arch%20Cars%20Public)
 

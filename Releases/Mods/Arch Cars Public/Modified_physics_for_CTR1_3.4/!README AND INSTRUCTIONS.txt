@@ -1,3 +1,10 @@
+2022-12-29_3.4
+
+- Changed tires
+- Changed suspension
+- Improved autoblip parameters (Autoblip driving aid only)
+- Corrected wrong humidity reference for engine
+
 2022-06-07_3.3
 
 - Changed tire slip parameters

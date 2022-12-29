@@ -1,7 +1,7 @@
 # Arch Modified Physics License
 >**Attention drifters! Do not use CSP versions from 1.78 to 1.73**. Otherwise tires will have an unknown force pushing the car, which makes drifting more difficult.
 
-As of 18 December 2022,
+As of 29 December 2022,
 
 **You are allowed to:**
 * Use Arch modified physics on personal work
