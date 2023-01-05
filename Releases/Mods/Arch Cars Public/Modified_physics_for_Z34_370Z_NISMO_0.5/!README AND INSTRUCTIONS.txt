@@ -35,12 +35,12 @@ Installation instructions
 
 1.
 make 1 new folder on content\cars:
-arch_nissan_370z_nismo_2014
+arch_nissan_z34_370z_nismo_2014
 
 2.
 copy from folder ks_nissan_370z
 all files to the new previously created folders:
-arch_nissan_370z_nismo_2014
+arch_nissan_z34_370z_nismo_2014
 
 3.
 Extract and replace all from the downloaded file

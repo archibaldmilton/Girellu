@@ -2,6 +2,7 @@
 
 - Added Z34
 - Updated R35
+- Corrected issue in Z34 documentation
 
 2023-01-04
 
