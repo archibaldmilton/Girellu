@@ -1,4 +1,4 @@
-2023-01-04_0.5
+2023-01-05_0.5
 
 • Initial release
 
@@ -9,7 +9,7 @@ SHADERS PATCH REQUIRED!
 !!!IMPORTANT!!!
 
 Includes:
-Nissan R35 GT-R NISMO 2014
+Nissan Z34 370Z NISMO 2014
 
 Credits:
 Physics by Arch
@@ -22,28 +22,28 @@ The usual suspects
 
 INSTALLATION INSTRUCTIONS:
 
-The data.acd file is intended as a replacement used alongside the KS GT-R NISMO visuals
+The data.acd file is intended as a replacement used alongside the KS 370Z visuals
 or a fitting visual of your choosing. Visuals and sound are not bundled with the package.
 
 How to install:
 
 RECOMMENDED VISUALS AND SOUND
 
-GT-R NISMO : KS GT-R NISMO and GT-R NISMO sound
+370Z NISMO : KS 370Z NISMO and 370Z NISMO sound
 
 Installation instructions
 
 1.
 make 1 new folder on content\cars:
-arch_nissan_r35_gtr_nismo_2014
+arch_nissan_370z_nismo_2014
 
 2.
-copy from folder ks_mazda_mx5_nd
+copy from folder ks_nissan_370z
 all files to the new previously created folders:
-arch_nissan_r35_gtr_nismo_2014
+arch_nissan_370z_nismo_2014
 
 3.
 Extract and replace all from the downloaded file
 
 4. 
-use CM to Replace Sound and select the KS GT-R NISMO
+use CM to Replace Sound and select the 370Z NISMO
