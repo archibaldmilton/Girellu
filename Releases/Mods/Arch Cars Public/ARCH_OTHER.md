@@ -1,8 +1,7 @@
 # Standalone Arch Releases
->**Attention drifters! Do not use CSP versions from 1.78 to 1.73**. Otherwise tires will have an unknown force pushing the car, which makes drifting more difficult.
+>**Attention drifters! Do not use CSP versions from 1.73 to 1.78**.  These versions have a modified slip function, where it is changed from the default sin(angle) to tan(angle). The slip function has been changed back to sin(angle) for versions after 1.78. 
 
 The mods listed below include cars that are relatively active in physics updates. Click the images to be redirected for downloading.
-
 ### 2007 Subaru Impreza WRX (GD) Tuned
 [![Screenshot_ag_subaru_impreza_wrx_tuned_jr_mosport_ddt_7-10-122-21-29-34](https://user-images.githubusercontent.com/90503800/200462952-7d88dc7f-9bca-4bc9-8c07-b49e77565647.png)](https://www.racedepartment.com/downloads/2007-subaru-impreza-wrx-gd-tuned.33356/ "RaceDepartment")
 ### Honda NSX
@@ -17,9 +16,7 @@ The mods listed below include cars that are relatively active in physics updates
 [![placeholder image]()](https://www.racedepartment.com/downloads/skip-barber-for-assetto-corsa.26791/)
 ### Spec Racer Ford SRF
 [![placeholder image]()](https://www.racedepartment.com/downloads/ford-spec-racer-for-assetto-corsa.28643/)
-
 ## Physics Adapted from [Arch Modified Physics Pack](https://github.com/archibaldmilton/Girellu/tree/master/Releases/Mods/Arch%20Cars%20Public)
-
 ### 2002 Nissan Skyline R34 GT-R V-SPEC II NÜR
 [![Screenshot_asc_nissan_r34_nur_rize_homespace_forzastreet_14-3-122-22-1-14](https://user-images.githubusercontent.com/90503800/185717073-ae97e493-30a5-427a-a8f3-e25d47536b5c.png)](https://www.youtube.com/watch?v=mV1Cy2DPyzk "YouTube")
 ### Mazda RX-7 FD3S Spirit R Type-A
