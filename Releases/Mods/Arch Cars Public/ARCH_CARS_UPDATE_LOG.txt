@@ -1,3 +1,13 @@
+2023-02-23
+- Changed many folder names including cars not updated: beware! (Sorry, done for readability and standardization)
+- Updated Elise
+- Updated GT86 (Added Drift)
+- Updated Miata NA (Added Drift)
+- Updated Miata ND
+- Updated R34
+- Updated R35
+- Updated Z34
+
 2023-02-15
 
 - Updated AE86
