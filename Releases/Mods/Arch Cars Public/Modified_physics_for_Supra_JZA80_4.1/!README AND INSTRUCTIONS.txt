@@ -1,3 +1,9 @@
+2023-03-06_4.1
+
+- Corrected error in RZ rear bumpstop .lut
+- Shortened suspensions.ini
+- File cleaning
+
 2023-02-15_4.0
 - Changed temperature vs slip .luts (large change when drifting)
 - Changed load vs mu .luts

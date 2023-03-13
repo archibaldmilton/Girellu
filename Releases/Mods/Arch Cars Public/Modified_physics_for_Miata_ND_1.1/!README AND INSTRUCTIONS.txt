@@ -1,3 +1,7 @@
+2023-03-13_1.1
+
+- Fixed large error in ctrl_ebb.ini
+
 2023-03-05_1.0
 
 - Added Drift
