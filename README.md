@@ -1,15 +1,11 @@
 ![banner](https://user-images.githubusercontent.com/90503800/141666780-5d8b549d-25ec-4193-a985-856c1b724bbe.png)
-
 # Girellu Repository
 Personally curated content for Assetto Corsa.
-
 >If you're new to Assetto Corsa then you can start by reading the AC startup guide [here](https://github.com/archibaldmilton/Girellu/wiki/AC-Startup-Guide "Guide").
-
 ## How to Download
 [![button](https://img.shields.io/github/repo-size/archibaldmilton/girellu?color=black&labelColor=white&label=Download&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij48cGF0aCBkPSJNNC45NyAxMS4wM2EuNzUuNzUgMCAxMTEuMDYtMS4wNkwxMSAxNC45NFYyLjc1YS43NS43NSAwIDAxMS41IDB2MTIuMTlsNC45Ny00Ljk3YS43NS43NSAwIDExMS4wNiAxLjA2bC02LjI1IDYuMjVhLjc1Ljc1IDAgMDEtMS4wNiAwbC02LjI1LTYuMjV6bS0uMjIgOS40N2EuNzUuNzUgMCAwMDAgMS41aDE0LjVhLjc1Ljc1IDAgMDAwLTEuNUg0Ljc1eiI%2BPC9wYXRoPjwvc3ZnPg%3D%3D&style=for-the-badge)](https://github.com/archibaldmilton/Girellu/archive/refs/heads/master.zip "Download ZIP")
-
 ### How to Download and Fetch Updates
-1. Login into or create a [GitHub account](https://github.com/login).
+1. Login or create a [GitHub account](https://github.com/login).
 2. Install [GitHub Desktop](https://desktop.github.com/) and login with your GitHub acount.
 3. Clone Girellu repository by following [GitHub's tutorial](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop "GitHub Tutorial").
 
@@ -20,14 +16,17 @@ Personally curated content for Assetto Corsa.
 ___
 ## FAQ
 "*What do these folders mean?*"
-* "Releases" is where downloadable content reside.
-	- Filters is for AC Post-Processing Filters (PPF)
-	- Mods is for non-PPF content of the repository
+```
+Girellu/ - # You are here
+└── Releases/ - # Released Girellu content
+    ├── Filters - # AC Post-processing Filters
+    └── Mods - # General AC content/
+        └── Arch Cars Public (Arch Modified Physics)
+```
 
 "*Why host on GitHub?*"
 * To avoid community feuds (Discord servers, RaceDepartment, etc.)
 * It is quicker and easier to host.
-
 ## Related Communities
 <table align="center"><thead><tr><td align="center"><strong>Custom Shaders Patch</strong></td><td align="center"><strong>Sol WeatherFX</strong></td><td align="center"><strong>Girellu (development and support)</strong></td></tr></thead><tbody><tr><td align="center">https://discord.gg/SWryb5V</td><td align="center">https://discord.gg/7YVrS4ydaA</td><td align="center">https://discord.gg/jgG738MtCe</td></tr><tr><td align="center">https://www.patreon.com/x4fab</td><td align="center">https://www.patreon.com/peterboese</td><td align="center">-</td></tr></tbody></table>
 
