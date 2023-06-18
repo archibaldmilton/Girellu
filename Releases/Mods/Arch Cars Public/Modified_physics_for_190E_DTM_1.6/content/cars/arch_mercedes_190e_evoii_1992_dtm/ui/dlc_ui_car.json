@@ -1,0 +1,70 @@
+{
+	"url":"http://store.steampowered.com/app/347990",
+	"name": "Mercedes-Benz 190E EVO II",
+	"brand": "Mercedes-Benz",
+	"description": "The Mercedes-Benz 190 introduced in 1982 rapidly made a name for itself as the Baby-Benz. But who would have thought that it would also acquire a reputation as a compact sports car over the years and after several engine and equipment refinements?</br></br>
+	
+	The 190 E 2.5-16 Evolution II - celebrated its world premiere at the Geneva Motor Show in March 1990. The EVO II stood out for its bodywork modifications designed to reduce drag still further and to raise downforce at the front and rear axles. Particularly distinctive and eye-catching features were the large rear airfoil and the wheelarch flares. The EVO II caused quite a stir, quite literally. Within three months, a small series of 502 units was produced to obtain homologation for motor sport.</br></br>
+	
+	The car may have been ever so well developed and designed - for the motor sport teams, it was no more than the basis for additional modifications. And there was plenty of scope for the latter: engine output was boosted to well over 300 hp and the car's weight was reduced to less than 1,000 kilograms, resulting in a top speed in the range of 300 km/h. It is therefore not surprising that the EVO II was a highly successful competitor on the racetrack - as borne out by the DTM driver's title clinched by Klaus Ludwig in 1992.
+	",
+	"tags": ["#90s touring", "rwd", "manual", "race", "touring", "germany", "vintage"],  
+	"class": "race",
+
+	"specs":
+	{
+		"bhp": "370+bhp",
+		"torque":"310Nm",
+		"weight": "980kg",
+		"topspeed": "280+km/h",
+		"acceleration": "--s 0-100",
+		"pwratio": "2.64kg/hp"
+	},
+	"torqueCurve": [
+		["0","56"],
+		["500","98"],
+		["1000","121"],
+		["1500","138"],
+		["2000","145"],
+		["2500","150"],
+		["3000","165"],
+		["3500","178"],
+		["4000","209"],
+		["4500","217"],
+		["5000","228"],
+		["5500","230"],
+		["6000","266"],
+		["6500","271"],
+		["7000","290"],
+		["7500","300"],
+		["8000","296"],
+		["8500","294"],
+		["9000","286"],
+		["9500","279"],
+		["9750","262"]
+	],
+	"powerCurve": [
+		["0","0"],
+		["500","7"],
+		["1000","17"],
+		["1500","29"],
+		["2000","41"],
+		["2500","53"],
+		["3000","70"],
+		["3500","87"],
+		["4000","117"],
+		["4500","137"],
+		["5000","160"],
+		["5500","178"],
+		["6000","224"],
+		["6500","247"],
+		["7000","285"],
+		["7500","316"],
+		["8000","333"],
+		["8500","351"],	
+		["9000","361"],
+		["9500","372"],
+		["9750","359"]
+	]
+
+}
