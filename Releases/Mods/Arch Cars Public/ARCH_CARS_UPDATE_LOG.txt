@@ -1,3 +1,27 @@
+2023-07-03
+
+- Updated E30 M3
+- Updated FD3S
+- Updated Miata NA
+- Updated Miata ND
+- Updated R34
+- Updated R35
+- Updated Z34
+- Updated GT86
+- Updated JZA80
+- Updated Singer
+
+2023-06-26
+
+- Changed directory names for all cars
+- Changed readmes for all cars
+- Updated all cars
+- Changed car foldernames for:
+	- DTM1992 BMW E30 M3
+	- DTM1992 Mercedes 190E
+	- Gr4 Porsche 911 RSR
+	- Gr5 Porsche 935 78
+
 2023-06-17
 
 - Updated 190E DTM
