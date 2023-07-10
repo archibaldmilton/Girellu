@@ -1,0 +1,14 @@
+2023-07-09
+- Updated E30 M3
+- Updated FD3S
+- Updated Miata NA
+- Updated AE86
+- Updated JZA80
+
+2023-07-08
+- First COSMIC version, CSP 1.80+ compatibility only!
+- Added E30 M3
+- Added FD3S
+- Added Miata NA
+- Added AE86
+- Added JZA80

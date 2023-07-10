@@ -1,4 +1,6 @@
 # Arch Modified Physics
+> As the name implies, this is a branch for CSP versions 1.80 and beyond (as of now, 1.79 cosmic is broken). Read more about cosmic suspension [here](https://github.com/ac-custom-shaders-patch/acc-extension-config/wiki/Cars-%E2%80%93-Cosmic-Suspension).
+
 ## Installation
 The install_arch_cars.bat script will automate installing of the car mods inside this folder. If you want to individually download cars, then you will have to manually install them.
 ### Automated .bat script install (recommended method, installs all cars)

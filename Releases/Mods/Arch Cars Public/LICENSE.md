@@ -1,5 +1,5 @@
 # Arch Modified Physics License
-As of 3 July, 2023
+As of 10 July, 2023
 #### You are allowed to:
 * Use Arch modified physics on personal work.
 * Archive or back up Arch modified physics for personal use.
