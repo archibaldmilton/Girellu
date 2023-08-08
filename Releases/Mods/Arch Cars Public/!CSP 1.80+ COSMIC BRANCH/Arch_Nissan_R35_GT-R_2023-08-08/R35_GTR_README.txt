@@ -1,3 +1,6 @@
+2023-08-08
+- Brake torque typo fix
+
 2023-08-06
 - First COSMIC version, CSP 1.80+ compatibility only!
 - Added object-based alignment, springs, dampers etc.
