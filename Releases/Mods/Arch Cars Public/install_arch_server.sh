@@ -4,11 +4,12 @@
 
 ## Config
 assetto_rootdir=''
-current_dir=$()
-cosmic_branch=$(echo Use cosmic branch?)
+current_dir=$(realpath "$0")
+use_cosmic_branch=''  # 0 to not use, 1 to use, empty to ask
 shopt -s execfail  # ERR on failure
 
 
+## Functions
 # This function resets session variables in case the script fails during runtime
 failsafe_bash_env () {	
 	echo "Script failed. Failsafe function ran."
@@ -17,12 +18,13 @@ failsafe_bash_env () {
 	exit 1
 }
 
+# Restore terminal state if script ERRs
 trap "failsafe_bash_env" ERR SIGINT SIGKILL SIGTERM SIGSTOP SIGQUIT
 
 ## Use: user_prompt "Question?" "Short answer 1" "Short answer 2" "Positive action" "Negative action"
-## Returns status code 1 (true) and 0 (false)
-## ex:
-## user_prompt "Use cosmic branch?" "Y" "N" 'echo aa' 'echo bb'
+# Returns status code 1 (true) and 0 (false)
+# ex:
+# user_prompt "Use cosmic branch?" "Y" "N" 'echo aa' 'echo bb'
 user_prompt () {
 	prompt_text="$1"  # first parameter passed to function
 	choice_positive="$2"  # ex. "Y"
@@ -42,7 +44,11 @@ user_prompt () {
 	return 0  # function status (trap monitors this)
 }
 
-user_prompt "Use cosmic branch?" "Y" "N" 'echo - Cosmic branch selected.' 'echo - Regular branch selected.'
+
+## Main
+if [[ ! "$use_cosmic_branch" -eq '0' ]] || [[ ! "$use_cosmic_branch" -eq '1' ]];then
+	user_prompt "Use cosmic branch?" "Y" "N" 'echo - Cosmic branch selected.' 'echo - Regular branch selected.'
+fi
 
 ## TODO: get current dir, edit cfg by self maybe?
 ## TODO: trap ERR and then trap - ERR to set and unset trapping - stages of install
