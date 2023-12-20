@@ -1,4 +1,9 @@
-2023-12-18
+2023-12-20
+- Corrected (?) mass, wheelbase, track
+- Corrected CHASSIS_REAR
+- Minor changes
+
+2023-12-19
 - Initial release
 
 !!!IMPORTANT!!!
@@ -8,7 +13,7 @@ Shaders patch 0.2.0+ required!
 !!!IMPORTANT!!!
 
 Includes:
-1M E82
+E92 M3 Coupe
 
 Credits:
 Physics and custom UI file by Arch
@@ -19,6 +24,6 @@ Special thanks to:
 
 RECOMMENDED VISUALS AND SOUND
 
-1M E82 = KS 1M
+E92 M3 Coupe = KS M3 E92
 
 

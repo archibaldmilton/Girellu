@@ -1,3 +1,12 @@
+2023-12-20
+- Updated E92
+
+2023-12-19
+- Added E92
+- Updated E82
+- Updated Z34
+- Changed tire thermal versions from 2 to 1 for updated cars (Less buggy)
+
 2023-12-18
 - Added E82
 - Updated R34

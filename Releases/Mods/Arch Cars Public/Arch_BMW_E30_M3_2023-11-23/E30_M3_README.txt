@@ -49,8 +49,8 @@ Shaders patch 0.2.0+ required!
 !!!IMPORTANT!!!
 
 Includes:
-M3 E30
-M3 E30 Drift
+E30 M3
+E30 M3 Drift
 
 Credits:
 Physics and custom UI file by Arch/Kyuubeey
@@ -64,7 +64,7 @@ for data and help
 
 RECOMMENDED VISUALS AND SOUND
 
-M3 E30 = KS M3 E30
-M3 E30 Drift = KS M3 E30 Drift
+E30 M3 = KS M3 E30
+E30 M3 Drift = KS M3 E30 Drift
 
 
