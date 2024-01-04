@@ -105,6 +105,8 @@ echo "Chosen directory: ${contentdir_path}"
 # Load donor_cars.txt as array
 directory_instructions=$(cat "$repo_dir"/donor_cars.txt )
 
+#TODO: for dir in arch cars, do etc
+repo_cars=$(find "$repo_dir" -maxdepth 1 -type d -name "Arch*")
 
 ## Main
 for line in ${directory_instructions[@]}; do
