@@ -1,6 +1,8 @@
 arch_bmw_e30_1986_m3,bmw_m3_e30
 arch_bmw_e30_1986_m3_drift,bmw_m3_e30_drift
-arch_bmw_e30_1990_m3_evo3,bmw_m3_e30
+arch_bmw_e82_2011_1m,bmw_1m
+arch_bmw_e89_2010_z4_35i,bmw_z4
+arch_bmw_e92_2008_m3,bmw_m3_e92
 arch_dtm1992_bmw_e30_m3_evo3,bmw_m3_e30_dtm
 arch_dtm1992_mercedes_190e_evoii,ks_mercedes_190_evo2
 arch_gr4_porsche_911_rsr_1974,ks_porsche_911_carrera_rsr
