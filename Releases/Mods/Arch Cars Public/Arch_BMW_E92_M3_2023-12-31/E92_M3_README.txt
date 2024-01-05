@@ -1,3 +1,9 @@
+2023-12-31
+- Changed maximum engine RPM as per BMW documentation
+- Minor modification to engine torque curve
+- Minor modification to analog instruments RPM gauge
+- Minor syntax improvement to suspensions.ini
+
 2023-12-27
 - Changed unsprung masses
 
