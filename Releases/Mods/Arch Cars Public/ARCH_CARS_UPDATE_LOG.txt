@@ -1,3 +1,6 @@
+2023-01-18_B
+- Changed path again to work with installer script (sorry)
+
 2024-01-18
 - Updated all cars
 - Updated extconfigs and vao patches
