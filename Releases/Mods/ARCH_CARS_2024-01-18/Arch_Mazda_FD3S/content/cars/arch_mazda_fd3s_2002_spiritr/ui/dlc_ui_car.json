@@ -1,0 +1,62 @@
+{
+	"url":"http://store.steampowered.com/app/467980",
+	"name": "Mazda RX-7 Spirit R",
+	"brand": "Mazda",
+	"description": "
+	The third-generation RX-7, first launched in 1991, has a particularly distinctive exterior design. Its lightweight, compact and high-output rotary engine enables the driver to feel superb driving pleasure. Epitomizing Mazda's spirit of sports car, the RX-7 has won popularity among the customers since its 1978 launch. The production of the RX-7 model (FD-3S) came to an end in August 2002.<br><br>
+	The Spirit R series is available in three models: the Type-A, a two-seater with a five-speed manual transmission; the Type-B, a four-seater with a five-speed manual transmission; and the Type-C, a four-seater with a four-speed automatic transmission. All three models are equipped with common interior and exterior features, such as BBS-manufactured 17-inch wheels, red brake calipers, and interior panels with a special soft coating, while each model shows off its own equipment to make a difference from the other.<br><br>
+	The Type-A Spirit R is a two-seater model fitted with the Recaro-made exclusive red full bucket seats. These lightweight seats reduce the overall chassis weight of the vehicle by approximately 10 kg. Braking performance is enhanced through the use of large drilled type ventilated disk brakes for all four wheels and high rigid stainless mesh brake hoses. The Type-A Spirit R model is the ultimate RX-7, boasting the most outstanding driving performance in its history.",
+	"tags": ["#Sportscars", "rwd", "manual", "street", "japan"],  
+	"class": "street",
+	"specs":
+	{
+		"bhp": "276bhp",
+		"torque": "314Nm",
+		"weight": "1270kg",
+		"topspeed": "256km/h",
+		"acceleration": "5.3s 0-100",
+		"pwratio": "4.60kg/hp"
+		},
+		"torqueCurve": [
+		["500","167"],
+		["1000","212"],
+		["1500","245"],
+		["2000","258"],
+		["2500","270"],
+		["3000","282"],
+		["3500","286"],
+		["4000","291"],
+		["4500","306"],
+		["5000","315"],
+		["5500","311"],
+		["6000","313"],
+		["6500","313"],
+		["7000","311"],
+		["7500","285"],
+		["8000","258"],
+		["8500","211"]
+		],
+		"powerCurve": [
+		["500","12"],
+		["1000","30"],
+		["1500","52"],
+		["2000","72"],
+		["2500","95"],
+		["3000","119"],
+		["3500","140"],
+		["4000","163"],
+		["4500","194"],
+		["5000","221"],
+		["5500","241"],
+		["6000","254"],
+		["6500","266"],
+		["7000","276"],
+		["7500","270"],
+		["8000","263"],
+		["8500","251"]
+		]
+
+	}
+
+
+

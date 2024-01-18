@@ -1,0 +1,106 @@
+2024-01-18
+- Updated all cars
+- Updated extconfigs and vao patches
+
+2023-12-31
+- Added S550
+- Updated E92
+
+2023-12-27
+- Added E89
+- Updated E82
+- Updated E92
+- Updated F82
+- Updated R34
+
+2023-12-24
+- Added F82
+- Updated all cars
+
+2023-12-20
+- Updated E92
+
+2023-12-19
+- Added E92
+- Updated E82
+- Updated Z34
+- Changed tire thermal versions from 2 to 1 for updated cars (Less buggy)
+
+2023-12-18
+- Added E82
+- Updated R34
+- Updated R35
+- Updated Z34
+- Updated GT86
+
+2023-11-23
+- Updated E30
+- Updated FD3S
+- Updated Miata NA
+- Updated Miata ND
+- Updated R34
+- Updated Z34
+- Updated AE86
+- Updated GT86
+- Updated JZA80
+
+2023-11-17
+- Updated E30
+- Updated FD3S
+- Updated Miata NA
+- Updated Miata ND
+- Updated Z34
+- Updated AE86 (No version number change, Drift UI)
+- Updated GT86
+- Updated JZA80
+
+2023-11-16
+- Updated FD3S (No version number change, small typofix in Spirit R preload)
+- Updated Miata ND
+- Updated GT86
+- Updated JZA80
+- Updated readmes
+
+2023-11-14
+- Updated E30
+- Updated FD3S
+- Updated Miata NA
+- Updated AE86
+
+2023-11-12
+- Changed Author to "Arch"
+- Added R34
+- Added CTR
+- Updated E30
+- Updated FD3S
+- Updated Miata NA
+- Updated AE86
+
+2023-08-08
+- Updated R35
+
+2023-08-06
+- Added Miata ND
+- Added R35
+- Added Z34
+- Added GT86
+- Updated E30 M3
+- Updated FD3S
+- Updated Miata NA
+- Updated AE86
+- Updated JZA80
+
+2023-07-09
+- Updated E30 M3
+- Updated FD3S
+- Updated Miata NA
+- Updated AE86
+- Updated JZA80
+
+2023-07-08
+- First COSMIC version, CSP 1.80+ compatibility only!
+- Added E30 M3
+- Added FD3S
+- Added Miata NA
+- Added AE86
+- Added JZA80

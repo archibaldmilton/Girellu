@@ -1,0 +1,64 @@
+{
+	"url":"http://store.steampowered.com/app/467980",
+	"name": "Mazda RX-7 Tuned",
+	"brand": "Mazda",
+	"description": "Because of its nature, the rotary engine is able to run at higher speeds without suffering the detrimental forces of a common engine. This means the owner is not forced to focus on extensive modifications to preserve engine's lifetime. <br><br>
+The main steps are remapping the engine, replacing the original turbo system with a bigger unit, improving the air filter to have a higher flow (very important for rotary engines), exhaust pipe and, of course, installing a big rear wing because the rear is really light at high speeds.
+	",
+	"tags": ["#Sportscars", "rwd", "manual", "street", "japan"],  
+	"class": "street",
+	"specs":
+	{
+		"bhp": "444bhp",
+		"torque": "398Nm",
+		"weight": "1312kg",
+		"topspeed": "--km/h",
+		"acceleration": "--s 0-100",
+		"pwratio": "2.95kg/hp"
+		},
+		"torqueCurve": [
+		["500","262"],
+		["1000","268"],
+		["1500","310"],
+		["2000","326"],
+		["2500","341"],
+		["3000","356"],
+		["3500","372"],
+		["4000","381"],
+		["4500","387"],
+		["5000","398"],
+		["5500","394"],
+		["6000","396"],
+		["6500","396"],
+		["7000","394"],
+		["7500","383"],
+		["8000","381"],
+		["8500","372"],
+		["9000","339"],
+		["9500","286"]
+		],
+		"powerCurve": [
+		["500","18"],
+		["1000","38"],
+		["1500","65"],
+		["2000","91"],
+		["2500","120"],
+		["3000","150"],
+		["3500","183"],
+		["4000","214"],
+		["4500","245"],
+		["5000","280"],
+		["5500","304"],
+		["6000","334"],
+		["6500","361"],
+		["7000","387"],
+		["7500","403"],
+		["8000","428"],
+		["8500","444"],
+		["9000","428"],
+		["9500","382"]
+		]
+
+	}
+
+

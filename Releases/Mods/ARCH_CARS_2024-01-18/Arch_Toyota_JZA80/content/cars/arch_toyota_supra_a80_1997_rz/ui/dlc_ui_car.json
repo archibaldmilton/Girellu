@@ -1,0 +1,57 @@
+{
+	"url":"http://store.steampowered.com/app/467980",
+	"name": "Toyota Supra MKIV",
+	"brand": "Toyota",
+	"description": "In 1979 the Supra's 2.6-liter inline-6 engine was the first Toyota production engine to be equipped with electronic fuel injection. The Supra was available with both a manual and automatic transmission, and came standard with 4-wheel-independent suspension and 4-wheel disc brakes.<br><br>
+	With the exception of minor styling updates, the next major change occurred in 1993, when the Supra entered the realm of &quot;supercars.&quot; Available in both Turbo and non-Turbo guise, the new Supra was a radical departure from Supras of old. Performance was now the name of the game, and many weight saving measures were employed -- Toyota went so far as to equip the vehicle with hollow carpet fibers and make the rear spoiler (optional on Turbo models) hollow. <br><br>
+	The Turbo model was hailed by all major magazines as a true worldbeater. With 320hp, the vehicle was capable of 0-100 km/h sprints in under 5 seconds, and carried on to an electronically-limited top speed of 250 km/h. This was the highest level of performance and the strongest commitment to performance Toyota had ever placed in one vehicle.",
+	"tags": ["#Sportscars", "rwd", "manual", "street", "turbo", "japan"],   
+	"class": "street",
+	"specs":
+	{
+		"bhp": "280bhp",
+		"torque": "458Nm",
+		"weight": "1510kg",
+		"topspeed": "249km/h",
+		"acceleration": "5.0s 0-100",
+		"pwratio": "5.39kg/hp"
+		},
+		"torqueCurve": [
+		["500","158"],
+		["1000","208"],
+		["1500","227"],
+		["2000","255"],
+		["2500","357"],
+		["3000","382"],
+		["3500","354"],
+		["4000","392"],
+		["4500","435"],
+		["5000","431"],
+		["5500","407"],
+		["6000","370"],
+		["6500","324"],
+		["7000","287"],
+		["7500","282"],
+		["8000","227"]
+		],
+		"powerCurve": [
+		["500","11"],
+		["1000","29"],
+		["1500","48"],
+		["2000","72"],
+		["2500","125"],
+		["3000","161"],
+		["3500","174"],
+		["4000","220"],
+		["4500","275"],
+		["5000","303"],
+		["5500","314"],
+		["6000","311"],
+		["6500","296"],
+		["7000","282"],
+		["7250","312"],
+		["7500","297"],
+		["8000","255"]
+		]
+
+	}

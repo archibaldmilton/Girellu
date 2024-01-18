@@ -1,0 +1,59 @@
+{
+	"url":"http://store.steampowered.com/app/467980",
+	"name": "Nissan Skyline GTR R34 V-Spec",
+	"brand": "Nissan",
+	"description": "1999 has seen the introduction of the new Skyline R34 GT-R, with a wealth of history behind it and an enviable reputation to live up to. A 'super-evolution' of the model it replaced, the R34 GT-R is more advanced in every respect. Its body is stiffer and its aerodynamics package is further refined, and in V-spec features front and rear carbonfibre diffusers under the car, and dual wing adjustable aerofoil on the bootlid. Among the many technical refinements under the bonnet are twin ceramic intercooled Turbochargers, which effectively eliminate Turbo-lag. There is also more torque and better power delivery.<br><br>
+	A six-speed Getrag transmission now delivers the engine's output to the wheels. Improvements have been made to the ATTESA four-wheel drive system, which features E-TS, or Electronic Torque Split. This gives the driver the entertainment of a 100 per cent rear-wheel drive car, together with the traction and safety of a 50:50 four-wheel drive system when conditions demand it. This is further backed up by 'intelligent' electronic limited-slip differential. Refinements to the Super HICAS rear-wheel steer system include an electronic yaw-rate Feedback Control System for even more precise control of the rear wheels in extreme situations.<br><br>
+	Quicker Turbo response has also been achieved through the use of new Turbochargers. Power is fed through a new six-speed close ratio Getrag gearbox. The basic engine goes back some nine years and was first developed for racing. In racing specification the engine comfortably produces upwards of 507bhp.",
+	"tags": ["#Sportscars", "awd", "manual", "street", "turbo", "japan"],  
+	"class": "street",
+
+	"specs":
+	{
+		"bhp": "325bhp",
+		"torque": "392Nm",
+		"weight": "1560kg",
+		"topspeed": "250+km/h",
+		"acceleration": "4.9s 0-100",
+		"pwratio": "4.83kg/hp"
+		},
+		"torqueCurve": [
+		["0","98"],
+		["500","127"],
+		["1000","166"],
+		["1500","205"],
+		["2000","235"],
+		["2500","284"],
+		["3000","333"],
+		["3500","353"],
+		["4000","382"],
+		["4500","392"],
+		["5000","362"],
+		["5500","343"],
+		["6000","323"],
+		["6500","304"],
+		["7000","284"],
+		["7500","264"],
+		["8000","245"]
+		],
+		"powerCurve": [
+		["0","0"],
+		["500","15"],
+		["1000","32"],
+		["1500","46"],
+		["2000","71"],
+		["2500","102"],
+		["3000","150"],
+		["3500","188"],
+		["4000","214"],
+		["4500","240"],
+		["5000","273"],
+		["5500","297"],
+		["6000","311"],
+		["6500","323"],
+		["7000","303"],
+		["7500","260"],
+		["8000","220"]
+		]
+
+	}
