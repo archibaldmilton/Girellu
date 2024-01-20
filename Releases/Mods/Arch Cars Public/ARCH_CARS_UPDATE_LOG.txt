@@ -1,4 +1,9 @@
-2023-01-18_B
+2024-01-20
+- Updated directories
+- Updated R34
+- Updated Z34
+
+2024-01-18_B
 - Changed path again to work with installer script (sorry)
 
 2024-01-18
