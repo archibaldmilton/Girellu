@@ -1,7 +1,7 @@
 {
   "name": "Mazda Miata NA8C Drift",
   "brand": "Mazda",
-  "description": "BP-VE<br>Standard NA8C subframes<br>Cut factory knuckles, relocated inner tie rod<br>Tokico Illumina<br>NA8C brakes<br><br>185/55R14 140TW (est.)",
+  "description": "BP-VE<br>Standard NA8C subframes<br>Cut factory knuckles, relocated inner tie rod<br>Tokico Illumina<br>NA8C brakes + Sport pad<br><br>185/55R14 140TW (est.)",
   "tags": [
     "#small sports",
     "rwd",
@@ -265,7 +265,7 @@
   ],
   "country": "Japan",
   "author": "Arch",
-  "version": "2024-01-18",
+  "version": "2024-01-27",
   "url": "https://github.com/archibaldmilton/Girellu",
   "year": 1994,
   "parent": "arch_mazda_miata_1994_na8c"

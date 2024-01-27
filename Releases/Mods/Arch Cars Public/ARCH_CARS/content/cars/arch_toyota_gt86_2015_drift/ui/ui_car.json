@@ -1,7 +1,7 @@
 {
   "name": "Toyota GT86 Drift",
   "brand": "Toyota",
-  "description": "FA20D + Cosworth Stage II<br>Standard ZN6 subframes, extended arms<br>Cut factory knuckles, relocated inner tie rod<br>KW Clubsport coilovers<br>ZN6 brakes<br><br>225/45ZR17 200TW",
+  "description": "FA20D + Cosworth Stage II<br>Standard ZN6 subframes, extended arms<br>Cut factory knuckles, relocated inner tie rod<br>KW Clubsport coilovers<br>ZN6 brakes + Sport pad<br><br>225/45ZR17 200TW",
   "tags": [
     "#small sports",
     "rwd",
@@ -270,7 +270,7 @@
   "country": "Japan",
   "year": 2015,
   "author": "Arch",
-  "version": "2024-01-18",
+  "version": "2024-01-27",
   "url": "https://github.com/archibaldmilton/Girellu",
   "parent": "arch_toyota_gt86_2015_gt"
 }

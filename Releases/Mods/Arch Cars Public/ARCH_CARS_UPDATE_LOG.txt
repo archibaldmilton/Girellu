@@ -1,3 +1,9 @@
+2024-01-27
+- Added realfeel to CTR, AE86 (Use numpad- to adjust if needed)
+- Changed AE86 foldernames
+- Changed FFMULT in all cars
+- Updated all cars
+
 2024-01-20
 - Updated directories
 - Updated R34

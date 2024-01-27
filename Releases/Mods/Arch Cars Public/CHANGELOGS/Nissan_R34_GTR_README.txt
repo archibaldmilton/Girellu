@@ -1,3 +1,12 @@
+2024-01-27
+- Added extended brakes system, realfeel
+- Added booster servo saturation to torque calculation
+- Calibrated brakes to 100kgf pedal
+- Changed tire and brake thermals
+- Changed engine
+- Added optional N1, NISMO engines in data folder
+- Minor tyres.ini changes
+
 2024-01-20
 - Changed car mass
 - Changed tire load curves
