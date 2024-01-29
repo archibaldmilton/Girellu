@@ -1,3 +1,17 @@
+2024-01-29
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- Updated S550
+- Updated Miata NA
+- Updated Miata ND
+- Updated R35
+- Updated Z34
+- Updated AE86
+- Updated GT86
+- Updated JZA80
+
 2024-01-27
 - Added realfeel to CTR, AE86 (Use numpad- to adjust if needed)
 - Changed AE86 foldernames

@@ -1,3 +1,6 @@
+2024-01-29
+- Added wider brake torque range in setup.ini that I forgot to add
+
 2024-01-27
 - Changed foldernames
 - Added extended brakes system, realfeel
