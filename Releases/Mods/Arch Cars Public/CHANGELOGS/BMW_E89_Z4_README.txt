@@ -1,3 +1,6 @@
+2024-02-01
+- Added brake mu .lut that I forgot to add (oops)
+
 2024-01-29
 - Added wider brake torque range in setup.ini that I forgot to add
 
