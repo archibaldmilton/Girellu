@@ -1,3 +1,9 @@
+2024-02-18
+- Added DTM1992 E30
+- Updated E30
+- Updated S550
+- Updated 180SX
+
 2024-02-06
 - Added 180SX
 

@@ -1,3 +1,10 @@
+2024-02-18
+- Changed tire load curves, combined grip, camber_spring_k
+- Changed rear suspension geometry
+- Changed Drift rear toe alignment step from 5 to 1
+- Changed 3D offset
+- Fixed typos in suspensions.ini hints
+
 2024-01-27
 - Added extended brakes system, realfeel
 - Added booster servo saturation to torque calculation
