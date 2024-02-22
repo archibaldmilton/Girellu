@@ -1,3 +1,7 @@
+2024-02-23
+- Changed tire load curves, combined grip, camber_spring_k
+- Changed brake mu curve
+
 2024-01-29
 - Added wider brake torque range in setup.ini that I forgot to add
 

@@ -1,3 +1,6 @@
+2024-02-23
+- Changed tire load curves, combined grip, camber_spring_k
+
 2024-02-01
 - Added brake mu .lut that I forgot to add (oops)
 

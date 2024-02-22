@@ -1,3 +1,11 @@
+2024-02-23
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- Updated S550
+- Updated FD3S
+
 2024-02-18
 - Added DTM1992 E30
 - Updated E30

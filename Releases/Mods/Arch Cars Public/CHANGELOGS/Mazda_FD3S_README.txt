@@ -1,3 +1,6 @@
+2024-02-23
+- Changed tire load curves, combined grip, camber_spring_k
+
 2024-01-27
 - Added extended brakes system, realfeel
 - Added booster servo saturation to torque calculation
