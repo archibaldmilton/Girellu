@@ -1,3 +1,6 @@
+2024-02-25
+- Minor tire changes
+
 2024-02-18
 - Changed tire load curves, combined grip, camber_spring_k
 
