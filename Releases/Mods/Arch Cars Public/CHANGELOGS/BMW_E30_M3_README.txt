@@ -1,3 +1,6 @@
+2024-02-26
+- Changed tire load curves
+
 2024-02-25
 - Minor tire changes
 

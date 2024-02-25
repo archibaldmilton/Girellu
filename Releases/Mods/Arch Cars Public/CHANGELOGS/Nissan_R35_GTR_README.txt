@@ -1,3 +1,6 @@
+2024-02-26
+- Changed tire load curves, combined grip, camber_spring_k
+
 2024-01-29
 - Added wider brake torque range in setup.ini that I forgot to add
 
@@ -32,7 +35,7 @@
 
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.0+ required!
+Shaders patch 0.2.2+ required!
 
 !!!IMPORTANT!!!
 

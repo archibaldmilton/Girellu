@@ -1,3 +1,6 @@
+2024-02-26
+- Changed tire load curves
+
 2024-02-23
 - Changed tire load curves
 
@@ -22,7 +25,7 @@
 
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.0+ required!
+Shaders patch 0.2.2+ required!
 
 !!!IMPORTANT!!!
 

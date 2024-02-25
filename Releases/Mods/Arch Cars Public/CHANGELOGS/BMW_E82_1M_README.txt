@@ -1,3 +1,6 @@
+2024-02-26
+- Changed tire load curves
+
 2024-02-23
 - Changed tire load curves, combined grip, camber_spring_k
 - Changed brake mu curve
@@ -33,7 +36,7 @@
 
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.0+ required!
+Shaders patch 0.2.2+ required!
 
 !!!IMPORTANT!!!
 

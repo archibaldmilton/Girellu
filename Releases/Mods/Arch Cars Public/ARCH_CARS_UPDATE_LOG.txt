@@ -1,3 +1,7 @@
+2024-02-26
+- Updated all cars
+- Fix for unintended behavior at high tire loads
+
 2024-02-25
 - Updated E30
 - Updated Miata NA

@@ -1,3 +1,6 @@
+2024-02-26
+- Changed tire load curves
+
 2024-02-25
 - Changed tire load curves, combined grip, camber_spring_k
 - Changed PS map
