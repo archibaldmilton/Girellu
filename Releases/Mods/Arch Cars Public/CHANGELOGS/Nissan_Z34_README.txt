@@ -1,3 +1,6 @@
+2024-02-29
+- Changed bumpstops
+
 2024-02-26
 - Changed tire load curves, combined grip, camber_spring_k
 
