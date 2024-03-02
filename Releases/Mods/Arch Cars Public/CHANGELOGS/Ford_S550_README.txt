@@ -1,3 +1,10 @@
+2024-03-02
+- Added Drift
+- Changed front geometry
+- Changed rear stabilizer
+- Changed rear toe adjustment
+- Changed 3D offset
+
 2024-02-29
 - Changed bumpstops
 
@@ -34,6 +41,7 @@ Shaders patch 0.2.2+ required!
 
 Includes:
 S550 GT
+S550 Drift
 
 Credits:
 Physics and custom UI file by Arch
@@ -43,5 +51,6 @@ Everything else by Kunos Simulazioni
 RECOMMENDED VISUALS AND SOUND
 
 S550 GT = KS Mustang 2015
+S550 Drift = KS Mustang 2015
 
 
