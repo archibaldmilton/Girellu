@@ -1,7 +1,7 @@
 {
   "name": "Ford Mustang S550 Drift",
   "brand": "Ford",
-  "description": "Coyote 5.0L V8<br>Angle kit (restricted angle)<br>MCS TT2<br>S550 brakes, hydraulic handbrake<br><br>255/35ZR19 200TW",
+  "description": "Coyote 5.0L V8<br>Angle kit (restricted rack travel)<br>MCS TT2<br>S550 brakes, hydraulic handbrake<br><br>255/35ZR19 200TW",
   "tags": [
     "#Sportscars",
     "v8",
@@ -334,7 +334,7 @@
   "country": "USA",
   "year": 2015,
   "author": "Arch",
-  "version": "2024-03-02",
+  "version": "2024-03-03",
   "url": "https://github.com/archibaldmilton/Girellu",
   "parent": "arch_ford_s550_2015_gt"
 }

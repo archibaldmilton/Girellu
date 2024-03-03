@@ -1,8 +1,17 @@
+2024-03-03
+- Changed tire damping
+- Changed tire rolling resistance
+- Changed tire load curves (no performance change)
+- Changed Drift default damping settings
+- Changed Drift front geometry, steering degrees, steering ratio
+- Changed Drift wheel offset
+
 2024-03-02
 - Added Drift
 - Changed front geometry
 - Changed rear stabilizer
 - Changed rear toe adjustment
+- Changed rear differential
 - Changed 3D offset
 
 2024-02-29
