@@ -1,7 +1,7 @@
 {
   "name": "Toyota AE86 Drift",
   "brand": "Toyota",
-  "description": "4A-GE Silvertop<br>Standard AE86 subframes<br>Cut factory powersteering knuckles, relocated inner tie rod, NCRCA<br>Tokico HTS112<br>AE86 brakes + Sport pad<br><br>185/55R14 140TW (est.)<br><br>41110-12023 = Toyota Zenki LSD, low lock, low preload, 1.25-way.<br>41301-TA005 = TRD Zenki LSD, moderate lock, moderate preload, 2.0-way.<br>LSD-130-L2 = Cusco Zenki LSD, variable lock, moderate preload, 2.0-way.<br>LSD-130-E2 = Cusco Zenki LSD, variable lock, high preload, 2.0-way.",
+  "description": "4A-GE Silvertop<br>Cut factory powersteering knuckles, relocated inner tie rod, NCRCA<br>Tokico HTS112 simultaneous adjustable dampers<br>AE86 brakes, standard handbrake<br><br>185/55R14 140TW (est.)<br><br>41110-12023 = Toyota Zenki LSD, low lock, low preload, 1.25-way.<br>41301-TA005 = TRD Zenki LSD, moderate lock, moderate preload, 2.0-way.<br>LSD-130-L2 = Cusco Zenki LSD, variable lock, moderate preload, 2.0-way.<br>LSD-130-E2 = Cusco Zenki LSD, variable lock, high preload, 2.0-way.",
   "tags": [
     "#small sports",
     "rwd",
@@ -207,7 +207,7 @@
   "country": "Japan",
   "year": 1983,
   "author": "Arch",
-  "version": "2024-03-03",
+  "version": "2024-03-05",
   "url": "https://github.com/archibaldmilton/Girellu",
   "parent": "arch_toyota_ae86_1983_gtv"
 }

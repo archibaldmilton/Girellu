@@ -2,7 +2,7 @@
   "name": "BMW E30 M3 Drift",
   "parent": "arch_bmw_e30_1986_m3",
   "brand": "BMW",
-  "description": "S54B32<br>Standard E30 M3 subframes, extended arms<br>Cut factory knuckles, relocated inner tie rod, Z3 E36 steering rack<br>Double-adjustable coilovers<br>E30 M3 brakes + Sport pad<br><br>225/45ZR16 200TW",
+  "description": "S54B32<br>Cut factory knuckles, relocated inner tie rod, extended arms, Z3 E36 steering rack<br>Bump and rebound adjustable dampers<br>E30 M3 brakes, hydraulic handbrake<br><br>225/45ZR16 200TW",
   "tags": [
     "#small sports",
     "rwd",
@@ -231,7 +231,7 @@
   ],
   "country": "Germany",
   "author": "Arch",
-  "version": "2024-03-03",
+  "version": "2024-03-05",
   "url": "https://github.com/archibaldmilton/Girellu",
   "year": 1986
 }

@@ -1,3 +1,6 @@
+2024-03-05
+- Changed tire load curves (no performance change)
+
 2024-03-03
 - Changed tire damping
 - Changed tire rolling resistance

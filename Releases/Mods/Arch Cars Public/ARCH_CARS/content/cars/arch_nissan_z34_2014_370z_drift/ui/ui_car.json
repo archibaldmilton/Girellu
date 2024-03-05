@@ -1,7 +1,7 @@
 {
   "name": "Nissan 370Z Drift",
   "brand": "Nissan",
-  "description": "VQ37VHR + Stillen supercharger<br>Standard Z34 subframes<br>Cut factory knuckles, relocated inner tie rod<br>Bilstein B16 PSS10 coilovers (Revalved)<br>Z34 brakes<br><br>255/35ZR18 200TW",
+  "description": "VQ37VHR + Stillen supercharger<br>Cut factory knuckles, relocated inner tie rod<br>Bilstein B16 PSS10 bump and rebound adjustable dampers (Revalved)<br>Z34 brakes, hydraulic handbrake<br><br>255/35ZR18 200TW",
   "tags": [
     "#Sportscars",
     "rwd",
@@ -241,7 +241,7 @@
   ],
   "country": "Japan",
   "author": "Arch",
-  "version": "2024-03-03",
+  "version": "2024-03-05",
   "url": "https://github.com/archibaldmilton/Girellu",
   "year": 2014,
   "parent": "arch_nissan_z34_2014_370z_nismo"

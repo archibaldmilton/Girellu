@@ -1,3 +1,10 @@
+2024-03-05
+- Updated all cars
+- Changed load curves to alleviate catastrophic crashes/freezes (Slope at end of load curve must be flat or extrapolation bad)
+- Known issue: Strange behavior over some geometry, fixed in next CSP patch
+- Known issue: Minor vibration in FFB in some cars as side effect of increased tire damping
+
+
 2024-03-03
 - Updated all cars
 - Tire damping, load curves, rolling resistance

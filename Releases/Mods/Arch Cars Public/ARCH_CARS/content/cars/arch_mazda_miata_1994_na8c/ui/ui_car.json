@@ -13,7 +13,7 @@
   "class": "street",
   "specs": {
     "bhp": "128bhp",
-    "torque": "110lb-ft",
+    "torque": "148Nm",
     "weight": "1004kg",
     "topspeed": "-- km/h",
     "acceleration": "-- s 0-100km/h",
@@ -181,7 +181,7 @@
   ],
   "country": "Japan",
   "author": "Arch",
-  "version": "2024-03-03",
+  "version": "2024-03-05",
   "url": "https://github.com/archibaldmilton/Girellu",
   "year": 1994
 }

@@ -2,7 +2,7 @@
   "name": "Mazda RX-7 FD3S Drift",
   "parent": "arch_mazda_fd3s_2002_spiritr",
   "brand": "Mazda",
-  "description": "13B-REW + Garrett GT3582R @ 16psi<br>Standard FD3S subframes<br>Cut factory knuckles, relocated inner tie rod<br>&#214;hlins DFV coilovers (Revalved)<br>FD3S brakes<br><br>235/40ZR17 200TW / 255/40ZR17 200TW",
+  "description": "13B-REW + Garrett GT3582R @ 16psi<br>Cut factory knuckles, relocated inner tie rod<br>&#214;hlins DFV simultaneous adjustable dampers (Revalved)<br>FD3S brakes, hydraulic handbrake<br><br>235/40ZR17 200TW / 255/40ZR17 200TW",
   "tags": [
     "#Sportscars",
     "rwd",
@@ -298,6 +298,6 @@
   "country": "Japan",
   "year": 1999,
   "author": "Arch",
-  "version": "2024-03-03",
+  "version": "2024-03-05",
   "url": "https://github.com/archibaldmilton/Girellu"
 }
