@@ -1,3 +1,7 @@
+2024-03-10
+- Updated all cars
+- Tire damping to more realistic (?) values, alleviate issues introduced by 2024-03-05 patch
+
 2024-03-05
 - Updated all cars
 - Changed load curves to alleviate catastrophic crashes/freezes (Slope at end of load curve must be flat or extrapolation bad)

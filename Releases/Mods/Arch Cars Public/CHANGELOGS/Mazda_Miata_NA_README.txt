@@ -1,3 +1,6 @@
+2024-03-10
+- Changed tire damping
+
 2024-03-05
 - Changed tire load curves (no performance change)
 - Changed UI
