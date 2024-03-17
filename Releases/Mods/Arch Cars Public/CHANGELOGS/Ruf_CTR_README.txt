@@ -1,3 +1,9 @@
+2024-03-17
+- Added corner torsion bar preload adjustment
+- Changed corner torsion bar PRELOAD_TORQUE to PRELOAD
+- Changed rear geometry, alignment
+- Changed tire damping
+
 2024-03-10
 - Changed tire damping
 
