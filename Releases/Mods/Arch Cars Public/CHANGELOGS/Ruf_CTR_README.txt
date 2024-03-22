@@ -1,3 +1,7 @@
+2024-03-22
+- Changed tire damping
+- Changed brakes, brake heating
+
 2024-03-17
 - Added corner torsion bar preload adjustment
 - Changed corner torsion bar PRELOAD_TORQUE to PRELOAD

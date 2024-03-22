@@ -1,32 +1,40 @@
+2024-03-22
+- Added DTM 1992 190E
+- Updated E92
+- Updated DTM 1992 E30
+- Updated CTR
+- Updated all cars
+	- Tire damping
+
 2024-03-17
 - Updated all cars
-- Tire damping to more realistic (?) values yet again, more data based approach
+	- Tire damping to more realistic (?) values yet again, more data based approach
 
 2024-03-10
 - Updated all cars
-- Tire damping to more realistic (?) values, alleviate issues introduced by 2024-03-05 patch
+	- Tire damping to more realistic (?) values, alleviate issues introduced by 2024-03-05 patch
 
 2024-03-05
 - Updated all cars
-- Changed load curves to alleviate catastrophic crashes/freezes (Slope at end of load curve must be flat or extrapolation bad)
-- Known issue: Strange behavior over some geometry, fixed in next CSP patch
-- Known issue: Minor vibration in FFB in some cars as side effect of increased tire damping
+	- Changed load curves to alleviate catastrophic crashes/freezes (Slope at end of load curve must be flat or extrapolation bad)
+	- Known issue: Strange behavior over some geometry, fixed in next CSP patch
+	- Known issue: Minor vibration in FFB in some cars as side effect of increased tire damping
 
 
 2024-03-03
 - Updated all cars
-- Tire damping, load curves, rolling resistance
+	- Tire damping, load curves, rolling resistance
 
 2024-03-02
 - Updated S550
 
 2024-02-29
 - Updated all cars
-- Bumpstop update
+	- Bumpstop update
 
 2024-02-26
 - Updated all cars
-- Fix for unintended behavior at high tire loads
+	- Fix for unintended behavior at high tire loads
 
 2024-02-25
 - Updated E30
@@ -46,7 +54,7 @@
 - Updated FD3S
 
 2024-02-18
-- Added DTM1992 E30
+- Added DTM 1992 E30
 - Updated E30
 - Updated S550
 - Updated 180SX

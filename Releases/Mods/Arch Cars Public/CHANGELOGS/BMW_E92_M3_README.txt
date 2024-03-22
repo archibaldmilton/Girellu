@@ -1,3 +1,7 @@
+2024-03-22
+- Added missing brake mu curve (I dunno)
+- Changed tire damping
+
 2024-03-17
 - Changed tire damping
 - Changed tire rolling resistance

@@ -1,3 +1,13 @@
+2024-03-22
+- Changed foldername to arch_dtm_1992_bmw_e30_m3
+- Changed tire rate, damping, load curves, SAT
+- Changed stabilizers
+- Changed helper springs
+- Changed dampers
+- Changed default alignment
+- Changed ABS threshold from 0.16 to 0.14
+- Corrected rear bumpstop element reference
+
 2024-03-17
 - Raised CGH
 - Changed tire rate, damping
@@ -37,6 +47,6 @@ Physics by Arch
 
 RECOMMENDED VISUALS AND SOUND
 
-M3 E30 DTM = KS M3 E30 DTM
+DTM 1992 E30 M3 = KS M3 E30 DTM
 
 
