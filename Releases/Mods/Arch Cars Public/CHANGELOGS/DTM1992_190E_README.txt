@@ -1,3 +1,10 @@
+2024-03-24
+- Changed damper travel
+	- More compliant over bumps and kerbs
+- Changed tire load curves, SAT
+- Changed syntax in tyres.ini setup.ini, luts
+- Changed UI
+
 2024-03-22
 - Initial version
 

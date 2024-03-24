@@ -1,3 +1,7 @@
+2024-03-24
+- Corrected camber_spring_mult reference in tyres.ini
+	- Fixed tires popping when using data.acd
+
 2024-03-22
 - Added missing brake mu curve (I dunno)
 - Changed tire damping

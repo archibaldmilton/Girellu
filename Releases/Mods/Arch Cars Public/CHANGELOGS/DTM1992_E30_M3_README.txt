@@ -1,3 +1,10 @@
+2024-03-24
+- Changed damper travel
+	- More compliant over bumps and kerbs
+- Changed tire load curves, SAT
+- Changed syntax in tyres.ini setup.ini, luts
+- Changed UI
+
 2024-03-22
 - Changed foldername to arch_dtm_1992_bmw_e30_m3
 - Changed tire rate, damping, load curves, SAT

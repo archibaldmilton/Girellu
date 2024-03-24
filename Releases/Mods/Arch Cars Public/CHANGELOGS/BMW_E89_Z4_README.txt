@@ -1,3 +1,11 @@
+2024-03-24
+- Added rear camber adjustability
+- Increased differential lock to emulate Elektronisches Sperrdifferential
+	- brakesteer not currently working with extended brakes, maybe lua implementation later?
+- Changed BASEY
+- Changed PS
+- Changed syntax in suspensions.ini
+
 2024-03-22
 - Changed tire damping
 

@@ -1,5 +1,5 @@
 {
-  "name": "DTM 1992 Mercedes-Benz 190E",
+  "name": "DTM 1992 MB 190E Evo II",
   "brand": "Mercedes-Benz",
   "description": "Deutsche Tourenwagen Meisterschaft 1992. Works specification.",
   "tags": [
@@ -209,7 +209,7 @@
   ],
   "country": "Germany",
   "author": "Arch",
-  "version": "2024-03-22",
+  "version": "2024-03-24",
   "url": "https://github.com/archibaldmilton/Girellu",
   "year": 1992
 }
