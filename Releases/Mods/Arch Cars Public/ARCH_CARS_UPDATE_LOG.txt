@@ -1,3 +1,7 @@
+2024-03-25
+- Updated DTM 1992 E30
+- Updated DTM 1992 190E
+
 2024-03-24
 - Updated E89
 - Updated E92
@@ -5,7 +9,6 @@
 - Updated DTM 1992 E30
 	- Known issue: FFB oscillation when braking; potentially CSP issue with TORQUE_MODE_EX=2?
 - Updated DTM 1992 190E
-
 
 2024-03-22
 - Added DTM 1992 190E

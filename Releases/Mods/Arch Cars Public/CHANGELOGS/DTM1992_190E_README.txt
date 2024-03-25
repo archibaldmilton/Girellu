@@ -1,3 +1,8 @@
+2023-03-25
+- Changed tire camber curve
+- Changed stabilizers
+- Changed default setup, options
+
 2024-03-24
 - Changed damper travel
 	- More compliant over bumps and kerbs

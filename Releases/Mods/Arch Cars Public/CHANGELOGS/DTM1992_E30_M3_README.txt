@@ -1,3 +1,10 @@
+2023-03-25
+- Changed front geometry
+- Changed stabilizers
+- Changed rear damper travel
+- Changed default setup, options
+- Misc. changes
+
 2024-03-24
 - Changed damper travel
 	- More compliant over bumps and kerbs
