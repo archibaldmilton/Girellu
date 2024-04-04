@@ -1,3 +1,12 @@
+2024-04-05
+- Changed tire relax length
+- Changed dampers
+- Changed unsprung mass
+- Changed brake balance bar adjustment range
+- Changed default setup
+- Corrected brakes.ini TORQUE_K
+- Minor file syntax changes
+
 2023-03-25
 - Changed tire camber curve
 - Changed stabilizers

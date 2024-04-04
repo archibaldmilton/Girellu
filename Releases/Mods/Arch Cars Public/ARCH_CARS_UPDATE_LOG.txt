@@ -1,3 +1,9 @@
+2024-04-05
+- Updated DTM 1992 E30
+- Updated DTM 1992 190E
+- Updated R34
+- Updated AE86
+
 2024-03-25
 - Updated DTM 1992 E30
 - Updated DTM 1992 190E
@@ -7,7 +13,8 @@
 - Updated E92
 	- Fixed tires popping when using data.acd
 - Updated DTM 1992 E30
-	- Known issue: FFB oscillation when braking; potentially CSP issue with TORQUE_MODE_EX=2?
+	- Known issue: oscillation when braking
+
 - Updated DTM 1992 190E
 
 2024-03-22

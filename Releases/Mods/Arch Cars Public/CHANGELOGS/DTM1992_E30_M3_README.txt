@@ -1,3 +1,14 @@
+2024-04-05
+- Changed tire relax length, camber curve
+- Changed front geometry
+- Changed dampers
+- Changed unsprung mass
+- Changed rear damper travel
+- Changed drivetrain
+- Changed default setup, rear alignment range, brake balance bar adjustment range
+- Corrected brakes.ini TORQUE_K
+- Minor file syntax changes
+
 2023-03-25
 - Changed front geometry
 - Changed stabilizers

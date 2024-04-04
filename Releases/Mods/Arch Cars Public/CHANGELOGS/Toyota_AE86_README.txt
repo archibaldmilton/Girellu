@@ -1,3 +1,6 @@
+2024-04-05
+- Fixed typo in Drift suspensions.ini front geometry hints
+
 2024-03-22
 - Changed tire damping
 

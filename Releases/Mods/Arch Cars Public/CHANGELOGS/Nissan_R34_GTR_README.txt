@@ -1,3 +1,7 @@
+2024-04-05
+- Changed front geometry
+- Changed PS
+
 2024-03-22
 - Changed tire damping
 
