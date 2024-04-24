@@ -1,3 +1,6 @@
+2024-04-25
+- Added 993
+
 2024-04-05
 - Updated DTM 1992 E30
 - Updated DTM 1992 190E
