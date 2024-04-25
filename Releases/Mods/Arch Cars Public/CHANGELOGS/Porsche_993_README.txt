@@ -1,3 +1,9 @@
+2024-04-25_B
+- Added Turbo
+- Added Carrera 4
+- Changed Carrera engine spec
+- Corrections
+
 2024-04-25
 - Initial version
 
@@ -10,6 +16,8 @@ Link: https://www.overtake.gg/downloads/nfs-tournament-class-b.20228/
 
 Includes:
 993 Carrera
+993 Carrera 4
+993 Turbo
 
 Credits:
 Physics by Arch
