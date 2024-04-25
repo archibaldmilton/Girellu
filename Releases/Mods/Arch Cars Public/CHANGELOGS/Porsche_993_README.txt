@@ -1,3 +1,6 @@
+2024-04-25_C
+- Adjusted front, rear tie rod geometry (bumpsteer)
+
 2024-04-25_B
 - Added Turbo
 - Added Carrera 4
