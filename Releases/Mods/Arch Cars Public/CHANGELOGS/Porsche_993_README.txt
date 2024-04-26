@@ -1,3 +1,11 @@
+2024-04-26
+- Changed front geometry
+- Changed Carrera 4 to Series spec suspension
+- Changed Carrera to M030 spec suspension
+- Changed rear alignment
+- Changed chassis torsion stiffness
+- Corrections
+
 2024-04-25_C
 - Adjusted front, rear tie rod geometry (bumpsteer)
 
