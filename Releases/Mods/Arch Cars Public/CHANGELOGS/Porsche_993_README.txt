@@ -1,3 +1,6 @@
+2024-04-27
+- Changed Carrera 4 dampers to Series spec
+
 2024-04-26
 - Changed front geometry
 - Changed Carrera 4 to Series spec suspension
