@@ -1,3 +1,9 @@
+2024-04-28
+- Changed stabilizers
+- Changed bumpstop force curve, height
+- Changed damper stroke
+- Corrections
+
 2024-04-27
 - Changed Carrera 4 dampers to Series spec
 
