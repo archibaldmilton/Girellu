@@ -1,3 +1,6 @@
+2024-04-29_B
+- Changed torsion stiffness (I forgot)
+
 2024-04-29
 - Changed stabilizer motion ratios
 - Changed rear geometry
