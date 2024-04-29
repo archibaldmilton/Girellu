@@ -1,3 +1,8 @@
+2024-04-29
+- Changed stabilizer motion ratios
+- Changed rear geometry
+- Corrections
+
 2024-04-28
 - Initial version
 

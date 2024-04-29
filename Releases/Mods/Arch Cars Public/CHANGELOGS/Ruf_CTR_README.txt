@@ -1,3 +1,7 @@
+2024-04-29
+- Changed front geometry
+- Changed front stabilizer
+
 2024-03-22
 - Changed tire damping
 - Changed brakes, brake heating
