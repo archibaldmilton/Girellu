@@ -1,3 +1,9 @@
+2024-05-01
+- Changed dampers
+- Changed default brake bias and setup range
+- Corrected large error in front coilover length (oops)
+- Corrections
+
 2024-04-29
 - Changed front geometry
 - Changed front stabilizer

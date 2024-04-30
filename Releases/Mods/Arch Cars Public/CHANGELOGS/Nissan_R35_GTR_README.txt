@@ -1,3 +1,7 @@
+2024-05-01
+- Added damper setup
+- Changed dampers
+
 2024-03-22
 - Changed tire damping
 
