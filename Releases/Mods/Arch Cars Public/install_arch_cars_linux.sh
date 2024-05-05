@@ -170,7 +170,6 @@ for line in ${repo_cars[@]}; do
 
     # Check if car has instructions in donor_cars.txt
     line_donor=$(echo "$directory_instructions" | grep "$line" || echo "")
-    echo "$line_donor"
     if [[ -z "$line_donor" ]]; then
         arch_car="$line"
         src_car="$line"
