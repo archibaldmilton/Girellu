@@ -1,3 +1,10 @@
+2024-05-05
+- Changed aero
+- Changed differential
+- Changed unsprung masses
+- Changed colliders
+- Changed default rear tire pressure
+
 2024-05-01
 - Changed dampers
 - Changed default brake bias and setup range
