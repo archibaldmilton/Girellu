@@ -1,12 +1,6 @@
 #!/bin/bash
 
 ## Script which moves Arch data files to the appropriate folders of an AC Linux server
-echo -e "Starting in interactive mode. \n\
-Supported parameters: \n\
-$0 --debug  # debug dry-run mode (no changes, prints lots of info)\n\
-$0 --non-interactive # non-interactive mode, reads script config \n\
-\n\n
-"
 
 ## Config
 debug='0'
@@ -80,6 +74,10 @@ if [[ ! -z $@ ]];then
             parameter_matched=$((parameter_matched + 1))
         else
             interactive_mode='1'
+            echo "Starting in interactive mode."
+            echo "Supported parameters:"
+            echo "$0 --debug  # debug dry-run mode (no changes, prints lots of info)"
+            echo "$0 --non-interactive # non-interactive mode, reads script config " ; echo ; echo
         fi
 
         # Apply debug flags to rsync if in debug mode
@@ -123,7 +121,12 @@ repo_dir=$(echo "$script_fullpath" | sed -E 's#(^.*/).*#\1#g' )
 
 # Find server content dir
 contentdir_manual () {
-    read -p "Input AC Server car content directory (e.g. '*/content/cars'): [leave empty to autosearch]" contentdir_path
+    read -p "Input AC Server car content directory (e.g. '*/content/cars'): " contentdir_path
+    if [[ -z "$contentdir_path" ]];then
+        echo "No input. Exiting." && exit 1
+    elif [[ ! "$contentdir_path" =~ content/cars ]];then
+        echo "Path doesn't contain '*/content/cars'. Continuing in 5 seconds." && sleep 5
+    fi
 }
 
 if [[ -z "$contentdir_path" ]];then
