@@ -5,7 +5,7 @@ echo -e "Starting in interactive mode. \n\
 Supported parameters: \n\
 $0 --debug  # debug dry-run mode (no changes, prints lots of info)\n\
 $0 --non-interactive # non-interactive mode, reads script config \n\
-$0 --force-dir-search  # stops using donor_cars.txt and uses directory names (not recommended)\n\n
+\n\n
 "
 
 ## Config
@@ -156,7 +156,7 @@ echo "Chosen directory: ${contentdir_path}"
 
 
 # Load donor_cars.txt as array
-directory_instructions=$(cat "$repo_dir"/donor_cars.txt)
+directory_instructions=$(cat "$repo_dir"donor_cars.txt)
 
 # Get Arch car folders
 repo_cars=$(find "$repo_dir"ARCH_CARS/content/cars/ -maxdepth 1 -type d | sed -E 's#^.*/(.*$)#\1#g')
