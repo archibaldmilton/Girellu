@@ -1,14 +1,20 @@
 #!/bin/bash
 
 ## Script which moves Arch data files to the appropriate folders of an AC Linux server
-echo -e "Starting in interactive mode. \n Supported parameters: \n ./install_arch_server.sh --debug  # debug dry-run mode (no changes, prints lots of info)\n ./install_arch_server.sh --non-interactive # non-interactive mode, reads script config \n\n"
+echo -e "Starting in interactive mode. \n\
+Supported parameters: \n\
+$0 --debug  # debug dry-run mode (no changes, prints lots of info)\n\
+$0 --non-interactive # non-interactive mode, reads script config \n\
+$0 --force-dir-search  # stops using donor_cars.txt and uses directory names (not recommended)\n\n
+"
 
 ## Config
 debug='0'
 interactive_mode='1'  # 1 - true (default); 0 - false
 contentdir_path=''
-script_fullpath=$(realpath "$0")
-use_cosmic_branch=''  # 0 to not use, 1 to use, empty to ask
+script_fullpath=$(realpath "$0")  # script finds its own location; don't change
+rsync_flags='-a'
+use_cosmic_branch='1'  # 0 to not use (not supported yet), 1 to use, empty to ask
 shopt -s execfail  # ERR on failure
 
 
@@ -54,14 +60,13 @@ user_prompt () {
 # Check if running as root; not advised
 if [[ "$EUID" -eq '0' ]];then echo "Do NOT run as root. Exiting." ; exit 1 ; fi
 
-
 # Parameter checks
-# If instead of case because Case wouldn't support If-OR
+# IF is used instead of case because Case wouldn't support IF-OR
 parameter_matched='0'
 if [[ ! -z $@ ]];then
     for passed_parameter in $@;do
 
-	# Accepted parameters (only regex check, IF-OR necessary)
+        # Accepted parameters (only regex check, IF-OR necessary)
         case "$passed_parameter" in
             --non-interactive ) ;;
             --debug ) ;;
@@ -72,7 +77,7 @@ if [[ ! -z $@ ]];then
             interactive_mode='0'
             if [[ -z "$contentdir_path" ]]; then echo "CFG variable contentdir_path is empty. Exiting. Please assign value." && exit 1 ; fi
             if [[ -z "$use_cosmic_branch" ]]; then echo "CFG variable use_cosmic_branch is empty. Exiting. Please assign value." && exit 1 ; fi
-	    parameter_matched=$((parameter_matched + 1))
+            parameter_matched=$((parameter_matched + 1))
         else
             interactive_mode='1'
         fi
@@ -82,11 +87,9 @@ if [[ ! -z $@ ]];then
         # change CFG variable in script
         if [[ "$passed_parameter" =~ '--debug' ]] || [[ "$debug" -eq '1' ]];then
             echo "-DEBUG MODE ENABLED-"
-            rsync_flags='--dry-run -avh'
+            rsync_flags='--dry-run -avh'  # overrides CFG value above
             debug='1'
-	    parameter_matched=$((parameter_matched + 1))
-        else
-            rsync_flags='-a'
+            parameter_matched=$((parameter_matched + 1))
         fi
     done
 
@@ -95,7 +98,7 @@ if [[ ! -z $@ ]];then
 fi
 
 # Determine whether cosmic branch will be used or legacy
-if [[ ! "$use_cosmic_branch" -eq '0' ]] || [[ ! "$use_cosmic_branch" -eq '1' ]];then
+if [[ -z "$use_cosmic_branch" ]];then
     user_prompt "Use cosmic branch?" "Y" "N" 'echo - Cosmic branch selected.' 'echo - Regular branch selected.'
     case "$result_code" in
         1)
@@ -104,11 +107,14 @@ if [[ ! "$use_cosmic_branch" -eq '0' ]] || [[ ! "$use_cosmic_branch" -eq '1' ]];
 
         0)
             use_cosmic_branch='0'
+            echo "Legacy branch install not yet supported." && exit 1
             ;;
         *)
             exit 1
             ;;
     esac
+else
+    echo "Using Cosmic branch."
 fi
 
 # Get absolute path to repo Arch cars dir
@@ -150,45 +156,60 @@ echo "Chosen directory: ${contentdir_path}"
 
 
 # Load donor_cars.txt as array
-directory_instructions=$(cat "$repo_dir"/donor_cars.txt |head -n 10)
+directory_instructions=$(cat "$repo_dir"/donor_cars.txt)
 
 # Get Arch car folders
-repo_cars=$(find "$repo_dir" -maxdepth 1 -type d -name "Arch*")
-
+repo_cars=$(find "$repo_dir"ARCH_CARS/content/cars/ -maxdepth 1 -type d | sed -E 's#^.*/(.*$)#\1#g')
 
 
 ## Main
-# Issue is that donor_cars doesn't contain folder names
-for line in ${directory_instructions[@]}; do
-    arch_car=$(echo "$line" | cut -d',' -f1 )
-    kunos_src_car=$(echo "$line" | cut -d',' -f2)
-
+# Issue is that donor_cars doesn't contain repo folder names
+#for line in ${directory_instructions[@]}; do
+for line in ${repo_cars[@]}; do
     echo ; echo ; echo
+
+    # Check if car has instructions in donor_cars.txt
+    line_donor=$(echo "$directory_instructions" | grep "$line" || echo "")
+    echo "$line_donor"
+    if [[ -z "$line_donor" ]]; then
+        arch_car="$line"
+        src_car="$line"
+        donor='0'
+    elif [[ ! -z "$line_donor" ]];then
+        arch_car=$(echo "$line_donor" | cut -d',' -f1 )
+        src_car=$(echo "$line_donor" | cut -d',' -f2)
+        donor='1'
+    else
+        echo "Error while parsing car directory." && exit 1
+    fi
     echo "Installing ${arch_car} ..."
+    
 
     # Determine whether to use cosmic branch or legacy branch arch files
     if [[ "$use_cosmic_branch" -eq '1' ]];then
-        arch_src=$(find "$repo_dir" -type d -path "*Legacy*" -prune -o -name "$arch_car" -print)
+        # does not descend into the legacy folder
+        arch_src=$(find "$repo_dir" -type d -path "*LEGACY*" -prune -o -name "$arch_car" -print)
     elif [[ "$use_cosmic_branch" -eq '0' ]];then
-        arch_src=$(find "$repo_dir" -type d -path "*Legacy*" -name "$arch_car" -print)
+        arch_src=$(find "$repo_dir" -type d -path "*LEGACY*" -name "$arch_car" -print)
     else
         echo "No branch chosen." && exit 1
     fi
+
 
     # Fallback to Legacy repo if Arch car files aren't found (ex. DTM cars)
     if [[ -z "$arch_src" ]] && [[ "$use_cosmic_branch" -eq '1' ]];then
         echo "... FAILED! Arch car files not found in specified repo."
         echo "... Falling back to Legacy repo."
-        arch_src=$(find "$repo_dir" -type d -path "*Legacy*" -name "$arch_car" -print)
+        arch_src=$(find "$repo_dir" -type d -path "*LEGACY*" -name "$arch_car" -print)
         if [[ -z "$arch_src" ]];then
-            echo "... Arch car files not found. Skipping." && continue
+            echo "... Arch car files not found. Skipping!" && continue
         fi
     fi
 
 
     # Check if KS source exists
-    if [[ ! -d "$contentdir_path/${kunos_src_car}" ]];then
-        echo "... KS source doesn't exist. Skipping!" && continue
+    if [[ ! -d "$contentdir_path/${src_car}" ]];then
+        echo "... source car doesn't exist. Skipping!" && continue
     fi
     # Create Arch folder if it doesn't exist
     if [[ -d "$contentdir_path/${arch_car}" ]];then
@@ -199,13 +220,19 @@ for line in ${directory_instructions[@]}; do
 
     if [[ "$debug" -eq '1' ]];then
         echo "arch_car: $arch_car"
-        echo "kunos_src_car: $kunos_src_car"
+        echo "src_car: $src_car"
         echo "arch_src: $arch_src"
     fi
 
-    # Copy contents
-    rsync ${rsync_flags} "$contentdir_path"/${kunos_src_car}/ "$contentdir_path"/${arch_car}/ && echo "... KS content copied."
-    rsync ${rsync_flags} "$arch_src"/ "$contentdir_path"/${arch_car}/ && echo "... Arch files copied."
+    if [[ "${#arch_src}" -lt 5 ]];then echo "Error while finding arch_src. Exiting." ; exit 1 ; fi
 
-    echo "... ${arch_car} installed!"
+    # Copy contents
+    if [[ "$donor" -eq '1' ]];then 
+        echo "Installing with donor car."
+        rsync ${rsync_flags} "$contentdir_path"/${src_car}/ "$contentdir_path"/${arch_car}/ && echo "... KS content copied."
+        rsync ${rsync_flags} "$arch_src"/ "$contentdir_path"/${arch_car}/ && echo "... Arch files copied."
+    elif [[ "$donor" -eq '0' ]];then
+        echo "Installing without donor car."
+        rsync ${rsync_flags} "$arch_src"/ "$contentdir_path"/${arch_car}/ && echo "... Arch files copied."
+    fi && echo "... ${arch_car} installed!"
 done
