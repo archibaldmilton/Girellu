@@ -1,0 +1,64 @@
+{
+	"url":"http://store.steampowered.com/app/467980",
+	"name": "Toyota AE86 Drift",
+	"brand": "Toyota",
+	"description": "The overall balance of AE86 and its rear wheel drive configuration made it really popular between street racers and drifters.<br><br>
+	This is true all around the world, above all in nations where rallying is considered one of the most popular forms of motorsport.",
+	"tags": ["#drift", "rwd", "manual", "street", "vintage", "japan"],    
+	"class": "street",
+
+	"specs":
+	{
+		"bhp": "185bhp",
+		"torque": "206Nm",
+		"weight": "920kg",
+		"topspeed": "--km/h",
+		"acceleration": "--s 0-100",
+		"pwratio": "4.97kg/hp"
+		},
+		"torqueCurve": [
+			["500","84"],
+			["1000","100"],
+			["1500","110"],
+			["2000","136"],
+			["2500","153"],
+			["3000","177"],
+			["3500","192"],
+			["4000","203"],
+			["4200","206"],
+			["4500","204"],
+			["5000","205"],
+			["5500","203"],
+			["6000","200"],
+			["6500","198"],
+			["7000","190"],
+			["7150","185"],
+			["7500","173"],
+			["8000","158"],
+			["8500","144"],
+			["9500","100"]
+		],
+		"powerCurve": [
+			["500","6"],
+			["1000","14"],
+			["1500","23"],
+			["2000","38"],
+			["2500","54"],
+			["3000","75"],
+			["3500","94"],
+			["4000","114"],
+			["4200","121"],
+			["4500","129"],
+			["5000","144"],
+			["5500","157"],
+			["6000","169"],
+			["6500","181"],
+			["7000","187"],
+			["7150","186"],
+			["7500","182"],
+			["8000","178"],
+			["8500","172"],
+			["9500","133"]
+		]
+
+	}

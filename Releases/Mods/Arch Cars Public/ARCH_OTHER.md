@@ -1,5 +1,5 @@
-# Standalone Arch Releases
->**Attention drifters! Do not use CSP versions from 1.73 to 1.78**.  These versions have a modified slip function, where it is changed from the default sin(angle) to tan(angle). The slip function has been changed back to sin(angle) for versions after 1.78. 
+# Standalone Arch Releases 
+>**Attention drifters! Do not use CSP versions from 0.1.80p to 0.2.1**.  These versions have unintended behavior at high slipangles/slipratios. Versions after 0.2.2 have corrected behavior.
 
 The mods listed below include cars that are relatively active in physics updates. Click the images to be redirected for downloading.
 ### 2007 Subaru Impreza WRX (GD) Tuned
