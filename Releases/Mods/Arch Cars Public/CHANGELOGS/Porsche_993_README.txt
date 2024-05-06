@@ -1,3 +1,7 @@
+2024-05-06
+- Changed Turbo tire from "S02" to "Sport Contact 2"
+- Changed unsprung masses
+
 2024-05-05
 - Changed unsprung masses
 - Changed colliders
