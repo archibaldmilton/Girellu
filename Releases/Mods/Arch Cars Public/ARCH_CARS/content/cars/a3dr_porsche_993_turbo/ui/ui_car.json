@@ -14,10 +14,10 @@
   "specs": {
     "bhp": "402bhp",
     "torque": "540Nm",
-    "weight": "1500kg",
+    "weight": "1460kg",
     "topspeed": "-- km/h",
     "acceleration": "-- s 0-100",
-    "pwratio": "3.73kg/hp"
+    "pwratio": "3.63kg/hp"
   },
   "torqueCurve": [
     [
@@ -235,5 +235,5 @@
   "country": "Germany",
   "author": "Alberto Daniel Russo",
   "url": "https://a3dr.artstation.com/",
-  "version": "2024-05-06"
+  "version": "2024-05-09"
 }

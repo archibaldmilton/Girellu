@@ -1,3 +1,8 @@
+2024-05-09
+- Added 993 Turbo S2 (Canyon Spec)
+- Added elastokinematic toe compliance to suspension geometries
+- Corrections
+
 2024-05-06
 - Changed Turbo tire from "S02" to "Sport Contact 2"
 - Changed unsprung masses
@@ -50,6 +55,7 @@ Includes:
 993 Carrera
 993 Carrera 4
 993 Turbo
+993 Turbo Canyon Spec
 
 Credits:
 Physics by Arch

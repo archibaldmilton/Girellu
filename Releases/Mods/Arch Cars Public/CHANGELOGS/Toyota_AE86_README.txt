@@ -1,3 +1,8 @@
+2024-05-09
+- Added damper to R_AE86_UCA_RR
+- Increased rate of R_AE86_UCA_RR SPRING
+- Corrections
+
 2024-04-05
 - Fixed typo in Drift suspensions.ini front geometry hints
 
