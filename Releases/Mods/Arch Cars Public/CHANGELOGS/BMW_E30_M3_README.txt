@@ -1,3 +1,9 @@
+2024-05-10
+- Added elastokinematic toe compliance to road M3
+- Changed stabilizers
+- Changed spring installation stiffness
+- Corrections
+
 2024-03-22
 - Changed tire damping
 

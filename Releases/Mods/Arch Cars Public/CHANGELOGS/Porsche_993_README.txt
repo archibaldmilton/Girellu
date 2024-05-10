@@ -1,3 +1,6 @@
+2024-05-10
+- Increased R_993_LCA_REAR SPRING stiffness
+
 2024-05-09
 - Added 993 Turbo S2 (Canyon Spec)
 - Added elastokinematic toe compliance to suspension geometries
