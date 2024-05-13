@@ -3,14 +3,13 @@
   "brand": "Porsche",
   "description": "This version of the car combines a 490bhp RUF-tuned engine package with track-oriented suspension upgrades and some basic weight reduction. The result is a blindingly quick - and still road legal - car, suitable for road or track duty.",
   "tags": [
+    "#Sportscars",
     "awd",
-    "Germany",
-    "roadsport",
-    "porsche",
-    "911",
-    "993",
-    "a3dr",
-    "Canyon Spec"
+    "manual",
+    "street",
+    "germany",
+    "turbo",
+    "canyon_spec"
   ],
   "class": "street",
   "specs": {

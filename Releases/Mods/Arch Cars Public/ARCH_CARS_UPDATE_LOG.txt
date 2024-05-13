@@ -1,3 +1,10 @@
+2024-05-13
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- 993 S2 ui.json change (no changelog)
+
 2024-05-10
 - Updated E30
 - Updated 993

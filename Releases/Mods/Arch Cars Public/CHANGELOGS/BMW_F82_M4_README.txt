@@ -1,3 +1,11 @@
+2024-05-13
+- Added elastokinematic rear toe compliance
+- Changed rear geometry, toe adjustment method
+- Changed stiffness of bushing vertical rate
+- Changed installation stiffness
+- Changed unsprung masses
+- Corrections
+
 2024-03-22
 - Changed tire damping
 
