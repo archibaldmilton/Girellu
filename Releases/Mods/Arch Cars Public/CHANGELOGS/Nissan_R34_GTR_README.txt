@@ -1,3 +1,10 @@
+2024-05-16
+- Added elastokinematic toe compliance
+- Changed rear geometry
+- Changed stabilizers
+- Changed suspensions, ctrl_4ws, ctrl_awd2 syntax
+- Changed rear 3D offsets
+
 2024-04-05
 - Changed front geometry
 - Changed PS

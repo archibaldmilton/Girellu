@@ -7,7 +7,8 @@
     "v8",
     "manual",
     "street",
-    "usa"
+    "usa",
+    "drift"
   ],
   "class": "street",
   "specs": {
@@ -334,7 +335,7 @@
   "country": "USA",
   "year": 2015,
   "author": "Arch",
-  "version": "2024-03-22",
+  "version": "2024-05-16",
   "url": "https://github.com/archibaldmilton/Girellu",
   "parent": "arch_ford_s550_2015_gt"
 }

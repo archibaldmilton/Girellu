@@ -1,3 +1,9 @@
+2024-05-16
+- Added elastokinematic toe compliance to GT
+- Changed stabilizers
+- Changed stiffness of bushing vertical rate
+- Corrections
+
 2024-03-22
 - Changed tire damping
 

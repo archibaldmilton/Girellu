@@ -8,7 +8,8 @@
     "rwd",
     "manual",
     "street",
-    "japan"
+    "japan",
+    "drift"
   ],
   "class": "street",
   "specs": {
@@ -298,6 +299,6 @@
   "country": "Japan",
   "year": 1999,
   "author": "Arch",
-  "version": "2024-03-22",
+  "version": "2024-05-16",
   "url": "https://github.com/archibaldmilton/Girellu"
 }

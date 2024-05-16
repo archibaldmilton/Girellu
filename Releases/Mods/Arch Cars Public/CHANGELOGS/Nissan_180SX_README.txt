@@ -1,3 +1,11 @@
+2024-05-16
+- Added elastokinematic toe compliance to Type-X
+- Changed rear geometry
+- Changed stabilizers
+- Changed installation stiffness
+- Simplified Drift rear subframe
+- Corrections
+
 2024-03-22
 - Changed tire damping
 
