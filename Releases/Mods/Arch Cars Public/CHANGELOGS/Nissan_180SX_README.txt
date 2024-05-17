@@ -1,3 +1,6 @@
+2024-05-17
+- Changed stabilizers
+
 2024-05-16
 - Added elastokinematic toe compliance to Type-X
 - Changed rear geometry

@@ -1,3 +1,6 @@
+2024-05-17
+- Changed stabilizers
+
 2024-05-10
 - Added elastokinematic toe compliance to road M3
 - Changed stabilizers
