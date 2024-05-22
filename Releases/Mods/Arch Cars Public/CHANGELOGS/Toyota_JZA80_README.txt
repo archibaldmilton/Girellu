@@ -1,3 +1,8 @@
+2024-05-22
+- Changed rear geometry slightly
+- Changed installation stiffness
+- Corrections
+
 2024-03-22
 - Changed tire damping
 

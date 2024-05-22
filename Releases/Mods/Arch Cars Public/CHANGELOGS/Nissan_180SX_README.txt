@@ -1,3 +1,6 @@
+2024-05-22
+- Changed rear stabilizer motion ratio
+
 2024-05-17
 - Changed stabilizers
 

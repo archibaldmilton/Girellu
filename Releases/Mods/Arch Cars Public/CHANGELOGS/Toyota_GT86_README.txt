@@ -1,3 +1,8 @@
+2024-05-22
+- Changed rear geometry
+- Change GT damper force curve, stroke range
+- Changed GT tire rolling resistance
+
 2024-05-17
 - Added elastokinematic front toe compliance to GT
 - Changed stabilizers
