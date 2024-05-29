@@ -1,3 +1,10 @@
+2024-05-29
+- Changed PS
+- Changed tires slipcurve, combined grip, relax length, SAT
+- Changed installation stiffness
+- Changed suspensions.ini syntax
+- Corrections
+
 2024-03-22
 - Changed tire damping
 

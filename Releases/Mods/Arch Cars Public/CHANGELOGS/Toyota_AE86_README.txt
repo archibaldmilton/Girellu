@@ -1,3 +1,7 @@
+2024-05-29
+- Changed tires slipcurve, combined grip, relax length, SAT
+- Corrections
+
 2024-05-09
 - Added damper to R_AE86_UCA_RR
 - Increased rate of R_AE86_UCA_RR SPRING

@@ -1,3 +1,8 @@
+2024-05-29
+- Removed front elastokinematic toe compliance
+- Changed PS
+- Changed tires slipcurve, combined grip, relax length, SAT
+
 2024-05-22
 - Changed rear stabilizer motion ratio
 

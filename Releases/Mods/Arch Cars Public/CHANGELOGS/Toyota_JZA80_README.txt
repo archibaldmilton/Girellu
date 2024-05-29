@@ -1,3 +1,7 @@
+2024-05-29
+- Changed PS
+- Changed tires slipcurve, combined grip, relax length, SAT
+
 2024-05-22
 - Changed rear geometry slightly
 - Changed installation stiffness

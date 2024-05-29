@@ -1,3 +1,6 @@
+2024-05-29
+- Changed tires slipcurve, combined grip, relax length, SAT
+
 2024-05-05
 - Changed aero
 - Changed differential
