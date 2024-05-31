@@ -1,3 +1,6 @@
+2024-05-31
+- Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT
+
 2024-05-29
 - Changed tires slipcurve, combined grip, relax length, SAT
 

@@ -1,3 +1,7 @@
+2024-05-31
+- Changed Drift tires from Z1SS to 08D
+- Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT
+
 2024-05-29
 - Changed PS
 - Changed tires slipcurve, combined grip, relax length, SAT

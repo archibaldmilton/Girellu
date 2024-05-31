@@ -12,14 +12,14 @@
     "turbo",
     "drift"
   ],
-  "class": "street",
+  "class": "drift",
   "specs": {
-    "bhp": "322ps",
-    "torque": "40.4kg-m",
+    "bhp": "276whp",
+    "torque": "346Nm",
     "weight": "1210kg",
-    "topspeed": "-km/h",
-    "acceleration": "-0-100",
-    "pwratio": "3.76kg/ps"
+    "topspeed": null,
+    "acceleration": null,
+    "pwratio": "4.38kg/whp"
   },
   "torqueCurve": [
     [
@@ -344,7 +344,7 @@
   "country": "Japan",
   "year": 1996,
   "author": "Lenny",
-  "version": "2024-05-29",
+  "version": "2024-05-31",
   "url": "https://www.instagram.com/nclenny/",
   "parent": "lk_nissan_180sx_96"
 }

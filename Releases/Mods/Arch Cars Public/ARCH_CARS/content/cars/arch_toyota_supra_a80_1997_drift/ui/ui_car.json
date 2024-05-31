@@ -1,22 +1,23 @@
 {
   "name": "Toyota Supra JZA80 Drift",
   "brand": "Toyota",
-  "description": "2JZ-GE + Garrett T04B @ 15psi<br>Cut factory knuckles, relocated inner tie rod<br>BC Racing BR simultaneous adjustable dampers (Revalved)<br>JZA80 brakes, hydraulic handbrake<br><br>255/35ZR18 200TW",
+  "description": "2JZ-GE + Garrett T04B @ 15psi<br>Cut factory knuckles, relocated inner tie rod<br>BC Racing BR simultaneous adjustable dampers (Revalved)<br>JZA80 brakes, hydraulic handbrake<br><br>255/35R17 360TW",
   "tags": [
     "#Sportscars",
     "rwd",
     "manual",
     "street",
     "turbo",
-    "japan"
+    "japan",
+    "drift"
   ],
-  "class": "street",
+  "class": "drift",
   "specs": {
     "bhp": "443whp",
     "torque": "482Nm",
     "weight": "1490kg",
-    "topspeed": "-- km/h",
-    "acceleration": "-- s 0-100",
+    "topspeed": null,
+    "acceleration": null,
     "pwratio": "3.36kg/whp"
   },
   "torqueCurve": [
@@ -265,7 +266,7 @@
   ],
   "country": "Japan",
   "author": "Arch",
-  "version": "2024-05-29",
+  "version": "2024-05-31",
   "url": "https://github.com/archibaldmilton/Girellu",
   "year": 1997,
   "parent": "arch_toyota_supra_a80_1997_rz"

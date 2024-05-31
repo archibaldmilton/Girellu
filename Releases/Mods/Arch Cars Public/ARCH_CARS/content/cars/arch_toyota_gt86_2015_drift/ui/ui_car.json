@@ -1,22 +1,23 @@
 {
   "name": "Toyota GT86 Drift",
   "brand": "Toyota",
-  "description": "FA20D + Cosworth Stage II<br>Cut factory knuckles, relocated inner tie rod, extended arms<br>KW Clubsport bump and rebound adjustable dampers<br>ZN6 brakes, hydraulic handbrake<br><br>225/45ZR17 200TW",
+  "description": "FA20D + Cosworth Stage II<br>Cut factory knuckles, relocated inner tie rod, extended arms<br>KW Clubsport bump and rebound adjustable dampers<br>ZN6 brakes, hydraulic handbrake<br><br>215/45R17 360TW",
   "tags": [
     "#small sports",
     "rwd",
     "manual",
     "street",
-    "japan"
+    "japan",
+    "drift"
   ],
-  "class": "street",
+  "class": "drift",
   "specs": {
     "bhp": "290whp",
     "torque": "305Nm",
     "weight": "1197kg",
-    "topspeed": "- km/h",
-    "acceleration": "-s 0-100",
-    "pwratio": "4.13kg/hp",
+    "topspeed": null,
+    "acceleration": null,
+    "pwratio": "4.13kg/whp",
     "range": 640
   },
   "torqueCurve": [
@@ -270,7 +271,7 @@
   "country": "Japan",
   "year": 2015,
   "author": "Arch",
-  "version": "2024-05-29",
+  "version": "2024-05-31",
   "url": "https://github.com/archibaldmilton/Girellu",
   "parent": "arch_toyota_gt86_2015_gt"
 }

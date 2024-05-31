@@ -15,8 +15,8 @@
     "bhp": "158bhp",
     "torque": "202Nm",
     "weight": "1016kg",
-    "topspeed": "-- km/h",
-    "acceleration": "-- s 0-100km/h",
+    "topspeed": null,
+    "acceleration": null,
     "pwratio": "6.43kg/hp"
   },
   "torqueCurve": [
@@ -262,6 +262,6 @@
   "country": "Japan",
   "year": 2016,
   "author": "Arch",
-  "version": "2024-05-29",
+  "version": "2024-05-31",
   "url": "https://github.com/archibaldmilton/Girellu"
 }

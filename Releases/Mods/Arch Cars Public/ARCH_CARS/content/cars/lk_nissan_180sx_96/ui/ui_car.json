@@ -16,8 +16,8 @@
     "bhp": "205ps",
     "torque": "28.0kg-m",
     "weight": "1220kg",
-    "topspeed": "-km/h",
-    "acceleration": "-0-100",
+    "topspeed": null,
+    "acceleration": null,
     "pwratio": "5.95kg/ps"
   },
   "torqueCurve": [
@@ -247,6 +247,6 @@
   "country": "Japan",
   "year": 1996,
   "author": "Lenny",
-  "version": "2024-05-29",
+  "version": "2024-05-31",
   "url": "https://www.instagram.com/nclenny/"
 }

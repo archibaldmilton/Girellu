@@ -1,3 +1,7 @@
+2024-05-31
+- Changed Drift tires from RE710 to RE710 / GLOBA
+- Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT, rolling resistance
+
 2024-05-29
 - Changed PS
 - Changed tires slipcurve, combined grip, relax length, SAT

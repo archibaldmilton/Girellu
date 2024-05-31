@@ -1,7 +1,7 @@
 {
   "name": "Mazda Miata ND1 Drift",
   "brand": "Mazda",
-  "description": "PE-VPS + Edelbrock V3 supercharger<br>Cut factory knuckles, relocated inner tie rod<br>Multimatic DSSV bump and rebound adjustable dampers<br>ND1 brakes, hydraulic handbrake<br><br>215/40ZR17 200TW",
+  "description": "PE-VPS + Edelbrock V3 supercharger<br>Cut factory knuckles, relocated inner tie rod<br>Multimatic DSSV bump and rebound adjustable dampers<br>ND1 brakes, hydraulic handbrake<br><br>215/45R17 360TW",
   "tags": [
     "#small sports",
     "rwd",
@@ -9,15 +9,16 @@
     "street",
     "japan",
     "United States",
-    "supercharger"
+    "supercharger",
+    "drift"
   ],
-  "class": "street",
+  "class": "drift",
   "specs": {
     "bhp": "240whp",
     "torque": "267Nm",
     "weight": "1005kg",
-    "topspeed": "-- km/h",
-    "acceleration": "-- s 0-100km/h",
+    "topspeed": null,
+    "acceleration": null,
     "pwratio": "4.19kg/whp"
   },
   "torqueCurve": [
@@ -235,7 +236,7 @@
   "country": "Japan",
   "year": 2016,
   "author": "Arch",
-  "version": "2024-05-29",
+  "version": "2024-05-31",
   "url": "https://github.com/archibaldmilton/Girellu",
   "parent": "arch_mazda_miata_2016_nd1_club"
 }
