@@ -1,3 +1,6 @@
+2024-06-02
+- Corrected GT tyres.ini (oops)
+
 2024-06-01
 - Removed front elastokinematic toe compliance (FFB vibration)
 
