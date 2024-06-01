@@ -1,3 +1,6 @@
+2024-06-01
+- Removed front elastokinematic toe compliance (FFB vibration)
+
 2024-05-31
 - Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT
 

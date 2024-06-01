@@ -1,3 +1,10 @@
+2024-06-01
+- Updated E30
+- Updated S550
+- Updated 180SX
+- Updated 993
+- Updated GT86
+
 2024-05-31
 - Updated all cars
 - Suggested to use CSP 0.2.3+
