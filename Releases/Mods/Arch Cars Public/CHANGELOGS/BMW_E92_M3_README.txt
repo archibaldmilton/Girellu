@@ -1,3 +1,6 @@
+2024-06-08
+- Corrected front bumpstop rate hint
+
 2024-05-31
 - Changed PS
 - Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT

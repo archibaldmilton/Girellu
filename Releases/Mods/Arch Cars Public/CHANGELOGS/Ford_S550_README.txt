@@ -1,3 +1,7 @@
+2024-06-08
+- Changed Drift front geometry
+- Changed Drift dampers
+
 2024-06-01
 - Removed front elastokinematic toe compliance (FFB vibration)
 

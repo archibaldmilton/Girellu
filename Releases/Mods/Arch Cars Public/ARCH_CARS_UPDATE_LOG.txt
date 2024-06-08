@@ -1,3 +1,17 @@
+2024-06-08
+- CHANGED DRIFT FOLDERNAMES
+- Updated E30
+- Updated E92
+- Updated S550
+- Updated FD3S
+- Updated Miata ND
+- Updated 180SX
+- Updated R34
+- Updated Z34
+- Updated AE86
+- Updated GT86
+- Updated JZA80
+
 2024-06-02
 - Updated GT86
 

@@ -1,3 +1,7 @@
+2024-06-08
+- Changed Drift dampers
+- Fixed entirely broken Drift dampers (I don't know anymore)
+
 2024-06-02
 - Corrected GT tyres.ini (oops)
 

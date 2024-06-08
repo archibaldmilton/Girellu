@@ -1,7 +1,7 @@
 {
-  "name": "Nissan 180SX Drift",
+  "name": "DRIFT Nissan 180SX",
   "brand": "Lenny",
-  "description": "SR20DET + GT4135 @ 15psi<br>Cut factory knuckles, relocated inner tie rod<br>MCS 2W slow bump and rebound adjustable dampers<br>Kouki 180SX brakes, standard handbrake<br><br>215/45R17 360TW<br><br>CREDITS:<br>Models/Textures: Klitlika, Polyphony Digital, Lenny<br>Shaders: Lenny<br>Physics: Arch<br>Sounds: Tripled Sevens<br><br>All credit given to the original creators.",
+  "description": "SR20DET + GT4135 @ 15psi<br>Cut factory knuckles, relocated inner tie rod<br>MCS 2W bump and rebound adjustable dampers<br>Kouki 180SX brakes, standard handbrake<br><br>215/45R17 360TW<br><br>CREDITS:<br>Models/Textures: Klitlika, Polyphony Digital, Lenny<br>Shaders: Lenny<br>Physics: Arch<br>Sounds: Tripled Sevens<br><br>All credit given to the original creators.",
   "tags": [
     "#small sports",
     "rwd",
@@ -344,7 +344,6 @@
   "country": "Japan",
   "year": 1996,
   "author": "Lenny",
-  "version": "2024-05-31",
-  "url": "https://www.instagram.com/nclenny/",
-  "parent": "lk_nissan_180sx_96"
+  "version": "2024-06-08",
+  "url": "https://www.instagram.com/nclenny/"
 }
