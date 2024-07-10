@@ -1,3 +1,6 @@
+2024-07-10
+- Changed tires camber curve
+
 2024-06-08
 - Changed Drift dampers
 - Corrections

@@ -1,3 +1,6 @@
+2024-07-10
+- Changed tires camber curve
+
 2024-05-31
 - Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT
 

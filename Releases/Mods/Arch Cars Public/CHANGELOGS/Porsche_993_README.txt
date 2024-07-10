@@ -1,3 +1,6 @@
+2024-07-10
+- Changed tires camber curve
+
 2024-06-01
 - Removed front elastokinematic toe compliance (FFB vibration)
 

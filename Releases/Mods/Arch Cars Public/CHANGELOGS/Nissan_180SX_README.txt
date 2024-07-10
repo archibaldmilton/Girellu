@@ -1,3 +1,8 @@
+2024-07-10
+- Changed tires camber curve
+- Changed suspensions.ini syntax
+- Corrected Type-X CAMBER_RF hint reference
+
 2024-06-08
 - Corrections
 
