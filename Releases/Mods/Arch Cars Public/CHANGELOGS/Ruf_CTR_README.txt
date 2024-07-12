@@ -1,3 +1,9 @@
+2024-07-12
+- Changed PRELOAD to PRELOAD_TORQUE due to bug
+- Changed front tbar axis orientation (setup screen preload signage)
+- Changed front droop travel
+- Changed setup.ini syntax
+
 2024-07-10
 - Changed tires camber curve
 - Changed suspensions.ini syntax
