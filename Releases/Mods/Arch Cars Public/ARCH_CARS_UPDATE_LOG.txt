@@ -1,3 +1,6 @@
+2024-07-13
+- Updated CTR
+
 2024-07-12
 - Updated CTR
 

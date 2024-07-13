@@ -1,3 +1,8 @@
+2024-07-13
+- Removed brake booster
+- Changed brake mu curve
+- Changed brake proportioning valve
+
 2024-07-12
 - Changed PRELOAD to PRELOAD_TORQUE due to bug
 - Changed front tbar axis orientation (setup screen preload signage)
