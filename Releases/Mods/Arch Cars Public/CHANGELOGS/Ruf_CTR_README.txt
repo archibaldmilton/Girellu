@@ -1,3 +1,24 @@
+2024-07-13
+- Removed brake booster
+- Changed brake mu curve
+- Changed brake proportioning valve
+
+2024-07-12
+- Changed PRELOAD to PRELOAD_TORQUE due to bug
+- Changed front tbar axis orientation (setup screen preload signage)
+- Changed front droop travel
+- Changed setup.ini syntax
+
+2024-07-10
+- Changed tires camber curve
+- Changed suspensions.ini syntax
+
+2024-05-31
+- Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT
+
+2024-05-29
+- Changed tires slipcurve, combined grip, relax length, SAT
+
 2024-05-05
 - Changed aero
 - Changed differential

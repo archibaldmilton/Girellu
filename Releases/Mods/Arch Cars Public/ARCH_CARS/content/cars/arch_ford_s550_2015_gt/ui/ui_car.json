@@ -14,8 +14,8 @@
     "bhp": "435bhp",
     "torque": "541Nm",
     "weight": "1653kg",
-    "topspeed": "- km/h",
-    "acceleration": "- s 0-100",
+    "topspeed": null,
+    "acceleration": null,
     "pwratio": "3.80kg/hp",
     "range": 180
   },
@@ -298,6 +298,6 @@
   "country": "USA",
   "year": 2015,
   "author": "Arch",
-  "version": "2024-03-22",
+  "version": "2024-07-10",
   "url": "https://github.com/archibaldmilton/Girellu"
 }

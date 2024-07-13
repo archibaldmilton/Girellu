@@ -1,3 +1,10 @@
+2024-07-10
+- Changed tires camber curve
+
+2024-05-31
+- Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT, combined grip, relax length, SAT, thermal curves
+- Changed AI
+
 2024-04-05
 - Changed tire relax length, camber curve
 - Changed front geometry

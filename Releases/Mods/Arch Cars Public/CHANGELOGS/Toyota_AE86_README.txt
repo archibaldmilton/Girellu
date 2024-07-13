@@ -1,3 +1,22 @@
+2024-07-10
+- Changed tires camber curve
+
+2024-06-08
+- Corrections
+
+2024-05-31
+- Changed Drift tires from RE710 to RE710 / GLOBA
+- Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT, rolling resistance
+
+2024-05-29
+- Changed tires slipcurve, combined grip, relax length, SAT
+- Corrections
+
+2024-05-09
+- Added damper to R_AE86_UCA_RR
+- Increased rate of R_AE86_UCA_RR SPRING
+- Corrections
+
 2024-04-05
 - Fixed typo in Drift suspensions.ini front geometry hints
 

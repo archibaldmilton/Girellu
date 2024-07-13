@@ -1,3 +1,30 @@
+2024-07-10
+- Changed tires camber curve
+
+2024-06-08
+- Corrections
+
+2024-05-31
+- Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT
+
+2024-05-29
+- Removed front elastokinematic toe compliance
+- Changed PS
+- Changed tires slipcurve, combined grip, relax length, SAT
+
+2024-05-22
+- Changed rear stabilizer motion ratio
+
+2024-05-17
+- Changed stabilizers
+
+2024-05-16
+- Added elastokinematic toe compliance
+- Changed rear geometry
+- Changed stabilizers
+- Changed suspensions, ctrl_4ws, ctrl_awd2 syntax
+- Changed rear 3D offsets
+
 2024-04-05
 - Changed front geometry
 - Changed PS

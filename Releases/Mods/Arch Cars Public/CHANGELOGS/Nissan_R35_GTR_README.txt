@@ -1,3 +1,14 @@
+2024-07-10
+- Changed tires camber curve
+
+2024-05-31
+- Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT
+
+2024-05-29
+- Changed PS
+- Changed tires slipcurve, combined grip, relax length, SAT
+- Changed suspensions.ini syntax
+
 2024-05-01
 - Added damper setup
 - Changed dampers

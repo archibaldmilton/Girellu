@@ -1,3 +1,22 @@
+2024-07-10
+- Changed tires camber curve
+
+2024-05-31
+- Changed PS
+- Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT
+
+2024-05-29
+- Changed PS
+- Changed tires slipcurve, combined grip, relax length, SAT
+- Changed suspensions.ini syntax
+
+2024-05-13
+- Added elastokinematic rear toe compliance
+- Changed rear geometry, toe adjustment method
+- Changed stiffness of bushing vertical rate
+- Changed installation stiffness
+- Corrections
+
 2024-03-24
 - Added rear camber adjustability
 - Increased differential lock to emulate Elektronisches Sperrdifferential

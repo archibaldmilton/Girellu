@@ -1,3 +1,20 @@
+2024-07-10
+- Changed tires camber curve
+
+2024-06-08
+- Corrections
+
+2024-05-31
+- Changed Drift tires from RE710 to RE710 / GLOBA
+- Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT, rolling resistance
+
+2024-05-29
+- Changed PS
+- Changed tires slipcurve, combined grip, relax length, SAT
+- Changed installation stiffness
+- Changed suspensions.ini syntax
+- Corrections
+
 2024-03-22
 - Changed tire damping
 

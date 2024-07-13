@@ -1,3 +1,30 @@
+2024-07-10
+- Changed tires camber curve
+
+2024-06-08
+- Changed Drift front geometry
+- Changed Drift dampers
+
+2024-06-01
+- Removed front elastokinematic toe compliance (FFB vibration)
+
+2024-05-31
+- Changed Drift tires from Z1SS to 08D
+- Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT
+
+2024-05-29
+- Changed PS
+- Changed tires slipcurve, combined grip, relax length, SAT
+
+2024-05-17
+- Changed stabilizers
+
+2024-05-16
+- Added elastokinematic toe compliance to GT
+- Changed stabilizers
+- Changed stiffness of bushing vertical rate
+- Corrections
+
 2024-03-22
 - Changed tire damping
 

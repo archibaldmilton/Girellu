@@ -1,3 +1,85 @@
+2024-07-13
+- Updated CTR
+
+2024-07-12
+- Updated CTR
+
+2024-07-10
+- Updated all cars
+
+2024-06-08
+- CHANGED DRIFT FOLDERNAMES
+- Updated E30
+- Updated E92
+- Updated S550
+- Updated FD3S
+- Updated Miata ND
+- Updated 180SX
+- Updated R34
+- Updated Z34
+- Updated AE86
+- Updated GT86
+- Updated JZA80
+
+2024-06-02
+- Updated GT86
+
+2024-06-01
+- Updated E30
+- Updated S550
+- Updated 180SX
+- Updated 993
+- Updated GT86
+
+2024-05-31
+- Updated all cars
+- Suggested to use CSP 0.2.3+
+
+2024-05-29
+- Updated all roadcars
+- Suggested to use CSP 0.2.3+
+
+2024-05-22
+- Updated 180SX
+- Updated R34
+- Updated 993
+- Updated 996
+- Updated GT86
+- Updated JZA80
+
+2024-05-17
+- Updated 993
+- Updated E30
+- Updated S550
+- Updated FD3S
+- Updated 180SX
+- Updated R34
+- Updated GT86
+
+2024-05-16
+- Updated S550
+- Updated FD3S
+- Updated 180SX
+- Updated R34
+
+2024-05-13
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- 993 S2 ui.json change (no changelog)
+
+2024-05-10
+- Updated E30
+- Updated 993
+
+2024-05-09
+- Updated 993
+- Updated AE86
+
+2024-05-06
+- Updated 993
+
 2024-05-05
 - Updated 993
 - Updated CTR

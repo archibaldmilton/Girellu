@@ -1,3 +1,36 @@
+2024-07-10
+- Changed tires camber curve
+- Changed suspensions.ini syntax
+- Corrected Type-X CAMBER_RF hint reference
+
+2024-06-08
+- Corrections
+
+2024-06-01
+- Removed front elastokinematic toe compliance (FFB vibration)
+
+2024-05-31
+- Changed tires X_MULT, LEVEL, SPEED, FALLOFF_YSPEED_MULT, relax length, slip peak
+
+2024-05-29
+- Changed PS
+- Changed tires slipcurve, combined grip, relax length, SAT
+- Corrections
+
+2024-05-22
+- Changed rear stabilizer motion ratio
+
+2024-05-17
+- Changed stabilizers
+
+2024-05-16
+- Added elastokinematic toe compliance to Type-X
+- Changed rear geometry
+- Changed stabilizers
+- Changed installation stiffness
+- Simplified Drift rear subframe
+- Corrections
+
 2024-03-22
 - Changed tire damping
 

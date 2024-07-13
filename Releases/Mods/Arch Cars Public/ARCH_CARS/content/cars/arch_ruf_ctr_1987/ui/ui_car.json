@@ -17,8 +17,8 @@
     "bhp": "518ps",
     "torque": "56.4kg-m",
     "weight": "1147kg",
-    "topspeed": "-- km/h",
-    "acceleration": "-- 0-100",
+    "topspeed": null,
+    "acceleration": null,
     "pwratio": "2.21kg/ps",
     "range": 100
   },
@@ -333,6 +333,6 @@
   "country": "Germany",
   "year": 1987,
   "author": "Arch",
-  "version": "2024-05-05",
+  "version": "2024-07-13",
   "url": "https://github.com/archibaldmilton/Girellu"
 }
