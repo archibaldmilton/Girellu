@@ -1,3 +1,11 @@
+2024-07-21
+- Changed tires load, slip, heat, angular inertia
+- Changed damper travel, stiffness
+- Changed bumprubber length, stiffness
+- Changed aero
+- Changed default brake bias
+- Changed 3D offsets
+
 2024-07-13
 - Removed brake booster
 - Changed brake mu curve

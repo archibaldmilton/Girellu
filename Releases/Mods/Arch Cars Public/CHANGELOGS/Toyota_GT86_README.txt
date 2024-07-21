@@ -1,3 +1,6 @@
+2024-07-21
+- Changed tires slip, heat
+
 2024-07-10
 - Changed tires camber curve
 
