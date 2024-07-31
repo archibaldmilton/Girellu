@@ -1,3 +1,6 @@
+2024-07-31
+- Changed M3 tire load curve
+
 2024-07-21
 - Changed tires slip, heat
 

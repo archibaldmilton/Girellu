@@ -1,3 +1,6 @@
+2024-07-31
+- Fixed rear camber alignment not functioning
+
 2024-07-21
 - Changed tires slip, heat
 

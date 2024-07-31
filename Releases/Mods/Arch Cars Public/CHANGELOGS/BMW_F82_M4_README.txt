@@ -1,3 +1,7 @@
+2024-07-31
+- Added progressive steering rack ratio thanks to @kapi_4x4
+- Fixed rear camber alignment not functioning
+
 2024-07-21
 - Changed tires slip, heat
 

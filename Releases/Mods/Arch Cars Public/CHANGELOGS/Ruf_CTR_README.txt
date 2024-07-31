@@ -1,3 +1,13 @@
+2024-07-31
+- Added (back) brake booster
+- Changed brake temp curve
+- Changed tire load sensitivity
+- Changed front damper droop travel
+- Changed default alignment
+- Changed engine torque curve, boost peak, idle RPM
+- Changed dev comments
+- Changed UI
+
 2024-07-21
 - Changed tires load, slip, heat, angular inertia
 - Changed damper travel, stiffness
