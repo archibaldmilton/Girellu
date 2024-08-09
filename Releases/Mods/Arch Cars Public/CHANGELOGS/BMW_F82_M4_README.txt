@@ -1,3 +1,8 @@
+2024-08-09
+- Reverted from force to slip relax length
+- Changed tire SAT, FALLOFF_SPEED, FALLOFF_YSPEED_MULT, FLEX_GAIN, heat_mu
+- Changed PS
+
 2024-07-31
 - Added progressive steering rack ratio thanks to @kapi_4x4
 - Fixed rear camber alignment not functioning

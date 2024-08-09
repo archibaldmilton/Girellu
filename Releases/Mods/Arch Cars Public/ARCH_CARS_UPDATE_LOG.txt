@@ -1,3 +1,6 @@
+2024-08-09
+- Updated all cars
+
 2024-07-31
 - Updated E30
 - Updated E82
