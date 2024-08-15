@@ -1,3 +1,7 @@
+2024-08-15
+- Updated all cars
+	- Steering U-joint nonlinearity, tire thermal V2, tire load curve tweaks
+
 2024-08-11
 - (Actually) updated R34
 

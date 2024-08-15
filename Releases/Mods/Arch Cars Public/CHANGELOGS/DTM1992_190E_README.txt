@@ -1,3 +1,6 @@
+2024-08-15
+- Changed tire thermals
+
 2024-08-09
 - Reverted from force to slip relax length
 - Changed tire SAT, FALLOFF_SPEED, FALLOFF_YSPEED_MULT, FLEX_GAIN, heat_mu

@@ -1,3 +1,7 @@
+2024-08-15
+- Added steering U-joint nonlinearity (thanks @jpg_18, mod-talk)
+- Changed tire thermals
+
 2024-08-11
 - Actually included car in update this time
 

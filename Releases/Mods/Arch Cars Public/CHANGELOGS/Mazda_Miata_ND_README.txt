@@ -1,3 +1,8 @@
+2024-08-15
+- Added steering U-joint nonlinearity (thanks @jpg_18, mod-talk)
+- Changed tire thermals
+- Changed Club tire load curve
+
 2024-08-09
 - Reverted from force to slip relax length
 - Changed tire SAT, FALLOFF_SPEED, FALLOFF_YSPEED_MULT, FLEX_GAIN, heat_mu
