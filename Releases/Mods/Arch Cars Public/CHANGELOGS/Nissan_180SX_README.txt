@@ -1,3 +1,10 @@
+2024-09-20
+- Changed reference brake foot force from 100kgf to 50kgf, setup max to 200%
+- Changed tires heat, slip, load, wear etc.
+- Changed "OEM" brake friction curve
+- Changed ABS
+- Changed stabilizers
+
 2024-08-15
 - Added steering U-joint nonlinearity (thanks @jpg_18, mod-talk)
 - Changed tire thermals

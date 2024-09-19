@@ -1,3 +1,7 @@
+2024-09-20
+- Updated all cars
+	- Tire slip, load, thermals, electronics
+
 2024-08-15
 - Updated all cars
 	- Steering U-joint nonlinearity, tire thermal V2, tire load curve tweaks
