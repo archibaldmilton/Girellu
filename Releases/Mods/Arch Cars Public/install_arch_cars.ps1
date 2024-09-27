@@ -24,7 +24,6 @@ if (Test-Path -Path "ARCH_CARS_UPDATE_LOG.txt"  -PathType Leaf) {
     [System.IO.Compression.ZipFile]::ExtractToDirectory($zip, $pwd)
 }
 
-
 $script:ac_root = 0
 
 function Find-Ac {
@@ -44,10 +43,8 @@ function Find-Ac {
         [void] $browser.ShowDialog()
         $script:ac_root = $browser.SelectedPath
     }
-    
 }
 Find-Ac
-
 
 function Install-Car {
     param(
@@ -84,35 +81,60 @@ function Install-Car {
     Write-Host ''
     Write-Host "Creating $arch_car, using visuals from $kunos_car"
 
-    if (-not($script:deleteArchCars -eq "a")) {
-        if (Test-Path -Path "$ac_root\content\cars\$arch_car") {
-            $script:deleteArchCars = read-host -prompt "$arch_car is already installed, clean install to ensure latest version? (y/n/a)"
+    if ($arch_car -eq $kunos_car) {
+        Write-Host "WARNING: updating over existing car (source = destination), can't do clean install."
+        $same_name = $true
+
+        # create a backup copy of the car being modified, set $kunos_car to this copy, and delete the original (so it can be created again)
+        New-Item -ItemType "directory" -Path "$ac_root\content\cars\$kunos_car-backup" -Force
+        Get-ChildItem "$ac_root\content\cars\$kunos_car" | Copy-Item -Destination "$ac_root\content\cars\$kunos_car-backup" -Recurse -Force
+        Remove-Item "$ac_root\content\cars\$kunos_car" -Recurse -Force
+        $kunos_car = "$kunos_car-backup"
+    } else {
+        # do clean install if requested
+        if (-not($script:deleteArchCars -eq "a")) {
+            if (Test-Path -Path "$ac_root\content\cars\$arch_car") {
+                $script:deleteArchCars = read-host -prompt "$arch_car is already installed, clean install to ensure latest version? (y/n/a)"
+            }
+        }
+
+        if ($script:deleteArchCars -eq "a" -or $script:deleteArchCars -eq "y") {
+            Remove-Item "$ac_root\content\cars\$arch_car" -Recurse -Force
+            if ($script:deleteArchCars -eq "y") {
+                $script:deleteArchCars = 0 # clean up after ourselves
+            }
         }
     }
 
-    if ($script:deleteArchCars -eq "a" -or $script:deleteArchCars -eq "y") {
-        Remove-Item "$ac_root\content\cars\$arch_car" -Recurse -Force
-        if ($script:deleteArchCars -eq "y") {
-            $script:deleteArchCars = 0 # clean up after ourselves
-        }
-    }
-
+    # the actual install
     New-Item -ItemType "directory" -Path "$ac_root\content\cars\$arch_car" -Force
     Get-ChildItem "$ac_root\content\cars\$kunos_car" | Copy-Item -Destination "$ac_root\content\cars\$arch_car" -Recurse -Force
     Copy-Item "$arch_physics/*" -Destination "$ac_root\content\cars\$arch_car" -Recurse -Force
-    if (-not(Test-Path -Path "$ac_root\content\cars\$kunos_car\sfx\GUIDS.txt"  -PathType Leaf)) {
-        (Get-Content "$ac_root\content\sfx\GUIDS.txt") -Replace $kunos_car, $arch_car | Set-Content "$ac_root\content\cars\$arch_car\sfx\GUIDS.txt"
-        Rename-Item "$ac_root\content\cars\$arch_car\sfx\$kunos_car.bank" "$arch_car.bank"
-        Set-Content -Path "$ac_root\content\cars\$arch_car\sfx\GUIDS.txt" -Value (get-content -Path "$ac_root\content\cars\$arch_car\sfx\GUIDS.txt" | Select-String -Pattern "$arch_car/|grp_|common|bus:")
+
+    # sound bank
+    if ($same_name -eq $true) {
+        # if source = destination, nothing to do here
     } else {
-        Write-Host "detected sound mod, adjusting existing guids.."
-        (Get-Content "$ac_root\content\cars\$arch_car\sfx\GUIDS.txt") -Replace $kunos_car, $arch_car | Set-Content "$ac_root\content\cars\$arch_car\sfx\GUIDS.txt"
-        Rename-Item "$ac_root\content\cars\$arch_car\sfx\$kunos_car.bank" "$arch_car.bank"
+        if (-not(Test-Path -Path "$ac_root\content\cars\$kunos_car\sfx\GUIDS.txt"  -PathType Leaf)) {
+            (Get-Content "$ac_root\content\sfx\GUIDS.txt") -Replace $kunos_car, $arch_car | Set-Content "$ac_root\content\cars\$arch_car\sfx\GUIDS.txt"
+            Rename-Item "$ac_root\content\cars\$arch_car\sfx\$kunos_car.bank" "$arch_car.bank"
+            Set-Content -Path "$ac_root\content\cars\$arch_car\sfx\GUIDS.txt" -Value (get-content -Path "$ac_root\content\cars\$arch_car\sfx\GUIDS.txt" | Select-String -Pattern "$arch_car/|grp_|common|bus:")
+        } else {
+            Write-Host "detected sound mod, adjusting existing guids.."
+            (Get-Content "$ac_root\content\cars\$arch_car\sfx\GUIDS.txt") -Replace $kunos_car, $arch_car | Set-Content "$ac_root\content\cars\$arch_car\sfx\GUIDS.txt"
+            Rename-Item "$ac_root\content\cars\$arch_car\sfx\$kunos_car.bank" "$arch_car.bank"
+        }
     }
 
+    # VAO patch
     if (Test-Path "$arch_folder\extension\vao-patches-cars") {
         Write-Host "found vaopatch, installing..."
         Get-ChildItem "$arch_folder\extension\vao-patches-cars\" -Recurse | Copy-Item -Destination "$ac_root\extension\vao-patches-cars\" -Recurse
+    }
+
+    # if source = destination, $kunos_car is now the backup copy created above, so delete it
+    if ($same_name -eq $true) {
+        Remove-Item "$ac_root\content\cars\$kunos_car" -Recurse -Force
     }
 }
 
@@ -132,7 +154,6 @@ foreach ($dir in $dirs) {
                 if ($arch_car -inotmatch " ") {
                     $kunos_car = ""
 
-
                     if (Test-Path -Path "$script:girellu\Releases\Mods\Arch Cars Public\donor_cars.txt" -PathType Leaf) {
                         $donor_cars = Get-Content -Path "$script:girellu\Releases\Mods\Arch Cars Public\donor_cars.txt"
                         foreach ($donor_car in $donor_cars) {
@@ -146,11 +167,11 @@ foreach ($dir in $dirs) {
                     } else {
                         Write-Host "ERROR: Could not find donor_cars.txt, using fallback method" -ForegroundColor Red
                     }
-                    
+
                     if ($kunos_car -eq "") { # this should only get triggered if new cars werent added to donor_cars.txt
                         $ext_config = Get-Content -Path "$absolutePath\content\cars\$arch_car\extension\ext_config.ini"
                         $ext_config | Where-Object { $_ -match "cars/kunos/" } | Select-String -Pattern "cars/kunos/(.*).ini" | ForEach-Object { $kunos_car = @($_.Matches.Value) }
-                        
+
                         # strip .ini and "cars/kunos/" from $kunos_car
                         $kunos_car = $kunos_car.Replace(".ini", "").Replace("cars/kunos/", "")
                     }
@@ -159,7 +180,7 @@ foreach ($dir in $dirs) {
                         $readme = Get-Content -Path "$absolutePath\!README AND INSTRUCTIONS.txt"
                         $kunos_candidates = $()
                         # find every occurance of line with "copy from folder" or "Repeat process from folder" inside $readme and insert them into kunos_candidates array
-                        $kunos_candidates = $readme | Where-Object {  $_ -match "copy from folder" -or $_ -match "Repeat process from folder" } 
+                        $kunos_candidates = $readme | Where-Object {  $_ -match "copy from folder" -or $_ -match "Repeat process from folder" }
 
                         foreach ($car in $kunos_candidates) {
                             # strip "copy from folder " from $car
