@@ -1,7 +1,7 @@
 {
   "name": "DRIFT Mazda Miata NA8C",
   "brand": "Mazda",
-  "description": "BP-VE<br>Cut factory knuckles, relocated inner tie rod<br>Tokico Illumina simultaneous adjustable dampers<br>NA8C brakes, standard handbrake<br><br>185/55R14 140TW (est.) / 230TW (est.)",
+  "description": "BP-VE<br>Cut factory knuckles, relocated inner tie rod<br>Tokico Illumina simultaneous adjustable dampers<br>NB Sport discs and calipers, standard handbrake<br><br>185/55R14 140TW (est.) / 230TW (est.)",
   "tags": [
     "#small sports",
     "rwd",
@@ -266,7 +266,7 @@
   ],
   "country": "Japan",
   "author": "Arch",
-  "version": "2024-09-20",
+  "version": "2024-10-15_A",
   "url": "https://github.com/archibaldmilton/Girellu",
   "year": 1994
 }

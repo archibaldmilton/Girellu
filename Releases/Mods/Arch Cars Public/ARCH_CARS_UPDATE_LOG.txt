@@ -1,3 +1,24 @@
+2024-10-15_A
+- Updated E30
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- Updated S550
+- Updated FD3S
+- Updated Miata NA
+- Updated Miata ND
+- Updated 180SX
+- Updated R34
+- Updated R35
+- Updated Z34
+- Updated 993
+- Updated 996
+- Updated CTR
+- Updated AE86
+- Updated GT86
+- Updated JZA80
+
 2024-09-20
 - Updated all cars
 	- Tire slip, load, thermals, electronics
