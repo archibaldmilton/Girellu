@@ -1,3 +1,29 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required!
+
+!!!IMPORTANT!!!
+
+Includes:
+E92 M3
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Special thanks to: 
+@baker7498
+
+RECOMMENDED VISUALS AND SOUND
+
+E92 M3 = KS M3 E92
+
+CHANGELOG
+
+2024-10-21_A
+- Removed (completely ineffective and redundant) rear toe elastokinematics
+	- Investigating alternatives, but probably none usable, vibrates excessively
+
 2024-10-15_A
 - Changed brakes
 
@@ -113,25 +139,5 @@
 
 2023-12-19
 - Initial release
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required!
-
-!!!IMPORTANT!!!
-
-Includes:
-E92 M3 Coupe
-
-Credits:
-Physics and custom UI file by Arch
-UI file torque curves by x4fab's AC Torque Helper
-Everything else by Kunos Simulazioni
-Special thanks to: 
-@baker7498
-
-RECOMMENDED VISUALS AND SOUND
-
-E92 M3 Coupe = KS M3 E92
 
 

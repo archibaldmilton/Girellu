@@ -1,5 +1,5 @@
 # Arch Modified Physics
-> Minimum CSP version is 0.2.2
+> Minimum CSP version is 0.2.3
 ### Cosmic notes
 * All Arch cars will eventually be updated to Cosmic suspension type. To know about more cosmic suspension type, click [here](https://github.com/ac-custom-shaders-patch/acc-extension-config/wiki/Cars-%E2%80%93-Cosmic-Suspension "GitHub").
 * Non cosmic suspension data will be moved to the legacy folder for archival purposes and thereby will no longer receive support.
@@ -7,8 +7,6 @@
 The install_arch_cars.bat script will automate installing of the car mods inside this folder. If you want to individually download cars, then you will have to manually install them.
 ### Automated .bat script install (recommended method, installs all cars)
 Run the install_arch_cars.bat script and follow instructions within. Any errors mean you are missing a mod or AC DLC content.
-### Manual install (individual, per-car basis)
-Follow the instructions inside the car folder's "!README AND INSTRUCTIONS.txt".
 
 ___
 #### Additional notes

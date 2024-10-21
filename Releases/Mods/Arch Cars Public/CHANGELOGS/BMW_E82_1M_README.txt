@@ -1,3 +1,29 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required!
+
+!!!IMPORTANT!!!
+
+Includes:
+E82 1M
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Special thanks to: 
+@baker7498
+
+RECOMMENDED VISUALS AND SOUND
+
+E82 1M = KS 1M
+
+CHANGELOG
+
+2024-10-21_A
+- Removed (completely ineffective and redundant) rear toe elastokinematics
+	- Investigating alternatives, but probably none usable, vibrates excessively
+
 2024-10-15_A
 - Changed brakes
 
@@ -98,25 +124,5 @@
 
 2023-12-18
 - Initial release
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required!
-
-!!!IMPORTANT!!!
-
-Includes:
-E82 1M Coupe
-
-Credits:
-Physics and custom UI file by Arch
-UI file torque curves by x4fab's AC Torque Helper
-Everything else by Kunos Simulazioni
-Special thanks to: 
-@baker7498
-
-RECOMMENDED VISUALS AND SOUND
-
-E82 1M Coupe = KS 1M
 
 

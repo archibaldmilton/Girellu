@@ -1,3 +1,33 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required! Requires JDM Pack DLC by Kunos!
+
+!!!IMPORTANT!!!
+
+Includes:
+RX-7 FD3S SPIRIT R Type A
+RX-7 FD3S Drift
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Special thanks:
+baker7498 for providing lots of data and literature
+mike12345678 for providing lots of data and literature and a torque curve
+Leonardo Ratafia for providing data
+
+RECOMMENDED VISUALS AND SOUND
+
+FD3S SPIRIT R = KS RX7 Spirit R
+FD3S Drift =  KS RX7 Tuned
+
+CHANGELOG
+
+2024-10-21_A
+- Changed SPRIT R LSD
+- Changed brakes
+
 2024-10-15_A
 - Changed brakes
 
@@ -136,29 +166,5 @@
 - Added chassis torsion flex
 - Changed Drift spring options, default setup
 - Minor change to car.ini GRAPHICS_PITCH_ROTATION
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required! Requires JDM Pack DLC by Kunos!
-
-!!!IMPORTANT!!!
-
-Includes:
-RX-7 FD3S SPIRIT R Type A
-RX-7 FD3S Drift
-
-Credits:
-Physics by Arch
-Everything else by Kunos Simulazioni
-
-Special thanks:
-baker7498 for providing lots of data and literature
-mike12345678 for providing lots of data and literature and a torque curve
-Leonardo Ratafia for providing data
-
-RECOMMENDED VISUALS AND SOUND
-
-FD3S SPIRIT R = KS RX7 Spirit R
-FD3S Drift =  KS RX7 Tuned
 
 

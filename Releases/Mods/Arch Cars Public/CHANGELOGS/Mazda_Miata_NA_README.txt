@@ -1,3 +1,34 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required!
+
+!!!IMPORTANT!!!
+
+Includes:
+Miata MX5 NA8C
+Miata MX5 NA8C Drift
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Special thanks:
+The usual suspects
+CesarCardoso
+
+RECOMMENDED VISUALS AND SOUND
+
+Miata MX5 NA8C = KS Miata NA
+Miata MX5 NA8C Drift = KS Miata NA
+
+CHANGELOG
+
+2024-10-21_A
+- Changed NA8C to Base model, removed PS and LSD
+- Changed Drift to depowered PS rack
+- Corrected steering parameters
+- Changed drivetrain.ini hints
+
 2024-10-15_A
 - Changed NA8C reference brake foot force from 50kgf to 100kgf, setup max to 100%
 - Changed NA8C rear disc from vented to solid
@@ -121,28 +152,3 @@
 - Added object-based alignment, springs, dampers etc.
 - Added chassis torsion flex
 - Changed PS boost curve
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required!
-
-!!!IMPORTANT!!!
-
-Includes:
-Miata MX5 NA8C
-Miata MX5 NA8C Drift
-
-Credits:
-Physics and custom UI file by Arch/Kyuubeey
-Versions icons by Content Manager
-UI file torque curves by Content Manager
-Everything else by Kunos Simulazioni
-
-Special thanks:
-The usual suspects
-CesarCardoso
-
-RECOMMENDED VISUALS AND SOUND
-
-Miata MX5 NA8C = KS Miata NA
-Miata MX5 NA8C Drift = KS Miata NA

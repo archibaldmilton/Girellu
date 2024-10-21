@@ -1,3 +1,25 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required!
+
+!!!IMPORTANT!!!
+
+Includes:
+R35 GT-R NISMO 2014
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Special thanks:
+The usual suspects
+
+RECOMMENDED VISUALS AND SOUND
+
+R35 GT-R NISMO 2014 = KS GT-R NISMO
+
+CHANGELOG
+
 2024-10-15_A
 - Changed brakes
 
@@ -90,24 +112,4 @@
 - Changed load, slip, combined grip, SAT, wear
 - Changed tire thermal model version, temperature load biasing
 
-!!!IMPORTANT!!!
 
-Shaders patch 0.2.2+ required!
-
-!!!IMPORTANT!!!
-
-Includes:
-Nissan R35 GT-R NISMO 2014
-
-Credits:
-Physics by Arch
-Versions icons by Content Manager
-UI file torque curves by Content Manager
-Everything else by Kunos Simulazioni
-
-Special thanks:
-The usual suspects
-
-RECOMMENDED VISUALS AND SOUND
-
-GT-R NISMO = KS GT-R NISMO

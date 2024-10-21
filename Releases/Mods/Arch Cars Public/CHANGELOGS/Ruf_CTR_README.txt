@@ -1,3 +1,24 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required!
+
+!!!IMPORTANT!!!
+
+Includes:
+RUF CTR Yellowbird
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Thanks to @mike12345678 and @AlleyViper for data
+
+RECOMMENDED VISUALS AND SOUND
+
+RUF CTR Yellowbird = KS Yellowbird
+
+CHANGELOG
+
 2024-10-15_A
 - Changed brakes
 
@@ -348,25 +369,6 @@
 04.06.2019 Version 1.0
 
 • Initial release
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required!
-
-!!!IMPORTANT!!!
-
-Includes:
-RUF CTR Yellowbird
-
-Credits:
-Physics and custom UI file by Arch/Kyuubeey
-UI file torque curves by x4fab's AC Torque Helper
-Everything else by Kunos Simulazioni
-Thanks to @mike12345678 and @AlleyViper for data
-
-RECOMMENDED VISUALS AND SOUND
-
-CTR = KS Yellowbird
 
 
 

@@ -1,3 +1,22 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required!
+
+!!!IMPORTANT!!!
+
+Includes:
+DTM 1992 E30 M3
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+RECOMMENDED VISUALS AND SOUND
+
+DTM 1992 E30 M3 = KS M3 E30 DTM
+
+CHANGELOG
+
 2024-09-20
 - Changed reference brake foot force from 100kgf to 50kgf, setup max to 200%
 - Changed tires heat, slip, load, wear etc.
@@ -83,21 +102,5 @@
 
 2024-02-18
 - Initial version
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required!
-
-!!!IMPORTANT!!!
-
-Includes:
-DTM 1992 E30 M3
-
-Credits:
-Physics by Arch
-
-RECOMMENDED VISUALS AND SOUND
-
-DTM 1992 E30 M3 = KS M3 E30 DTM
 
 

@@ -1,3 +1,16 @@
+2024-10-21_A
+- Added Elise
+- Updated E82
+- Updated E92
+- Updated F82
+- Updated FD3S
+- Updated Miata NA
+- Updated GT86
+- Updated JZA80
+- Updated README.MD
+- Updated cars README.ini
+- Removed some redundant UI files from directories
+
 2024-10-15_A
 - Updated E30
 - Updated E82

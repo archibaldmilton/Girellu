@@ -1,3 +1,27 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required! Requires JDM Pack DLC by Kunos!
+
+!!!IMPORTANT!!!
+
+Includes:
+Miata ND1 Club
+Miata ND1 Drift
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Special thanks:
+The usual suspects
+
+RECOMMENDED VISUALS AND SOUND
+
+Miata ND1 Club = KS MX5 ND
+Miata ND1 Drift = KS MX5 ND Visuals, KS MX5 ND Cup Sound
+
+CHANGELOG
+
 2024-10-15_A
 - Changed brakes
 
@@ -112,28 +136,4 @@
 - Changed load, slip, combined grip, SAT, wear
 - Changed tire thermal model version, temperature load biasing
 - Changed Drift front geometry
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required! Requires JDM Pack DLC by Kunos!
-
-!!!IMPORTANT!!!
-
-Includes:
-Miata ND1 Club
-Miata ND1 Drift
-
-Credits:
-Physics by Arch
-Versions icons by Content Manager
-UI file torque curves by Content Manager
-Everything else by Kunos Simulazioni
-
-Special thanks:
-The usual suspects
-
-RECOMMENDED VISUALS AND SOUND
-
-Miata ND1 Club = KS MX5 ND
-Miata ND1 Drift = KS MX5 ND Visuals, KS MX5 ND Cup Sound
 

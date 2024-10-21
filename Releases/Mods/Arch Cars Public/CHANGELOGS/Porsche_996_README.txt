@@ -1,3 +1,20 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required! Requires Dream Pack 2 DLC by Kunos!
+RUF RT12R AWD visuals (Dream Pack 2 DLC)
+Recommended to replace sound with KS Carrera S (Porsche Pack 1 DLC)
+
+!!!IMPORTANT!!!
+
+Includes:
+996.1 Carrera
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+CHANGELOG
+
 2024-10-15_A
 - Changed brakes
 
@@ -45,20 +62,5 @@
 
 2024-04-28
 - Initial version
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required! Requires Dream Pack 2 DLC by Kunos!
-RUF RT12R AWD visuals (Dream Pack 2 DLC)
-Recommended to replace sound with KS Carrera S (Porsche Pack 1 DLC)
-
-!!!IMPORTANT!!!
-
-Includes:
-996.1 Carrera
-
-Credits:
-Physics by Arch
-Everything else by Kunos Simulazioni
 
 

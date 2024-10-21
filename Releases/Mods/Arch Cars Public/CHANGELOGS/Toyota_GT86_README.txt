@@ -1,3 +1,33 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required!
+
+!!!IMPORTANT!!!
+
+Includes:
+GT86 GT
+GT86 Drift
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Special thanks:
+baker7498 for providing lots of data and literature
+mike12345678 for providing lots of data and literature and torque curves
+Leonardo Ratafia for providing data
+Ryno917 for testing
+
+RECOMMENDED VISUALS AND SOUND
+
+GT86 GT = KS GT86
+GT86 Drift = KS GT86
+
+CHANGELOG
+
+2024-10-21_A
+- Changed GT LSD
+
 2024-10-15_A
 - Changed brakes
 
@@ -133,31 +163,4 @@
 - Changed load, slip, combined grip, SAT, wear
 - Changed tire thermal model version, temperature load biasing
 - Changed Drift steering geometry
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required!
-
-!!!IMPORTANT!!!
-
-Includes:
-ZN6 GT86 GT
-ZN6 GT86 Drift
-
-Credits:
-Physics and custom UI file by Arch/Kyuubeey
-Versions icons by Content Manager
-UI file torque curves by x4fab's AC Torque Helper
-Everything else by Kunos Simulazioni
-
-Special thanks:
-baker7498 for providing lots of data and literature
-mike12345678 for providing lots of data and literature and torque curves
-Leonardo Ratafia for providing data
-Ryno917 for testing
-
-RECOMMENDED VISUALS AND SOUND
-
-GT86 GT = KS GT86
-GT86 Drift = KS GT86
 

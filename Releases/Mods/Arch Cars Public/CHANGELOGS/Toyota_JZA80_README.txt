@@ -1,3 +1,31 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required! Requires JDM Pack DLC by Kunos!
+
+!!!IMPORTANT!!!
+
+Includes:
+JZA80 RZ
+JZA80 Drift
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Special thanks:
+Aad Hofman for providing original laserscanned suspension
+baker7498 for providing lots of data and literature
+
+RECOMMENDED VISUALS AND SOUND
+
+JZA80 RZ = KS Supra MKIV
+JZA80 Drift = KS Supra Drift
+
+CHANGELOG
+
+2024-10-21_A
+- Changed RZ LSD
+
 2024-10-15_A
 - Changed brakes
 
@@ -132,28 +160,5 @@
 - Added chassis torsion flex
 - Changed RZ front bumpstop gap, damper stroke
 - Changed Drift spring options, default setup
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required! Requires JDM Pack DLC by Kunos!
-
-!!!IMPORTANT!!!
-
-Includes:
-Supra JZA80 RZ
-Supra JZA80 Drift
-
-Credits:
-Original laserscanned suspension by Aad Hofman
-Physics by Arch
-Everything else by Kunos Simulazioni
-
-Special thanks:
-baker7498 for providing lots of data and literature
-
-RECOMMENDED VISUALS AND SOUND
-
-JZA80 RZ = KS Supra MKIV
-JZA80 Drift = KS Supra Drift
 
 

@@ -1,3 +1,27 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required! Requires JDM Pack DLC by Kunos!
+
+!!!IMPORTANT!!!
+
+Includes:
+Nissan 370Z NISMO
+Nissan 370Z Drift
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Special thanks:
+The usual suspects
+
+RECOMMENDED VISUALS AND SOUND
+
+370Z NISMO = KS 370Z NISMO
+370Z Drift = KS 370Z NISMO
+
+CHANGELOG
+
 2024-10-15_A
 - Changed rear suspension geometry, stabilizer
 - Changed brakes
@@ -121,27 +145,3 @@
 - Changed tire thermal model version, temperature load biasing
 - Changed NISMO rear bumprubber length, rate
 - Changed Drift front geometry, spring options, default setup
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required! Requires JDM Pack DLC by Kunos!
-
-!!!IMPORTANT!!!
-
-Includes:
-Nissan 370Z NISMO
-Nissan 370Z Drift
-
-Credits:
-Physics by Arch
-Versions icons by Content Manager
-UI file torque curves by Content Manager
-Everything else by Kunos Simulazioni
-
-Special thanks:
-The usual suspects
-
-RECOMMENDED VISUALS AND SOUND
-
-370Z NISMO = KS 370Z NISMO
-370Z Drift = KS 370Z NISMO

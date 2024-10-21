@@ -1,3 +1,29 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required! Requires JDM Pack DLC by Kunos!
+
+!!!IMPORTANT!!!
+
+Includes:
+AE86 1600GTV Sprinter Trueno
+AE86 Sprinter Trueno Drift
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Special thanks:
+Venitros for driving car in testing
+Aphidgod, stereo, mclarenf1papa, Leonardo Ratafiá, Kade and many others for help
+baker7498 for finding a ton of data
+
+RECOMMENDED VISUALS AND SOUND
+
+AE86 1600GTV Sprinter Trueno = KS AE86 Visuals, KS AE86 Tuned Sound
+AE86 Sprinter Trueno Drift = KS AE86 Drift Visuals, KS AE86 Tuned Sound
+
+CHANGELOG
+
 2024-10-15_A
 - Changed reference brake foot force from 50kgf to 100kgf, setup max to 100%
 - Changed brakes
@@ -129,33 +155,6 @@
 - Added chassis torsion flex
 - Changed Drift steering knuckle geometry
 - Corrected steering ratios/linearity
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required! Requires JDM Pack DLC by Kunos!
-
-!!!IMPORTANT!!!
-
-Includes:
-AE86 1600GTV Sprinter Trueno
-AE86 Sprinter Trueno Drift
-
-Credits:
-Physics and custom UI file by Arch/Kyuubeey
-Version icons by x4fab's Content Manager
-UI file torque curves by x4fab's Content Manager
-Extensions configs by x4fab's Content Manager
-Everything else by Kunos Simulazioni
-
-Special thanks:
-Venitros for driving car in testing
-Aphidgod, stereo, mclarenf1papa, Leonardo Ratafiá, Kade and many others for help
-baker7498 for finding a ton of data
-
-RECOMMENDED VISUALS AND SOUND
-
-AE86 GTV = KS AE86 Visuals, KS AE86 Tuned Sound
-AE86 Drift = KS AE86 Drift Visuals, KS AE86 Tuned Sound
 
 
 

@@ -1,3 +1,29 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required!
+
+!!!IMPORTANT!!!
+
+Includes:
+F82 M4
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Special thanks to: 
+@baker7498
+
+RECOMMENDED VISUALS AND SOUND
+
+F82 M4 = KS M4
+
+CHANGELOG
+
+2024-10-21_A
+- Removed (completely ineffective and redundant) rear toe elastokinematics
+	- Investigating alternatives, but probably none usable, vibrates excessively
+
 2024-10-15_A
 - Changed diff
 - Changed brakes
@@ -94,25 +120,5 @@
 
 2023-12-24
 - Initial release
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required!
-
-!!!IMPORTANT!!!
-
-Includes:
-F82 M4 Coupe
-
-Credits:
-Physics and custom UI file by Arch
-UI file torque curves by x4fab's AC Torque Helper
-Everything else by Kunos Simulazioni
-Special thanks to: 
-@baker7498
-
-RECOMMENDED VISUALS AND SOUND
-
-F82 M4 Coupe = KS M4
 
 
