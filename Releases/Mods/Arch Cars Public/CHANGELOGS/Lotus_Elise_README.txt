@@ -5,7 +5,7 @@ Shaders patch 0.2.3+ required!
 !!!IMPORTANT!!!
 
 Includes:
-Elise SC
+Elise SC Base
 
 Credits:
 Physics by Arch
@@ -16,9 +16,16 @@ The usual suspects
 
 RECOMMENDED VISUALS AND SOUND
 
-Elise SC = KS Elise SC
+Elise SC Base = KS Elise SC
 
 CHANGELOG
+
+2024-10_22_A
+- Added extconfig
+- Changed CG, wheelbase, rear track width
+- Changed front and rear geometries, front ARB MR
+- Changed brake pads, front brake disc mass
+- Changed throttle response curves
 
 2024-10-21_A
 - First COSMIC version
