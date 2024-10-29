@@ -20,7 +20,11 @@ Elise SC Base = KS Elise SC
 
 CHANGELOG
 
-2024-10_22_A
+2024-10-30_A
+- Changed front and rear geometries
+- Corrected collider height
+
+2024-10-22_A
 - Added extconfig
 - Changed CG, wheelbase, rear track width
 - Changed front and rear geometries, front ARB MR
