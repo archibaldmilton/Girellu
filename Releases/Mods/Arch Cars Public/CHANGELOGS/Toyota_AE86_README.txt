@@ -24,6 +24,14 @@ AE86 Sprinter Trueno Drift = KS AE86 Drift Visuals, KS AE86 Tuned Sound
 
 CHANGELOG
 
+2024-12-30_A
+- Added 10m/s point to damper luts
+- Added steering rack lateral deflection
+- Removed chassis torsion flex
+- Changed tire slip, load, camber, SAT
+- Changed corner spring installation stiffness
+- Fixed Drift backwards front damper rebound setup
+
 2024-10-15_A
 - Changed reference brake foot force from 50kgf to 100kgf, setup max to 100%
 - Changed brakes

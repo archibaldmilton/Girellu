@@ -19,6 +19,11 @@ RUF CTR Yellowbird = KS Yellowbird
 
 CHANGELOG
 
+2024-12-30_A
+- Added 10m/s point to damper luts
+- Removed chassis torsion flex
+- Changed tire slip, load, camber, SAT
+
 2024-10-15_A
 - Changed brakes
 

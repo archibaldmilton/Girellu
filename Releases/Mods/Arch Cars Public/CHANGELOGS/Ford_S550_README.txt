@@ -19,6 +19,15 @@ S550 Drift = KS Mustang 2015
 
 CHANGELOG
 
+2024-12-30_A
+- Added 10m/s point to damper luts
+- Added steering rack lateral deflection to Drift
+- Removed chassis torsion flex
+- Changed tire slip, load, camber, SAT
+- Changed corner spring installation stiffness
+- Changed Drift dampers
+- Changed suspension geometries, stabilizers, bumpstops, thanks @skyscrapertv
+
 2024-10-15_A
 - Changed brakes
 

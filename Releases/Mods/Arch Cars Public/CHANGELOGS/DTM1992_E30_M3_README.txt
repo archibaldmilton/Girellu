@@ -17,6 +17,13 @@ DTM 1992 E30 M3 = KS M3 E30 DTM
 
 CHANGELOG
 
+2024-12-30_A
+- Added 10m/s point to damper luts
+- Added steering rack lateral deflection
+- Removed chassis torsion flex
+- Changed tire slip, camber
+- Changed corner spring installation stiffness
+
 2024-09-20
 - Changed reference brake foot force from 100kgf to 50kgf, setup max to 200%
 - Changed tires heat, slip, load, wear etc.

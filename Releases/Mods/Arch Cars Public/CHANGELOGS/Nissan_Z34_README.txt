@@ -22,6 +22,15 @@ RECOMMENDED VISUALS AND SOUND
 
 CHANGELOG
 
+2024-12-30_A
+- Added 10m/s point to damper luts
+- Added steering rack lateral deflection to Drift
+- Added Drift caster adjustability
+- Removed chassis torsion flex
+- Changed tire slip, load, camber, SAT
+- Changed corner spring installation stiffness
+- Changed PS
+
 2024-10-15_A
 - Changed rear suspension geometry, stabilizer
 - Changed brakes

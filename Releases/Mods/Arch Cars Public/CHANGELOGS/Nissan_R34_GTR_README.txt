@@ -25,6 +25,12 @@ BNR34 V-spec = KS Skyline R34
 
 CHANGELOG
 
+2024-12-30_A
+- Added 10m/s point to damper luts
+- Removed chassis torsion flex
+- Changed tire slip, load, camber, SAT
+- Changed corner spring installation stiffness
+
 2024-10-15_A
 - Changed brakes
 

@@ -24,6 +24,14 @@ FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
 
+2024-12-30_A
+- Added 10m/s point to damper luts
+- Added steering rack lateral deflection to Drift
+- Removed chassis torsion flex
+- Changed tire slip, load, camber, SAT
+- Changed corner spring installation stiffness
+- Changed Drift dampers
+
 2024-10-21_A
 - Changed SPRIT R LSD
 - Changed brakes

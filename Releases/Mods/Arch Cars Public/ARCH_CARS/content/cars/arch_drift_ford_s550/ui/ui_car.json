@@ -1,7 +1,7 @@
 {
   "name": "DRIFT Ford Mustang S550",
   "brand": "Ford",
-  "description": "Coyote 5.0L V8<br>Angle kit (restricted rack travel)<br>MCS TT2 bump and rebound adjustable dampers (Revalved)<br>S550 brakes, hydraulic handbrake<br><br>255/35R17 360TW",
+  "description": "Coyote 5.0L V8<br>Angle kit (restricted rack travel)<br>MCS TT2 bump and rebound adjustable dampers<br>S550 brakes, hydraulic handbrake<br><br>255/35R17 360TW",
   "tags": [
     "#Sportscars",
     "v8",
@@ -335,6 +335,6 @@
   "country": "USA",
   "year": 2015,
   "author": "Arch",
-  "version": "2024-10-15_A",
+  "version": "2024-12-30_A",
   "url": "https://github.com/archibaldmilton/Girellu"
 }

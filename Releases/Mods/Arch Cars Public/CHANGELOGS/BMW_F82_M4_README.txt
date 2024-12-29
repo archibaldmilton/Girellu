@@ -20,6 +20,12 @@ F82 M4 = KS M4
 
 CHANGELOG
 
+2024-12-30_A
+- Added 10m/s point to damper luts
+- Removed chassis torsion flex
+- Changed tire slip, load, camber, SAT
+- Changed corner spring installation stiffness
+
 2024-10-21_A
 - Removed (completely ineffective and redundant) rear toe elastokinematics
 	- Investigating alternatives, but probably none usable, vibrates excessively

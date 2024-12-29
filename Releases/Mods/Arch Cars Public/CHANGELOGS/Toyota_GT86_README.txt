@@ -25,6 +25,14 @@ GT86 Drift = KS GT86
 
 CHANGELOG
 
+2024-12-30_A
+- Added 10m/s point to damper luts
+- Added steering rack lateral deflection to Drift
+- Removed chassis torsion flex
+- Changed tire slip, load, camber, SAT
+- Changed corner spring installation stiffness
+- Changed Drift dampers
+
 2024-10-21_A
 - Changed GT LSD
 
