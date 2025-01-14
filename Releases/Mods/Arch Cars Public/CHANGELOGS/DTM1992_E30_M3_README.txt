@@ -17,6 +17,10 @@ DTM 1992 E30 M3 = KS M3 E30 DTM
 
 CHANGELOG
 
+2025-01-14_A
+- Added hard rate point to steering rack lateral deflection
+- Changed tires
+
 2024-12-30_A
 - Added 10m/s point to damper luts
 - Added steering rack lateral deflection

@@ -20,6 +20,10 @@ E82 1M = KS 1M
 
 CHANGELOG
 
+2025-01-14_A
+- Changed brake booster
+- Changed tires
+
 2024-12-30_A
 - Added 10m/s point to damper luts
 - Removed chassis torsion flex

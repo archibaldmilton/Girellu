@@ -24,9 +24,13 @@ AE86 Sprinter Trueno Drift = KS AE86 Drift Visuals, KS AE86 Tuned Sound
 
 CHANGELOG
 
+2025-01-14_A
+- Added hard rate point to steering rack lateral deflection
+- Changed tires
+
 2024-12-30_A
 - Added 10m/s point to damper luts
-- Added steering rack lateral deflection
+- Added steering rack lateral deflection to Drift
 - Removed chassis torsion flex
 - Changed tire slip, load, camber, SAT
 - Changed corner spring installation stiffness

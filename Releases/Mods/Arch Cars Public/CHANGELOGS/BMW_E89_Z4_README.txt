@@ -17,6 +17,10 @@ E89 Z4 sDrive35i = KS E89 Z4
 
 CHANGELOG
 
+2025-01-14_A
+- Changed rear brake disc effective radius
+- Changed tires
+
 2024-12-30_A
 - Added 10m/s point to damper luts
 - Removed chassis torsion flex

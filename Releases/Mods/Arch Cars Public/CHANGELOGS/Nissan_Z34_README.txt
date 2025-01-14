@@ -22,6 +22,10 @@ RECOMMENDED VISUALS AND SOUND
 
 CHANGELOG
 
+2025-01-14_A
+- Added hard rate point to steering rack lateral deflection
+- Changed tires
+
 2024-12-30_A
 - Added 10m/s point to damper luts
 - Added steering rack lateral deflection to Drift

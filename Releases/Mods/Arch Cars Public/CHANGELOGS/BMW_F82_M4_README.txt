@@ -20,6 +20,10 @@ F82 M4 = KS M4
 
 CHANGELOG
 
+2025-01-14_A
+- Changed brake booster
+- Changed tires
+
 2024-12-30_A
 - Added 10m/s point to damper luts
 - Removed chassis torsion flex

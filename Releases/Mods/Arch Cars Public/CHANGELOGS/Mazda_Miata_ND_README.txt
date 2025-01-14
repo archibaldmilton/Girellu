@@ -22,6 +22,15 @@ Miata ND1 Drift = KS MX5 ND Visuals, KS MX5 ND Cup Sound
 
 CHANGELOG
 
+2025-01-14_A
+- Added hard rate point to steering rack lateral deflection
+- Changed tires
+
+2025-01-XX_A
+- Changed tire slip, heat
+- Changed rear suspension geometry
+- Fixed Club aligment setup not working
+
 2024-12-30_A
 - Added 10m/s point to damper luts
 - Added steering rack lateral deflection to Drift
