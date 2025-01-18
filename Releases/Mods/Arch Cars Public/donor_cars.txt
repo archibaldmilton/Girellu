@@ -1,3 +1,7 @@
+a3dr_porsche_993_c2,a3dr_porsche_993_c2
+a3dr_porsche_993_c4,a3dr_porsche_993_c4
+a3dr_porsche_993_turbo,a3dr_porsche_993_turbo
+a3dr_porsche_993_turbo_s2,a3dr_porsche_993_turbo_s2
 arch_bmw_e30_1986_m3,bmw_m3_e30
 arch_bmw_e82_2011_1m,bmw_1m
 arch_bmw_e89_2010_z4_35i,bmw_z4
@@ -28,3 +32,5 @@ arch_ruf_ctr_1987,ruf_yellowbird
 arch_toyota_ae86_1983_gtv,ks_toyota_ae86
 arch_toyota_gt86_2015_gt,ks_toyota_gt86
 arch_toyota_supra_a80_1997_rz,ks_toyota_supra_mkiv
+lk_nissan_180sx_96,lk_nissan_180sx_96
+lk_nissan_180sx_96_drift,lk_nissan_180sx_96_drift
