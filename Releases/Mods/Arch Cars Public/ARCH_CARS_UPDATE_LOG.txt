@@ -1,3 +1,6 @@
+2025-01-18_B
+- Updated DTM1992 190E
+
 2025-01-18_A
 - Added C7
 - Updated 993
