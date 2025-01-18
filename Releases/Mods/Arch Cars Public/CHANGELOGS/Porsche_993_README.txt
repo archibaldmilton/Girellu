@@ -17,6 +17,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-01-18_A
+- Changed C2, C4 front tire slip angle peak
+
 2025-01-14_A
 - Changed tires
 
