@@ -20,6 +20,9 @@ Corvette C7 Coupe = KS Corvette C7 Stingray
 
 CHANGELOG
 
+2025-01-19_B
+- Fixed error in rear camber and toe alignment method
+
 2025-01-19_A
 - Fixed error in electronics_tc2_0_slipdiffratio-latg.2dlut
 

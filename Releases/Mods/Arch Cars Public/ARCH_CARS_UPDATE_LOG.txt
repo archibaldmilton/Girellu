@@ -1,3 +1,8 @@
+2025-01-19_B
+- Updated install script, thanks @qyi_
+- Updated donor_cars.txt
+- Updated C7
+
 2025-01-19_A
 - Updated C7
 
