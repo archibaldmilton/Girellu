@@ -25,6 +25,9 @@ BNR34 V-spec = KS Skyline R34
 
 CHANGELOG
 
+2025-01-28_A
+- Changed PS
+
 2025-01-14_A
 - Changed tires
 

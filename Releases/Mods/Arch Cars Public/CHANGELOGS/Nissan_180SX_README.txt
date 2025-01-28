@@ -15,6 +15,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-01-28_A
+- Restored Drift front ackermann adjustment
+
 2025-01-14_A
 - Added hard rate point to steering rack lateral deflection
 - Changed tires

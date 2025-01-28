@@ -1,3 +1,10 @@
+2025-01-28_A
+- Updated C7
+- Updated DTM1992 190E
+- Updated Miata ND
+- Updated 180SX
+- Updated R34
+
 2025-01-19_B
 - Updated install script, thanks @qyi_
 - Updated donor_cars.txt

@@ -17,6 +17,9 @@ DTM 1992 190E = KS 190E DTM
 
 CHANGELOG
 
+2025-01-28_A
+- Removed hard rate from steering rack lateral deflection, problematic
+
 2025-01-18_B
 - Expanded range of steering rack lateral deflection soft rate to band-aid exploding in pits
 
