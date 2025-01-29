@@ -24,6 +24,9 @@ FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
 
+2025-01-29_A
+- Recalibrated load curve grip for S-07
+
 2025-01-14_A
 - Added hard rate point to steering rack lateral deflection
 - Changed tires

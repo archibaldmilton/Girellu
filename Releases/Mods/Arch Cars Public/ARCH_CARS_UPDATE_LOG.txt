@@ -1,3 +1,7 @@
+2025-01-29_A
+- Updated FD3S
+- Updated JZA80
+
 2025-01-28_A
 - Updated C7
 - Updated DTM1992 190E

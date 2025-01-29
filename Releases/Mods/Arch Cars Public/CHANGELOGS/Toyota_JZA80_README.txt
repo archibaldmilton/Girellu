@@ -23,6 +23,9 @@ JZA80 Drift = KS Supra Drift
 
 CHANGELOG
 
+2025-01-29_A
+- Recalibrated load curve grip for RE020
+
 2025-01-14_A
 - Added hard rate point to steering rack lateral deflection
 - Changed tires
