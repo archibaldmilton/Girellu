@@ -20,6 +20,9 @@ E82 1M = KS 1M
 
 CHANGELOG
 
+2025-01-30_A
+- Removed redundant elements in rear suspension
+
 2025-01-14_A
 - Changed brake booster
 - Changed tires

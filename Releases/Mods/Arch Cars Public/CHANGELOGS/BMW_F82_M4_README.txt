@@ -20,6 +20,9 @@ F82 M4 = KS M4
 
 CHANGELOG
 
+2025-01-30_A
+- Removed redundant elements in rear suspension
+
 2025-01-14_A
 - Changed brake booster
 - Changed tires

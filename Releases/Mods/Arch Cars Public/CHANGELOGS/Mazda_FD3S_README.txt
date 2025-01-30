@@ -24,6 +24,16 @@ FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
 
+2025-01-30_A
+- Added Spirit R setup corner spring preload adjustment
+- Changed Spirit R dampers
+- Changed front steering geometries, nonlinearity
+- Changed stabilizers
+- Changed brake booster
+- Changed PS
+- Changed idle RPM
+- Changed Camera 2, 3, 4 to internal sound
+
 2025-01-29_A
 - Recalibrated load curve grip for S-07
 

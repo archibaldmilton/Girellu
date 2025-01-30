@@ -1,3 +1,8 @@
+2025-01-30_A
+- Updated E82
+- Updated F82
+- Updated FD3S
+
 2025-01-29_A
 - Updated FD3S
 - Updated JZA80
