@@ -5,7 +5,7 @@ Shaders patch 0.2.3+ required! Requires JDM Pack DLC by Kunos!
 !!!IMPORTANT!!!
 
 Includes:
-RX-7 FD3S SPIRIT R Type A
+RX-7 FD3S Spirit R Type A
 RX-7 FD3S Drift
 
 Credits:
@@ -19,10 +19,18 @@ Leonardo Ratafia for providing data
 
 RECOMMENDED VISUALS AND SOUND
 
-FD3S SPIRIT R = KS RX7 Spirit R
+FD3S Spirit R = KS RX7 Spirit R
 FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
+
+2025-02-01_A
+- Removed Spirit R setup corner spring preload adjustment
+- Changed Spirit R corner springs, dampers
+- Changed Spirit R LSD
+- Changed Spirit R EBD
+- Changed Spirit R UI
+- Changed stabilizers
 
 2025-01-30_A
 - Added Spirit R setup corner spring preload adjustment
