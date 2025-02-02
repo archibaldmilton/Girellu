@@ -14,7 +14,8 @@ Everything else by Kunos Simulazioni
 
 Special thanks:
 baker7498 for providing lots of data and literature
-mike12345678 for providing lots of data and literature and a torque curve
+mike12345678 for providing lots of data and literature
+animal3005 for providing lots of data and literature
 Leonardo Ratafia for providing data
 
 RECOMMENDED VISUALS AND SOUND
@@ -23,6 +24,15 @@ FD3S Spirit R = KS RX7 Spirit R
 FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
+
+2025-02-03_A
+- Changed unsprung masses, rotational inertias
+- Changed suspension geometries
+- Changed stabilizer motion ratios
+- Changed brake thermal masses
+- Changed sprung inertia
+- Changed Drift alignment
+- Changed readme credits
 
 2025-02-01_A
 - Removed Spirit R setup corner spring preload adjustment
