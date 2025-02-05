@@ -25,6 +25,10 @@ FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
 
+2025-02-05_B
+- Changed alignment range
+- Changed Drift steering geometry, default alignment
+
 2025-02-05_A
 - Changed suspension geometries
 - Changed stabilizer motion ratios
