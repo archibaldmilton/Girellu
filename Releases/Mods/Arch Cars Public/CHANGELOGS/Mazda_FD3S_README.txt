@@ -25,6 +25,12 @@ FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
 
+2025-02-05_A
+- Changed suspension geometries
+- Changed stabilizer motion ratios
+- Changed Spirit R bumpstop curves
+- Changed Spirit R damper stroke
+
 2025-02-03_A
 - Changed unsprung masses, rotational inertias
 - Changed suspension geometries
@@ -172,7 +178,7 @@ CHANGELOG
 - Changed syntax of setup.ini
 
 (2023-11-16)
-- Corrected preload in SPIRIT R
+- Corrected Spirit R preload
 
 2023-11-14
 - Added ackerman steering setup to Drift
