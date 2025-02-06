@@ -2,9 +2,8 @@ Clear-Host
 Write-Host ""
 
 # these paths need to be updated if Girellu directory structure changes
-$script:girelluRoot = Split-Path -Resolve "$pwd\..\.."
-$script:archCarsRoot = "$script:girelluRoot\Releases\Mods\Arch Cars Public\ARCH_CARS"
-$script:donorCars = Get-Content -Path "$script:girelluRoot\Releases\Mods\Arch Cars Public\donor_cars.txt"
+$script:archCarsRoot = ".\ARCH_CARS"
+$script:donorCars = Get-Content -Path ".\donor_cars.txt"
 
 if (-not($donorCars)) {
     Write-Host "Failed to get cars to install from donor_cars.txt, cannot proceed" -BackgroundColor Red
