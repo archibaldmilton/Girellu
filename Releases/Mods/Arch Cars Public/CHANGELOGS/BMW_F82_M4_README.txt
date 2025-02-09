@@ -20,6 +20,12 @@ F82 M4 = KS M4
 
 CHANGELOG
 
+2025-02-09_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+- Changed ABS slipratio goal
+
 2025-01-30_A
 - Removed redundant elements in rear suspension
 

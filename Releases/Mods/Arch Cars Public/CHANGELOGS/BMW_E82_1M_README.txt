@@ -20,6 +20,12 @@ E82 1M = KS 1M
 
 CHANGELOG
 
+2025-02-09_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+- Changed ABS slipratio goal
+
 2025-01-30_A
 - Removed redundant elements in rear suspension
 

@@ -5,7 +5,7 @@ Shaders patch 0.2.3+ required!
 !!!IMPORTANT!!!
 
 Includes:
-Miata MX5 NA8C
+Miata MX5 NA8C Base
 Miata MX5 NA8C Drift
 
 Credits:
@@ -18,10 +18,15 @@ CesarCardoso
 
 RECOMMENDED VISUALS AND SOUND
 
-Miata MX5 NA8C = KS Miata NA
+Miata MX5 NA8C Base = KS Miata NA
 Miata MX5 NA8C Drift = KS Miata NA
 
 CHANGELOG
+
+2025-02-09_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
 
 2025-01-14_A
 - Added hard rate point to steering rack lateral deflection

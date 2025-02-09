@@ -20,6 +20,12 @@ E92 M3 = KS M3 E92
 
 CHANGELOG
 
+2025-02-09_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+- Changed ABS slipratio goal
+
 2025-01-14_A
 - Changed brake booster
 - Changed tires

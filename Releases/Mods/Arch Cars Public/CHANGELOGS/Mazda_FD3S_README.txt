@@ -25,6 +25,12 @@ FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
 
+2025-02-09_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+- Changed Spirit R front rebound length
+
 2025-02-05_B
 - Changed alignment range
 - Changed Drift steering geometry, default alignment

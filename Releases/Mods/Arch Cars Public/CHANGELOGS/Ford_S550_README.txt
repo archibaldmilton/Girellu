@@ -19,6 +19,12 @@ S550 Drift = KS Mustang 2015
 
 CHANGELOG
 
+2025-02-09_A
+- Added bushing vertical damping
+- Removed rear elastokinematics
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+
 2025-01-14_A
 - Added hard rate point to steering rack lateral deflection
 - Changed tires

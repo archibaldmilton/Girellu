@@ -20,6 +20,11 @@ Elise SC Base = KS Elise SC
 
 CHANGELOG
 
+2025-02-09_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+
 2025-01-14_A
 - Changed tires
 

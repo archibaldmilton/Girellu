@@ -17,6 +17,12 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-02-09_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+- Changed Turbo rear compliance bushing rate
+
 2025-01-18_A
 - Changed C2, C4 front tire slip angle peak
 

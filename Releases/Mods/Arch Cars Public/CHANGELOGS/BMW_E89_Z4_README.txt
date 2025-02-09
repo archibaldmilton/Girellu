@@ -17,6 +17,11 @@ E89 Z4 sDrive35i = KS E89 Z4
 
 CHANGELOG
 
+2025-02-09_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+
 2025-01-14_A
 - Changed rear brake disc effective radius
 - Changed tires

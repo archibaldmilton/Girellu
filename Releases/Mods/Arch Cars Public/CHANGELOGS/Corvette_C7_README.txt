@@ -20,6 +20,11 @@ Corvette C7 Coupe = KS Corvette C7 Stingray
 
 CHANGELOG
 
+2025-02-09_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+
 2025-01-28_A
 - Changed heave, roll stiffness slightly with adjustment to effective spring geometry
 

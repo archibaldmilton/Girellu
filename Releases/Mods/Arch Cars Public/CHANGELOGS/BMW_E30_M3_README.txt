@@ -25,6 +25,11 @@ E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
 
+2025-02-09_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+
 2025-01-14_A
 - Added hard rate point to steering rack lateral deflection
 - Changed tires
