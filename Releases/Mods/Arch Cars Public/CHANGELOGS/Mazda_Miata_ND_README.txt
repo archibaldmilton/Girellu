@@ -22,7 +22,12 @@ Miata ND1 Drift = KS MX5 ND Visuals, KS MX5 ND Cup Sound
 
 CHANGELOG
 
-2025-01_XX_A
+2025-02-11_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+
+2025-01-28_A
 - Changed PS, EBD, ESC
 
 2025-01-14_A

@@ -25,6 +25,9 @@ FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
 
+2025-02-11_A
+- Added Spirit R rear elastokinematics
+
 2025-02-09_A
 - Added bushing vertical damping
 - Changed bushing vertical rates

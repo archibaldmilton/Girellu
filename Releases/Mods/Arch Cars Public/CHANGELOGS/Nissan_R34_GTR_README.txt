@@ -25,6 +25,14 @@ BNR34 V-spec = KS Skyline R34
 
 CHANGELOG
 
+2025-02-11_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+- Changed rear elastokinematics stiffness
+- Changed dampers
+- Changed ABS slipratio goal
+
 2025-01-28_A
 - Changed PS
 

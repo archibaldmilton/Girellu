@@ -24,6 +24,13 @@ AE86 Sprinter Trueno Drift = KS AE86 Drift Visuals, KS AE86 Tuned Sound
 
 CHANGELOG
 
+2025-02-11_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+- Changed GTV R_AE86_UCA_RR stiffness
+- Simplified rear geometry
+
 2025-01-14_A
 - Added hard rate point to steering rack lateral deflection
 - Changed tires

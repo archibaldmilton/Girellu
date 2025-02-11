@@ -23,6 +23,11 @@ JZA80 Drift = KS Supra Drift
 
 CHANGELOG
 
+2025-02-11_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+
 2025-01-29_A
 - Recalibrated load curve grip for RE020
 

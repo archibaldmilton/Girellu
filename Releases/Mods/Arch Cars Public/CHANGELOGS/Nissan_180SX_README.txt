@@ -15,6 +15,11 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-02-11_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+
 2025-01-28_A
 - Restored Drift front ackermann adjustment
 

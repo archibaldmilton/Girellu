@@ -5,7 +5,7 @@ Shaders patch 0.2.3+ required!
 !!!IMPORTANT!!!
 
 Includes:
-RUF CTR Yellowbird
+RUF CTR
 
 Credits:
 Physics by Arch
@@ -15,9 +15,14 @@ Thanks to @mike12345678 and @AlleyViper for data
 
 RECOMMENDED VISUALS AND SOUND
 
-RUF CTR Yellowbird = KS Yellowbird
+RUF CTR = KS Yellowbird
 
 CHANGELOG
+
+2025-02-11_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
 
 2025-01-14_A
 - Changed tires
