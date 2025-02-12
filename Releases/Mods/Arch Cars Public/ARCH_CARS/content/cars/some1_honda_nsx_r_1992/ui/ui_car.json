@@ -1,0 +1,231 @@
+{
+  "name": "Honda NSX-R NA1",
+  "brand": "Honda",
+  "description": "Honda E-NA1 NSX-R (1992)<br><br>Although the NSX was a high-performance sportscar, it was still developed with comfort and street driving in mind. The NSX-R was Honda&#39;s answer to the track driving enthusiast.<br><br>Changes included extensive weight reduction via removing elements such as sound deadening, the audio system, the air conditioning system and the traction control system. ABS however was retained. The seats were replaced by specially developed Recaro carbon-kevlar racing seats and the shift knob was replaced by a titanium alternative. Steering wheel was also changed and the interior received a red-colored theme. The red Honda badge was specially reserved for the Type-R.<br><br>The original NSX, while predictable and easy to drive on the road, was reported to produce unwanted oversteering behavior when pushed on the track in certain conditions such as braking into a slow turn. To counteract this, the suspension setup of the NSX-R is more understeer biased, with more roll stiffness in the front compared to the rear and less body movement, allowing expert drivers to achieve faster laptimes.<br><br>Spring rates were changed from 3.20kgf/mm and 3.80kgf/mm to dual-rate 8.00kgf/mm and dual-rate 6.00kgf/mm while the front stabilizer was changed from 18.3mm t3.0mm to 21.0mm t2.6mm. Original rear stabilizer was retained at 17.5mm t2.3mm. Control arm and compliance pivot bushings were also stiffened and the suspension received much stiffer dampers, which provided high driver control and transient body control via extremely over-damped slow damping ratios but resulted in poor ride quality in rough road conditions. Suspension was also lowered 10mm~ and alignment revised. Unsprung mass was kept low via lighter forged aluminum Enkei wheels. Brakes in the early NSX-R&#39;s are the same as standard, but special &quot;GP pads&quot; were developed and available for order as a later development.<br><br>Tire split was maintained but the tire was changed to lightweight Bridgestone Potenza RE010-R1. Later NSX-R&#39;s could also be ordered with the minor model change larger wheels in a special exclusive color wrapped with Bridgestone Potenza RE010-H0 tires.<br><br>The NSX-R&#39;s C30A engine officially maintained the same performance as the NSX&#39;s, but due to the blueprinted and balanced crankshaft assembly, real performance was likely marginally higher. The final drive ratio was changed from 4.062 to 4.235 for increased acceleration and the limited slip differential, while still a preload locking type, had increased preload, roughly doubled from around 8.0kg-m to around 16.0kg-m which resulted in less wheelspin coming out of corners.",
+  "tags": [
+    "#Sportscars",
+    "rwd",
+    "manual",
+    "street",
+    "japan"
+  ],
+  "class": "street",
+  "specs": {
+    "bhp": "293ps",
+    "torque": "31.1kg-m",
+    "weight": "1211kg",
+    "topspeed": "-",
+    "acceleration": "-",
+    "pwratio": "4.13kg/ps"
+  },
+  "torqueCurve": [
+    [
+      0.0,
+      158.0
+    ],
+    [
+      500.0,
+      177.0
+    ],
+    [
+      1000.0,
+      190.0
+    ],
+    [
+      1250.0,
+      195.0
+    ],
+    [
+      1500.0,
+      198.0
+    ],
+    [
+      2000.0,
+      208.0
+    ],
+    [
+      2250.0,
+      211.0
+    ],
+    [
+      2500.0,
+      213.0
+    ],
+    [
+      2800.0,
+      217.0
+    ],
+    [
+      3000.0,
+      221.0
+    ],
+    [
+      3250.0,
+      225.0
+    ],
+    [
+      3500.0,
+      227.0
+    ],
+    [
+      3800.0,
+      229.0
+    ],
+    [
+      4000.0,
+      231.0
+    ],
+    [
+      4500.0,
+      234.0
+    ],
+    [
+      4800.0,
+      237.0
+    ],
+    [
+      5000.0,
+      245.0
+    ],
+    [
+      5100.0,
+      251.0
+    ],
+    [
+      5250.0,
+      257.0
+    ],
+    [
+      5400.0,
+      259.0
+    ],
+    [
+      5600.0,
+      257.0
+    ],
+    [
+      6500.0,
+      244.0
+    ],
+    [
+      6750.0,
+      242.0
+    ],
+    [
+      7000.0,
+      241.0
+    ],
+    [
+      7300.0,
+      239.5
+    ],
+    [
+      7500.0,
+      230.0
+    ],
+    [
+      8000.0,
+      198.0
+    ],
+    [
+      8300.0,
+      176.4
+    ]
+  ],
+  "powerCurve": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      249.0,
+      5.85602174315944
+    ],
+    [
+      747.0,
+      19.2423932624797
+    ],
+    [
+      1500.0,
+      41.7103187857029
+    ],
+    [
+      2800.0,
+      85.3306050309532
+    ],
+    [
+      3250.0,
+      102.695860646617
+    ],
+    [
+      4500.0,
+      147.882039331129
+    ],
+    [
+      4800.0,
+      159.763160439783
+    ],
+    [
+      5000.0,
+      172.037510143051
+    ],
+    [
+      5100.0,
+      179.775687129893
+    ],
+    [
+      5250.0,
+      189.487029028989
+    ],
+    [
+      5400.0,
+      196.417683009037
+    ],
+    [
+      5600.0,
+      202.119497630921
+    ],
+    [
+      6391.0,
+      220.413934782785
+    ],
+    [
+      6500.0,
+      222.735911091329
+    ],
+    [
+      6750.0,
+      229.406753321366
+    ],
+    [
+      7300.0,
+      245.536147639676
+    ],
+    [
+      7387.0,
+      244.175256852986
+    ],
+    [
+      7500.0,
+      242.256902038173
+    ],
+    [
+      7719.0,
+      234.136801217058
+    ],
+    [
+      8000.0,
+      222.455033523749
+    ],
+    [
+      8300.0,
+      205.619232122974
+    ]
+  ],
+  "country": "Japan",
+  "year": 1992,
+  "author": "Siim Annuk, Modek, Arch",
+  "version": "2025-02-12_A",
+  "url": "http://www.siimannuk.com/",
+  "parent": "some1_honda_nsx_1991"
+}

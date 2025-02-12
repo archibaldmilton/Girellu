@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required! Requires NFS Tournament Class B by A3DR!
+Shaders patch 0.2.3+ required! Requires NFS Tournament Class B by Alberto Daniel Russo (@A3DR)!
 Link: https://www.overtake.gg/downloads/nfs-tournament-class-b.20228/
 
 !!!IMPORTANT!!!
