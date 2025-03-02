@@ -23,6 +23,16 @@ JZA80 Drift = KS Supra Drift
 
 CHANGELOG
 
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+- Corrected brake pressure
+- Corrected Drift brake master cylinder size
+- Changed handbrake torque
+- Changed RZ engine
+- Changed RZ tire load curves
+- Changed RZ ABS slipratio goal
+- Changed CGH
+
 2025-02-11_A
 - Added bushing vertical damping
 - Changed bushing vertical rates

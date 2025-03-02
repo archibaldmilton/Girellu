@@ -19,6 +19,12 @@ S550 Drift = KS Mustang 2015
 
 CHANGELOG
 
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+- Corrected brake pressure
+- Changed handbrake torque
+- Changed GT tire load curves
+
 2025-02-09_A
 - Added bushing vertical damping
 - Removed rear elastokinematics

@@ -25,6 +25,11 @@ E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
 
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+- Corrected brake pressure
+- Changed handbrake torque
+
 2025-02-09_A
 - Added bushing vertical damping
 - Changed bushing vertical rates

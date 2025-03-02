@@ -17,6 +17,13 @@ E89 Z4 sDrive35i = KS E89 Z4
 
 CHANGELOG
 
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+- Corrected brake pressure
+- Fixed rear camber adjust body reference
+- Changed tire load curves
+- Changed CGH
+
 2025-02-09_A
 - Added bushing vertical damping
 - Changed bushing vertical rates

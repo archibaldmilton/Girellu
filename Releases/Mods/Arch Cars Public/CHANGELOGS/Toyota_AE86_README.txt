@@ -24,6 +24,11 @@ AE86 Sprinter Trueno Drift = KS AE86 Drift Visuals, KS AE86 Tuned Sound
 
 CHANGELOG
 
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+- Corrected brake pressure
+- Changed handbrake torque
+
 2025-02-11_A
 - Added bushing vertical damping
 - Changed bushing vertical rates

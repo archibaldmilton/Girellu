@@ -22,6 +22,14 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+- Corrected brake pressure
+- Changed handbrake torque
+- Changed S1 tire load curves
+- Changed rotational inertias
+- tyres.ini UI changes
+
 2025-02-12_A
 - Initial version
 

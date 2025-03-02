@@ -20,6 +20,11 @@ Corvette C7 Coupe = KS Corvette C7 Stingray
 
 CHANGELOG
 
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+- Corrected brake pressure
+- Removed handbrake torque
+
 2025-02-09_A
 - Added bushing vertical damping
 - Changed bushing vertical rates

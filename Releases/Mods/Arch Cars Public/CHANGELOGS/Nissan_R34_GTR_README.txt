@@ -25,6 +25,11 @@ BNR34 V-spec = KS Skyline R34
 
 CHANGELOG
 
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+- Corrected brake pressure
+- Changed handbrake torque
+
 2025-02-11_A
 - Added bushing vertical damping
 - Changed bushing vertical rates

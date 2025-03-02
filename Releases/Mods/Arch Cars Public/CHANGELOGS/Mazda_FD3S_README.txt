@@ -25,6 +25,12 @@ FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
 
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+- Corrected brake pressure
+- Changed handbrake torque
+- Changed Spirit R tire load curves
+
 2025-02-11_A
 - Added Spirit R rear elastokinematics
 

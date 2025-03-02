@@ -17,6 +17,10 @@ DTM 1992 190E = KS 190E DTM
 
 CHANGELOG
 
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+- Corrected brake pressure
+
 2025-01-28_A
 - Removed hard rate from steering rack lateral deflection, problematic
 

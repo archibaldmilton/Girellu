@@ -20,6 +20,12 @@ E92 M3 = KS M3 E92
 
 CHANGELOG
 
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+- Corrected brake pressure
+- Changed tire load curves
+- Changed handbrake torque
+
 2025-02-09_A
 - Added bushing vertical damping
 - Changed bushing vertical rates

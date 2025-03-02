@@ -17,6 +17,9 @@ DTM 1992 E30 M3 = KS M3 E30 DTM
 
 CHANGELOG
 
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+
 2025-01-14_A
 - Added hard rate point to steering rack lateral deflection
 - Changed tires
