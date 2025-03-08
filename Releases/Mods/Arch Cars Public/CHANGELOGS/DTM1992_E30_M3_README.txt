@@ -17,6 +17,10 @@ DTM 1992 E30 M3 = KS M3 E30 DTM
 
 CHANGELOG
 
+2025-03-08_A
+- Changed brakes
+- Changed ABS slipratio goal
+
 2025-03-03_A
 - Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
 
@@ -116,5 +120,3 @@ CHANGELOG
 
 2024-02-18
 - Initial version
-
-

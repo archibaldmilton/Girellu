@@ -25,6 +25,10 @@ FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
 
+2025-03-08_A
+- Changed brakes
+- Changed ABS slipratio goal
+
 2025-03-03_A
 - Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
 - Corrected brake pressure
@@ -234,5 +238,3 @@ CHANGELOG
 - Added chassis torsion flex
 - Changed Drift spring options, default setup
 - Minor change to car.ini GRAPHICS_PITCH_ROTATION
-
-

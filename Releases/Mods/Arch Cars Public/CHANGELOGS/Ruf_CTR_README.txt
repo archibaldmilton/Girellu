@@ -19,6 +19,9 @@ RUF CTR = KS Yellowbird
 
 CHANGELOG
 
+2025-03-08_A
+- Changed brakes
+
 2025-03-03_A
 - Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
 - Corrected brake pressure
@@ -387,6 +390,3 @@ CHANGELOG
 04.06.2019 Version 1.0
 
 • Initial release
-
-
-

@@ -20,6 +20,10 @@ Corvette C7 Coupe = KS Corvette C7 Stingray
 
 CHANGELOG
 
+2025-03-08_A
+- Changed brakes
+- Changed ABS slipratio goal
+
 2025-03-03_A
 - Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
 - Corrected brake pressure
@@ -41,4 +45,3 @@ CHANGELOG
 
 2025-01-18_A
 - Initial release
-

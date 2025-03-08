@@ -23,6 +23,9 @@ Miata MX5 NA8C Drift = KS Miata NA
 
 CHANGELOG
 
+2025-03-08_A
+- Changed brakes
+
 2025-03-03_A
 - Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
 - Corrected brake pressure

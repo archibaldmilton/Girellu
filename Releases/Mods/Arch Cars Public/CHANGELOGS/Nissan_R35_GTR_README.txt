@@ -20,6 +20,10 @@ R35 GT-R NISMO 2014 = KS GT-R NISMO
 
 CHANGELOG
 
+2025-03-08_A
+- Changed brakes
+- Changed ABS slipratio goal
+
 2025-03-03_A
 - Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
 - Corrected brake pressure
@@ -131,5 +135,3 @@ CHANGELOG
 - Added multiple loadpoint tire model
 - Changed load, slip, combined grip, SAT, wear
 - Changed tire thermal model version, temperature load biasing
-
-

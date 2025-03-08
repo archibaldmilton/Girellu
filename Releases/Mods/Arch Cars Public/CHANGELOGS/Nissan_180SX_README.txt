@@ -15,6 +15,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-03-08_A
+- Changed brakes
+- Changed ABS slipratio goal
+
 2025-03-03_A
 - Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
 - Corrected brake pressure

@@ -23,6 +23,10 @@ JZA80 Drift = KS Supra Drift
 
 CHANGELOG
 
+2025-03-08_A
+- Changed brakes
+- Changed ABS slipratio goal
+
 2025-03-03_A
 - Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
 - Corrected brake pressure
@@ -190,5 +194,3 @@ CHANGELOG
 - Added chassis torsion flex
 - Changed RZ front bumpstop gap, damper stroke
 - Changed Drift spring options, default setup
-
-

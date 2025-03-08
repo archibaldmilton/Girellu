@@ -25,6 +25,10 @@ E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
 
+2025-03-08_A
+- Changed brakes
+- Changed ABS slipratio goal
+
 2025-03-03_A
 - Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
 - Corrected brake pressure
@@ -193,5 +197,3 @@ CHANGELOG
 - Changed Drift spring options, default setup
 - Removed Sport Evolution
 - Changed UI
-
-
