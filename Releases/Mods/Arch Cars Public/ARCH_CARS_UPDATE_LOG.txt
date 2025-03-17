@@ -1,3 +1,12 @@
+2025-03-18_A
+- Updated E82
+- Updated E92
+- Updated F82
+- Updated C7
+- Updated Elise
+- Updated 180SX
+- Updated 993
+
 2025-03-08_A
 - Updated all cars
 

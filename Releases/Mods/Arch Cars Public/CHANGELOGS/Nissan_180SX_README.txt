@@ -15,6 +15,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-03-18_A
+- Changed clutch torque
+
 2025-03-08_A
 - Changed brakes
 - Changed ABS slipratio goal

@@ -20,6 +20,9 @@ E92 M3 = KS M3 E92
 
 CHANGELOG
 
+2025-03-18_A
+- Changed brake booster
+
 2025-03-08_A
 - Changed brakes
 - Changed ABS slipratio goal

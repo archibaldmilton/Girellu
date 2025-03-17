@@ -20,6 +20,9 @@ Corvette C7 Coupe = KS Corvette C7 Stingray
 
 CHANGELOG
 
+2025-03-18_A
+- Added missing brake pads
+
 2025-03-08_A
 - Changed brakes
 - Changed ABS slipratio goal

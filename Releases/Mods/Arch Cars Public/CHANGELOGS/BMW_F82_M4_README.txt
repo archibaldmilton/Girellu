@@ -20,6 +20,9 @@ F82 M4 = KS M4
 
 CHANGELOG
 
+2025-03-18_A
+- Changed brake booster
+
 2025-03-08_A
 - Changed brakes
 - Changed ABS slipratio goal

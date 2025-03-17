@@ -20,6 +20,9 @@ Elise SC Base = KS Elise SC
 
 CHANGELOG
 
+2025-03-18_A
+- Changed brakes effective radius
+
 2025-03-08_A
 - Changed brakes
 - Changed ABS slipratio goal
