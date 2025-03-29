@@ -24,6 +24,10 @@ AE86 Sprinter Trueno Drift = KS AE86 Drift Visuals, KS AE86 Tuned Sound
 
 CHANGELOG
 
+2025-03-29_A
+- Changed script.lua to fix autoblip issue
+- Changed brakes effective radius, booster, thermals
+
 2025-03-08_A
 - Changed brakes
 

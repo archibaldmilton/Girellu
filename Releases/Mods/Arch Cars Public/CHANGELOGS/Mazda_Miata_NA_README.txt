@@ -23,6 +23,10 @@ Miata MX5 NA8C Drift = KS Miata NA
 
 CHANGELOG
 
+2025-03-29_A
+- Changed script.lua to fix autoblip issue
+- Changed brake booster
+
 2025-03-08_A
 - Changed brakes
 

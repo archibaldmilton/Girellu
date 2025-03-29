@@ -25,6 +25,9 @@ E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
 
+2025-03-29_A
+- Changed script.lua to fix autoblip issue
+
 2025-03-08_A
 - Changed brakes
 - Changed ABS slipratio goal

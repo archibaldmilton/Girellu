@@ -17,6 +17,9 @@ E89 Z4 sDrive35i = KS E89 Z4
 
 CHANGELOG
 
+2025-03-29_A
+- Changed script.lua to fix autoblip issue
+
 2025-03-08_A
 - Changed brakes
 - Changed ABS slipratio goal

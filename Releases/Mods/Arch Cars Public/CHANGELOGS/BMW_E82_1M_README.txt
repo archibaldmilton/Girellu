@@ -20,6 +20,9 @@ E82 1M = KS 1M
 
 CHANGELOG
 
+2025-03-29_A
+- Changed script.lua to fix autoblip issue
+
 2025-03-18_A
 - Changed brake booster
 

@@ -17,6 +17,9 @@ DTM 1992 190E = KS 190E DTM
 
 CHANGELOG
 
+2025-03-29_A
+- Changed script.lua to fix autoblip issue
+
 2025-03-08_A
 - Changed brakes
 - Changed ABS slipratio goal

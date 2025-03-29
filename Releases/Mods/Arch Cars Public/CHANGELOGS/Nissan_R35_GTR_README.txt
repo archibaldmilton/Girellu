@@ -20,6 +20,10 @@ R35 GT-R NISMO 2014 = KS GT-R NISMO
 
 CHANGELOG
 
+2025-03-29_A
+- Changed script.lua to fix autoblip issue
+- Changed brake booster
+
 2025-03-08_A
 - Changed brakes
 - Changed ABS slipratio goal

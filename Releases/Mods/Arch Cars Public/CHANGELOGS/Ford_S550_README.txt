@@ -19,6 +19,9 @@ S550 Drift = KS Mustang 2015
 
 CHANGELOG
 
+2025-03-29_A
+- Changed script.lua to fix autoblip issue
+
 2025-03-08_A
 - Changed brakes
 - Changed ABS slipratio goal

@@ -1,3 +1,13 @@
+2025-03-29_A
+- Updated Miata NA
+- Updated Miata ND
+- Updated 180SX
+- Updated R34
+- Updated R35
+- Updated Z34
+- Updated AE86
+- Updated all other cars script.lua to fix autoblip issue
+
 2025-03-18_A
 - Updated E82
 - Updated E92

@@ -20,6 +20,9 @@ Corvette C7 Coupe = KS Corvette C7 Stingray
 
 CHANGELOG
 
+2025-03-29_A
+- Changed script.lua to fix autoblip issue
+
 2025-03-18_A
 - Added missing brake pads
 

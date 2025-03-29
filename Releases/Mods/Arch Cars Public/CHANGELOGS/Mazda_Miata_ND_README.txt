@@ -22,6 +22,10 @@ Miata ND1 Drift = KS MX5 ND Visuals, KS MX5 ND Cup Sound
 
 CHANGELOG
 
+2025-03-29_A
+- Changed script.lua to fix autoblip issue
+- Changed brake booster
+
 2025-03-08_A
 - Changed brakes
 - Changed ABS slipratio goal

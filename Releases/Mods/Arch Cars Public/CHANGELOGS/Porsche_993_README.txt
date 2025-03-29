@@ -17,6 +17,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-03-29_A
+- Changed script.lua to fix autoblip issue
+
 2025-03-18_A
 - Changed C4, Turbo, CS drivetrain
 
