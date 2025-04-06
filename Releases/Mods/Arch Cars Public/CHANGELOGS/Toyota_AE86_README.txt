@@ -24,6 +24,11 @@ AE86 Sprinter Trueno Drift = KS AE86 Drift Visuals, KS AE86 Tuned Sound
 
 CHANGELOG
 
+2025-04-06_A
+- Changed Drift rack mass, damping
+- Changed bushings
+- Changed GTV front bumpstop
+
 2025-03-29_A
 - Changed script.lua to fix autoblip issue
 - Changed brakes effective radius, booster, thermals

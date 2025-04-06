@@ -20,6 +20,9 @@ Elise SC Base = KS Elise SC
 
 CHANGELOG
 
+2025-04-06_A
+- Changed bushings
+
 2025-03-29_A
 - Changed script.lua to fix autoblip issue
 

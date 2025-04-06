@@ -23,6 +23,10 @@ JZA80 Drift = KS Supra Drift
 
 CHANGELOG
 
+2025-04-06_A
+- Changed Drift rack mass, damping
+- Changed bushings
+
 2025-03-29_A
 - Changed script.lua to fix autoblip issue
 

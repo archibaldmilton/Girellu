@@ -25,6 +25,10 @@ E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
 
+2025-04-06_A
+- Changed Drift rack mass, damping
+- Changed bushings
+
 2025-03-29_A
 - Changed script.lua to fix autoblip issue
 
