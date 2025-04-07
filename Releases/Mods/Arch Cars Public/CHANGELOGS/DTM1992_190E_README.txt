@@ -17,6 +17,10 @@ DTM 1992 190E = KS 190E DTM
 
 CHANGELOG
 
+2025-04-07_A
+- Updated engines for better idle handling
+- Updated script.lua to fix? idle/coast? bug again
+
 2025-04-06_A
 - Changed rack mass, damping
 

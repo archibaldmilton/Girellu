@@ -25,6 +25,10 @@ E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
 
+2025-04-07_A
+- Updated engines for better idle handling
+- Updated script.lua to fix? idle/coast? bug again
+
 2025-04-06_A
 - Changed Drift rack mass, damping
 - Changed bushings

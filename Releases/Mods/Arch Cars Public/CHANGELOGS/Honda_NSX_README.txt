@@ -22,6 +22,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-04-07_A
+- Updated engines for better idle handling
+- Updated script.lua to fix? idle/coast? bug again
+
 2025-04-06_A
 - Changed bushings
 
