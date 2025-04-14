@@ -17,6 +17,9 @@ DTM 1992 E30 M3 = KS M3 E30 DTM
 
 CHANGELOG
 
+2025-04-14_B
+- Corrected differential and differential setup options
+
 2025-04-14_A
 - Changed brakes setup adjustability
 - Changed ARBs
