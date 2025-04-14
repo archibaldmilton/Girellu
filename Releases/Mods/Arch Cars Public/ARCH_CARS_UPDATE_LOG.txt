@@ -1,3 +1,7 @@
+2025-04-14_A
+- Updated DTM1992 E30
+- Updated DTM1992 190E
+
 2025-04-07_A
 - Updated engines for better idle handling
 - Updated script.lua to fix? idle/coast? bug again
