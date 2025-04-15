@@ -17,6 +17,11 @@ DTM 1992 E30 M3 = KS M3 E30 DTM
 
 CHANGELOG
 
+2025-04-15_A
+- Removed 40% Group N differential option
+- Changed default setup
+- Changed brake setup options
+
 2025-04-14_B
 - Corrected differential and differential setup options
 

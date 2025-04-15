@@ -17,6 +17,9 @@ DTM 1992 190E = KS 190E DTM
 
 CHANGELOG
 
+2025-04-15_A
+- Changed differential
+
 2025-04-14_A
 - Removed brake booster
 - Changed brake master cylinder to tandem type
