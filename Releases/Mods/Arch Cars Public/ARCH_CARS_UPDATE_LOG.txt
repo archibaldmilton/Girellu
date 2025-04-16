@@ -1,3 +1,7 @@
+2025-04-17_A
+- Updated DTM1992 E30
+- Updated DTM1992 190E
+
 2025-04-16_A
 - Updated E30
 - Updated DTM1992 E30
