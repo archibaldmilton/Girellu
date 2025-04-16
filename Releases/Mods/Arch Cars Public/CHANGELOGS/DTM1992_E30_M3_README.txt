@@ -17,6 +17,10 @@ DTM 1992 E30 M3 = KS M3 E30 DTM
 
 CHANGELOG
 
+2025-04-16_A
+- Changed tires camber curve, load curve
+- Changed aero
+
 2025-04-15_A
 - Removed 40% Group N differential option
 - Changed default setup

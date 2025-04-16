@@ -17,6 +17,10 @@ DTM 1992 190E = KS 190E DTM
 
 CHANGELOG
 
+2025-04-16_A
+- Removed LUT_GH_CD
+- Changed tires camber curve, load curve
+
 2025-04-15_A
 - Changed differential
 

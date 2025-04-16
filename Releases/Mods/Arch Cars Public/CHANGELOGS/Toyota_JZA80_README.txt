@@ -23,6 +23,10 @@ JZA80 Drift = KS Supra Drift
 
 CHANGELOG
 
+2025-04-16_A
+- Removed LUT_GH_CD
+- Fixed RZ wrong tire wear file reference
+
 2025-04-07_A
 - Updated engines for better idle handling
 - Updated script.lua to fix? idle/coast? bug again
