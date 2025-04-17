@@ -17,6 +17,10 @@ DTM 1992 E30 M3 = KS M3 E30 DTM
 
 CHANGELOG
 
+2025-04-17_B
+- Corrected rear ARB geometry and MR
+- Changed default setup
+
 2025-04-17_A
 - Changed ARBs
 

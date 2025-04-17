@@ -17,6 +17,11 @@ DTM 1992 190E = KS 190E DTM
 
 CHANGELOG
 
+2025-04-17_B
+- Calculated front and rear ARBs
+- Changed spring setup options
+- Changed default setup
+
 2025-04-17_A
 - Changed ARBs
 
