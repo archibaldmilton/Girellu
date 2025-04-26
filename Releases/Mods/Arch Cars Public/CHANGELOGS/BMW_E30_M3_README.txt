@@ -25,6 +25,11 @@ E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
 
+2025-04-26_A
+- Changed tires
+- Changed ARB
+- Changed PS
+
 2025-04-16_A
 - Changed aero
 

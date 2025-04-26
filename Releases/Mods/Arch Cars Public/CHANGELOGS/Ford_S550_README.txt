@@ -19,6 +19,10 @@ S550 Drift = KS Mustang 2015
 
 CHANGELOG
 
+2025-04-26_A
+- Changed tires
+- Changed ARB
+
 2025-04-07_A
 - Updated engines for better idle handling
 - Updated script.lua to fix? idle/coast? bug again

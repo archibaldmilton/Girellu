@@ -17,7 +17,14 @@ DTM 1992 E30 M3 = KS M3 E30 DTM
 
 CHANGELOG
 
+2025-04-26_A
+- Added preload force
+- Changed tires
+- Changed ARB
+- Changed default setup
+
 2025-04-17_B
+- Removed compliant steering rack
 - Corrected rear ARB geometry and MR
 - Changed default setup
 

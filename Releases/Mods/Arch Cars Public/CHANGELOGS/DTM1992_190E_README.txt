@@ -17,7 +17,14 @@ DTM 1992 190E = KS 190E DTM
 
 CHANGELOG
 
+2025-04-26_A
+- Changed tires
+- Changed ARB
+- Changed brakes
+- Changed default setup
+
 2025-04-17_B
+- Removed compliant steering rack
 - Calculated front and rear ARBs
 - Changed spring setup options
 - Changed default setup
