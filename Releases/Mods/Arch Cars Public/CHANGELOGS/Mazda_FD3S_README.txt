@@ -25,6 +25,11 @@ FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
 
+2025-04-27_A
+- Changed tires
+- Changed EBD
+- Changed Drift default setup
+
 2025-04-16_A
 - Removed LUT_GH_CD
 - Changed Drift aero

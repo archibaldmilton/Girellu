@@ -25,6 +25,11 @@ BNR34 V-spec = KS Skyline R34
 
 CHANGELOG
 
+2025-04-27_A
+- Changed tires
+- Changed installation stiffness
+- Changed rear bushing vertical stiffness
+
 2025-04-07_A
 - Updated engines for better idle handling
 - Updated script.lua to fix? idle/coast? bug again

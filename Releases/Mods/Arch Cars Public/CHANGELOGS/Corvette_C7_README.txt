@@ -20,6 +20,9 @@ Corvette C7 Coupe = KS Corvette C7 Stingray
 
 CHANGELOG
 
+2025-04-27_A
+- Changed tires
+
 2025-04-07_A
 - Updated engines for better idle handling
 - Updated script.lua to fix? idle/coast? bug again

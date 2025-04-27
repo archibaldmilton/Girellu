@@ -22,7 +22,6 @@ CHANGELOG
 
 2025-04-26_A
 - Changed tires
-- Changed ARB
 - Changed PS
 
 2025-04-07_A
