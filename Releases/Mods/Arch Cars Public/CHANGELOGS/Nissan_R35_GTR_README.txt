@@ -20,6 +20,10 @@ R35 GT-R NISMO 2014 = KS GT-R NISMO
 
 CHANGELOG
 
+2025-04-27_B
+- Changed tires
+- Changed PS
+
 2025-04-07_A
 - Updated engines for better idle handling
 - Updated script.lua to fix? idle/coast? bug again

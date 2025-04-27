@@ -22,6 +22,11 @@ RECOMMENDED VISUALS AND SOUND
 
 CHANGELOG
 
+2025-04-27_B
+- Changed tires
+- Changed PS
+- Changed Drift default setup
+
 2025-04-07_A
 - Updated engines for better idle handling
 - Updated script.lua to fix? idle/coast? bug again

@@ -25,6 +25,9 @@ FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
 
+2025-04-27_B
+- Corrected minor Spirit R tire typo
+
 2025-04-27_A
 - Changed tires
 - Changed EBD
