@@ -23,6 +23,9 @@ JZA80 Drift = KS Supra Drift
 
 CHANGELOG
 
+2025-04-28_A
+- Changed tires
+
 2025-04-16_A
 - Removed LUT_GH_CD
 - Fixed RZ wrong tire wear file reference

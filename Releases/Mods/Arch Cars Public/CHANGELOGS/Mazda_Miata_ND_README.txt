@@ -22,6 +22,9 @@ Miata ND1 Drift = KS MX5 ND Visuals, KS MX5 ND Cup Sound
 
 CHANGELOG
 
+2025-04-28_A
+- Fixed Drift tires.ini camber lut reference
+
 2025-04-27_A
 - Changed tires
 - Changed PS

@@ -23,6 +23,10 @@ Miata MX5 NA8C Drift = KS Miata NA
 
 CHANGELOG
 
+2025-04-28_A
+- Changed Base tires
+- Fixed Drift tires damping
+
 2025-04-27_A
 - Changed tires
 

@@ -25,6 +25,9 @@ E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
 
+2025-04-28_A
+- Fixed Drift tires.ini camber lut reference
+
 2025-04-26_A
 - Changed tires
 - Changed ARB

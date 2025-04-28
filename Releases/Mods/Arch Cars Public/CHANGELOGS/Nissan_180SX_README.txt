@@ -15,6 +15,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-04-28_A
+- Fixed Drift tires.ini camber lut reference
+
 2025-04-27_A
 - Changed tires
 
