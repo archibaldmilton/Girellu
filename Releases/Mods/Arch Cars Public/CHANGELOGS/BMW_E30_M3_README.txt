@@ -25,6 +25,12 @@ E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
 
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+- Changed handbrake
+- Changed aero
+- Removed Drift compliant rack
+
 2025-04-28_A
 - Fixed Drift tires.ini camber lut reference
 

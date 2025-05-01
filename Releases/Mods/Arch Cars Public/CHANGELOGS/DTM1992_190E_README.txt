@@ -17,6 +17,10 @@ DTM 1992 190E = KS 190E DTM
 
 CHANGELOG
 
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+- Corrected camber curve lut reference
+
 2025-04-26_A
 - Changed tires
 - Changed ARB

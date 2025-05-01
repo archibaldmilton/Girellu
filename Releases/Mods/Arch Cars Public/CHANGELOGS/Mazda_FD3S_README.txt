@@ -25,6 +25,13 @@ FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
 
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+- Changed Drift tires from 235/235 to 215/235
+- Changed Drift spring setup range, default setup
+- Changed handbrake
+- Removed Drift compliant rack
+
 2025-04-27_B
 - Corrected minor Spirit R tire typo
 

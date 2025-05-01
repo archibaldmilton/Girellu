@@ -20,6 +20,12 @@ E82 1M = KS 1M
 
 CHANGELOG
 
+2025-05-01_A
+- Added rear toe elastokinematics
+- Changed tires LEVEL, YMULT
+- Changed handbrake
+- Minor rear fixes
+
 2025-04-26_A
 - Changed tires
 

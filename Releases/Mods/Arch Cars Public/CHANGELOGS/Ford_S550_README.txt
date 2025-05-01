@@ -19,6 +19,11 @@ S550 Drift = KS Mustang 2015
 
 CHANGELOG
 
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+- Changed handbrake
+- Removed Drift compliant rack
+
 2025-04-26_A
 - Changed tires
 - Changed ARB

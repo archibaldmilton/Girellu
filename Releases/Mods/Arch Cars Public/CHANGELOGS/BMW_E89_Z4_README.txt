@@ -17,6 +17,9 @@ E89 Z4 sDrive35i = KS E89 Z4
 
 CHANGELOG
 
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+
 2025-04-26_A
 - Changed tires
 - Changed ARB

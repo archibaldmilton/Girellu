@@ -22,6 +22,11 @@ RECOMMENDED VISUALS AND SOUND
 
 CHANGELOG
 
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+- Changed handbrake
+- Removed Drift compliant rack
+
 2025-04-27_B
 - Changed tires
 - Changed PS

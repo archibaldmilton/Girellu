@@ -20,6 +20,9 @@ Corvette C7 Coupe = KS Corvette C7 Stingray
 
 CHANGELOG
 
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+
 2025-04-27_A
 - Changed tires
 

@@ -20,6 +20,10 @@ R35 GT-R NISMO 2014 = KS GT-R NISMO
 
 CHANGELOG
 
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+- Changed handbrake
+
 2025-04-27_B
 - Changed tires
 - Changed PS

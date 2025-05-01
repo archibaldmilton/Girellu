@@ -23,6 +23,11 @@ JZA80 Drift = KS Supra Drift
 
 CHANGELOG
 
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+- Changed handbrake
+- Removed Drift compliant rack
+
 2025-04-28_A
 - Changed tires
 

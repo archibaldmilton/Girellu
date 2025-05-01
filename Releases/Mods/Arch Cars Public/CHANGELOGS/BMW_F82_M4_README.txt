@@ -20,6 +20,12 @@ F82 M4 = KS M4
 
 CHANGELOG
 
+2025-05-01_A
+- Added rear toe elastokinematics
+- Changed tires LEVEL, YMULT
+- Changed handbrake
+- Minor rear fixes
+
 2025-04-26_A
 - Changed tires
 - Changed PS

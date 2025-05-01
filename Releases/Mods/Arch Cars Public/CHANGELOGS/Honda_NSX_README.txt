@@ -22,6 +22,11 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+- Changed handbrake
+- Fixed minor 92R tire typos
+
 2025-04-26_A
 - Changed tires
 

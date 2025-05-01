@@ -19,6 +19,10 @@ RUF CTR = KS Yellowbird
 
 CHANGELOG
 
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+- Changed handbrake
+
 2025-04-28_A
 - Changed tires
 

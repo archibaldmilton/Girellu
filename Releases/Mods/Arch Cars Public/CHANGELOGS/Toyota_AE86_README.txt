@@ -24,6 +24,11 @@ AE86 Sprinter Trueno Drift = KS AE86 Drift Visuals, KS AE86 Tuned Sound
 
 CHANGELOG
 
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+- Changed handbrake
+- Removed Drift compliant rack
+
 2025-04-28_A
 - Changed tires
 
