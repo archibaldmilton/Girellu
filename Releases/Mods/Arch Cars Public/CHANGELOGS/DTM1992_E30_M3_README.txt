@@ -17,6 +17,11 @@ DTM 1992 E30 M3 = KS M3 E30 DTM
 
 CHANGELOG
 
+2025-05-03_A
+- Changed tires combined grip
+- Changed ABS slip goal, frequency
+- Corrected differential
+
 2025-05-01_A
 - Changed tires LEVEL, YMULT
 - Corrected camber curve lut reference

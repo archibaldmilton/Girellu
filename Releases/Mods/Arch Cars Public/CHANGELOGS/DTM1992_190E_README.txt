@@ -17,6 +17,10 @@ DTM 1992 190E = KS 190E DTM
 
 CHANGELOG
 
+2025-05-03_A
+- Changed tires combined grip
+- Changed ABS slip goal, frequency
+
 2025-05-01_A
 - Changed tires LEVEL, YMULT
 - Corrected camber curve lut reference

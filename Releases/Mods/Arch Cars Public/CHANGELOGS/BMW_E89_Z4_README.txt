@@ -17,6 +17,10 @@ E89 Z4 sDrive35i = KS E89 Z4
 
 CHANGELOG
 
+2025-05-03_A
+- Changed tires combined grip
+- Changed ABS slip goal, frequency
+
 2025-05-01_A
 - Changed tires LEVEL, YMULT
 
