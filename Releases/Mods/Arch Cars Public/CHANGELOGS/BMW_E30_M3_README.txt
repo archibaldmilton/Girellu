@@ -25,6 +25,10 @@ E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
 
+2025-05-05_A
+- Changed load curve mu
+- Changed brake booster curve
+
 2025-05-03_A
 - Changed tires combined grip
 - Changed ABS slip goal, frequency

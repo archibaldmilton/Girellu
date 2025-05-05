@@ -22,6 +22,10 @@ Miata ND1 Drift = KS MX5 ND Visuals, KS MX5 ND Cup Sound
 
 CHANGELOG
 
+2025-05-05_A
+- Changed load curve mu
+- Changed brake booster curve
+
 2025-05-03_A
 - Changed tires combined grip
 - Changed ABS slip goal, frequency

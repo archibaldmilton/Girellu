@@ -18,7 +18,8 @@ RECOMMENDED VISUALS AND SOUND
 
 E82 1M = KS 1M
 
-CHANGELOG
+2025-05-05_A
+- Changed brake booster curve
 
 2025-05-03_A
 - Changed tires combined grip
