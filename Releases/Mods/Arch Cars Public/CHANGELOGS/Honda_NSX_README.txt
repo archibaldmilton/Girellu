@@ -22,6 +22,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-05-06_A
+- Corrected Honda S1 old load curves
+
 2025-05-05_A
 - Changed load curve mu
 - Changed brake booster curve
