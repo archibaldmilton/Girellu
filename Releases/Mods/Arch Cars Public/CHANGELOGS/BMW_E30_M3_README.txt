@@ -25,6 +25,9 @@ E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
 
+2025-05-14_B
+- Changed stabilizers
+
 2025-05-14_A
 - Added Cphys ABS (CSP 0.2.8+ required!)
 - Corrected welded diff setup option

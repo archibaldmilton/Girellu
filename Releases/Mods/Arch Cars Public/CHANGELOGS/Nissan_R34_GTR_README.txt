@@ -25,6 +25,9 @@ BNR34 V-spec = KS Skyline R34
 
 CHANGELOG
 
+2025-05-14_B
+- Changed stabilizers
+
 2025-05-14_A
 - Added Cphys ABS (CSP 0.2.8+ required!)
 - Changed ATTESA, HICAS lateral acceleration maps

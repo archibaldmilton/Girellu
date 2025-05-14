@@ -17,6 +17,9 @@ DTM 1992 190E = KS 190E DTM
 
 CHANGELOG
 
+2025-05-14_B
+- Changed stabilizers
+
 2025-05-14_A
 - Added Cphys ABS (CSP 0.2.8+ required!)
 - Changed tires CX_MULT

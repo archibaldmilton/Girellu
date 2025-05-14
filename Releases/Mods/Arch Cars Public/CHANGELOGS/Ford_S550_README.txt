@@ -19,6 +19,9 @@ S550 Drift = KS Mustang 2015
 
 CHANGELOG
 
+2025-05-14_B
+- Changed stabilizers
+
 2025-05-14_A
 - Added Cphys ABS (CSP 0.2.8+ required!)
 - Changed tires CX_MULT

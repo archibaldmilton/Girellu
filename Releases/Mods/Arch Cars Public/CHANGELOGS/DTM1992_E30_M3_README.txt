@@ -17,6 +17,9 @@ DTM 1992 E30 M3 = KS M3 E30 DTM
 
 CHANGELOG
 
+2025-05-14_B
+- Changed stabilizers
+
 2025-05-14_A
 - Added Cphys ABS (CSP 0.2.8+ required!)
 - Changed tires CX_MULT
