@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required!
+Shaders patch 0.2.8+ required!
 
 !!!IMPORTANT!!!
 
@@ -19,6 +19,11 @@ RECOMMENDED VISUALS AND SOUND
 F82 M4 = KS M4
 
 CHANGELOG
+
+2025-05-14_A
+- Added engine flow on cut
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed tires CX_MULT
 
 2025-05-05_A
 - Changed brake booster curve

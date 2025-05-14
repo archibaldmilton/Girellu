@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required! Requires Honda NSX by Siim Annuk (@Some1)!
+Shaders patch 0.2.8+ required! Requires Honda NSX by Siim Annuk (@Some1)!
 Link: https://www.overtake.gg/downloads/honda-nsx.4768/
 
 !!!IMPORTANT!!!
@@ -21,6 +21,10 @@ Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2025-05-14_A
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed tires CX_MULT
 
 2025-05-06_A
 - Corrected Honda S1 old load curves

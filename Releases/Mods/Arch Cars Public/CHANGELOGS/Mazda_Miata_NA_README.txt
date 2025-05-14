@@ -23,6 +23,10 @@ Miata MX5 NA8C Drift = KS Miata NA
 
 CHANGELOG
 
+2025-05-14_A
+- Changed tires CX_MULT
+- Corrected welded diff setup option
+
 2025-05-05_A
 - Changed load curve mu
 - Changed brake booster curve

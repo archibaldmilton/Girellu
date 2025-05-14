@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required!
+Shaders patch 0.2.8+ required!
 
 !!!IMPORTANT!!!
 
@@ -19,6 +19,10 @@ RECOMMENDED VISUALS AND SOUND
 E92 M3 = KS M3 E92
 
 CHANGELOG
+
+2025-05-14_A
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed tires CX_MULT
 
 2025-05-05_A
 - Changed brake booster curve

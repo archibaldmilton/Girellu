@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required! Requires JDM Pack DLC by Kunos!
+Shaders patch 0.2.8+ required! Requires JDM Pack DLC by Kunos!
 
 !!!IMPORTANT!!!
 
@@ -24,6 +24,12 @@ RECOMMENDED VISUALS AND SOUND
 BNR34 V-spec = KS Skyline R34
 
 CHANGELOG
+
+2025-05-14_A
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed ATTESA, HICAS lateral acceleration maps
+- Changed rear coilover outboard position
+- Changed tires CX_MULT
 
 2025-05-05_A
 - Changed load curve mu

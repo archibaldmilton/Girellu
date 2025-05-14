@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required! Requires Dream Pack 2 DLC by Kunos!
+Shaders patch 0.2.8+ required! Requires Dream Pack 2 DLC by Kunos!
 RUF RT12R AWD visuals (Dream Pack 2 DLC)
 Recommended to replace sound with KS Carrera S (Porsche Pack 1 DLC)
 
@@ -14,6 +14,10 @@ Physics by Arch
 Everything else by Kunos Simulazioni
 
 CHANGELOG
+
+2025-05-14_A
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed tires CX_MULT
 
 2025-05-05_A
 - Changed load curve mu

@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required!
+Shaders patch 0.2.8+ required!
 
 !!!IMPORTANT!!!
 
@@ -16,6 +16,11 @@ RECOMMENDED VISUALS AND SOUND
 DTM 1992 E30 M3 = KS M3 E30 DTM
 
 CHANGELOG
+
+2025-05-14_A
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed tires CX_MULT
+- Changed CG
 
 2025-05-05_A
 - Changed brake booster curve

@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required! Requires 180SX by Lenny!
+Shaders patch 0.2.8+ required! Requires 180SX by Lenny!
 Link: https://www.youtube.com/watch?v=sPabzoB_LUs
 
 !!!IMPORTANT!!!
@@ -14,6 +14,11 @@ Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2025-05-14_A
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed tires CX_MULT
+- Corrected welded diff setup option
 
 2025-05-05_A
 - Changed brake booster curve

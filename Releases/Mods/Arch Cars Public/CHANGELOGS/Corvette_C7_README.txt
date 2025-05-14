@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required!
+Shaders patch 0.2.8+ required!
 
 !!!IMPORTANT!!!
 
@@ -19,6 +19,10 @@ RECOMMENDED VISUALS AND SOUND
 Corvette C7 Coupe = KS Corvette C7 Stingray
 
 CHANGELOG
+
+2025-05-14_A
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed tires CX_MULT
 
 2025-05-05_A
 - Changed load curve mu

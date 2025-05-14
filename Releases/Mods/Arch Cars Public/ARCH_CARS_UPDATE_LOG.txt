@@ -1,3 +1,7 @@
+2025-05-14_A
+- Updated README.md
+- Updated all cars
+
 2025-05-06_A
 - Updated NSX
 
@@ -45,35 +49,35 @@
 - Updated E92
 - Updated F82
 - Updated DTM1992 190E
-- Updated DTM1992 E30
+- Updated DTM1992 E30 M3
 - Updated S550
 - Updated 993
 
 2025-04-17_B
-- Updated DTM1992 E30
 - Updated DTM1992 190E
+- Updated DTM1992 E30 M3
 
 2025-04-17_A
-- Updated DTM1992 E30
 - Updated DTM1992 190E
+- Updated DTM1992 E30 M3
 
 2025-04-16_A
 - Updated E30
-- Updated DTM1992 E30
 - Updated DTM1992 190E
+- Updated DTM1992 E30 M3
 - Updated FD3S
 - Updated JZA80
 
 2025-04-15_A
-- Updated DTM1992 E30
 - Updated DTM1992 190E
+- Updated DTM1992 E30 M3
 
 2025-04-14_B
-- Updated DTM1992 E30
+- Updated DTM1992 E30 M3
 
 2025-04-14_A
-- Updated DTM1992 E30
 - Updated DTM1992 190E
+- Updated DTM1992 E30 M3
 
 2025-04-07_A
 - Updated engines for better idle handling
@@ -246,8 +250,8 @@
 - Updated E82
 - Updated E92
 - Updated F82
-- Updated DTM1992 E30
 - Updated DTM1992 190E
+- Updated DTM1992 E30 M3
 - Updated CTR
 
 2024-07-21
@@ -371,28 +375,28 @@
 - Added 993
 
 2024-04-05
-- Updated DTM 1992 E30
-- Updated DTM 1992 190E
+- Updated DTM1992 190E
+- Updated DTM1992 E30 M3
 - Updated R34
 - Updated AE86
 
 2024-03-25
-- Updated DTM 1992 E30
-- Updated DTM 1992 190E
+- Updated DTM1992 190E
+- Updated DTM1992 E30 M3
 
 2024-03-24
 - Updated E89
 - Updated E92
 	- Fixed tires popping when using data.acd
-- Updated DTM 1992 E30
+- Updated DTM1992 E30
 	- Known issue: oscillation when braking
 
 - Updated DTM 1992 190E
 
 2024-03-22
-- Added DTM 1992 190E
+- Added DTM1992 190E
 - Updated E92
-- Updated DTM 1992 E30
+- Updated DTM1992 E30 M3
 - Updated CTR
 - Updated all cars
 	- Tire damping
@@ -445,7 +449,7 @@
 - Updated FD3S
 
 2024-02-18
-- Added DTM 1992 E30
+- Added DTM1992 E30 M3
 - Updated E30
 - Updated S550
 - Updated 180SX
@@ -570,14 +574,14 @@
 - Added R35
 - Added Z34
 - Added GT86
-- Updated E30 M3
+- Updated E30
 - Updated FD3S
 - Updated Miata NA
 - Updated AE86
 - Updated JZA80
 
 2023-07-09
-- Updated E30 M3
+- Updated E30
 - Updated FD3S
 - Updated Miata NA
 - Updated AE86

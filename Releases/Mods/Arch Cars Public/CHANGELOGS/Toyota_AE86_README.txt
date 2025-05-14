@@ -24,6 +24,10 @@ AE86 Sprinter Trueno Drift = KS AE86 Drift Visuals, KS AE86 Tuned Sound
 
 CHANGELOG
 
+2025-05-14_A
+- Changed tires CX_MULT
+- Corrected RR_UCA definitions
+
 2025-05-05_A
 - Changed load curve mu
 - Changed brake booster curve

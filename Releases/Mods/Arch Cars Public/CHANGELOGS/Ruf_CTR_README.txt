@@ -19,6 +19,9 @@ RUF CTR = KS Yellowbird
 
 CHANGELOG
 
+2025-05-14_A
+- Changed tires CX_MULT
+
 2025-05-05_A
 - Changed load curve mu
 - Changed brake booster curve

@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required!
+Shaders patch 0.2.8+ required!
 
 !!!IMPORTANT!!!
 
@@ -19,6 +19,13 @@ RECOMMENDED VISUALS AND SOUND
 R35 GT-R NISMO 2014 = KS GT-R NISMO
 
 CHANGELOG
+
+2025-05-14_A
+- Added engine flow on cut
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed ATTESA lateral acceleration maps
+- Changed tires CX_MULT
+- Removed longitudinal acceleration input from ATTESA
 
 2025-05-05_A
 - Changed brake booster curve

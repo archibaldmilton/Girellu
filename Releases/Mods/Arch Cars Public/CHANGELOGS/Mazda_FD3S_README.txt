@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required! Requires JDM Pack DLC by Kunos!
+Shaders patch 0.2.8+ required! Requires JDM Pack DLC by Kunos!
 
 !!!IMPORTANT!!!
 
@@ -24,6 +24,12 @@ FD3S Spirit R = KS RX7 Spirit R
 FD3S Drift =  KS RX7 Tuned
 
 CHANGELOG
+
+2025-05-14_A
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed EBB
+- Changed tires CX_MULT
+- Corrected welded diff setup option
 
 2025-05-05_A
 - Changed load curve mu

@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required!
+Shaders patch 0.2.8+ required!
 
 !!!IMPORTANT!!!
 
@@ -17,6 +17,10 @@ Special thanks to:
 RECOMMENDED VISUALS AND SOUND
 
 E82 1M = KS 1M
+
+2025-05-14_A
+- Added engine flow on cut
+- Added Cphys ABS (CSP 0.2.8+ required!)
 
 2025-05-05_A
 - Changed brake booster curve

@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required!
+Shaders patch 0.2.8+ required!
 
 !!!IMPORTANT!!!
 
@@ -24,6 +24,10 @@ E30 M3 = KS M3 E30
 E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
+
+2025-05-14_A
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Corrected welded diff setup option
 
 2025-05-05_A
 - Changed load curve mu

@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required! Requires Corvette C6 by Siim Annuk (@Some1)!
+Shaders patch 0.2.8+ required! Requires Corvette C6 by Siim Annuk (@Some1)!
 Link: https://www.overtake.gg/downloads/corvette-c6.24208/
 
 !!!IMPORTANT!!!
@@ -16,6 +16,10 @@ Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2025-05-14_A
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed tires CX_MULT
 
 2025-05-05_A
 - Changed load curve mu

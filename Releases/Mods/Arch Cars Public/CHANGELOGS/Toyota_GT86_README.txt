@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required!
+Shaders patch 0.2.8+ required!
 
 !!!IMPORTANT!!!
 
@@ -24,6 +24,11 @@ GT86 GT = KS GT86
 GT86 Drift = KS GT86
 
 CHANGELOG
+
+2025-05-14_A
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed tires CX_MULT
+- Corrected welded diff setup option
 
 2025-05-05_A
 - Changed load curve mu

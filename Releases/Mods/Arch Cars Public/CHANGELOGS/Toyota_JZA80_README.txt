@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required! Requires JDM Pack DLC by Kunos!
+Shaders patch 0.2.8+ required! Requires JDM Pack DLC by Kunos!
 
 !!!IMPORTANT!!!
 
@@ -22,6 +22,14 @@ JZA80 RZ = KS Supra MKIV
 JZA80 Drift = KS Supra Drift
 
 CHANGELOG
+
+2025-05-14_A
+- Added engine flow on cut
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed EBB
+- Changed PS
+- Changed tires CX_MULT
+- Corrected welded diff setup option
 
 2025-05-05_A
 - Changed load curve mu

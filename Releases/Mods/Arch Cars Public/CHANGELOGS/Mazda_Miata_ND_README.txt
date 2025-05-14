@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required! Requires JDM Pack DLC by Kunos!
+Shaders patch 0.2.8+ required! Requires JDM Pack DLC by Kunos!
 
 !!!IMPORTANT!!!
 
@@ -21,6 +21,11 @@ Miata ND1 Club = KS MX5 ND
 Miata ND1 Drift = KS MX5 ND Visuals, KS MX5 ND Cup Sound
 
 CHANGELOG
+
+2025-05-14_A
+- Added Cphys ABS (CSP 0.2.8+ required!)
+- Changed tires CX_MULT
+- Corrected welded diff setup option
 
 2025-05-05_A
 - Changed load curve mu
