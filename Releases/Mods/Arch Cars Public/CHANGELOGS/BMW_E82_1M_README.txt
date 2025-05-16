@@ -18,6 +18,12 @@ RECOMMENDED VISUALS AND SOUND
 
 E82 1M = KS 1M
 
+CHANGELOG
+
+2025-05-16_A
+- Changed ABS
+- Changed aero
+
 2025-05-14_A
 - Added engine flow on cut
 - Added Cphys ABS (CSP 0.2.8+ required!)

@@ -25,6 +25,14 @@ BNR34 V-spec = KS Skyline R34
 
 CHANGELOG
 
+2025-05-16_A
+- Changed engine
+- Changed rear LSD
+- Changed ATTESA deadband
+- Changed ABS
+- Changed aero
+- Removed HICAS low speed steer out condition
+
 2025-05-14_B
 - Changed stabilizers
 

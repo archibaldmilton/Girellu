@@ -23,6 +23,8 @@ AE86 1600GTV Sprinter Trueno = KS AE86 Visuals, KS AE86 Tuned Sound
 AE86 Sprinter Trueno Drift = KS AE86 Drift Visuals, KS AE86 Tuned Sound
 
 CHANGELOG
+2025-05-16_A
+- Changed aero
 
 2025-05-14_A
 - Changed tires CX_MULT

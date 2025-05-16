@@ -17,6 +17,10 @@ DTM 1992 190E = KS 190E DTM
 
 CHANGELOG
 
+2025-05-16_A
+- Changed ABS
+- Changed aero
+
 2025-05-14_B
 - Changed stabilizers
 

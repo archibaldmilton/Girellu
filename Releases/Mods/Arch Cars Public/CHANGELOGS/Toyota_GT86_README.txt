@@ -25,6 +25,10 @@ GT86 Drift = KS GT86
 
 CHANGELOG
 
+2025-05-16_A
+- Changed ABS
+- Changed aero
+
 2025-05-14_A
 - Added Cphys ABS (CSP 0.2.8+ required!)
 - Changed tires CX_MULT

@@ -25,6 +25,10 @@ E30 M3 Drift = KS M3 E30 Drift
 
 CHANGELOG
 
+2025-05-16_A
+- Changed ABS
+- Changed aero
+
 2025-05-14_B
 - Changed stabilizers
 

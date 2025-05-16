@@ -19,6 +19,9 @@ RUF CTR = KS Yellowbird
 
 CHANGELOG
 
+2025-05-16_A
+- Changed aero
+
 2025-05-14_A
 - Changed tires CX_MULT
 
