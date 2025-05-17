@@ -21,6 +21,9 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2025-05-18_A
+- Corrected wheel offset back to standard value, previous left from testing
+
 2025-05-17_A
 - Changed tires load curve
 - Changed ATTESA
