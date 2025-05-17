@@ -18,12 +18,10 @@ mike12345678 for providing lots of data and literature
 animal3005 for providing lots of data and literature
 Leonardo Ratafia for providing data
 
-RECOMMENDED VISUALS AND SOUND
-
-FD3S Spirit R = KS RX7 Spirit R
-FD3S Drift =  KS RX7 Tuned
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed ABS

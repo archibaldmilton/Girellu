@@ -18,12 +18,10 @@ for data and help
 @Matt for helping with Drift version
 @kondor999 for testing and feedback
 
-RECOMMENDED VISUALS AND SOUND
-
-E30 M3 = KS M3 E30
-E30 M3 Drift = KS M3 E30 Drift
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed ABS

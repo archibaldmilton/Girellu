@@ -14,11 +14,10 @@ Everything else by Kunos Simulazioni
 Special thanks:
 The usual suspects
 
-RECOMMENDED VISUALS AND SOUND
-
-R35 GT-R NISMO 2014 = KS GT-R NISMO
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed ABS

@@ -16,12 +16,10 @@ Special thanks:
 The usual suspects
 CesarCardoso
 
-RECOMMENDED VISUALS AND SOUND
-
-Miata MX5 NA8C Base = KS Miata NA
-Miata MX5 NA8C Drift = KS Miata NA
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed aero

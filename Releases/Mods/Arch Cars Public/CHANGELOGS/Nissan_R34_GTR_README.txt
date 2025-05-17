@@ -19,11 +19,14 @@ Kade for assisting in figuring out the electrical systems
 Venitros for driving opponent cars during testing
 baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
-RECOMMENDED VISUALS AND SOUND
-
-BNR34 V-spec = KS Skyline R34
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
+- Changed ATTESA
+- Changed HICAS
+- Changed engine
+- Changed rear LSD
 
 2025-05-16_A
 - Changed engine

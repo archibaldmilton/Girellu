@@ -14,11 +14,10 @@ Everything else by Kunos Simulazioni
 Special thanks:
 The usual suspects
 
-RECOMMENDED VISUALS AND SOUND
-
-Elise SC Base = KS Elise SC
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed ABS

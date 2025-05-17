@@ -16,12 +16,10 @@ Special thanks:
 Aad Hofman for providing original laserscanned suspension
 baker7498 for providing lots of data and literature
 
-RECOMMENDED VISUALS AND SOUND
-
-JZA80 RZ = KS Supra MKIV
-JZA80 Drift = KS Supra Drift
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed ABS

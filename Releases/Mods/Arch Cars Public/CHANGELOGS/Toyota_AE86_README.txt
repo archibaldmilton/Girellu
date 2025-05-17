@@ -17,12 +17,11 @@ Venitros for driving car in testing
 Aphidgod, stereo, mclarenf1papa, Leonardo Ratafiá, Kade and many others for help
 baker7498 for finding a ton of data
 
-RECOMMENDED VISUALS AND SOUND
-
-AE86 1600GTV Sprinter Trueno = KS AE86 Visuals, KS AE86 Tuned Sound
-AE86 Sprinter Trueno Drift = KS AE86 Drift Visuals, KS AE86 Tuned Sound
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
+
 2025-05-16_A
 - Changed aero
 

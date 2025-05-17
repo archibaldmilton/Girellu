@@ -15,12 +15,10 @@ Everything else by Kunos Simulazioni
 Special thanks:
 The usual suspects
 
-RECOMMENDED VISUALS AND SOUND
-
-370Z NISMO = KS 370Z NISMO
-370Z Drift = KS 370Z NISMO
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed ABS

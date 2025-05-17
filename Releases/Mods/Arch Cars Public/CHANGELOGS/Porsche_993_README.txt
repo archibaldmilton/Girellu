@@ -17,6 +17,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-05-17_A
+- Changed tires load curve
+
 2025-05-16_A
 - Changed ABS
 - Changed aero

@@ -15,12 +15,10 @@ Everything else by Kunos Simulazioni
 Special thanks:
 The usual suspects
 
-RECOMMENDED VISUALS AND SOUND
-
-Miata ND1 Club = KS MX5 ND
-Miata ND1 Drift = KS MX5 ND Visuals, KS MX5 ND Cup Sound
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed ABS

@@ -13,11 +13,10 @@ Everything else by Kunos Simulazioni
 
 Thanks to @mike12345678 and @AlleyViper for data
 
-RECOMMENDED VISUALS AND SOUND
-
-RUF CTR = KS Yellowbird
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed aero

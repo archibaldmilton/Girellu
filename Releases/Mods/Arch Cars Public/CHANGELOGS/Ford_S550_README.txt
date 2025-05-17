@@ -12,12 +12,10 @@ Credits:
 Physics by Arch
 Everything else by Kunos Simulazioni
 
-RECOMMENDED VISUALS AND SOUND
-
-S550 GT = KS Mustang 2015
-S550 Drift = KS Mustang 2015
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed ABS

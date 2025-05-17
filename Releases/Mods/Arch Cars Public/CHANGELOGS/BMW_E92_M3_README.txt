@@ -14,11 +14,10 @@ Everything else by Kunos Simulazioni
 Special thanks to: 
 @baker7498
 
-RECOMMENDED VISUALS AND SOUND
-
-E92 M3 = KS M3 E92
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed ABS

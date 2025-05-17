@@ -18,12 +18,10 @@ mike12345678 for providing lots of data and literature and torque curves
 Leonardo Ratafia for providing data
 Ryno917 for testing
 
-RECOMMENDED VISUALS AND SOUND
-
-GT86 GT = KS GT86
-GT86 Drift = KS GT86
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed ABS

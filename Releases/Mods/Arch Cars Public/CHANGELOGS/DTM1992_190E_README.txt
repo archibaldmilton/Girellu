@@ -11,11 +11,10 @@ Credits:
 Physics by Arch
 Everything else by Kunos Simulazioni
 
-RECOMMENDED VISUALS AND SOUND
-
-DTM 1992 190E = KS 190E DTM
-
 CHANGELOG
+
+2025-05-17_A
+- Changed tires load curve
 
 2025-05-16_A
 - Changed ABS
