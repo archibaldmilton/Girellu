@@ -18,6 +18,9 @@ baker7498 for providing lots of data and literature
 
 CHANGELOG
 
+2025-05-18_B
+- Corrected steering ratio, rack width
+
 2025-05-17_A
 - Changed tires load curve
 
