@@ -19,6 +19,11 @@ baker7498 for finding a ton of data
 
 CHANGELOG
 
+2025-05-19_A
+- Changed GLOBA load curves, wear curves, various parameters
+- Corrected RE710 wear curves
+- Corrected RE86 vertical stiffness
+
 2025-05-17_A
 - Changed tires load curve
 

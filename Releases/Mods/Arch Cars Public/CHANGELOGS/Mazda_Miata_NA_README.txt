@@ -18,6 +18,10 @@ CesarCardoso
 
 CHANGELOG
 
+2025-05-19_A
+- Changed GLOBA load curves, wear curves, various parameters
+- Corrected RE710 wear curves
+
 2025-05-17_A
 - Changed tires load curve
 
