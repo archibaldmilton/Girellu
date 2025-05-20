@@ -22,6 +22,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-05-20_A
+- Changed TC
+- Changed A-022 H1 load curves
+
 2025-05-17_A
 - Changed tires load curve
 
