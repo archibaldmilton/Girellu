@@ -18,6 +18,10 @@ baker7498 for providing lots of data and literature
 
 CHANGELOG
 
+2025-05-24_A
+- Changed brake heat
+- Corrected "bushings" to act as pull springs
+
 2025-05-18_B
 - Corrected steering ratio, rack width
 

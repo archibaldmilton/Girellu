@@ -13,6 +13,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-05-24_A
+- Changed brake heat
+
 2025-05-17_A
 - Changed tires load curve
 

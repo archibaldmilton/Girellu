@@ -18,6 +18,10 @@ CesarCardoso
 
 CHANGELOG
 
+2025-05-24_A
+- Changed brake heat
+- Corrected "bushings" to act as pull springs
+
 2025-05-19_A
 - Changed GLOBA load curves, wear curves, various parameters
 - Corrected RE710 wear curves

@@ -22,6 +22,13 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-05-24_A
+- Changed brake heat
+- Changed NA2 brake rotor masses
+- Changed NA2 unsprung masses
+- Corrected "bushings" to act as pull springs
+- Fixed Type S-Zero TC
+
 2025-05-20_A
 - Changed TC
 - Changed A-022 H1 load curves

@@ -21,6 +21,12 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2025-05-24_A
+- Changed brake heat
+- Changed unsprung masses
+- Corrected rear brake rotor mass
+- Corrected "bushings" to act as pull springs
+
 2025-05-18_A
 - Corrected wheel offset back to standard value, previous left from testing
 
