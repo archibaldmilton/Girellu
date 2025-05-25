@@ -22,6 +22,11 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-05-25_A
+- Changed COMBINED_FACTOR
+- Changed TC
+- Changed H97S1 PS
+
 2025-05-24_A
 - Changed brake heat
 - Changed NA2 brake rotor masses

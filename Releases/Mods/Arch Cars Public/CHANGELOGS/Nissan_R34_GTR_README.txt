@@ -15,11 +15,14 @@ Special thanks:
 Ma7heus for creating the original 3D model back when the car was a mod
 MisterCognac for suspension measurement, data, advice and testing (R33)
 AshNismo for suspension measurement, data, advise and testing (R32)
-Kade for assisting in figuring out the electrical systems
+Kade for assisting in figuring out the electronic systems
 Venitros for driving opponent cars during testing
 baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
+
+2025-05-25_A
+- Changed COMBINED_FACTOR
 
 2025-05-24_A
 - Changed brake heat

@@ -18,6 +18,9 @@ CesarCardoso
 
 CHANGELOG
 
+2025-05-25_A
+- Changed COMBINED_FACTOR
+
 2025-05-24_A
 - Changed brake heat
 - Corrected "bushings" to act as pull springs

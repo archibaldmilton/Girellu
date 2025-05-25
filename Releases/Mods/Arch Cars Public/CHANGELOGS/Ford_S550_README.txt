@@ -14,6 +14,10 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-05-25_A
+- Changed COMBINED_FACTOR
+- Changed TC
+
 2025-05-24_A
 - Changed brake heat
 - Corrected "bushings" to act as pull springs

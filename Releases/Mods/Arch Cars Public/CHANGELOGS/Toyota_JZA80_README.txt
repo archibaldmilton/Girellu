@@ -18,6 +18,14 @@ baker7498 for providing lots of data and literature
 
 CHANGELOG
 
+CHANGELOG
+
+2025-05-25_A
+- Added ABS XG sensor
+- Changed COMBINED_FACTOR
+- Changed TC
+- Changed PS
+
 2025-05-24_A
 - Changed brake heat
 - Corrected "bushings" to act as pull springs
