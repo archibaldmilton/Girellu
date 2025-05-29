@@ -16,6 +16,10 @@ Special thanks to:
 
 CHANGELOG
 
+2025-05-30_A
+- Changed tires load curve
+- Changed GHAS
+
 2025-05-25_A
 - Changed COMBINED_FACTOR
 - Changed TC

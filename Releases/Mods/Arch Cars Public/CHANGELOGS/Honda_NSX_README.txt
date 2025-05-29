@@ -22,6 +22,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-05-30_A
+- Removed redundant throttle2 files
+
 2025-05-25_A
 - Changed COMBINED_FACTOR
 - Changed TC

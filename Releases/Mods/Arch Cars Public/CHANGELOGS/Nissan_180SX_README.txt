@@ -11,6 +11,9 @@ Includes:
 
 CHANGELOG
 
+2025-05-30_A
+- Changed suspensions.ini syntax
+
 2025-05-25_A
 - Changed COMBINED_FACTOR
 
