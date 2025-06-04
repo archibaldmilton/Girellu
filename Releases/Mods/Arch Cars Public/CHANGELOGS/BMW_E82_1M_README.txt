@@ -16,6 +16,10 @@ Special thanks to:
 
 CHANGELOG
 
+2025-06-04_A
+- Added ABS uneven friction logic
+- Changed suspensions.ini bushing syntax
+
 2025-05-25_A
 - Changed COMBINED_FACTOR
 - Changed TC

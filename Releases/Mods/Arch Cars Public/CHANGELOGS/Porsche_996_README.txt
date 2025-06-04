@@ -15,6 +15,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-06-04_A
+- Added ABS uneven friction logic
+
 2025-05-25_A
 - Changed COMBINED_FACTOR
 

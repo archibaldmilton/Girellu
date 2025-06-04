@@ -17,8 +17,10 @@ baker7498 for providing lots of data and literature
 mike12345678 for providing lots of data and literature and torque curves
 Leonardo Ratafia for providing data
 Ryno917 for testing
-
 CHANGELOG
+
+2025-06-04_A
+- Added ABS uneven friction logic
 
 2025-05-25_A
 - Changed COMBINED_FACTOR

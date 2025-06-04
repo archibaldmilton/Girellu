@@ -21,6 +21,9 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2025-06-04_A
+- Added ABS uneven friction logic
+
 2025-06-02_A
 - Changed front bushing vertical rate
 

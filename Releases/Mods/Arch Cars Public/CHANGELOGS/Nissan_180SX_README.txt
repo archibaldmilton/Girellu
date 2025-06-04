@@ -11,6 +11,9 @@ Includes:
 
 CHANGELOG
 
+2025-06-04_A
+- Added ABS uneven friction logic
+
 2025-05-30_A
 - Changed suspensions.ini syntax
 

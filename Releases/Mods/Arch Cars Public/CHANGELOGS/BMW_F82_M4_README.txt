@@ -16,6 +16,10 @@ Special thanks to:
 
 CHANGELOG
 
+2025-06-04_A
+- Added ABS uneven friction logic
+- Changed suspensions.ini bushing syntax
+
 2025-05-30_A
 - Changed tires load curve
 - Changed GHAS

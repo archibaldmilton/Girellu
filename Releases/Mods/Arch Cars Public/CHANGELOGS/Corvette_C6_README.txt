@@ -17,6 +17,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-06-04_A
+- Added ABS uneven friction logic
+
 2025-05-30_A
 - Removed redundant throttle2 files
 

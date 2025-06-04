@@ -36,6 +36,7 @@ corvette_c6_coupe,corvette_c6_coupe
 corvette_c6_gs,corvette_c6_gs
 corvette_c6_z06,corvette_c6_z06
 corvette_c6_zr1,corvette_c6_zr1
+j8_honda_s2000_ap1,j8_honda_s2000_ap1
 lk_nissan_180sx_96,lk_nissan_180sx_96
 lk_nissan_180sx_96_drift,lk_nissan_180sx_96_drift
 some1_acura_nsx_1992,some1_acura_nsx_1992

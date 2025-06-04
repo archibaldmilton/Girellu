@@ -1,3 +1,27 @@
+2025-06-04_A
+- Added S2000
+- Updated E30
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- Updated C6
+- Updated C7
+- Updated S550
+- Updated NSX
+- Updated Elise
+- Updated FD3S
+- Updated ND
+- Updated 180SX
+- Updated R34
+- Updated R35
+- Updated Z34
+- Updated 993
+- Updated 996
+- Updated GT86
+- Updated JZA80
+
+
 2025-06-02_A
 - Updated R34
 
@@ -17,7 +41,7 @@
 - Updated NSX
 
 2025-05-19_A
-- Updated Miata NA
+- Updated NA
 - Updated 180SX
 - Updated AE86
 
@@ -61,8 +85,8 @@
 
 2025-04-28_A
 - Updated E30
-- Updated Miata ND
-- Updated Miata NA
+- Updated ND
+- Updated NA
 - Updated 180SX
 - Updated CTR
 - Updated AE86
@@ -79,8 +103,8 @@
 - Updated C7
 - Updated Elise
 - Updated FD3S
-- Updated Miata NA
-- Updated Miata ND
+- Updated NA
+- Updated ND
 - Updated 180SX
 - Updated R34
 
@@ -130,8 +154,8 @@
 - Updated script.lua to fix? idle/coast? bug
 
 2025-03-29_A
-- Updated Miata NA
-- Updated Miata ND
+- Updated NA
+- Updated ND
 - Updated 180SX
 - Updated R34
 - Updated R35
@@ -159,7 +183,7 @@
 
 2025-02-11_A
 - Updated FD3S
-- Updated Miata ND
+- Updated ND
 - Updated 180SX
 - Updated R34
 - Updated R35
@@ -180,7 +204,7 @@
 - Updated S550
 - Updated Elise
 - Updated FD3S
-- Updated Miata NA
+- Updated NA
 - Updated 993
 
 2025-02-05_B
@@ -207,7 +231,7 @@
 2025-01-28_A
 - Updated C7
 - Updated DTM1992 190E
-- Updated Miata ND
+- Updated ND
 - Updated 180SX
 - Updated R34
 
@@ -245,7 +269,7 @@
 - Updated E92
 - Updated F82
 - Updated FD3S
-- Updated Miata NA
+- Updated NA
 - Updated GT86
 - Updated JZA80
 - Updated README.MD
@@ -260,8 +284,8 @@
 - Updated F82
 - Updated S550
 - Updated FD3S
-- Updated Miata NA
-- Updated Miata ND
+- Updated NA
+- Updated ND
 - Updated 180SX
 - Updated R34
 - Updated R35
@@ -314,7 +338,7 @@
 - Updated E92
 - Updated S550
 - Updated FD3S
-- Updated Miata ND
+- Updated ND
 - Updated 180SX
 - Updated R34
 - Updated Z34
@@ -475,8 +499,8 @@
 
 2024-02-25
 - Updated E30
-- Updated Miata NA
-- Updated Miata ND
+- Updated NA
+- Updated ND
 - Updated 180SX
 - Updated AE86
 - Updated JZA80
@@ -508,8 +532,8 @@
 - Updated E92
 - Updated F82
 - Updated S550
-- Updated Miata NA
-- Updated Miata ND
+- Updated NA
+- Updated ND
 - Updated R35
 - Updated Z34
 - Updated AE86
@@ -568,8 +592,8 @@
 2023-11-23
 - Updated E30
 - Updated FD3S
-- Updated Miata NA
-- Updated Miata ND
+- Updated NA
+- Updated ND
 - Updated R34
 - Updated Z34
 - Updated AE86
@@ -579,8 +603,8 @@
 2023-11-17
 - Updated E30
 - Updated FD3S
-- Updated Miata NA
-- Updated Miata ND
+- Updated NA
+- Updated ND
 - Updated Z34
 - Updated AE86 (No version number change, Drift UI)
 - Updated GT86
@@ -588,7 +612,7 @@
 
 2023-11-16
 - Updated FD3S (No version number change, small typofix in Spirit R preload)
-- Updated Miata ND
+- Updated ND
 - Updated GT86
 - Updated JZA80
 - Updated readmes
@@ -596,7 +620,7 @@
 2023-11-14
 - Updated E30
 - Updated FD3S
-- Updated Miata NA
+- Updated NA
 - Updated AE86
 
 2023-11-12
@@ -605,7 +629,7 @@
 - Added CTR
 - Updated E30
 - Updated FD3S
-- Updated Miata NA
+- Updated NA
 - Updated AE86
 
 2023-08-08
@@ -618,14 +642,14 @@
 - Added GT86
 - Updated E30
 - Updated FD3S
-- Updated Miata NA
+- Updated NA
 - Updated AE86
 - Updated JZA80
 
 2023-07-09
 - Updated E30
 - Updated FD3S
-- Updated Miata NA
+- Updated NA
 - Updated AE86
 - Updated JZA80
 

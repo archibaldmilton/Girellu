@@ -18,7 +18,8 @@ baker7498 for providing lots of data and literature
 
 CHANGELOG
 
-CHANGELOG
+2025-06-04_A
+- Added ABS uneven friction logic
 
 2025-05-25_A
 - Added ABS XG sensor
