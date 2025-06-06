@@ -15,6 +15,15 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-06-06_A
+- AP1 added brake propvalve
+- AP2 added EBB yaw, steering sensors
+- Changed aero
+- Changed AP2 steering ratio
+- AP1 removed EBB
+- AP1 removed ABS latg, long, yaw sensors
+- AP2 removed ABS long sensor
+
 2025-06-05_A
 - Added AP2
 - Corrected AP1 tire from RE050A to S-02

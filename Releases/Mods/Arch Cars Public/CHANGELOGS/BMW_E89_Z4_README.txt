@@ -97,7 +97,7 @@ CHANGELOG
 - Changed tires heat, slip, load, wear etc.
 - Changed "OEM" brake friction curve
 - Changed stabilizers
-- Changed ABS, EBD, TC
+- Changed ABS, EBB, TC
 
 2024-08-15
 - Added steering U-joint nonlinearity (thanks @jpg_18, mod-talk)

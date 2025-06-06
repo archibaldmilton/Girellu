@@ -87,7 +87,7 @@ CHANGELOG
 - Changed stabilizer installation stiffness
 
 2025-01-28_A
-- Changed PS, EBD, ESC
+- Changed PS, EBB, ESC
 
 2025-01-14_A
 - Added hard rate point to steering rack lateral deflection
@@ -112,7 +112,7 @@ CHANGELOG
 - Changed reference brake foot force from 100kgf to 50kgf, setup max to 200%
 - Changed tires heat, slip, load, wear etc.
 - Changed Club differential
-- Changed ABS, EBD, TC
+- Changed ABS, EBB, TC
 - Changed Drift default setup
 
 2024-08-15

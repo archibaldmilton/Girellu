@@ -105,7 +105,7 @@ CHANGELOG
 - Changed tires heat, slip, load, wear etc.
 - Changed differential
 - Changed stabilizers
-- Changed ABS, EBD, TC
+- Changed ABS, EBB, TC
 - Changed Drift default setup
 
 2024-08-15

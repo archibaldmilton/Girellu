@@ -105,7 +105,7 @@ CHANGELOG
 - Changed reference brake foot force from 100kgf to 50kgf, setup max to 200%
 - Changed tires heat, slip, load, wear etc.
 - Changed "OEM" brake friction curve
-- Changed ABS, EBD, TC
+- Changed ABS, EBB, TC
 - Changed stabilizers
 
 2024-08-15

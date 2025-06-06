@@ -123,7 +123,7 @@ CHANGELOG
 2024-09-20
 - Changed reference brake foot force from 100kgf to 50kgf, setup max to 200%
 - Changed tires heat, slip, load, wear etc.
-- Changed ABS, EBD, TC
+- Changed ABS, EBB, TC
 - Changed stabilizers
 - Changed PS
 - Changed Drift default setup
