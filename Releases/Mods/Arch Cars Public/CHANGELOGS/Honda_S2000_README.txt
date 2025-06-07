@@ -15,6 +15,11 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-06-07_A
+- Changed RE050 load curves
+- Corrected AP2 engine damage RPM
+- Corrected AP2 cameras
+
 2025-06-06_A
 - AP1 added brake propvalve
 - AP2 added EBB yaw, steering sensors

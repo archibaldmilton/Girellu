@@ -13,6 +13,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-06-07_A
+- Changed RE050A load curves
+
 2025-06-04_A
 - Added ABS uneven friction logic
 
