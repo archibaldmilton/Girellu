@@ -18,6 +18,9 @@ CesarCardoso
 
 CHANGELOG
 
+2025-06-12_A
+- Changed tires load, slip, pressure
+
 2025-05-25_A
 - Changed COMBINED_FACTOR
 

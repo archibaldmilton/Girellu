@@ -20,6 +20,9 @@ for data and help
 
 CHANGELOG
 
+2025-06-12_A
+- Changed tires load, slip, pressure
+
 2025-06-04_A
 - Added ABS uneven friction logic
 

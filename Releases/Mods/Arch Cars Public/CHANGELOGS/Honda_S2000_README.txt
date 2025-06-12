@@ -15,6 +15,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-06-12_A
+- Changed tires load, slip, pressure
+
 2025-06-07_A
 - Changed RE050 load curves
 - Corrected AP2 engine damage RPM

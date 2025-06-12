@@ -17,6 +17,10 @@ The usual suspects
 
 CHANGELOG
 
+2025-06-12_A
+- Changed tires load, slip, pressure
+- Changed TC
+
 2025-06-04_A
 - Added ABS uneven friction logic
 

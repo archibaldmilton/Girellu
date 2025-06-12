@@ -17,6 +17,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-06-12_A
+- Changed tires load, slip, pressure
+- Changed Turbo tire model
+
 2025-06-04_A
 - Added ABS uneven friction logic
 

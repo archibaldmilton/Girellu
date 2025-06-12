@@ -13,6 +13,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-06-12_A
+- Changed tires load, slip, pressure
+
 2025-06-07_B
 - Changed RE050A RFT load curves
 - Removed ABS long sensor
