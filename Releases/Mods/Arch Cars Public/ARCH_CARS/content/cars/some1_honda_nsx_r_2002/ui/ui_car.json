@@ -1,7 +1,7 @@
 {
-  "name": "Honda NSX-R NA1 (94)",
+  "name": "Honda NSX-R NA2",
   "brand": "Honda",
-  "description": "Honda E-NA1 NSX-R (1994)<br><br>Changes from the early NSX-R include larger wheels in a special color only for the NSX-R, specially developed &quot;GP&quot; brakepads and Bridgestone Potenza RE010-H0 tires with a larger split towards wider rear tire.",
+  "description": "Honda LA-NA2 NSX-R (2002)",
   "tags": [
     "#Sportscars",
     "rwd",
@@ -13,7 +13,7 @@
   "specs": {
     "bhp": "293ps",
     "torque": "31.1kg-m",
-    "weight": "1224kg",
+    "weight": "1225kg",
     "topspeed": "-",
     "acceleration": "-",
     "pwratio": "4.18kg/ps"
@@ -223,7 +223,7 @@
     ]
   ],
   "country": "Japan",
-  "year": 1994,
+  "year": 2002,
   "author": "Siim Annuk, Modek, Arch",
   "version": "2025-06-14_A",
   "url": "http://www.siimannuk.com/",

@@ -14,6 +14,7 @@ Honda NSX 1991
 Honda NSX 1997 S1
 Honda NSX-R 1992
 Honda NSX-R 1994
+Honda NSX-R 2002
 Honda NSX Type S-Zero 1997
 
 Credits:
@@ -21,6 +22,12 @@ Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2025-06-14_A
+- Added 02R
+- Changed brakes
+- Changed 99Z, 97S1, 92R, 94R, 97SZ ABS
+- Changed 94R display name
 
 2025-06-12_A
 - Changed tires load, slip, pressure
