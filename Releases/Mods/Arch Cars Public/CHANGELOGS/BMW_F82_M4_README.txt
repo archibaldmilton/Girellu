@@ -16,6 +16,10 @@ Special thanks to:
 
 CHANGELOG
 
+2025-06-17_A
+- Changed EBB
+- Changed PSS rolling resistance
+
 2025-06-12_A
 - Changed tires load, slip, pressure
 

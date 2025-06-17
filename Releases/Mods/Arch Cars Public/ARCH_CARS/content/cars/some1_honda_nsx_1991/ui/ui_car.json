@@ -14,8 +14,8 @@
     "bhp": "290ps",
     "torque": "31.0kg-m",
     "weight": "1319kg",
-    "topspeed": "-",
-    "acceleration": "-",
+    "topspeed": "",
+    "acceleration": "",
     "pwratio": "4.55kg/ps"
   },
   "torqueCurve": [
@@ -233,6 +233,6 @@
   "country": "Japan",
   "year": 1991,
   "author": "Siim Annuk, Modek, Arch",
-  "version": "2025-06-14_A",
+  "version": "2025-06-17_A",
   "url": "http://www.siimannuk.com/"
 }

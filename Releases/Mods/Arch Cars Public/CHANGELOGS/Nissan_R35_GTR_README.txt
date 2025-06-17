@@ -16,6 +16,11 @@ The usual suspects
 
 CHANGELOG
 
+2025-06-17_A
+- Changed GT600 load curves, heat, rolling resistance, default pressures
+- Changed ATTESA, LSD, EBB
+- Corrected bushing preload
+
 2025-06-12_A
 - Changed tires load, slip, pressure
 

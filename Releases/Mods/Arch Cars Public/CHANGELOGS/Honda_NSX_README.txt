@@ -23,6 +23,13 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-06-17_A
+- Changed AD08R load curves, rolling resistance
+- Changed 02R brakes
+- Changed rear upright geometry slightly
+- Corrected bushing preload
+- Removed 97S1 EPS (disabled at high speed supposedly)
+
 2025-06-14_A
 - Added 02R
 - Changed brakes

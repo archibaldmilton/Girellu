@@ -20,6 +20,11 @@ Ryno917 for testing
 
 CHANGELOG
 
+2025-06-17_A
+- Changed EBB
+- Changed HP load curves
+- Changed 08D load curves, rolling resistance
+
 2025-06-12_A
 - Changed tires load, slip, pressure
 

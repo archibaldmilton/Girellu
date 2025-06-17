@@ -21,6 +21,10 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2025-06-17_A
+- Corrected bushing preload
+- Corrected ATTESA ramp
+
 2025-06-12_A
 - Changed tires load, slip, pressure
 

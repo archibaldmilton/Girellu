@@ -16,6 +16,10 @@ The usual suspects
 
 CHANGELOG
 
+2025-06-17_A
+- Changed EBB
+- Corrected bushing preload
+
 2025-06-12_A
 - Changed tires load, slip, pressure
 

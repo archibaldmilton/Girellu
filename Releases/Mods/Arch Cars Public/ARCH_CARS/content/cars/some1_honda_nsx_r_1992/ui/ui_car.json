@@ -14,8 +14,8 @@
     "bhp": "293ps",
     "torque": "31.1kg-m",
     "weight": "1211kg",
-    "topspeed": "-",
-    "acceleration": "-",
+    "topspeed": "",
+    "acceleration": "",
     "pwratio": "4.13kg/ps"
   },
   "torqueCurve": [
@@ -225,7 +225,7 @@
   "country": "Japan",
   "year": 1992,
   "author": "Siim Annuk, Modek, Arch",
-  "version": "2025-06-14_A",
+  "version": "2025-06-17_A",
   "url": "http://www.siimannuk.com/",
   "parent": "some1_honda_nsx_1991"
 }

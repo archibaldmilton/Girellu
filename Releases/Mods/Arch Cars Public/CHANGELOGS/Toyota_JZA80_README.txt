@@ -18,6 +18,11 @@ baker7498 for providing lots of data and literature
 
 CHANGELOG
 
+2025-06-17_A
+- Changed RZ ABS, EBB
+- Changed 08D load curves, rolling resistance
+- Corrected bushing preload
+
 2025-06-12_A
 - Changed tires load, slip, pressure
 

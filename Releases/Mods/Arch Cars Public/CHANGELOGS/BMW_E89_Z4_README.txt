@@ -13,6 +13,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-06-17_A
+- Changed EBB
+
 2025-06-12_A
 - Changed tires load, slip, pressure
 
