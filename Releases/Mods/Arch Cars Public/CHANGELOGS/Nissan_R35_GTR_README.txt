@@ -16,6 +16,9 @@ The usual suspects
 
 CHANGELOG
 
+2025-06-21_A
+- Changed tires rolling resistance, SAT
+
 2025-06-17_A
 - Changed GT600 load curves, heat, rolling resistance, default pressures
 - Changed ATTESA, LSD, EBB

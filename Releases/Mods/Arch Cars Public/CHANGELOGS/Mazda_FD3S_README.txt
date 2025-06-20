@@ -20,6 +20,9 @@ Leonardo Ratafia for providing data
 
 CHANGELOG
 
+2025-06-21_A
+- Changed tires rolling resistance, SAT
+
 2025-06-17_A
 - Changed Spirit R ABS, EBB
 - Changed 08D load curves, rolling resistance

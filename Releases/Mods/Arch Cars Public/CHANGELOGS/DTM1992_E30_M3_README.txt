@@ -10,7 +10,11 @@ DTM 1992 E30 M3
 Credits:
 Physics by Arch
 Everything else by Kunos Simulazioni
+
 CHANGELOG
+
+2025-06-21_A
+- Changed tires rolling resistance
 
 2025-06-12_A
 - Changed tires load, slip

@@ -20,6 +20,14 @@ Ryno917 for testing
 
 CHANGELOG
 
+2025-06-21_A
+- Changed tires rolling resistance, SAT
+- Changed rear geometry
+- Changed rear bushings stiffness
+- Changed springs, stabilizers installation stiffness
+- Corrected GT front alignment
+- Minor corrections
+
 2025-06-17_A
 - Changed EBB
 - Changed HP load curves

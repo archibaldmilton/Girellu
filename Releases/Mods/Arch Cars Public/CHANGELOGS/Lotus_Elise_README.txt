@@ -16,6 +16,9 @@ The usual suspects
 
 CHANGELOG
 
+2025-06-21_A
+- Changed tires load curve, rolling resistance, SAT
+
 2025-06-17_A
 - Changed AD07 load curves
 - Corrected bushing preload

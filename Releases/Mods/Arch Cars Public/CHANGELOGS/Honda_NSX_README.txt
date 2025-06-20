@@ -23,6 +23,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-06-21_A
+- Changed tires rolling resistance, SAT
+
 2025-06-17_A
 - Changed AD08R load curves, rolling resistance
 - Changed 02R brakes

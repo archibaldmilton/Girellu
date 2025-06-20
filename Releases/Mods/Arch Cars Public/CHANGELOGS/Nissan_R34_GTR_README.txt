@@ -21,6 +21,9 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2025-06-21_A
+- Changed tires rolling resistance, SAT
+
 2025-06-17_A
 - Corrected bushing preload
 - Corrected ATTESA ramp

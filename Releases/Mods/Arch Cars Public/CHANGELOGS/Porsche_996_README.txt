@@ -15,6 +15,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-06-21_A
+- Changed tires rolling resistance, SAT
+
 2025-06-12_A
 - Changed tires load, slip, pressure
 
