@@ -16,6 +16,9 @@ The usual suspects
 
 CHANGELOG
 
+2025-06-25_A
+- Changed ATTESA
+
 2025-06-21_A
 - Changed tires rolling resistance, SAT
 

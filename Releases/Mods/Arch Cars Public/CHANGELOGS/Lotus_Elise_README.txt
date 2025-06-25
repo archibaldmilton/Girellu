@@ -16,6 +16,9 @@ The usual suspects
 
 CHANGELOG
 
+2025-06-25_A
+- Changed AD07 LTS relax length, slip peak
+
 2025-06-21_A
 - Changed tires load curve, rolling resistance, SAT
 
