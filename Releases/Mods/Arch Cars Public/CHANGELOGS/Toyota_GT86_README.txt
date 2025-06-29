@@ -20,6 +20,9 @@ Ryno917 for testing
 
 CHANGELOG
 
+2025-06-29_A
+- Changed clutch torque
+
 2025-06-21_A
 - Changed tires rolling resistance, SAT
 - Changed rear geometry

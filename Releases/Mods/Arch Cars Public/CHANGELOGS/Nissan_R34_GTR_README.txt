@@ -21,6 +21,10 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2025-06-29_A
+- Changed RE040 load curves
+- Changed clutch torque
+
 2025-06-25_A
 - Changed ATTESA
 

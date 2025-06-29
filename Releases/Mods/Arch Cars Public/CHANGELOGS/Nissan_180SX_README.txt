@@ -11,6 +11,9 @@ Includes:
 
 CHANGELOG
 
+2025-06-29_A
+- Changed RE71 load curves
+
 2025-06-21_A
 - Changed tires rolling resistance, SAT
 

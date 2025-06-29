@@ -16,6 +16,9 @@ The usual suspects
 
 CHANGELOG
 
+2025-06-29_A
+- Changed clutch torque
+
 2025-06-25_A
 - Changed AD07 LTS relax length, slip peak
 

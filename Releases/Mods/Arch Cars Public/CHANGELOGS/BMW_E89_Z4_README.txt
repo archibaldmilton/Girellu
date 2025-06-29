@@ -13,6 +13,10 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-06-29_A
+- Changed RE050A load curves
+- Changed clutch torque
+
 2025-06-21_A
 - Changed tires rolling resistance, SAT
 

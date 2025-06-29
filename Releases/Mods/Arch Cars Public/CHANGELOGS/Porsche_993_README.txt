@@ -17,6 +17,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-06-29_A
+- Changed S-02, PSC load curves
+
 2025-06-21_A
 - Changed tires rolling resistance, SAT
 

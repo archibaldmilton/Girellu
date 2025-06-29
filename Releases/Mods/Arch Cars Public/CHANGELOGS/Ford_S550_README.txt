@@ -14,6 +14,10 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-06-29_A
+- Changed clutch torque
+- Changed engine braking
+
 2025-06-21_A
 - Changed tires rolling resistance, SAT
 

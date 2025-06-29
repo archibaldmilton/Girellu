@@ -20,6 +20,10 @@ Leonardo Ratafia for providing data
 
 CHANGELOG
 
+2025-06-29_A
+- Changed S-07 load curves
+- Changed clutch torque
+
 2025-06-21_A
 - Changed tires rolling resistance, SAT
 

@@ -16,6 +16,11 @@ Special thanks to:
 
 CHANGELOG
 
+2025-06-29_A
+- Changed PS2 load curves, thermals
+- Changed clutch torque
+- Changed engine braking
+
 2025-06-21_A
 - Changed tires rolling resistance, SAT
 

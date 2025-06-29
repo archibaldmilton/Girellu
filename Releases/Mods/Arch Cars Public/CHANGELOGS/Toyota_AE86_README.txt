@@ -19,6 +19,10 @@ baker7498 for finding a ton of data
 
 CHANGELOG
 
+2025-06-29_A
+- Changed RE86 load curves
+- Changed clutch torque
+
 2025-06-21_A
 - Changed tires rolling resistance, SAT
 

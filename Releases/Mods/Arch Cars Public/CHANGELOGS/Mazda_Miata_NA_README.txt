@@ -18,6 +18,11 @@ CesarCardoso
 
 CHANGELOG
 
+2025-06-29_A
+- Changed D89 load curves
+- Changed clutch torque
+- Removed adhesion from D89 (wtf?)
+
 2025-06-21_A
 - Changed tires rolling resistance, SAT
 

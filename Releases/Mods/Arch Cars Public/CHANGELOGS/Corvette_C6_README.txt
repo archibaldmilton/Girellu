@@ -17,6 +17,11 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-06-29_A
+- Changed PS2ZP load curves, thermals
+- Changed clutch torque
+- Changed engine braking
+
 2025-06-21_A
 - Changed tires rolling resistance, SAT
 
