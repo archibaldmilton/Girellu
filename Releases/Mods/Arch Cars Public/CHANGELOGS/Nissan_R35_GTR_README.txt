@@ -16,6 +16,11 @@ The usual suspects
 
 CHANGELOG
 
+2025-07-02_A
+- Changed GT600 load curves
+- Changed engine inertia
+- Changed drivetrain shifting parameters
+
 2025-06-25_A
 - Changed ATTESA
 

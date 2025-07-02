@@ -17,7 +17,7 @@ Special thanks to:
 CHANGELOG
 
 2025-06-29_A
-- Changed PSS load curves, thermals
+- Changed PSS load curves
 - Changed clutch torque
 
 2025-06-21_A
