@@ -13,6 +13,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-07-04_B
+- Added missing brake friction lut
+
 2025-07-04_A
 - Changed autoshifting, gearbox parameters
 
