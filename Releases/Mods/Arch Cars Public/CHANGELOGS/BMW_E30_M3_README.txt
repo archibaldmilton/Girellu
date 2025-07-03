@@ -20,6 +20,9 @@ for data and help
 
 CHANGELOG
 
+2025-07-04_A
+- Changed autoshifting, gearbox parameters
+
 2025-06-29_A
 - Changed clutch torque
 

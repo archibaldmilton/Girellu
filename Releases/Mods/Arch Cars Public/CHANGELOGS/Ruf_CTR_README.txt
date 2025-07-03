@@ -15,6 +15,9 @@ Thanks to @mike12345678 and @AlleyViper for data
 
 CHANGELOG
 
+2025-07-04_A
+- Changed autoshifting, gearbox parameters
+
 2025-06-21_A
 - Changed tires rolling resistance, SAT
 

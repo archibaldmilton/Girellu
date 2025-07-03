@@ -19,6 +19,9 @@ baker7498 for finding a ton of data
 
 CHANGELOG
 
+2025-07-04_A
+- Changed autoshifting, gearbox parameters
+
 2025-06-29_A
 - Changed RE86 load curves
 - Changed clutch torque

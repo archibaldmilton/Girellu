@@ -20,6 +20,9 @@ Leonardo Ratafia for providing data
 
 CHANGELOG
 
+2025-07-04_A
+- Changed autoshifting, gearbox parameters
+
 2025-06-29_A
 - Changed S-07 load curves
 - Changed clutch torque

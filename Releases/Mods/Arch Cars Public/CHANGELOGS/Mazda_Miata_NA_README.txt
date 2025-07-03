@@ -18,6 +18,9 @@ CesarCardoso
 
 CHANGELOG
 
+2025-07-04_A
+- Changed autoshifting, gearbox parameters
+
 2025-06-29_A
 - Changed D89 load curves
 - Changed clutch torque

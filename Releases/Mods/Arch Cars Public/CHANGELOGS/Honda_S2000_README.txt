@@ -15,6 +15,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-07-04_A
+- Changed autoshifting, gearbox parameters
+
 2025-06-29_A
 - Changed S-02, RE050 load curves
 - Changed clutch torque

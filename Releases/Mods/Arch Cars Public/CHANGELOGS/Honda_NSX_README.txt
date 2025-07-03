@@ -23,6 +23,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-07-04_A
+- Changed autoshifting, gearbox parameters
+
 2025-06-29_A
 - Changed A-022 H1, RE010 H0, RE010 R1, RE070 H0 load curves
 

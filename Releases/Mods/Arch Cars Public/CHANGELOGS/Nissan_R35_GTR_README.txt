@@ -16,6 +16,9 @@ The usual suspects
 
 CHANGELOG
 
+2025-07-04_A
+- Changed autoshifting, gearbox parameters
+
 2025-07-02_A
 - Changed GT600 load curves
 - Changed engine inertia

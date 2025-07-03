@@ -16,6 +16,9 @@ Special thanks to:
 
 CHANGELOG
 
+2025-07-04_A
+- Changed autoshifting, gearbox parameters
+
 2025-06-29_A
 - Changed PSS load curves
 - Changed clutch torque
