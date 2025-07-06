@@ -16,6 +16,9 @@ The usual suspects
 
 CHANGELOG
 
+2025-07-06_A
+- Added Xg sensor to ATTESA
+
 2025-07-04_A
 - Changed autoshifting, gearbox parameters
 
