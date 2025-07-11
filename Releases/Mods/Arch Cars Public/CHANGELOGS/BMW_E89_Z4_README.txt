@@ -13,6 +13,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-07-11_A
+- Changed tires PRACTICAL_TEMP_RATIO, thermals, slip
+
 2025-07-04_A
 - Changed autoshifting, gearbox parameters
 

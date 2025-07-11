@@ -21,6 +21,10 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2025-07-11_A
+- Changed tires PRACTICAL_TEMP_RATIO, thermals, slip
+- Corrected RE040 mass
+
 2025-07-06_A
 - Added Xg sensor to ATTESA
 - Changed V-spec rear LSD power lock

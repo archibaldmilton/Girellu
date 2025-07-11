@@ -13,8 +13,11 @@ Everything else by Kunos Simulazioni
 
 Special thanks to: 
 @baker7498
-
 CHANGELOG
+
+2025-07-11_A
+- Changed tires PRACTICAL_TEMP_RATIO, thermals, slip
+- Corrected broken tire thermal lut references
 
 2025-07-04_A
 - Changed autoshifting, gearbox parameters
