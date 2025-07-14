@@ -11,6 +11,9 @@ Includes:
 
 CHANGELOG
 
+2025-07-14_A
+- Reverted tires FRICTION_K, SURFACE_ROLLING_K
+
 2025-07-11_A
 - Changed tires PRACTICAL_TEMP_RATIO, thermals, slip
 
