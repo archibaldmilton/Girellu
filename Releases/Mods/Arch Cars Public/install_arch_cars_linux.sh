@@ -5,7 +5,7 @@
 ## Config
 debug='0'
 interactive_mode='1'  # 1 - true (default); 0 - false
-contentdir_path=''
+contentdir_path=''  # Input AC root directory else leave empty for interactive mode
 script_fullpath=$(realpath "$0")  # script finds its own location; don't change
 rsync_flags='-a'
 use_cosmic_branch='1'  # 0 to not use (not supported yet), 1 to use, empty to ask
@@ -141,13 +141,16 @@ if [[ -z "$contentdir_path" ]];then
                         echo "Confirmed."
                         ;;
                     [Nn])
-                        contentdir_manual
+                        contentdir_manual  # offer manual input if incorrect
                         ;;
                 esac
+	    else
+		    echo "No AC directory found."
+		    contentdir_manual  # offer manual input if not found
             fi
             ;;
         [Nn])
-            contentdir_manual
+            contentdir_manual  # manual input if chosen
             ;;
         *)
             exit 1
@@ -237,4 +240,7 @@ for line in ${repo_cars[@]}; do
         echo "Installing without donor car."
         rsync ${rsync_flags} "$arch_src"/ "$contentdir_path"/${arch_car}/ && echo "... Arch files copied."
     fi && echo "... ${arch_car} installed!"
+
+    # Edit sfx soundbank GUIDs
+
 done
