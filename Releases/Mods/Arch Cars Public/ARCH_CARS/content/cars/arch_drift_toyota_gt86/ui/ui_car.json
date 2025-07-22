@@ -1,7 +1,7 @@
 {
   "name": "DRIFT Toyota GT86",
   "brand": "Toyota",
-  "description": "FA20D + Cosworth Stage II<br>Cut factory knuckles, relocated inner tie rod, extended arms<br>KW Clubsport bump and rebound adjustable dampers (Revalved)<br>ZN6 brakes, hydraulic handbrake<br><br>215/45R17 360TW",
+  "description": "FA20D + Cosworth Stage II<br>Cut factory knuckles, relocated inner tie rod, extended arms<br>KW Clubsport bump and rebound adjustable dampers<br>ZN6 brakes, hydraulic handbrake<br><br>215/45R17 360TW",
   "tags": [
     "#small sports",
     "rwd",
@@ -271,6 +271,6 @@
   "country": "Japan",
   "year": 2015,
   "author": "Arch",
-  "version": "2024-07-10",
+  "version": "2025-07-14_A",
   "url": "https://github.com/archibaldmilton/Girellu"
 }

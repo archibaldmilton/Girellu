@@ -1,7 +1,7 @@
 {
   "name": "DRIFT Toyota Supra JZA80",
   "brand": "Toyota",
-  "description": "2JZ-GE + Garrett T04B @ 15psi<br>Cut factory knuckles, relocated inner tie rod<br>Feal 441 simultaneous adjustable dampers<br>JZA80 brakes, hydraulic handbrake<br><br>255/35R17 360TW",
+  "description": "2JZ-GE + Garrett T04B @ 15psi<br>Cut factory knuckles, relocated inner tie rod<br>BC Racing BR simultaneous adjustable dampers<br>JZA80 brakes, hydraulic handbrake<br><br>255/35R17 360TW",
   "tags": [
     "#Sportscars",
     "rwd",
@@ -266,7 +266,7 @@
   ],
   "country": "Japan",
   "author": "Arch",
-  "version": "2024-07-10",
+  "version": "2025-07-14_A",
   "url": "https://github.com/archibaldmilton/Girellu",
   "year": 1997
 }

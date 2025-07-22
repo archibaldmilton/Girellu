@@ -1,7 +1,7 @@
 {
   "name": "DRIFT BMW E30 M3",
   "brand": "BMW",
-  "description": "S54B32<br>Cut factory knuckles, relocated inner tie rod, extended arms, Z3 E36 steering rack<br>Feal 441 simultaneous adjustable dampers<br>E30 M3 brakes, hydraulic handbrake<br><br>215/45R17 360TW",
+  "description": "S54B32<br>Cut factory knuckles, relocated inner tie rod, extended arms, Z3 E36 steering rack<br>Koni SA simultaneous adjustable dampers<br>E30 M3 brakes, hydraulic handbrake<br><br>215/45R17 360TW",
   "tags": [
     "#small sports",
     "rwd",
@@ -231,7 +231,7 @@
   ],
   "country": "Germany",
   "author": "Arch",
-  "version": "2024-07-10",
+  "version": "2025-07-14_A",
   "url": "https://github.com/archibaldmilton/Girellu",
   "year": 1986
 }

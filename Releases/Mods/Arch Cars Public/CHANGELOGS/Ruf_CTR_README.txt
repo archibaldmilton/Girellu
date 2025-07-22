@@ -1,3 +1,130 @@
+!!!IMPORTANT!!!
+
+Shaders patch 0.2.3+ required!
+
+!!!IMPORTANT!!!
+
+Includes:
+RUF CTR
+
+Credits:
+Physics by Arch
+Everything else by Kunos Simulazioni
+
+Thanks to @mike12345678 and @AlleyViper for data
+
+CHANGELOG
+
+2025-07-14_A
+- Reverted tires FRICTION_K, SURFACE_ROLLING_K
+
+2025-07-11_A
+- Changed tires PRACTICAL_TEMP_RATIO, thermals, slip
+
+2025-07-04_A
+- Changed autoshifting, gearbox parameters
+
+2025-06-21_A
+- Changed tires rolling resistance, SAT
+
+2025-06-12_A
+- Changed tires load, slip, pressure
+
+2025-05-25_A
+- Changed COMBINED_FACTOR
+
+2025-05-24_A
+- Changed brake heat
+- Corrected "bushings" to act as pull springs
+
+2025-05-17_A
+- Changed tires load curve
+
+2025-05-16_A
+- Changed aero
+
+2025-05-14_A
+- Changed tires CX_MULT
+
+2025-05-05_A
+- Changed load curve mu
+- Changed brake booster curve
+
+2025-05-03_A
+- Changed tires combined grip
+- Changed ABS slip goal, frequency
+
+2025-05-01_A
+- Changed tires LEVEL, YMULT
+- Changed handbrake
+
+2025-04-28_A
+- Changed tires
+
+2025-04-07_A
+- Updated engines for better idle handling
+- Updated script.lua to fix? idle/coast? bug again
+
+2025-04-06_A
+- Changed bushings
+
+2025-03-29_A
+- Changed script.lua to fix autoblip issue
+
+2025-03-08_A
+- Changed brakes
+
+2025-03-03_A
+- Added LUA throttle, idle, coast model by @switchpro, @ustahl, @jpg_18
+- Corrected brake pressure
+- Changed handbrake torque
+
+2025-02-11_A
+- Added bushing vertical damping
+- Changed bushing vertical rates
+- Changed stabilizer installation stiffness
+
+2025-01-14_A
+- Changed tires
+
+2024-12-30_A
+- Added 10m/s point to damper luts
+- Removed chassis torsion flex
+- Changed tire slip, load, camber, SAT
+
+2024-10-15_A
+- Changed brakes
+
+2024-09-20
+- Changed reference brake foot force from 100kgf to 50kgf, setup max to 200%
+- Changed tires heat, slip, load, wear etc.
+
+2024-08-15
+- Added steering U-joint nonlinearity (thanks @jpg_18, mod-talk)
+- Changed tire thermals
+
+2024-08-09
+- Reverted from force to slip relax length
+- Changed tire SAT, FALLOFF_SPEED, FALLOFF_YSPEED_MULT, FLEX_GAIN, heat_mu
+
+2024-07-31
+- Added (back) brake booster
+- Changed brake temp curve
+- Changed tire load sensitivity
+- Changed front damper droop travel
+- Changed default alignment
+- Changed engine torque curve, boost peak, idle RPM
+- Changed dev comments
+- Changed UI
+
+2024-07-21
+- Changed tires load, slip, heat, angular inertia
+- Changed damper travel, stiffness
+- Changed bumprubber length, stiffness
+- Changed aero
+- Changed default brake bias
+- Changed 3D offsets
+
 2024-07-13
 - Removed brake booster
 - Changed brake mu curve
@@ -315,25 +442,3 @@
 04.06.2019 Version 1.0
 
 • Initial release
-
-!!!IMPORTANT!!!
-
-Shaders patch 0.2.2+ required!
-
-!!!IMPORTANT!!!
-
-Includes:
-RUF CTR Yellowbird
-
-Credits:
-Physics and custom UI file by Arch/Kyuubeey
-UI file torque curves by x4fab's AC Torque Helper
-Everything else by Kunos Simulazioni
-Thanks to @mike12345678 and @AlleyViper for data
-
-RECOMMENDED VISUALS AND SOUND
-
-CTR = KS Yellowbird
-
-
-

@@ -1,3 +1,441 @@
+2025-07-14_A
+- Updated E30
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- Updated C6
+- Updated C7
+- Updated S550
+- Updated NSX
+- Updated S2000
+- Updated Elise
+- Updated FD3S
+- Updated Miata NA
+- Updated Miata ND
+- Updated 180SX
+- Updated R34
+- Updated Z34
+- Updated 993
+- Updated 996
+- Updated AE86
+- Updated GT86
+- Updated JZA80
+
+2025-07-11_A
+- Updated all cars
+
+2025-07-06_A
+- Updated R34
+- Updated R35
+
+2025-07-04_B
+- Updated DTM1992 190E
+- Updated DTM1992 E30
+
+2025-07-04_A
+- Updated all cars
+
+2025-07-02_A
+- Updated R35
+
+2025-06-29_A
+- Updated E30
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- Updated C6
+- Updated C7
+- Updated S550
+- Updated NSX
+- Updated S2000
+- Updated Elise
+- Updated FD3S
+- Updated Miata NA
+- Updated Miata ND
+- Updated 180SX
+- Updated R34
+- Updated Z34
+- Updated 993
+- Updated 996
+- Updated AE86
+- Updated GT86
+- Updated JZA80
+
+2025-06-25_A
+- Updated Elise
+- Updated R34
+- Updated R35
+
+2025-06-21_A
+- Updated all cars
+
+2025-06-17_A
+- Updated E30
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- Updated C6
+- Updated C7
+- Updated S550
+- Updated NSX
+- Updated S2000
+- Updated Elise
+- Updated FD3S
+- Updated Miata ND
+- Updated 180SX
+- Updated R34
+- Updated R35
+- Updated Z34
+- Updated GT86
+- Updated JZA80
+
+2025-06-14_A
+- Updated NSX
+
+2025-06-12_A
+- Updated all cars
+
+2025-06-07_B
+- Updated E89
+
+2025-06-07_A
+- Updated E89
+- Updated S2000
+
+2025-06-06_A
+- Updated S2000
+
+2025-06-05_A
+- Updated S2000
+
+2025-06-04_A
+- Added S2000
+- Updated E30
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- Updated C6
+- Updated C7
+- Updated S550
+- Updated NSX
+- Updated Elise
+- Updated FD3S
+- Updated ND
+- Updated 180SX
+- Updated R34
+- Updated R35
+- Updated Z34
+- Updated 993
+- Updated 996
+- Updated GT86
+- Updated JZA80
+
+
+2025-06-02_A
+- Updated R34
+
+2025-05-30_A
+- Updated F82
+- Updated C6
+- Updated NSX
+- Updated 180SX
+
+2025-05-25_A
+- Updated all cars
+
+2025-05-24_A
+- Updated all cars
+
+2025-05-20_A
+- Updated NSX
+
+2025-05-19_A
+- Updated NA
+- Updated 180SX
+- Updated AE86
+
+2025-05-18_B
+- Updated JZA80
+
+2025-05-18_A
+- Updated R34
+
+2025-05-17_A
+- Updated all cars
+
+2025-05-16_A
+- Updated all cars
+
+2025-05-14_B
+- Updated E30
+- Updated DTM1992 190E
+- Updated DTM1992 E30 M3
+- Updated S550
+- Updated R34
+
+2025-05-14_A
+- Updated README.md
+- Updated all cars
+
+2025-05-06_A
+- Updated NSX
+
+2025-05-05_A
+- Updated all cars
+
+2025-05-03_A
+- Updated all cars
+
+2025-05-02_A
+- Added C6
+
+2025-05-01_A
+- Updated all cars
+
+2025-04-28_A
+- Updated E30
+- Updated ND
+- Updated NA
+- Updated 180SX
+- Updated CTR
+- Updated AE86
+- Updated GT86
+- Updated JZA80
+
+2025-04-27_B
+- Updated FD3S
+- Updated R35
+- Updated Z34
+- Updated 996
+
+2025-04-27_A
+- Updated C7
+- Updated Elise
+- Updated FD3S
+- Updated NA
+- Updated ND
+- Updated 180SX
+- Updated R34
+
+2025-04-26_A
+- Updated E30
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- Updated DTM1992 190E
+- Updated DTM1992 E30 M3
+- Updated S550
+- Updated 993
+
+2025-04-17_B
+- Updated DTM1992 190E
+- Updated DTM1992 E30 M3
+
+2025-04-17_A
+- Updated DTM1992 190E
+- Updated DTM1992 E30 M3
+
+2025-04-16_A
+- Updated E30
+- Updated DTM1992 190E
+- Updated DTM1992 E30 M3
+- Updated FD3S
+- Updated JZA80
+
+2025-04-15_A
+- Updated DTM1992 190E
+- Updated DTM1992 E30 M3
+
+2025-04-14_B
+- Updated DTM1992 E30 M3
+
+2025-04-14_A
+- Updated DTM1992 190E
+- Updated DTM1992 E30 M3
+
+2025-04-07_A
+- Updated engines for better idle handling
+- Updated script.lua to fix? idle/coast? bug again
+
+2025-04-06_A
+- Updated all cars
+- Updated script.lua to fix? idle/coast? bug
+
+2025-03-29_A
+- Updated NA
+- Updated ND
+- Updated 180SX
+- Updated R34
+- Updated R35
+- Updated Z34
+- Updated AE86
+- Updated all other cars script.lua to fix autoblip issue
+
+2025-03-18_A
+- Updated E82
+- Updated E92
+- Updated F82
+- Updated C7
+- Updated Elise
+- Updated 180SX
+- Updated 993
+
+2025-03-08_A
+- Updated all cars
+
+2025-03-03_A
+- Updated all cars
+
+2025-02-12_A
+- Added NSX
+
+2025-02-11_A
+- Updated FD3S
+- Updated ND
+- Updated 180SX
+- Updated R34
+- Updated R35
+- Updated Z34
+- Updated 996
+- Updated CTR
+- Updated AE86
+- Updated GT86
+- Updated JZA80
+
+2025-02-09_A
+- Updated E30
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- Updated C7
+- Updated S550
+- Updated Elise
+- Updated FD3S
+- Updated NA
+- Updated 993
+
+2025-02-05_B
+- Updated FD3S
+
+2025-02-05_A
+- Updated FD3S
+
+2025-02-03_A
+- Updated FD3S
+
+2025-02-01_A
+- Updated FD3S
+
+2025-01-30_A
+- Updated E82
+- Updated F82
+- Updated FD3S
+
+2025-01-29_A
+- Updated FD3S
+- Updated JZA80
+
+2025-01-28_A
+- Updated C7
+- Updated DTM1992 190E
+- Updated ND
+- Updated 180SX
+- Updated R34
+
+2025-01-19_B
+- Updated install script, thanks @qyi_
+- Updated donor_cars.txt
+- Updated C7
+
+2025-01-19_A
+- Updated C7
+
+2025-01-18_B
+- Updated DTM1992 190E
+
+2025-01-18_A
+- Added C7
+- Updated 993
+
+2025-01-14_A
+- Updated all cars
+
+2024-12-30_A
+- Updated all cars
+- Fixed donor_cars
+
+2024-10-30_A
+- Updated Elise
+
+2024-10-22_A
+- Updated Elise
+
+2024-10-21_A
+- Added Elise
+- Updated E82
+- Updated E92
+- Updated F82
+- Updated FD3S
+- Updated NA
+- Updated GT86
+- Updated JZA80
+- Updated README.MD
+- Updated cars README.ini
+- Removed some redundant UI files from directories
+
+2024-10-15_A
+- Updated E30
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- Updated S550
+- Updated FD3S
+- Updated NA
+- Updated ND
+- Updated 180SX
+- Updated R34
+- Updated R35
+- Updated Z34
+- Updated 993
+- Updated 996
+- Updated CTR
+- Updated AE86
+- Updated GT86
+- Updated JZA80
+
+2024-09-20
+- Updated all cars
+	- Tire slip, load, thermals, electronics
+
+2024-08-15
+- Updated all cars
+	- Steering U-joint nonlinearity, tire thermal V2, tire load curve tweaks
+
+2024-08-11
+- (Actually) updated R34
+
+2024-08-09
+- Updated all cars
+
+2024-07-31
+- Updated E30
+- Updated E82
+- Updated E92
+- Updated F82
+- Updated DTM1992 190E
+- Updated DTM1992 E30 M3
+- Updated CTR
+
+2024-07-21
+- Updated all cars
+
 2024-07-13
 - Updated CTR
 
@@ -13,7 +451,7 @@
 - Updated E92
 - Updated S550
 - Updated FD3S
-- Updated Miata ND
+- Updated ND
 - Updated 180SX
 - Updated R34
 - Updated Z34
@@ -116,28 +554,28 @@
 - Added 993
 
 2024-04-05
-- Updated DTM 1992 E30
-- Updated DTM 1992 190E
+- Updated DTM1992 190E
+- Updated DTM1992 E30 M3
 - Updated R34
 - Updated AE86
 
 2024-03-25
-- Updated DTM 1992 E30
-- Updated DTM 1992 190E
+- Updated DTM1992 190E
+- Updated DTM1992 E30 M3
 
 2024-03-24
 - Updated E89
 - Updated E92
 	- Fixed tires popping when using data.acd
-- Updated DTM 1992 E30
+- Updated DTM1992 E30
 	- Known issue: oscillation when braking
 
 - Updated DTM 1992 190E
 
 2024-03-22
-- Added DTM 1992 190E
+- Added DTM1992 190E
 - Updated E92
-- Updated DTM 1992 E30
+- Updated DTM1992 E30 M3
 - Updated CTR
 - Updated all cars
 	- Tire damping
@@ -174,8 +612,8 @@
 
 2024-02-25
 - Updated E30
-- Updated Miata NA
-- Updated Miata ND
+- Updated NA
+- Updated ND
 - Updated 180SX
 - Updated AE86
 - Updated JZA80
@@ -190,7 +628,7 @@
 - Updated FD3S
 
 2024-02-18
-- Added DTM 1992 E30
+- Added DTM1992 E30 M3
 - Updated E30
 - Updated S550
 - Updated 180SX
@@ -207,8 +645,8 @@
 - Updated E92
 - Updated F82
 - Updated S550
-- Updated Miata NA
-- Updated Miata ND
+- Updated NA
+- Updated ND
 - Updated R35
 - Updated Z34
 - Updated AE86
@@ -267,8 +705,8 @@
 2023-11-23
 - Updated E30
 - Updated FD3S
-- Updated Miata NA
-- Updated Miata ND
+- Updated NA
+- Updated ND
 - Updated R34
 - Updated Z34
 - Updated AE86
@@ -278,8 +716,8 @@
 2023-11-17
 - Updated E30
 - Updated FD3S
-- Updated Miata NA
-- Updated Miata ND
+- Updated NA
+- Updated ND
 - Updated Z34
 - Updated AE86 (No version number change, Drift UI)
 - Updated GT86
@@ -287,7 +725,7 @@
 
 2023-11-16
 - Updated FD3S (No version number change, small typofix in Spirit R preload)
-- Updated Miata ND
+- Updated ND
 - Updated GT86
 - Updated JZA80
 - Updated readmes
@@ -295,7 +733,7 @@
 2023-11-14
 - Updated E30
 - Updated FD3S
-- Updated Miata NA
+- Updated NA
 - Updated AE86
 
 2023-11-12
@@ -304,7 +742,7 @@
 - Added CTR
 - Updated E30
 - Updated FD3S
-- Updated Miata NA
+- Updated NA
 - Updated AE86
 
 2023-08-08
@@ -315,16 +753,16 @@
 - Added R35
 - Added Z34
 - Added GT86
-- Updated E30 M3
+- Updated E30
 - Updated FD3S
-- Updated Miata NA
+- Updated NA
 - Updated AE86
 - Updated JZA80
 
 2023-07-09
-- Updated E30 M3
+- Updated E30
 - Updated FD3S
-- Updated Miata NA
+- Updated NA
 - Updated AE86
 - Updated JZA80
 
