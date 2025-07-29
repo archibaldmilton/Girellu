@@ -17,6 +17,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-07-29_A
+- Changed tires thermals, slip
+
 2025-07-14_A
 - Reverted tires FRICTION_K, SURFACE_ROLLING_K
 

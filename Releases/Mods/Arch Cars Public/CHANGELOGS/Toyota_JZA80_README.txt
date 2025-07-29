@@ -18,6 +18,9 @@ baker7498 for providing lots of data and literature
 
 CHANGELOG
 
+2025-07-29_A
+- Changed tires thermals, slip
+
 2025-07-14_A
 - Reverted tires FRICTION_K, SURFACE_ROLLING_K
 

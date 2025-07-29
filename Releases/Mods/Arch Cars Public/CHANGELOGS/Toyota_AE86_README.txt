@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required! Requires JDM Pack DLC by Kunos!
+Shaders patch 0.2.8+ required! Requires JDM Pack DLC by Kunos!
 
 !!!IMPORTANT!!!
 
@@ -18,6 +18,9 @@ Aphidgod, stereo, mclarenf1papa, Leonardo Ratafiá, Kade and many others for help
 baker7498 for finding a ton of data
 
 CHANGELOG
+
+2025-07-29_A
+- Changed tires thermals, slip
 
 2025-07-14_A
 - Reverted tires FRICTION_K, SURFACE_ROLLING_K

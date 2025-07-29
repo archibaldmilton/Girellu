@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.3+ required!
+Shaders patch 0.2.8+ required!
 
 !!!IMPORTANT!!!
 
@@ -17,6 +17,9 @@ The usual suspects
 CesarCardoso
 
 CHANGELOG
+
+2025-07-29_A
+- Changed tires thermals, slip
 
 2025-07-14_A
 - Reverted tires FRICTION_K, SURFACE_ROLLING_K
