@@ -15,6 +15,9 @@ Thanks to @mike12345678 and @AlleyViper for data
 
 CHANGELOG
 
+2025-08-11_A
+- Fixed header typo in car.ini
+
 2025-07-29_A
 - Changed tires thermals, slip
 

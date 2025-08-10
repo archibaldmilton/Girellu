@@ -15,8 +15,8 @@
     "bhp": "290bhp",
     "torque": "304Nm",
     "weight": "1333kg",
-    "topspeed": "",
-    "acceleration": "",
+    "topspeed": null,
+    "acceleration": null,
     "pwratio": "4.60kg/hp"
   },
   "torqueCurve": [
@@ -242,7 +242,7 @@
   "country": "Japan",
   "year": 1999,
   "author": "Siim Annuk, Modek, Arch",
-  "version": "2025-07-29_A",
+  "version": "3.6.6_2025-08-04",
   "url": "http://www.siimannuk.com/",
   "parent": "some1_acura_nsx_1992"
 }

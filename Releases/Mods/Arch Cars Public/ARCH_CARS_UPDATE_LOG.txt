@@ -1,3 +1,6 @@
+2025-08-11_A
+- Updated CTR
+
 2025-07-30_A
 - Updated C6
 
