@@ -19,6 +19,9 @@ baker7498 for finding a ton of data
 
 CHANGELOG
 
+2025-08-15_A
+- Corrected bushing preload
+
 2025-07-29_A
 - Changed tires thermals, slip
 

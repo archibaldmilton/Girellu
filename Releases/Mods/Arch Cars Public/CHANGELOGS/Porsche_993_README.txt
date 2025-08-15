@@ -17,6 +17,15 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-08-15_A
+- Added caster setup adjustment
+- Added rear preload setup adjustment
+- Added ABS YG sensor
+- Added ABD
+- Corrected bushing preload
+- Corrected C4 reverse gear ratio
+- Minor changes
+
 2025-07-29_A
 - Changed tires thermals, slip
 
