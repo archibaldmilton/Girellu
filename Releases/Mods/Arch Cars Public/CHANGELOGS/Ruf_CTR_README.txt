@@ -15,6 +15,10 @@ Thanks to @mike12345678 and @AlleyViper for data
 
 CHANGELOG
 
+2025-08-31_A
+- Changed sprung mass inertia
+- Minor syntax changes
+
 2025-08-15_A
 - Corrected bushing preload
 

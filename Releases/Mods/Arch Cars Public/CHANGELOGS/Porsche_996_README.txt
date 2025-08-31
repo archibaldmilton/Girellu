@@ -15,6 +15,11 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-08-31_A
+- Changed damper stroke distances
+- Changed sprung mass inertia
+- Minor syntax changes
+
 2025-08-15_A
 - Corrected bushing preload
 

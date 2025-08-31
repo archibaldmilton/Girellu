@@ -17,6 +17,16 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-08-31_A
+- Added CS helper springs
+- Added CS strut top camber adjustment
+- Changed sprung mass inertia
+- Changed front suspension geometry, steering, unsprung mass
+- Changed damper stroke distances
+- Changed spring preload range
+- Changed rear camber adjustment range
+- Changed CS default setup
+
 2025-08-15_A
 - Added caster setup adjustment
 - Added rear preload setup adjustment
