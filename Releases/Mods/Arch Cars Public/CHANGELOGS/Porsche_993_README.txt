@@ -1,7 +1,10 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.8+ required! Requires NFS Tournament Class B by Alberto Daniel Russo (@A3DR)!
+Shaders patch 0.2.8+ required!
+Requires NFS Tournament Class B by Alberto Daniel Russo (@A3DR)!
 Link: https://www.overtake.gg/downloads/nfs-tournament-class-b.20228/
+Requires Porsche 911 (993) Turbo by Alberto Daniel Russo (@A3DR)!
+Link: https://www.overtake.gg/downloads/porsche-911-993-turbo.29842/
 
 !!!IMPORTANT!!!
 
