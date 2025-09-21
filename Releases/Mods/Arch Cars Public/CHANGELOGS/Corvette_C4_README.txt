@@ -15,5 +15,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-09-21_A
+- Added rear toe compliance
+- Changed front toe alignment spec
+
 2025-09-20_A
 - Initial release
