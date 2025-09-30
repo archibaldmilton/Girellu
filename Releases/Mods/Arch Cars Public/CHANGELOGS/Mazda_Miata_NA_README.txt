@@ -18,6 +18,9 @@ CesarCardoso
 
 CHANGELOG
 
+2025-09-30_A
+- Added stabilizer bushing twist rate
+
 2025-08-15_A
 - Corrected bushing preload
 

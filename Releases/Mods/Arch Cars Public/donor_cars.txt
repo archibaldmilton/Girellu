@@ -2,6 +2,7 @@ a3dr_porsche_993_c2,a3dr_porsche_993_c2
 a3dr_porsche_993_c4,a3dr_porsche_993_c4
 a3dr_porsche_993_turbo,a3dr_porsche_993_turbo
 a3dr_porsche_993_turbo_s2,a3dr_porsche_993_turbo_s2
+a3dr_viper_rt10,a3dr_viper_rt10
 arch_bmw_e30_1986_m3,bmw_m3_e30
 arch_bmw_e82_2011_1m,bmw_1m
 arch_bmw_e89_2010_z4_35i,bmw_z4
