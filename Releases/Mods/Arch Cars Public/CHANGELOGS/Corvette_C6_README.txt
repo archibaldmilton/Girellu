@@ -17,6 +17,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-01_A
+- Added front stabilizer bushing twist rate
+
 2025-07-30_A
 - Corrected major typo in Coupe FRONT CARCASS_ROLLING_K
 

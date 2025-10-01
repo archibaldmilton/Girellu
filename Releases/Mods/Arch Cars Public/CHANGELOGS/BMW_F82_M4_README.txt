@@ -16,6 +16,9 @@ Special thanks to:
 
 CHANGELOG
 
+2025-10-01_A
+- Added stabilizer bushing twist rate
+
 2025-07-29_A
 - Changed tires thermals, slip
 

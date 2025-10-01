@@ -15,6 +15,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-01_A
+- Changed stabilizer bushing twist rate
+
 2025-09-30_A
 - Added stabilizer bushing twist rate
 - Changed default tire pressures

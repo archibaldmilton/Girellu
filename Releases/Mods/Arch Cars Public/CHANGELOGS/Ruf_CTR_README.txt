@@ -15,6 +15,9 @@ Thanks to @mike12345678 and @AlleyViper for data
 
 CHANGELOG
 
+2025-10-01_A
+- Added stabilizer bushing twist rate
+
 2025-08-31_A
 - Changed sprung mass inertia
 - Minor syntax changes

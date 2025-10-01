@@ -20,6 +20,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-01_A
+- Added stabilizer bushing twist rate
+- Changed corner spring installation stiffness
+
 2025-08-31_A
 - Added CS helper springs
 - Added CS strut top camber adjustment
