@@ -8,12 +8,21 @@ Link: https://www.overtake.gg/downloads/nfs-tournament-class-b.20228/
 
 Includes:
 1990 Chevrolet Corvette C4 ZR1
+1990 Chevrolet Corvette C4 ZR1 Canyon Spec
 
 Credits:
 Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2025-10-05_A
+- Added CS
+- Corrected rear wheel offset
+- Changed tire mass
+- Changed brake disc mass
+- Changed unsprung mass
+- Changed handbrake torque
 
 2025-10-01_A
 - Changed stabilizer bushing twist rate

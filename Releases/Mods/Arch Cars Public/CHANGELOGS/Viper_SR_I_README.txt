@@ -15,6 +15,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-05_A
+- Changed handbrake torque
+
 2025-10-01_A
 - Changed stabilizer bushing twist rate
 
