@@ -16,6 +16,11 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-07_A
+- Changed CS default spring, alignment setup
+- Changed cameras.ini
+- Changed analog_instruments.ini
+
 2025-10-05_A
 - Added CS
 - Corrected rear wheel offset
