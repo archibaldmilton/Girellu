@@ -15,6 +15,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-08_A
+- Changed corner spring, stabilizer installation stiffness
+
 2025-10-07_A
 - Changed cameras.ini
 
