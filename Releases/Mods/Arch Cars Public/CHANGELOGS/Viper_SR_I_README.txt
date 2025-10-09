@@ -15,6 +15,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-09_A
+- Changed XGT Z tire temperature luts
+- Changed setup screen ride height
+
 2025-10-08_A
 - Changed corner spring, stabilizer installation stiffness
 
