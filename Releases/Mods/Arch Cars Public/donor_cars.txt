@@ -1,4 +1,5 @@
 a3dr_ferrari_512tr,a3dr_ferrari_512tr
+a3dr_ferrari_512tr_s1,a3dr_ferrari_512tr_s1
 a3dr_porsche_993_c2,a3dr_porsche_993_c2
 a3dr_porsche_993_c4,a3dr_porsche_993_c4
 a3dr_porsche_993_turbo,a3dr_porsche_993_turbo
