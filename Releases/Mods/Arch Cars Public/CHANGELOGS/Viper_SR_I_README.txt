@@ -7,13 +7,20 @@ Link: https://www.overtake.gg/downloads/nfs-tournament-class-b.20228/
 !!!IMPORTANT!!!
 
 Includes:
-1993 Dodge Viper SR I RT/10
+Viper SR I RT/10
 
 Credits:
 Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2025-10-12_A
+- Changed rear suspension geometry
+- Changed front bumpstop stiffness, gap
+- Changed XGT Z tire relax length, front camber curve
+- Changed PS
+- Changed FFMULT
 
 2025-10-09_A
 - Changed XGT Z tire temperature luts

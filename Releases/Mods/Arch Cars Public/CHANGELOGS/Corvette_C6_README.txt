@@ -6,16 +6,21 @@ Link: https://www.overtake.gg/downloads/corvette-c6.24208/
 !!!IMPORTANT!!!
 
 Includes:
-Chevrolet Corvette C6 Coupe
-Chevrolet Corvette C6 Grand Sport
-Chevrolet Corvette C6 Z06
-Chevrolet Corvette C6 ZR1
+C6 Coupe
+C6 Grand Sport
+C6 Z06
+C6 ZR1
 
 Credits:
 Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2025-10-12_A
+- Changed F1 GS, F1 SC, PS2ZP tire temperature luts
+- Changed F1 GS, F1 SC tire rear camber curve
+- Changed FFMULT
 
 2025-10-01_A
 - Added front stabilizer bushing twist rate

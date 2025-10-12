@@ -7,13 +7,26 @@ Link: https://www.overtake.gg/downloads/nfs-tournament-class-a.16905/
 !!!IMPORTANT!!!
 
 Includes:
-1994 Ferrari 512 TR
+512 TR
+512 TR CS
 
 Credits:
 Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2025-10-12_A
+- Added 512 TR CS
+- Corrected rear wheel offset
+- Corrected idle RPM
+- Changed alignment to hopefully more realistic range and default
+- Changed bumpstops
+- Changed GS-A tire relax length, front camber curve
+- Changed collider
+- Changed FFMULT
+- Changed 3D offset
+- Changed ui.json description
 
 2025-10-09_A
 - Corrected tire model name from "GSA" to "GS-A"

@@ -7,14 +7,18 @@ Link: https://www.overtake.gg/downloads/nfs-tournament-class-b.20228/
 !!!IMPORTANT!!!
 
 Includes:
-1990 Chevrolet Corvette C4 ZR1
-1990 Chevrolet Corvette C4 ZR1 Canyon Spec
+C4 ZR1
+C4 ZR1 Canyon Spec
 
 Credits:
 Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2025-10-12_A
+- Changed Eagle VR40, NT01 tire relax length, front camber curve
+- Changed FFMULT
 
 2025-10-09_A
 - Changed Eagle VR40 tire temperature luts

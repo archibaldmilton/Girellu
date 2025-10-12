@@ -14,6 +14,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-10-12_A
+- Changed PZ tire temperature luts
+
 2025-07-29_A
 - Changed tires thermals, slip
 

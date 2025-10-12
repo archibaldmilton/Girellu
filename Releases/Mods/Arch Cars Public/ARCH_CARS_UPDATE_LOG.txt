@@ -1,3 +1,19 @@
+2025-10-12_A
+- Updated E30
+- Updated E82
+- Updated E89
+- Updated E92
+- Updated F82
+- Updated C4
+- Updated C6
+- Updated C7
+- Updated 512
+- Updated S550
+- Updated 993
+- Updated CTR
+- Updated GT86
+- Updated SR I
+
 2025-10-09_A
 - Updated C4
 - Updated 512

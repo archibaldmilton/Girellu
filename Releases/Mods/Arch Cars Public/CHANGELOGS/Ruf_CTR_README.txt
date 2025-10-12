@@ -5,7 +5,7 @@ Shaders patch 0.2.8+ required!
 !!!IMPORTANT!!!
 
 Includes:
-RUF CTR
+CTR
 
 Credits:
 Physics by Arch
@@ -14,6 +14,9 @@ Everything else by Kunos Simulazioni
 Thanks to @mike12345678 and @AlleyViper for data
 
 CHANGELOG
+
+2025-10-12_A
+- Changed D40 tire temperature luts
 
 2025-10-01_A
 - Added stabilizer bushing twist rate

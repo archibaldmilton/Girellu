@@ -20,6 +20,9 @@ for data and help
 
 CHANGELOG
 
+2025-10-12_A
+- Changed P600 tire temperature luts
+
 2025-10-01_A
 - Added stabilizer bushing twist rate
 

@@ -13,6 +13,10 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-10-12_A
+- Corrected RE050A RFT tire temperature luts files
+- Changed RE050A RFT tire rear camber curve
+
 2025-07-29_A
 - Changed tires thermals, slip
 

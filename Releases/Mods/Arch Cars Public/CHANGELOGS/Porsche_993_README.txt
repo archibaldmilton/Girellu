@@ -20,6 +20,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-12_A
+- Corrected S-02 N2 tire wear luts
+- Corrected Turbo CS PSS10 step amount
+
 2025-10-01_A
 - Added stabilizer bushing twist rate
 - Changed corner spring installation stiffness

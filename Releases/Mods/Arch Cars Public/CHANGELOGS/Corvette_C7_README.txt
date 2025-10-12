@@ -5,7 +5,7 @@ Shaders patch 0.2.8+ required!
 !!!IMPORTANT!!!
 
 Includes:
-Chevrolet Corvette C7 Coupe
+C7 Coupe
 
 Credits:
 Physics by Arch
@@ -15,6 +15,10 @@ Special thanks:
 The usual suspects
 
 CHANGELOG
+
+2025-10-12_A
+- Changed PSSZP tire temperature luts, rear camber curve
+- Changed FFMULT
 
 2025-07-29_A
 - Changed tires thermals, slip
