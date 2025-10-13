@@ -16,6 +16,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-13_A
+- Corrected brakes.ini REDUCTION_RATIO_REAR
+
 2025-10-12_A
 - Added 512 TR CS
 - Corrected rear wheel offset
