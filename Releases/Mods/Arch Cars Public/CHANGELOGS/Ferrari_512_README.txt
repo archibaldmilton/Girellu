@@ -16,6 +16,11 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-16_A
+- Corrected driver mass rear rideheight delta
+- Changed rear bushing twist vertical rate
+- Changed NT01 tire rear DROPOFF_FACTOR_0
+
 2025-10-13_A
 - Corrected brakes.ini REDUCTION_RATIO_REAR
 
