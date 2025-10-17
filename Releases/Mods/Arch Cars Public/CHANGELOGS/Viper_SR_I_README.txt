@@ -15,6 +15,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-18_A
+- Changed XGT Z tire MU_SCALING, WEAR_CURVE
+
 2025-10-17_A
 - Changed brake booster assist ratio
 

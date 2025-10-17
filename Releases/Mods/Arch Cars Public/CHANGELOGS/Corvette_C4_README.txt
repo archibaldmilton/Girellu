@@ -16,12 +16,15 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-18_A
+- Changed ZR40 tire MU_SCALING
+
 2025-10-12_A
-- Changed Eagle VR40, NT01 tire relax length, front camber curve
+- Changed ZR40, NT01 tire relax length, front camber curve
 - Changed FFMULT
 
 2025-10-09_A
-- Changed Eagle VR40 tire temperature luts
+- Changed ZR40 tire temperature luts
 - Changed setup screen ride height
 
 2025-10-08_A

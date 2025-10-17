@@ -8,12 +8,18 @@ Link: https://www.overtake.gg/downloads/nfs-tournament-class-a.16905/
 
 Includes:
 Diablo VT
+Diablo SE30 Jota
 
 Credits:
 Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2025-10-18_A
+- Added Diablo SE30 Jota
+- Changed S-01 tire MU_SCALING, WEAR_CURVE
+- Minor param and comment corrections
 
 2025-10-17_A
 - Changed front tire size
