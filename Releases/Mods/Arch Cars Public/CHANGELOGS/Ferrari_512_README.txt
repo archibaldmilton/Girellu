@@ -16,6 +16,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-17_A
+- Changed brake booster assist ratio
+- Changed handbrake torque
+
 2025-10-16_A
 - Corrected driver mass rear rideheight delta
 - Changed rear bushing twist vertical rate

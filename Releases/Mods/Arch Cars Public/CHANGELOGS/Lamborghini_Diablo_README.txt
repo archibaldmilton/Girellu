@@ -15,5 +15,12 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-17_A
+- Changed front tire size
+- Changed tires MU_SCALING
+- Changed steering ratio, PS
+- Changed brake booster assist ratio
+- Changed handbrake torque
+
 2025-10-16_A
 - Initial release
