@@ -17,6 +17,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-19_A
+- Changed cameras
+
 2025-10-12_A
 - Changed F1 GS, F1 SC, PS2ZP tire temperature luts
 - Changed F1 GS, F1 SC tire rear camber curve
@@ -24,6 +27,8 @@ CHANGELOG
 
 2025-10-01_A
 - Added front stabilizer bushing twist rate
+
+2025-08-04 OVERTAKE 1.1.1
 
 2025-07-30_A
 - Corrected major typo in Coupe FRONT CARCASS_ROLLING_K

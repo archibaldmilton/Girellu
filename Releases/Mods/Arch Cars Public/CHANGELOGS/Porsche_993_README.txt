@@ -20,6 +20,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-19_A
+- Changed cameras
+
 2025-10-12_A
 - Corrected S-02 N2 tire wear luts
 - Corrected Turbo CS PSS10 step amount

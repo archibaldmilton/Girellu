@@ -23,6 +23,12 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-19_A
+- Added stabilizer bushing twist rate
+- Changed cameras
+
+2025-08-04 OVERTAKE 3.6.6
+
 2025-07-29_A
 - Changed tires thermals, slip
 
