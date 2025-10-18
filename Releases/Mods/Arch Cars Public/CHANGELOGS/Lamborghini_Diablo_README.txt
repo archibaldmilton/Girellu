@@ -16,6 +16,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-19_B
+- Changed VT center differential modeling
+- Changed SE30 inertia
+
 2025-10-19_A
 - Changed SE30 brake piston diameters
 - Changed handbrake torque
