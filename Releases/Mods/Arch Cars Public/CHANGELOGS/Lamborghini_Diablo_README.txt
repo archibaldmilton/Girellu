@@ -16,8 +16,15 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-21_A
+- Corrected SE30 tire name
+- Changed VT drivetrain
+- Changed wheelbase
+- Changed SE30 autoshifter, AI shifting
+- Cleaned up aero.ini FIN luts
+
 2025-10-19_B
-- Changed VT center differential modeling
+- Changed VT viscous coupler modeling
 - Changed SE30 inertia
 
 2025-10-19_A

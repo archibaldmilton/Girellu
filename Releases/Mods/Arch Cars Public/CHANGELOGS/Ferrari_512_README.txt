@@ -16,6 +16,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-21_A
+- Changed NT01 tire COMBINED_FACTOR
+- Cleaned up aero.ini FIN luts
+
 2025-10-19_A
 - Changed cameras
 
