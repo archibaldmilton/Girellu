@@ -16,6 +16,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-10-24_A
+- Changed VT drivetrain
+
 2025-10-21_A
 - Corrected SE30 tire name
 - Changed VT drivetrain
