@@ -23,6 +23,12 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-11-07_A
+- Changed tire slip, camber, load sensitivity
+- Changed bumpstops
+- Changed Acura NSX 1994 UI
+- Removed ABS slip_diff_lat, slip_diff_axle controllers for now
+
 2025-10-19_A
 - Added stabilizer bushing twist rate
 - Changed cameras

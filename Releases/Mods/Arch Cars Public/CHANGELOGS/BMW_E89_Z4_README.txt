@@ -13,6 +13,11 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-11-07_A
+- Changed tire slip, camber, load sensitivity
+- Changed PS
+- Removed ABS slip_diff_lat, slip_diff_axle controllers for now
+
 2025-10-12_A
 - Corrected RE050A RFT tire temperature luts files
 - Changed RE050A RFT tire rear camber curve

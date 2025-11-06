@@ -18,6 +18,9 @@ CesarCardoso
 
 CHANGELOG
 
+2025-11-07_A
+- Changed tire slip, camber, load sensitivity
+
 2025-10-01_A
 - Changed stabilizer bushing twist rate
 

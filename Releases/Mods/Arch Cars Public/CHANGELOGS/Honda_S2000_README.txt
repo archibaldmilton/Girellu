@@ -15,6 +15,13 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-11-07_A
+- Changed tire slip, camber, load sensitivity
+- Changed PS
+- Changed bumpstops
+- Fixed AP1 ABS debug mode on
+- Removed ABS slip_diff_lat, slip_diff_axle controllers for now
+
 2025-07-29_A
 - Changed tires thermals, slip
 

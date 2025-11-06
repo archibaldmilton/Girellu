@@ -15,6 +15,9 @@ Thanks to @mike12345678 and @AlleyViper for data
 
 CHANGELOG
 
+2025-11-07_A
+- Changed tire slip, camber, load sensitivity
+
 2025-10-12_A
 - Changed D40 tire temperature luts
 

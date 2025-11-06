@@ -16,6 +16,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-11-07_A
+- Changed tire slip, camber, load sensitivity
+- Removed ABS slip_diff_lat, slip_diff_axle controllers for now
+
 2025-10-21_A
 - Changed NT01 tire COMBINED_FACTOR
 - Cleaned up aero.ini FIN luts

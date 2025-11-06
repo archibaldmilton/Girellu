@@ -16,6 +16,11 @@ The usual suspects
 
 CHANGELOG
 
+2025-11-07_A
+- Changed tire slip, camber, load sensitivity
+- Changed PS
+- Removed ABS slip_diff_lat, slip_diff_axle controllers for now
+
 2025-10-12_A
 - Changed PSSZP tire temperature luts, rear camber curve
 - Changed FFMULT

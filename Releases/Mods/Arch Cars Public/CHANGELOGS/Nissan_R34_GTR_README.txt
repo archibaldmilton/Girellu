@@ -21,6 +21,11 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2025-11-07_A
+- Changed tire slip, camber, load sensitivity
+- Changed PS
+- Removed ABS slip_diff_lat, slip_diff_axle controllers for now
+
 2025-07-29_A
 - Changed tires thermals, slip
 

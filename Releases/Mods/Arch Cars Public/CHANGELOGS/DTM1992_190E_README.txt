@@ -13,6 +13,12 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-11-07_A
+- Changed tire slip, camber, load, temp sensitivity
+- Changed front coilover installation stiffness
+- Changed ABS
+- Changed PS
+
 2025-07-29_A
 - Changed tires thermals, slip
 

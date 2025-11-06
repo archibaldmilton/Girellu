@@ -1,5 +1,5 @@
 {
-  "name": "Acura NSX",
+  "name": "Acura NSX (94)",
   "brand": "Acura",
   "description": "Acura NSX (1994)<br><br>United States Domestic Market version of the NSX. <br><br>Changes from the early cars include larger wheels and Bridgestone Potenza RE010-H0 tires with a larger split towards wider rear tire, a revised spring and damping setup and revised alignment to counteract tire wear.<br><br>The United States Domestic Market C30A engine has somewhat lower peak output than its JDM counterpart.",
   "tags": [
@@ -290,7 +290,7 @@
   "country": "Japan",
   "year": 1994,
   "author": "Siim Annuk, Modek, Arch",
-  "version": "2025-10-19_A",
+  "version": "2025-11-07_A",
   "url": "http://www.siimannuk.com/",
   "parent": "some1_acura_nsx_1992"
 }

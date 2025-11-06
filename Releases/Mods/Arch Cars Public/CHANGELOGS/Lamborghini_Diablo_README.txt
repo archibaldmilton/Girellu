@@ -16,6 +16,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-11-07_A
+- Changed tire slip, camber, load sensitivity
+- Changed PS
+
 2025-10-24_A
 - Changed VT drivetrain
 

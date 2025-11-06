@@ -19,6 +19,9 @@ baker7498 for finding a ton of data
 
 CHANGELOG
 
+2025-11-07_A
+- Changed tire slip, camber, load sensitivity
+
 2025-08-15_A
 - Corrected bushing preload
 
