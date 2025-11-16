@@ -16,6 +16,10 @@ The usual suspects
 
 CHANGELOG
 
+2025-11-16_A
+- Changed tire rolling radius speed and load sensitivity
+- Changed ABS
+
 2025-11-07_A
 - Changed tire slip, camber, load sensitivity
 - Removed ABS slip_diff_lat, slip_diff_axle controllers for now

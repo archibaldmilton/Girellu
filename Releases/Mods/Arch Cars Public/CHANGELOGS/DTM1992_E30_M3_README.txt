@@ -13,6 +13,13 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-11-16_A
+- Changed tire rolling radius speed and load sensitivity
+- Changed tire load curves, core temperature coefficients
+- Changed ABS
+- Changed dampers
+- Changed autoshifter
+
 2025-11-07_A
 - Changed tire slip, camber, load, temp sensitivity
 - Changed front coilover installation stiffness

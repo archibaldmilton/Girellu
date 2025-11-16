@@ -1,3 +1,20 @@
+2025-11-16_A
+- Updated all cars
+	- Updated E30
+	- Updated E82
+	- Updated E89
+	- Updated E92
+	- Updated C4
+	- Updated DTM1992 190E
+	- Updated DTM1992 E30
+	- Updated S550
+	- Updated 512
+	- Updated NSX
+	- Updated Diablo
+	- Updated R34
+	- Updated 993
+	- Updated SR I
+
 2025-11-07_A
 - Updated all cars
 

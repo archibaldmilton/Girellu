@@ -20,6 +20,11 @@ for data and help
 
 CHANGELOG
 
+2025-11-16_A
+- Changed tire rolling radius speed and load sensitivity
+- Changed brake thermals
+- Changed ABS
+
 2025-11-07_A
 - Changed tire slip, camber, load sensitivity
 - Changed PS

@@ -10,10 +10,12 @@ CTR
 Credits:
 Physics by Arch
 Everything else by Kunos Simulazioni
-
 Thanks to @mike12345678 and @AlleyViper for data
 
 CHANGELOG
+
+2025-11-16_A
+- Changed tire rolling radius speed and load sensitivity
 
 2025-11-07_A
 - Changed tire slip, camber, load sensitivity
