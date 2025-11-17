@@ -1,3 +1,10 @@
+2025-11-17_A
+- Updated E89
+- Updated F82
+- Updated C7
+- Updated S550
+- Updated Elise
+
 2025-11-16_A
 - Updated all cars
 	- Updated E30
