@@ -14,6 +14,9 @@ Thanks to @mike12345678 and @AlleyViper for data
 
 CHANGELOG
 
+2025-11-24_A
+- Changed tire thermals
+
 2025-11-16_A
 - Changed tire rolling radius speed and load sensitivity
 

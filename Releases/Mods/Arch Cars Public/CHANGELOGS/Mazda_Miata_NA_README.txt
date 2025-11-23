@@ -18,6 +18,10 @@ CesarCardoso
 
 CHANGELOG
 
+2025-11-24_A
+- Changed tire thermals
+- Changed brake thermals
+
 2025-11-16_A
 - Changed tire rolling radius speed and load sensitivity
 
