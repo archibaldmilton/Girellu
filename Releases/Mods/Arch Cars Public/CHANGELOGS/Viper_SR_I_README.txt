@@ -15,6 +15,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-11-25_A
+- Changed tire load curves
+
 2025-11-24_A
 - Changed tire thermals
 - Changed brake thermals
