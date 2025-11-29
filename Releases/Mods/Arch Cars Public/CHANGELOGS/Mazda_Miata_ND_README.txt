@@ -17,6 +17,10 @@ The usual suspects
 
 CHANGELOG
 
+2025-11-30_A
+- Changed brake thermals
+- Changed tire thermals
+
 2025-11-25_A
 - Changed tire load curves
 

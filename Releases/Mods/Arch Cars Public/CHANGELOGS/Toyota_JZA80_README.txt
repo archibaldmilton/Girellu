@@ -18,6 +18,11 @@ baker7498 for providing lots of data and literature
 
 CHANGELOG
 
+2025-11-30_A
+- Changed brake thermals
+- Changed tire thermals
+- Changed PS
+
 2025-11-25_A
 - Changed tire load curves
 

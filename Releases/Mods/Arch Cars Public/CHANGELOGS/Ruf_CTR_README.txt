@@ -14,6 +14,11 @@ Thanks to @mike12345678 and @AlleyViper for data
 
 CHANGELOG
 
+2025-11-30_A
+- Changed brake thermals
+- Changed tire thermals
+- Changed brakes
+
 2025-11-24_A
 - Changed tire thermals
 

@@ -21,6 +21,10 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2025-11-30_A
+- Changed brake thermals
+- Changed tire thermals
+
 2025-11-24_A
 - Changed tire thermals
 - Changed brake thermals
