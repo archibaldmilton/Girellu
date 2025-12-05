@@ -21,6 +21,9 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2025-12-05_B
+- Changed tire load curves
+
 2025-12-05_A
 - Added chassis torsion and pitch stiffness
 - Changed brake thermals
