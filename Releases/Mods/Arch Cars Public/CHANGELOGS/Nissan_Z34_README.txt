@@ -17,6 +17,9 @@ The usual suspects
 
 CHANGELOG
 
+2025-12-05_C
+- Changed tire load curves
+
 2025-12-05_A
 - Added chassis torsion and pitch stiffness
 - Changed brake thermals
