@@ -13,6 +13,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-12-06_C
+- Corrected missing brakes.ini THERMAL_VERSION=2
+
 2025-12-06_B
 - Corrected? rear brake disc thickness
 
