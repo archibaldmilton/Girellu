@@ -13,6 +13,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-12-06_B
+- Corrected? rear brake disc thickness
+
 2025-12-06_A
 - Actually changed tire thermals for real this time
 - Changed brake thermals
