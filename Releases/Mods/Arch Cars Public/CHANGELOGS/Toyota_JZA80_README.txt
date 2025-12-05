@@ -18,6 +18,13 @@ baker7498 for providing lots of data and literature
 
 CHANGELOG
 
+2025-12-05_A
+- Added chassis torsion and pitch stiffness
+- Changed brake thermals
+- Changed tire thermals
+- Changed Drift damper rebound high speed
+- Changed Drift default setup
+
 2025-11-30_A
 - Changed brake thermals
 - Changed tire thermals

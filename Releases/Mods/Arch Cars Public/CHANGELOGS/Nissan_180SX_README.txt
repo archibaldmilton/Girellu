@@ -11,6 +11,12 @@ Includes:
 
 CHANGELOG
 
+2025-12-05_A
+- Added chassis torsion and pitch stiffness
+- Changed brake thermals
+- Changed tire thermals
+- Fixed syntax errors left over from testing
+
 2025-11-30_A
 - Changed brake thermals
 - Changed tire thermals

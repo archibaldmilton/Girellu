@@ -1,7 +1,7 @@
 {
   "name": "Ferrari 512 TR",
   "brand": "Ferrari",
-  "description": "The Ferrari 512 TR was an evolution model of the Ferrari F110 Testarossa and production started in 1991. <br><br>The interior was redesigned to increase comfort and ergonomics and the exterior facelift was designed to improve aerodynamics.<br><br>Powered by the F113 D engine, it was subject to a series of modifications, one of which was to lower the chassis to lower the car&#226;&#226;ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡&#172;&#226;ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾&#162;s centre of gravity. Power was upped by 38 bhp and the 12-cylinder&#226;&#226;ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡&#172;&#226;ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾&#162;s already generous torque was also increased.<br><br>Sharing a similar suspension layout to the original F110 Testarossa, corner spring and stabilizer bar rates were increased, dampers were revised and suspension geometry was changed slightly and more aggressive suspension alignment was standard.<br><br>Brakes were revised slightly, with a 315mm diameter front disc instead of 309mm, and new brake calipers with a piston diameter balance more towards the rear.<br><br>Tire size was increased from Front 225/50ZR16 Rear 255/50ZR16 to Front 235/40ZR18 Rear 295/35ZR18.<br><br>The simulated model is an United States Domestic Market model with higher suspension ride height, increased vehicle mass and slightly reduced engine power output.",
+  "description": "The Ferrari 512 TR was an evolution model of the Ferrari F110 Testarossa and production started in 1991. <br><br>The interior was redesigned to increase comfort and ergonomics and the exterior facelift was designed to improve aerodynamics.<br><br>Powered by the F113 D engine, it was subject to a series of modifications, one of which was to lower the chassis to lower the car&#39;s centre of gravity. Power was upped by 38 bhp and the 12-cylinder&#39;s already generous torque was also increased.<br><br>Sharing a similar suspension layout to the original F110 Testarossa, corner spring and stabilizer bar rates were increased, dampers were revised and suspension geometry was changed slightly and more aggressive suspension alignment was standard.<br><br>Brakes were revised slightly, with a 315mm diameter front disc instead of 309mm, and new brake calipers with a piston diameter balance more towards the rear.<br><br>Tire size was increased from Front 225/50ZR16 Rear 255/50ZR16 to Front 235/40ZR18 Rear 295/35ZR18.<br><br>The simulated model is an United States Domestic Market model with higher suspension ride height, increased vehicle mass and slightly reduced engine power output.",
   "tags": [
     "#A1",
     "rwd",
@@ -278,6 +278,6 @@
   "country": "Italy",
   "year": 1994,
   "author": "Alberto Daniel Russo",
-  "version": "2025-11-30_A",
+  "version": "2025-12-05_A",
   "url": "https://a3dr.artstation.com/"
 }

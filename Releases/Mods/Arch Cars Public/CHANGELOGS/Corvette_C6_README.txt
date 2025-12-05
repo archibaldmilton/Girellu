@@ -17,6 +17,11 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-12-05_A
+- Added chassis torsion and pitch stiffness
+- Changed brake thermals
+- Changed tire thermals
+
 2025-11-30_A
 - Changed brake thermals
 - Changed tire thermals

@@ -1,7 +1,7 @@
 {
   "name": "Dodge Viper SR I RT/10",
   "brand": "Dodge",
-  "description": "The Viper was initially conceived in late 1988 at Chrysler&#39;s Advanced Design Studios. In 2000 Chrysler had Lamborghini make an engine two liters bigger than the Diablo&#226;&#226;&#226;&#226;ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡&#172;&#197;&#161;&#172;&#226;&#226;&#226;ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡&#172;&#197;&#190;&#162;s engine when Chrysler owned Lamborghini. It was also designed by the man who designed the Diablo. <br><br>The original Viper was also designed by Lamborghini. The following February, Chrysler president Bob Lutz suggested to Tom Gale at Chrysler Design that the company should consider producing a modern Cobra, and a clay model was presented to Lutz a few months later. Produced in sheet metal by Metalcrafters, the car appeared as a concept at the North American International Auto Show in 1989. Public reaction was so enthusiastic that chief engineer Roy Sjoberg was directed to develop it as a standard production vehicle.",
+  "description": "The Viper was initially conceived in late 1988 at Chrysler&#39;s Advanced Design Studios. In 2000 Chrysler had Lamborghini make an engine two liters bigger than the Diablo&#39;s engine when Chrysler owned Lamborghini. It was also designed by the man who designed the Diablo. <br><br>The original Viper was also designed by Lamborghini. The following February, Chrysler president Bob Lutz suggested to Tom Gale at Chrysler Design that the company should consider producing a modern Cobra, and a clay model was presented to Lutz a few months later. Produced in sheet metal by Metalcrafters, the car appeared as a concept at the North American International Auto Show in 1989. Public reaction was so enthusiastic that chief engineer Roy Sjoberg was directed to develop it as a standard production vehicle.",
   "tags": [
     "rwd",
     "manual",
@@ -130,148 +130,148 @@
     ],
     [
       480.0,
-      31.218842218122653
+      31.2188422181227
     ],
     [
       1020.0,
-      71.354270490709609
+      71.3542704907096
     ],
     [
       1620.0,
-      122.17601332736055
+      122.176013327361
     ],
     [
       2193.4,
-      175.05823884012753
+      175.058238840128
     ],
     [
       2319.3,
-      185.46478080674152
+      185.464780806742
     ],
     [
       2403.3,
-      191.91189843664895
+      191.911898436649
     ],
     [
       2800.7,
-      219.27974773194734
+      219.279747731947
     ],
     [
       3125.3,
-      250.70729465557855
+      250.707294655579
     ],
     [
       3265.1,
-      266.32390765141054
+      266.323907651411
     ],
     [
       3556.0,
-      302.83635111187971
+      302.83635111188
     ],
     [
       3634.4,
-      310.22763306765756
+      310.227633067658
     ],
     [
       3701.5,
-      315.53933402715336
+      315.539334027153
     ],
     [
       3847.1,
-      324.81756552581538
+      324.817565525815
     ],
     [
       4015.1,
-      333.98361311959792
+      333.983613119598
     ],
     [
       4334.2,
-      348.77924205120979
+      348.77924205121
     ],
     [
       4440.6,
-      352.35234176391475
+      352.352341763915
     ],
     [
       4500.0,
-      353.55353331526851
+      353.553533315269
     ],
     [
       4560.0,
-      354.67272978871478
+      354.672729788715
     ],
     [
       4620.0,
-      355.6973249295973
+      355.697324929597
     ],
     [
       4680.0,
-      356.62731873791597
+      356.627318737916
     ],
     [
       4740.0,
-      357.4627112136709
+      357.462711213671
     ],
     [
       4800.0,
-      358.20350235686203
+      358.203502356862
     ],
     [
       4860.0,
-      358.84969216748942
+      358.849692167489
     ],
     [
       4910.9,
-      359.32370894738409
+      359.323708947384
     ],
     [
       5000.5,
-      361.66603124670814
+      361.666031246708
     ],
     [
       5040.0,
-      361.68620336292526
+      361.686203362925
     ],
     [
       5100.0,
-      361.63177763458054
+      361.631777634581
     ],
     [
       5160.0,
-      361.4747586388566
+      361.474758638857
     ],
     [
       5220.0,
-      361.21514637575348
+      361.215146375753
     ],
     [
       5246.9,
-      361.06544478782911
+      361.065444787829
     ],
     [
       5340.0,
-      357.73708219031153
+      357.737082190312
     ],
     [
       5460.0,
-      352.94629466381019
+      352.94629466381
     ],
     [
       5605.5,
-      346.38102511593729
+      346.381025115937
     ],
     [
       5820.0,
-      324.88225453452264
+      324.882254534523
     ],
     [
       6000.0,
-      304.8645118518649
+      304.864511851865
     ]
   ],
   "country": "USA",
   "author": "Alberto Daniel Russo",
-  "version": "2025-11-30_A",
+  "version": "2025-12-05_A",
   "url": "https://a3dr.artstation.com/",
   "year": 1993
 }

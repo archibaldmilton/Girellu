@@ -16,6 +16,12 @@ Special thanks to:
 
 CHANGELOG
 
+2025-12-05_A
+- Added chassis torsion and pitch stiffness
+- Changed brake thermals
+- Changed tire thermals
+- Rear geometry bushing body definition corrections
+
 2025-11-30_A
 - Changed brake thermals
 - Changed tire thermals
