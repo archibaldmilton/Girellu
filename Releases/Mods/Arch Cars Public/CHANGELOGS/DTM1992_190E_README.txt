@@ -13,6 +13,10 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-12-06_A
+- Actually changed tire thermals for real this time
+- Changed brake thermals
+
 2025-12-05_A
 - Added chassis torsion and pitch stiffness
 - Changed tire thermals
