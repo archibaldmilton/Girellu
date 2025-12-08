@@ -17,6 +17,9 @@ The usual suspects
 
 CHANGELOG
 
+2025-12-08_A
+- Fixed Drift missing REAR BODY_0
+
 2025-12-05_A
 - Added chassis torsion and pitch stiffness
 - Changed brake thermals
