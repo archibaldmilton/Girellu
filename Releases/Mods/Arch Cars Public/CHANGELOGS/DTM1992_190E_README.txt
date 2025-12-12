@@ -13,6 +13,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-12-13_A
+- Corrected chassis flex damper positions
+
 2025-12-06_C
 - Corrected missing brakes.ini THERMAL_VERSION=2
 

@@ -21,6 +21,9 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2025-12-13_A
+- Corrected chassis flex damper positions
+
 2025-12-05_B
 - Changed tire load curves
 

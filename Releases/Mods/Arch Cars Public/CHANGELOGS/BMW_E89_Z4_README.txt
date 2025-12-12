@@ -13,6 +13,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-12-13_A
+- Corrected chassis flex damper positions
+
 2025-12-05_B
 - Changed tire load curves
 

@@ -19,6 +19,9 @@ baker7498 for finding a ton of data
 
 CHANGELOG
 
+2025-12-13_A
+- Corrected chassis flex damper positions
+
 2025-12-05_A
 - Added chassis torsion and pitch stiffness
 - Changed brake thermals
