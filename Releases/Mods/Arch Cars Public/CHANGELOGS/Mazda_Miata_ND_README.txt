@@ -17,6 +17,9 @@ The usual suspects
 
 CHANGELOG
 
+2025-12-13_B
+- Added missing semicolons in Club front bumprubber lut
+
 2025-12-13_A
 - Corrected chassis flex damper positions
 
