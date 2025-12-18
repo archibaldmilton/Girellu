@@ -16,6 +16,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-12-18_A
+- Changed S-01 tire tread void ratio
+
 2025-12-13_A
 - Corrected chassis flex damper positions
 
