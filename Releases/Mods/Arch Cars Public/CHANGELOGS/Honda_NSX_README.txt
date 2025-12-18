@@ -23,6 +23,11 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-12-19_A
+- Added updated extconfig by cjk28
+- Fixed H97 S1 Z offsets
+- Minor car.ini hint changes
+
 2025-12-13_A
 - Corrected chassis flex damper positions
 
