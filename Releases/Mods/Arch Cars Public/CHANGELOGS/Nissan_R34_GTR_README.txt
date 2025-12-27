@@ -21,6 +21,11 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2025-12-27_A
+- Removed chassis pitch flex (vibrates)
+- Changed ABS
+- Changed tires PATCH_TRANSFER
+
 2025-12-13_A
 - Corrected chassis flex damper positions
 

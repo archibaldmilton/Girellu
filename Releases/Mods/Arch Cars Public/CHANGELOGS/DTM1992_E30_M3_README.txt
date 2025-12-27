@@ -13,6 +13,11 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-12-27_A
+- Removed chassis pitch flex (vibrates)
+- Changed ABS
+- Changed tires PATCH_TRANSFER
+
 2025-12-06_C
 - Corrected missing brakes.ini THERMAL_VERSION=2
 

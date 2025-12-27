@@ -23,8 +23,12 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-12-27_A
+- Removed chassis pitch flex (vibrates)
+- Changed ABS
+- Changed tires PATCH_TRANSFER
+
 2025-12-19_A
-- Added updated extconfig by cjk28
 - Fixed H97 S1 Z offsets
 - Minor car.ini hint changes
 

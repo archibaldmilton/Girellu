@@ -15,6 +15,11 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-12-27_A
+- Removed chassis pitch flex (vibrates)
+- Changed ABS
+- Changed tires PATCH_TRANSFER
+
 2025-12-13_A
 - Corrected chassis flex damper positions
 

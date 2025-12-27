@@ -16,6 +16,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-12-27_A
+- Removed chassis pitch flex (vibrates)
+- Changed tires PATCH_TRANSFER
+
 2025-12-18_A
 - Changed S-01 tire tread void ratio
 

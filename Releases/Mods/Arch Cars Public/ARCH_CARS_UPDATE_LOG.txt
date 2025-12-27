@@ -1,3 +1,10 @@
+2025-12-27_A
+- Updated all cars
+	- Updated E89
+	- Updated F82
+	- Updated C7
+	- Updated 993
+
 2025-12-19_A
 - Updated NSX
 
