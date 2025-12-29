@@ -23,6 +23,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-12-29_A
+- Added extconfigs by cjk28
+
 2025-12-27_A
 - Removed chassis pitch flex (vibrates)
 - Changed ABS

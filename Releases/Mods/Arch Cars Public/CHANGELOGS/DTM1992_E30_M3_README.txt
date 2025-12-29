@@ -13,6 +13,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2025-12-29_A
+- Changed tires RELAXATION_LENGTH, FRICTION_LIMIT_ANGLE, CX_MULT, FLEX_GAIN
+
 2025-12-27_A
 - Removed chassis pitch flex (vibrates)
 - Changed ABS

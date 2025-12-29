@@ -20,6 +20,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2025-12-29_A
+- Reverted CS rear coilover main and helper spring rates
+
 2025-12-27_A
 - Removed chassis pitch flex (vibrates)
 - Changed ABS
