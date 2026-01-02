@@ -16,6 +16,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2026-01-02_A
+- Changed ABS
+
 2025-12-27_A
 - Removed chassis pitch flex (vibrates)
 - Changed ABS

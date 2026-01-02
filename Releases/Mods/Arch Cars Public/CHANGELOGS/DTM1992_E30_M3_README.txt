@@ -13,6 +13,10 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2026-01-02_A
+- Changed ABS
+- Changed brakes, brake setup
+
 2025-12-29_A
 - Changed tires RELAXATION_LENGTH, FRICTION_LIMIT_ANGLE, CX_MULT, FLEX_GAIN
 

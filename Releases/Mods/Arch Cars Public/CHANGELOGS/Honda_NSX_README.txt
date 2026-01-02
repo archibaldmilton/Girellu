@@ -23,6 +23,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2026-01-02_A
+- Changed ABS
+- Changed TC
+
 2025-12-29_A
 - Added extconfigs by cjk28
 

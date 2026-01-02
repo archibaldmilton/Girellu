@@ -1,3 +1,10 @@
+2026-01-02_A
+- Updated all cars with ABS
+- Updated all cars with TC
+	- Updated F82
+	- Updated DTM1992 190E
+	- Updated DTM1992 E30 M3
+
 2025-12-29_A
 - Updated DTM1992 190E
 - Updated DTM1992 E30
