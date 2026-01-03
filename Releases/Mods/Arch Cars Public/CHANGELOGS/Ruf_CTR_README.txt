@@ -14,6 +14,10 @@ Thanks to @mike12345678 and @AlleyViper for data
 
 CHANGELOG
 
+2026-01-04_A
+- Changed brake pedal lever ratio
+- Changed sprung inertia
+
 2025-12-27_A
 - Removed chassis pitch flex (vibrates)
 - Changed tires PATCH_TRANSFER

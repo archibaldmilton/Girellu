@@ -15,6 +15,10 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2026-01-04_A
+- Changed brake pedal lever ratio
+- Changed sprung inertia
+
 2026-01-02_A
 - Changed ABS
 
