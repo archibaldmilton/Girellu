@@ -95,6 +95,7 @@ if [[ ! -z $@ ]];then
     if [[ "$parameter_matched" -ne "$#" ]];then echo "Incorrect parameter. Exiting." && exit 1 ; fi
 fi
 
+
 # Determine whether cosmic branch will be used or legacy
 if [[ -z "$use_cosmic_branch" ]];then
     user_prompt "Use cosmic branch?" "Y" "N" 'echo - Cosmic branch selected.' 'echo - Regular branch selected.'
@@ -115,6 +116,7 @@ else
     echo "Using Cosmic branch."
 fi
 
+
 # Get absolute path to repo Arch cars dir
 repo_dir=$(echo "$script_fullpath" | sed -E 's#(^.*/).*#\1#g' )
 
@@ -125,12 +127,12 @@ contentdir_manual () {
     if [[ -z "$contentdir_path" ]];then
         echo "No input. Exiting." && exit 1
     elif [[ ! "$contentdir_path" =~ content/cars ]];then
-        echo "Path doesn't contain '*/content/cars'. Continuing in 5 seconds." && sleep 5
+        echo "Path doesn't contain '*/content/cars'." && exit 1
     fi
 }
 
 if [[ -z "$contentdir_path" ]];then
-    read -p "Start autosearch in homedir for AC Server car content directory (e.g. '*/content/cars/') ? [Y / N]: " search_choice
+    read -p "Start autosearch in homedir for AC Car Content directory (example: '*/content/cars/') ? [Y / N]: " search_choice
     case "$search_choice" in
         [Yy])
             echo "Searching..."
@@ -216,6 +218,8 @@ for line in ${repo_cars[@]}; do
     if [[ ! -d "$contentdir_path/${src_car}" ]];then
         echo "... source car doesn't exist. Skipping!" && continue
     fi
+
+
     # Create Arch folder if it doesn't exist
     if [[ -d "$contentdir_path/${arch_car}" ]];then
         echo "... folder already exists. Updating..."
@@ -228,9 +232,9 @@ for line in ${repo_cars[@]}; do
         echo "src_car: $src_car"
         echo "arch_src: $arch_src"
     fi
-
     if [[ "${#arch_src}" -lt 5 ]];then echo "Error while finding arch_src. Exiting." ; exit 1 ; fi
 
+    
     # Copy contents
     if [[ "$donor" -eq '1' ]];then 
         echo "Installing with donor car."
@@ -239,11 +243,15 @@ for line in ${repo_cars[@]}; do
     elif [[ "$donor" -eq '0' ]];then
         echo "Installing without donor car."
         rsync ${rsync_flags} "$arch_src"/ "$contentdir_path"/${arch_car}/ && echo "... Arch files copied."
-    fi && echo "... ${arch_car} installed!"
+    fi
+
 
     # Edit sfx soundbank GUIDs
-    if [[ "$arch_car" -eq "$src_car" ]];then echo "... Sound bank is already good to go." ; continue ; fi
-    mv "$contentdir_path/${arch_car}/sfx/${src_car}.bank" "$contentdir_path/${arch_car}/sfx/${arch_car}.bank" 2 > /dev/null \
+    if [[ ! "$arch_car" =~ "arch_" ]];then 
+            echo "... Standalone car, sound bank should be already good to go." ; echo "... ${arch_car} installed!"
+	    continue
+    fi
+    mv "$contentdir_path/${arch_car}/sfx/${src_car}.bank" "$contentdir_path/${arch_car}/sfx/${arch_car}.bank" 2>/dev/null \
                     && echo "... Soundbank added."
     if [[ -e "$contentdir_path/${arch_car}/sfx/GUID*.txt" ]];then
 	    # guid file may have upper or lower case letters
@@ -252,10 +260,14 @@ for line in ${repo_cars[@]}; do
 	    echo "... SFX GUIDs adjusted."
     else
 	    newguid_filename="$contentdir_path/${arch_car}/sfx/GUIDS.txt"
+	    if [[ ! -e "$contentdir_path/../sfx/GUIDs.txt" ]];then echo "Master GUIDs.txt file not found. Check game integrity." \
+		    exit 1; fi
 	    grep "$src_car" "$contentdir_path/../sfx/GUIDs.txt" > "$newguid_filename"
 	    grep "grp_\|common\|bus:" "$contentdir_path/../sfx/GUIDs.txt" >> "$newguid_filename"
 	    sed -i "s/$src_car/$arch_car/g" "$newguid_filename"
 	    echo "... SFX GUIDs created."
     fi
+    
+    echo "... ${arch_car} installed!"
 
 done
