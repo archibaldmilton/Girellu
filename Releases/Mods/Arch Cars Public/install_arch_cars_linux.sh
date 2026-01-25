@@ -243,7 +243,7 @@ for line in ${repo_cars[@]}; do
 
     # Edit sfx soundbank GUIDs
     if [[ "$arch_car" -eq "$src_car" ]];then echo "... Sound bank is already good to go." ; continue ; fi
-    cp "$contentdir_path/${arch_car}/sfx/${src_car}.bank" "$contentdir_path/${arch_car}/sfx/${arch_car}.bank" \
+    mv "$contentdir_path/${arch_car}/sfx/${src_car}.bank" "$contentdir_path/${arch_car}/sfx/${arch_car}.bank" 2 > /dev/null \
                     && echo "... Soundbank added."
     if [[ -e "$contentdir_path/${arch_car}/sfx/GUID*.txt" ]];then
 	    # guid file may have upper or lower case letters
