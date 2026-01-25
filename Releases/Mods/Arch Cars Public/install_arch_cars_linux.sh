@@ -242,17 +242,20 @@ for line in ${repo_cars[@]}; do
     fi && echo "... ${arch_car} installed!"
 
     # Edit sfx soundbank GUIDs
-    mv "$contentdir_path/${arch_car}/sfx/${src_car}.bank" "$contentdir_path/${arch_car}/sfx/${arch_car}.bank" \
-                    && echo "... Soundbank renamed."
+    if [[ "$arch_car" -eq "$src_car" ]];then echo "... Not modifying sound bank." ; continue ; fi
+    cp "$contentdir_path/${arch_car}/sfx/${src_car}.bank" "$contentdir_path/${arch_car}/sfx/${arch_car}.bank" \
+                    && echo "... Soundbank added."
     if [[ -e "$contentdir_path/${arch_car}/sfx/GUID*.txt" ]];then
 	    # guid file may have upper or lower case letters
 	    guid_filename=$(readlink -f "$contentdir_path/${arch_car}/sfx/GUID*.txt" | head -n 1 )
 	    sed -i "s/$src_car/$arch_car/g" "$guid_filename"
+	    echo "... GUIDs fixed."
     else
 	    newguid_filename="$contentdir_path/${arch_car}/sfx/GUIDS.txt"
-	    grep "$src_car" "$contentdir_path/../GUIDs.txt" > "$newguid_filename"
-	    grep "grp_\|common\|bus:" "$contentdir_path/../GUIDs.txt" >> "$newguid_filename"
+	    grep "$src_car" "$contentdir_path/../sfx/GUIDs.txt" > "$newguid_filename"
+	    grep "grp_\|common\|bus:" "$contentdir_path/../sfx/GUIDs.txt" >> "$newguid_filename"
 	    sed -i "s/$src_car/$arch_car/g" "$newguid_filename"
+	    echo "... GUIDs created."
     fi
 
 
