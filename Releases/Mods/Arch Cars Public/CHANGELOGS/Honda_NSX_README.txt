@@ -10,6 +10,7 @@ Acura NSX 1992
 Acura NSX 1994
 Acura NSX 1994 S1
 Acura NSX Zanardi 1999
+
 Honda NSX 1991
 Honda NSX 1997 S1
 Honda NSX-R 1992
@@ -22,6 +23,12 @@ Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2026-02-15_A
+- Changed ABS
+- Changed A92, A94, A94S1, A99Z TC
+- Changed AD08R tire load, slip
+- Changed ui.json URL
 
 2026-01-02_A
 - Changed ABS

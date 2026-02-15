@@ -20,6 +20,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2026-02-15_A
+- Changed ABS
+- Changed PSC tire load, slip
+
 2026-01-04_A
 - Changed brake pedal lever ratio
 - Changed sprung inertia

@@ -16,6 +16,11 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2026-02-15_A
+- Changed ABS
+- Changed NT01 tire load, slip
+- Removed CS ABS that was added accidentally
+
 2026-01-02_A
 - Changed ABS
 

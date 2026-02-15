@@ -16,6 +16,11 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2026-02-15_A
+- Changed ABS
+- Changed NT01 tire load, slip
+- Changed ui.json URL
+
 2026-01-02_A
 - Changed ABS
 

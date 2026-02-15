@@ -13,6 +13,13 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2026-02-15_A
+- Changed tires slip, load, thermals
+- Changed ABS
+- Changed front suspension geometry
+- Changed default setup
+- Changed torsion flex hinge height
+
 2026-01-02_A
 - Changed ABS
 - Changed brakes, brake setup
