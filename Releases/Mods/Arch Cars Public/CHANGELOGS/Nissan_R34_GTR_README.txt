@@ -21,6 +21,9 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2026-02-23_A
+- Changed tire load, slip, relax length, lateral stiffness
+
 2026-02-15_A
 - Changed ABS
 

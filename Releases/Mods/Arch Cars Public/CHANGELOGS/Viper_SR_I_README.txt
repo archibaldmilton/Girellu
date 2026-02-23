@@ -15,6 +15,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2026-02-23_A
+- Changed tire load, slip, relax length, lateral stiffness
+
 2025-12-27_A
 - Removed chassis pitch flex (vibrates)
 - Changed tires PATCH_TRANSFER

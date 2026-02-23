@@ -20,6 +20,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2026-02-23_A
+- Added extconfigs by Hydrosplash
+- Changed tire load, slip, relax length, lateral stiffness
+
 2026-02-15_A
 - Changed ABS
 - Changed PSC tire load, slip

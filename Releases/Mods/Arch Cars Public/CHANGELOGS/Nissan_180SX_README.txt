@@ -11,6 +11,10 @@ Includes:
 
 CHANGELOG
 
+2026-02-23_A
+- Changed tire load, slip, relax length, lateral stiffness
+- Removed duplicate electronics.ini ABS_TARGET_CONTROLLER_2
+
 2026-02-15_A
 - Changed ABS
 

@@ -14,6 +14,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2026-02-23_A
+- Changed tire load, slip, relax length, lateral stiffness
+
 2026-02-15_A
 - Changed ABS
 - Changed TC

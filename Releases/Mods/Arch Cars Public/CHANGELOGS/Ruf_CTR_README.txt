@@ -14,6 +14,9 @@ Thanks to @mike12345678 and @AlleyViper for data
 
 CHANGELOG
 
+2026-02-23_A
+- Changed tire load, slip, relax length, lateral stiffness
+
 2026-01-04_A
 - Changed brake pedal lever ratio
 - Changed sprung inertia
