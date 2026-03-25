@@ -5,8 +5,9 @@ Shaders patch 0.2.8+ required! Requires JDM Pack DLC by Kunos!
 !!!IMPORTANT!!!
 
 Includes:
-RX-7 FD3S Spirit R Type A
-RX-7 FD3S Drift
+1991 RX-7 FD3S Type R
+1999 RX-7 FD3S Drift
+2002 RX-7 FD3S Spirit R Type A
 
 Credits:
 Physics by Arch
@@ -19,6 +20,15 @@ animal3005 for providing lots of data and literature
 Leonardo Ratafia for providing data
 
 CHANGELOG
+
+2026-03-25_A
+- Added 1991 Type R
+- Added 1993 R-1 dampers in Type R folder
+- Corrected Spirit R rear stabilizer inner diameter
+- Changed coilover and stabilizer installation stiffness
+- Changed aero, setup and lut syntax
+- Changed autoshifter, AI shifting
+- Removed early model files from Spirit R folder
 
 2026-02-23_A
 - Changed tire load, slip, relax length, lateral stiffness
