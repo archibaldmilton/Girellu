@@ -21,6 +21,11 @@ Leonardo Ratafia for providing data
 
 CHANGELOG
 
+2026-03-26_A
+- Changed CD
+- Changed Drift CL
+- Changed aero syntax
+
 2026-03-25_A
 - Added 1991 Type R
 - Added 1993 R-1 dampers in Type R folder
