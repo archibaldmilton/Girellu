@@ -5,8 +5,8 @@ Shaders patch 0.2.8+ required! Requires JDM Pack DLC by Kunos!
 !!!IMPORTANT!!!
 
 Includes:
-JZA80 RZ
-JZA80 Drift
+1995 JZA80 Drift
+1997 JZA80 RZ
 
 Credits:
 Physics by Arch
@@ -17,6 +17,11 @@ Aad Hofman for providing original laserscanned suspension
 baker7498 for providing lots of data and literature
 
 CHANGELOG
+
+2026-04-04_A
+- Added USDM 2JZ-GTE engine in RZ folder
+- Changed JDM 1993, 1997 2JZ-GTE engines
+- Changed autoshifter, AI shifting
 
 2026-02-23_A
 - Changed tire load, slip, relax length, lateral stiffness

@@ -13,6 +13,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2026-04-04_A
+- Changed autoshifter, AI shifting
+
 2026-02-15_A
 - Changed tires slip, load, thermals
 - Changed ABS

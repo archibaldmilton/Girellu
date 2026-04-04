@@ -24,6 +24,10 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2026-04-04_A
+- Changed A-022 H1 MU_SCALING
+- Changed autoshifter, AI shifting
+
 2026-02-23_A
 - Changed tire load, slip, relax length, lateral stiffness
 

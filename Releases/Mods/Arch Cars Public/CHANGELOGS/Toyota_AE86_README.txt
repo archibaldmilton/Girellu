@@ -19,6 +19,9 @@ baker7498 for finding a ton of data
 
 CHANGELOG
 
+2026-04-04_A
+- Changed autoshifter, AI shifting
+
 2026-02-23_A
 - Changed tire load, slip, relax length, lateral stiffness
 
