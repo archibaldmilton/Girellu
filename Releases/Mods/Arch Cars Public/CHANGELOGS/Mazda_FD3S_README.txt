@@ -21,6 +21,10 @@ Leonardo Ratafia for providing data
 
 CHANGELOG
 
+2026-05-26_A
+- Changed 1991 Type R dampers based on better data
+- Changed brake booster diameters
+
 2026-03-26_A
 - Changed CD
 - Changed Drift CL

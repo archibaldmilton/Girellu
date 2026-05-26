@@ -17,6 +17,9 @@ The usual suspects
 
 CHANGELOG
 
+2026-05-26_A
+- Changed brake pedal lever ratio
+
 2026-04-04_A
 - Changed autoshifter, AI shifting
 
