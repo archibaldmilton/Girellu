@@ -18,6 +18,11 @@ baker7498 for providing lots of data and literature
 
 CHANGELOG
 
+2026-06-05_A
+- Added rear longitudinal compliance to RZ
+- Corrected CGH based on Toyota press release data
+- Changed RE010 tire load
+
 2026-04-04_A
 - Added USDM 2JZ-GTE engine in RZ folder
 - Changed JDM 1993, 1997 2JZ-GTE engines

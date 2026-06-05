@@ -17,6 +17,9 @@ The usual suspects
 
 CHANGELOG
 
+2026-06-05_A
+- Added rear longitudinal compliance to Club
+
 2026-05-26_A
 - Changed brake pedal lever ratio
 
