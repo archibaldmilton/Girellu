@@ -16,6 +16,9 @@ The usual suspects
 
 CHANGELOG
 
+2026-06-06_A
+- Changed rear longitudinal compliance
+
 2026-04-04_A
 - Changed autoshifter, AI shifting
 

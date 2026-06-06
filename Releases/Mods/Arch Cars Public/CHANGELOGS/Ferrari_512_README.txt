@@ -16,6 +16,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2026-06-06_A
+- Added rear longitudinal compliance to TR
+
 2026-04-04_A
 - Changed CS rear brake piston diameters from 38/40 to 36/40
 - Changed CS rear brake pad from GF to FF

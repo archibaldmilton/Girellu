@@ -18,6 +18,9 @@ CesarCardoso
 
 CHANGELOG
 
+2026-06-06_A
+- Added rear longitudinal compliance to Base
+
 2026-04-04_A
 - Changed autoshifter, AI shifting
 

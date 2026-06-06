@@ -16,6 +16,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2026-06-06_A
+- Added rear longitudinal compliance
+
 2026-04-04_A
 - Changed autoshifter, AI shifting
 
