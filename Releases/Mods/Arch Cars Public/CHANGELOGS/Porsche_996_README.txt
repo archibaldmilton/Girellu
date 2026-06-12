@@ -15,6 +15,9 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2026-06-12_A
+- Changed coast torque
+
 2026-06-05_A
 - Added rear longitudinal compliance
 

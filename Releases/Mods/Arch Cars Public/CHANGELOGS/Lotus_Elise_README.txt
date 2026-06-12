@@ -16,6 +16,9 @@ The usual suspects
 
 CHANGELOG
 
+2026-06-12_A
+- Changed coast torque
+
 2026-06-06_A
 - Changed rear longitudinal compliance
 

@@ -16,6 +16,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2026-06-12_A
+- Changed coast torque
+
 2026-04-04_A
 - Changed autoshifter, AI shifting
 

@@ -19,6 +19,9 @@ baker7498 for finding a ton of data
 
 CHANGELOG
 
+2026-06-12_A
+- Changed coast torque
+
 2026-04-04_A
 - Changed autoshifter, AI shifting
 

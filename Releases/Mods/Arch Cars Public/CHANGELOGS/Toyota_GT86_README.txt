@@ -20,6 +20,9 @@ Ryno917 for testing
 
 CHANGELOG
 
+2026-06-12_A
+- Changed coast torque
+
 2026-06-05_A
 - Added rear longitudinal compliance to GT
 

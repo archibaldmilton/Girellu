@@ -18,6 +18,9 @@ baker7498 for providing lots of data and literature
 
 CHANGELOG
 
+2026-06-12_A
+- Changed coast torque
+
 2026-06-05_A
 - Added rear longitudinal compliance to RZ
 - Corrected CGH based on Toyota press release data

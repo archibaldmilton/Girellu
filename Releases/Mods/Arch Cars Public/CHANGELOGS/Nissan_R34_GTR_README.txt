@@ -21,6 +21,9 @@ baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
 
+2026-06-12_A
+- Changed coast torque
+
 2026-04-04_A
 - Changed autoshifter, AI shifting
 

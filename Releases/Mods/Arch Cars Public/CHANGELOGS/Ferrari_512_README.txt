@@ -16,6 +16,9 @@ Everything else by original mod developers
 
 CHANGELOG
 
+2026-06-12_A
+- Changed coast torque
+
 2026-06-06_A
 - Added rear longitudinal compliance to TR
 

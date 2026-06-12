@@ -16,6 +16,9 @@ Special thanks to:
 
 CHANGELOG
 
+2026-06-12_A
+- Changed coast torque
+
 2026-06-05_A
 - Changed rear longitudinal compliance
 
