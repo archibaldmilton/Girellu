@@ -1,7 +1,7 @@
 {
   "name": "Toyota AE86 1600GTV Sprinter Trueno",
   "brand": "Toyota",
-  "description": "Sport version.<br><br>Sport suspension, sport tire and LSD. Without powersteering.",
+  "description": "Sport version.<br><br>Sport suspension, sport tire and LSD. Unassisted steering.",
   "tags": [
     "#small sports",
     "rwd",
@@ -194,6 +194,6 @@
   "country": "Japan",
   "year": 1983,
   "author": "Arch",
-  "version": "2026-06-12_A",
+  "version": "2026-10-29_A",
   "url": "https://github.com/archibaldmilton/Girellu"
 }

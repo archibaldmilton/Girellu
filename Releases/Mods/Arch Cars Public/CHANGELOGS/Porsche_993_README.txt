@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.8+ required!
+Shaders patch 0.3.0+ required!
 Requires NFS Tournament Class B by Alberto Daniel Russo (@A3DR)!
 Link: https://www.overtake.gg/downloads/nfs-tournament-class-b.20228/
 Requires Porsche 911 (993) Turbo by Alberto Daniel Russo (@A3DR)!
@@ -19,6 +19,19 @@ Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2026-10-29_A
+- Added TMV4 physical tire thermal model
+- Added SIDEWALL_LOSS_FACTOR_Z tire maxwell hysteresis damping
+- Changed Turbo and CS weight distribution
+- Changed suspension installation stiffnesses
+- Changed bumpstop force curve
+- Changed S-02, PSC tire load curves
+- Changed S-02 N2 tire tread depth, bulk thickness
+- Changed tires pressure optimal
+- Changed torsion flex axis height
+- Changed handbrake hand force from 10kgf to 20kgf
+- Removed C2, C4, Turbo rear spring preload setup
 
 2026-06-12_A
 - Changed coast torque
@@ -154,7 +167,7 @@ CHANGELOG
 - Changed aero
 
 2025-05-14_A
-- Added Cphys ABS (CSP 0.2.8+ required!)
+- Added Cphys ABS (CSP 0.3.0+ required!)
 - Changed tires CX_MULT
 
 2025-05-05_A

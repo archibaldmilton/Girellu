@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.8+ required! Requires JDM Pack DLC by Kunos!
+Shaders patch 0.3.0+ required! Requires JDM Pack DLC by Kunos!
 
 !!!IMPORTANT!!!
 
@@ -16,6 +16,15 @@ Special thanks:
 The usual suspects
 
 CHANGELOG
+
+2026-10-29_A
+- Added TMV4 physical tire thermal model
+- Added SIDEWALL_LOSS_FACTOR_Z tire maxwell hysteresis damping
+- Changed bumpstop force curve
+- Changed NISMO VLSD
+- Changed 08D tire load curves
+- Changed torsion flex axis height
+- Changed handbrake hand force from 10kgf to 20kgf
 
 2026-06-12_A
 - Changed coast torque
@@ -121,7 +130,7 @@ CHANGELOG
 - Changed aero
 
 2025-05-14_A
-- Added Cphys ABS (CSP 0.2.8+ required!)
+- Added Cphys ABS (CSP 0.3.0+ required!)
 - Changed tires CX_MULT
 - Corrected welded diff setup option
 

@@ -1,3 +1,11 @@
+2026-10-29_A
+- Added DC5
+- Added EG6
+- Added EK9
+- Added EVO III
+- Added 997
+- Updated all cars
+
 2026-06-12_A
 - Updated E30
 - Updated E82

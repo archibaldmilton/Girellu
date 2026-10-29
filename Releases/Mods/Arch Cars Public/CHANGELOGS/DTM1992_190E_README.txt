@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.8+ required!
+Shaders patch 0.3.0+ required!
 
 !!!IMPORTANT!!!
 
@@ -13,6 +13,14 @@ Everything else by Kunos Simulazioni
 
 CHANGELOG
 
+2026-10-29_A
+- Added TMV4 physical tire thermal model
+- Added SIDEWALL_LOSS_FACTOR_Z tire maxwell hysteresis damping
+- Changed ASD
+- Changed bumpstop force curve
+- Changed aero splitter and flap CL
+- Changed tire slip curves, load curves, misc params
+
 2026-06-12_A
 - Changed coast torque
 
@@ -22,7 +30,7 @@ CHANGELOG
 2026-02-15_A
 - Changed tires slip, load, thermals
 - Changed ABS
-- Changed torsion flex hinge height
+- Changed torsion flex axis height
 
 2026-01-02_A
 - Changed ABS
@@ -108,7 +116,7 @@ CHANGELOG
 - Changed stabilizers
 
 2025-05-14_A
-- Added Cphys ABS (CSP 0.2.8+ required!)
+- Added Cphys ABS (CSP 0.3.0+ required!)
 - Changed tires CX_MULT
 
 2025-05-05_A

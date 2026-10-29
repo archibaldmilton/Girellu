@@ -1,19 +1,27 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.8+ required! Requires Honda S2000 AP1/AP2 by Jugee8!
+Shaders patch 0.3.0+ required! Requires Honda S2000 AP1/AP2 by Jugee8!
 Link: https://jugee8.gumroad.com/l/wvg53bwb5w3bw
 
 !!!IMPORTANT!!!
 
 Includes:
-Honda S2000 AP1 1999
-Honda S2000 AP2 2006
+S2000 AP1 1999
+S2000 AP2 2006
 
 Credits:
 Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2026-10-29_A
+- Added TMV4 physical tire thermal model
+- Added SIDEWALL_LOSS_FACTOR_Z tire maxwell hysteresis damping
+- Changed brake proportioning valve, master cylinder
+- Changed bumpstop force curve
+- Changed torsion flex axis height
+- Changed handbrake hand force from 10kgf to 20kgf
 
 2026-06-12_A
 - Changed coast torque

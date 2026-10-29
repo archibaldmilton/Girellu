@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.8+ required!
+Shaders patch 0.3.0+ required!
 
 !!!IMPORTANT!!!
 
@@ -15,6 +15,15 @@ Special thanks to:
 @baker7498
 
 CHANGELOG
+
+2026-10-29_A
+- Added TMV4 physical tire thermal model
+- Added SIDEWALL_LOSS_FACTOR_Z tire maxwell hysteresis damping
+- Added rear lateral toe compliance
+- Changed rear longitudinal compliance
+- Changed bumpstop force curve
+- Changed torsion flex axis height
+- Changed handbrake hand force from 10kgf to 20kgf
 
 2026-06-12_A
 - Changed coast torque
@@ -125,7 +134,7 @@ CHANGELOG
 
 2025-05-14_A
 - Added engine flow on cut
-- Added Cphys ABS (CSP 0.2.8+ required!)
+- Added Cphys ABS (CSP 0.3.0+ required!)
 
 2025-05-05_A
 - Changed brake booster curve

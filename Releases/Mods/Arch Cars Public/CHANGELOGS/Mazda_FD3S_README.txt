@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.8+ required! Requires JDM Pack DLC by Kunos!
+Shaders patch 0.3.0+ required! Requires JDM Pack DLC by Kunos!
 
 !!!IMPORTANT!!!
 
@@ -20,6 +20,14 @@ animal3005 for providing lots of data and literature
 Leonardo Ratafia for providing data
 
 CHANGELOG
+
+2026-10-29_A
+- Added TMV4 physical tire thermal model
+- Added SIDEWALL_LOSS_FACTOR_Z tire maxwell hysteresis damping
+- Changed bumpstop force curve
+- Changed 08D tire load curves
+- Changed torsion flex axis height
+- Changed handbrake hand force from 10kgf to 20kgf
 
 2026-05-26_A
 - Changed 1991 Type R dampers based on better data
@@ -132,7 +140,7 @@ CHANGELOG
 - Changed aero
 
 2025-05-14_A
-- Added Cphys ABS (CSP 0.2.8+ required!)
+- Added Cphys ABS (CSP 0.3.0+ required!)
 - Changed EBB
 - Changed tires CX_MULT
 - Corrected welded diff setup option

@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.8+ required!
+Shaders patch 0.3.0+ required!
 
 !!!IMPORTANT!!!
 
@@ -17,6 +17,15 @@ The usual suspects
 CesarCardoso
 
 CHANGELOG
+
+2026-10-29_A
+- Added TMV4 physical tire thermal model
+- Added SIDEWALL_LOSS_FACTOR_Z tire maxwell hysteresis damping
+- Changed Base bumpstop force lut
+- Changed springs, damper travels, bumpstop force curves, bushing preload height
+- Changed torsion flex axis height
+- Changed aero CL
+- Changed handbrake hand force from 10kgf to 20kgf
 
 2026-06-12_A
 - Changed coast torque

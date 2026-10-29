@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.8+ required! Requires JDM Pack DLC by Kunos!
+Shaders patch 0.3.0+ required! Requires JDM Pack DLC by Kunos!
 
 !!!IMPORTANT!!!
 
@@ -20,6 +20,16 @@ Venitros for driving opponent cars during testing
 baker7498, stereo, mclarenf1papa and Leonardo Ratafiá and many others for help
 
 CHANGELOG
+
+2026-10-29_A
+- Added TMV4 physical tire thermal model
+- Added SIDEWALL_LOSS_FACTOR_Z tire maxwell hysteresis damping
+- Changed HICAS
+- Changed bumpstop force curve
+- Changed dampers
+- Changed tires pressure optimal
+- Changed torsion flex axis height
+- Changed handbrake hand force from 10kgf to 20kgf
 
 2026-06-12_A
 - Changed coast torque
@@ -141,7 +151,7 @@ CHANGELOG
 - Changed stabilizers
 
 2025-05-14_A
-- Added Cphys ABS (CSP 0.2.8+ required!)
+- Added Cphys ABS (CSP 0.3.0+ required!)
 - Changed ATTESA, HICAS lateral acceleration maps
 - Changed rear coilover outboard position
 - Changed tires CX_MULT

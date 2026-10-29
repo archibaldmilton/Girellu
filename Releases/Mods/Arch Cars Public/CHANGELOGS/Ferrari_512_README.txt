@@ -1,6 +1,6 @@
 !!!IMPORTANT!!!
 
-Shaders patch 0.2.8+ required! 
+Shaders patch 0.3.0+ required! 
 Requires NFS Tournament Class A by Alberto Daniel Russo (@A3DR)!
 Link: https://www.overtake.gg/downloads/nfs-tournament-class-a.16905/
 
@@ -15,6 +15,17 @@ Physics by Arch
 Everything else by original mod developers
 
 CHANGELOG
+
+2026-10-29_A
+- Added TMV4 physical tire thermal model
+- Added SIDEWALL_LOSS_FACTOR_Z tire maxwell hysteresis damping
+- Changed weight distribution
+- Changed suspension installation stiffnesses
+- Changed bumpstop force curve
+- Changed NT01 tire load curves
+- Changed tires pressure optimal
+- Changed torsion flex axis height
+- Changed handbrake hand force from 10kgf to 20kgf
 
 2026-06-12_A
 - Changed coast torque
