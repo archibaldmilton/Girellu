@@ -1,3 +1,6 @@
+# Arch Modified Physics
+> Minimum CSP version is v0.3.0
+
 ## Installation
 To install or update the cars, run the script install_arch_cars.ps1 (right click -> Run with PowerShell) and follow instructions within.
 
@@ -17,8 +20,6 @@ If you do want that car, you need to get the donor car (and then run the install
 * If the donor car you are missing is a Kunos car (like `ks_toyota_ae86` or `ks_bmw_m4`), it's presumably a DLC car. Find which car pack the car is from and get that DLC.
 * If the donor car you are missing is a mod car (like `some1_honda_nsx_1991` or `corvette_c6_coupe`), read the corresponding car-specific README (in the [CHANGELOGS](CHANGELOGS) folder), you'll find a link to the needed mod at the top. Download and install that mod (these are "normal" mod cars).
 
-# Arch Modified Physics
-> Minimum CSP version is 0.2.3
 ### COSMIC notes
 * Most Arch cars have been updated to COSMIC suspension type. To know about more COSMIC suspension type, click [here](https://github.com/ac-custom-shaders-patch/acc-extension-config/wiki/Cars-%E2%80%93-Cosmic-Suspension "GitHub").
 * Non-COSMIC suspension data are moved to the legacy folder for archival purposes and thereby will no longer receive support.
