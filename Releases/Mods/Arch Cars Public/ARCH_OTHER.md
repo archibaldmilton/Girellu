@@ -1,5 +1,5 @@
-# Standalone Arch Releases 
->**Attention drifters! Do not use CSP versions from 0.1.80p to 0.2.1**.  These versions have unintended behavior at high slipangles/slipratios. Versions after 0.2.2 have corrected behavior.
+# Standalone Arch Releases
+> Minimum CSP version is v0.3.0
 
 The mods listed below include cars that are relatively active in physics updates. Click the images to be redirected for downloading.
 ### 2007 Subaru Impreza WRX (GD) Tuned

@@ -1,10 +1,14 @@
 # Arch Modified Physics
 > Minimum CSP version is v0.3.0
 
+Before using Arch physics, read the [AC Startup Guide](https://github.com/archibaldmilton/Girellu/wiki/AC-Startup-Guide#force-feedback-ffb-and-pedal-settings) to ensure correct configuration of your peripherals. Otherwise, there will be no guarantee for satisfactory driving experience given computer specs are equal. For **more Arch physics** mods, check [Standalone Arch Releases](ARCH_OTHER.md).
+
 ## Installation
 To install or update the cars, run the script install_arch_cars.ps1 (right click -> Run with PowerShell) and follow instructions within.
 
 If running install_arch_cars.ps1 directly doesn't work, run install_arch_cars.bat instead, it will work exactly the same (the .bat just launches the .ps1). There will probably be a big scary warning when running the .bat script, dismiss it by clicking More options -> Run anyway.
+
+If you are using linux, you can run the bash script install_arch_cars_linux.sh instead and follow the instructions within.
 
 ### How does the installation work (what does the script do)?
 This repository only contains physics data, not "full" cars (a car mod also needs a 3D model, sounds, ...). The physics data are intended to replace physics of specific cars - "donor cars" (they are "donating" the visuals and sounds).
@@ -26,8 +30,5 @@ If you do want that car, you need to get the donor car (and then run the install
 
 ___
 #### Additional notes
-* For other Arch mods, check [ARCH_OTHER.md](./ARCH_OTHER.md).
-* If you want to use Arch physics for something else, refer to the [license](./LICENSE.md).
-* Support is not promised; if there is a technical issue, it is user error.
-* No guarantee for satisfactory user experience unless using appropriate professional simulation peripherals with [correct configuration](https://github.com/archibaldmilton/Girellu/wiki/AC-Startup-Guide#force-feedback-ffb). 
-	- For example, your G29 @ 30FPS can not keep up with the rotation speed of these cars.
+* If you want to use Arch physics for something else, refer to the [license](LICENSE.md)
+* Support is not promised; if there is a technical issue, it is user error
